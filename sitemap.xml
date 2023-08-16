@@ -147,20 +147,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Javascript/</loc>
-    <lastmod>2023-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Node-js/</loc>
-    <lastmod>2023-08-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Mathematics/</loc>
     <lastmod>2023-08-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -169,6 +155,20 @@
   
   <url>
     <loc>http://once4623.site/tags/Probability/</loc>
+    <lastmod>2023-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Javascript/</loc>
+    <lastmod>2023-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Node-js/</loc>
     <lastmod>2023-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -191,14 +191,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Computer-Skill/</loc>
+    <loc>http://once4623.site/categories/Math/</loc>
     <lastmod>2023-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Math/</loc>
+    <loc>http://once4623.site/categories/Computer-Skill/</loc>
     <lastmod>2023-08-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
