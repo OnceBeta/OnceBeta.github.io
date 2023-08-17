@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>英语语法歧义现象(一):牛津逗号(Oxford Comma)</title>
+    <url>/2017/07/16/2017-07-16--Oxford-Comma/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>牛津逗号是英语中逗号的一类特殊用法，通常情况下它是指在枚举事物时，出现在and或or等并列连词之前的逗号，如：<br>    &emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>    &emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>在上句中，and前的逗号即是牛津逗号，因牛津大学对其用法和必要性的规范化而得名，由于哈佛大学也曾对其有过类似的规定，故也可称其为“哈佛逗号”，当然这两个名称都并不是它真正的名字，在语言学中它的正式名称是“**序列逗号(Serial Comma)**”。任何事物都有其存在的理由，牛津逗号的存在也是合理的，下面就来介绍它的一些用法。<span id="more"></span></p>
+<h1 id="合理使用消除歧义"><a href="#合理使用消除歧义" class="headerlink" title="合理使用消除歧义"></a>合理使用消除歧义</h1><p>直接用文章开头举的例子进行分析吧：<br>    &emsp;&emsp;①无牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师：杰克和约翰组成。</em><br>    &emsp;&emsp;②有牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>两个句子几乎一模一样，仔细一看才发现是Jack和and John之间相差了一个“牛津逗号”，但两个句子的语义却截然不同，在没有添加牛津逗号的第一个句子中，由于并列连词and的优先级高于逗号，因此“Jack and John”就中二者的并列关系就应该在考虑逗号之前被优先考虑，这样“Jack and John”就成了“two engineers”的同位语，二者是修饰与被修饰的从属关系；而在添加牛津逗号的第一个句子中，由于“Jack”和并列连词and之间被牛津逗号隔开了，因此并不存在需要优先考虑的并列关系，这样句子就顺次枚举了“two engineers”“Jack”“John”，三者是彼此独立而以并列关系存在的。前句无牛津逗号，连词and前后的事物是应被作为一个整体考虑的；后句有牛津逗号，牛津逗号和连词and前后的事物是并列关系而彼此独立的。由此可以看到，添加或删去句子中的牛津逗号，是可以起到改变句意的作用的，这样也就达到了合理使用牛津逗号消除歧义的目的。</p>
+<h1 id="错误使用产生歧义"><a href="#错误使用产生歧义" class="headerlink" title="错误使用产生歧义"></a>错误使用产生歧义</h1><p>下面我们分析另外两句话：<br>    &emsp;&emsp;<em>To my parents, Mary and John.</em><br>    &emsp;&emsp;<em>To my parents, Mary, and John.</em><br>事实上，第一句话有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的父母、玛丽以及约翰。</em>(共四人，玛丽和约翰不是我的父母)<br>    &emsp;&emsp;(2)*献给我的父母：玛丽和约翰。 *(共二人，玛丽和约翰是我的父母)<br>而第二句话就只有(2)一种理解。<br>    &emsp;&emsp;<em>To my mother, Mary and John.</em><br>    &emsp;&emsp;<em>To my mother, Mary, and John.</em><br>此时，第二句话就有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的母亲、玛丽以及约翰。</em>(共三人，玛丽不是我的母亲)<br>    &emsp;&emsp;(2)<em>献给我的母亲(玛丽)以及约翰。</em>(共二人，玛丽是我的母亲)<br>而第一句话，就只有(1)一种理解，因为并列连词and优先将其前后的事物结合为一个整体，而如果将这个整体(两个人)作为mother之后的插入语，就矛盾了一个人只有一个母亲的事实。在第一组句子中，前句因为缺少牛津逗号而导致歧义，后句中添加的牛津逗号则消除了歧义；而在第二组句子中则恰恰相反，多出的牛津逗号反而导致了歧义。</p>
+<h1 id="问题的出现与分析"><a href="#问题的出现与分析" class="headerlink" title="问题的出现与分析"></a>问题的出现与分析</h1><p>上面举例说明了英语中牛津逗号的作用及在其使用过程中可能出现的问题，那么我们不禁要思考，为什么会出现这样的问题？在这里就不得不谈及英文中逗号的主要用途了：<br>    &emsp;&emsp;<em><FONT face="Kaiti">各分句间表停顿、主句与从句间表停顿、两个或两个以上结构间表并列、句子独立成分前后表停顿。</FONT></em><br>总而言之，英语中逗号的两个用途就是表示停顿和并列。而在中文，我们未曾听闻类似于英文中牛津逗号的尴尬用法。我们来看看，在正规中文中，表示并列这一用途被顿号和分号取而代之了，顿号表示句子内部两个词语的并列，分号表示复句内部两个分句的并列。因此，牛津逗号的尴尬处境，根本上来自于英语中逗号功能的多样性和混杂性，也正因如此，几乎逗号的任何用法都处于一种“低不成，高不就”的定位：逗号可以表示并列，但意味并不如专用的并列连词强烈；它可以连接插入语，但使用不当又会造成插入语和被修饰部分的概念不匹配。</p>
+<h1 id="趣闻"><a href="#趣闻" class="headerlink" title="趣闻"></a>趣闻</h1><p>值得一提的是，<em>Oxford Comma</em>一词在美国俚语中常被用来比喻鸡毛蒜皮或不值一提的小事，但历史上也确有因一个牛津逗号而引发的“大事”。如下面这篇短文：</p>
+<blockquote>
+<p><em>The canning, processing, preserving, freezing, drying, marketing, storing, <strong>packing for shipment or distribution</strong> of:<br>(1)Agricultural produce;<br>(2)Meat and fish products; and<br>(3)Perishable foods.</em></p>
+</blockquote>
+<p>这篇短文的内容事实上是是美国缅因州某奶制品公司关于司机加班费的规定，也是一起劳务纠纷案件的争端，它规定以上工作内容都是司机在职责范围内的本职工作，不能获得加班费。乍一看还没有发现什么问题，但我们看到第一句话中用加粗字体强调的部分文字，这起争端事件的起因就是细心的司机们发现“packing for shipment”(打包)与“distribution”(分拣)间缺少了一个牛津逗号，导致两项工作内容由公司认定的并列关系变为选择关系，也就是说，司机们如果把打包和分拣两项工作都完成了，他们就应该获得加班费，对此公司保留解释，而司机们则把公司告上了法庭，基于劳动法中保护劳动者的原则，在公司规定语焉不详的情况下，法官作出了有利于劳动者的判决，这起官司最终以司机胜诉告终。<br>在英文正式文献中，类似的乌龙事件还有很多，上文所举的例子和种种事件都揭示了，牛津逗号在为书面英语使用者带来方便的同时，也会在不经意间带来许多麻烦，因此，对于是否需要添加牛津逗号，还需仔细分析and连接的内容是否可以作为插入语或与前面的内容是以何种关系存在。对此，结合上文第三版块的分析，给出一般性的分析方法：<br>    &emsp;&emsp;(1)若并列连词and连接的部分作为插入语出现，那么在and前面要添加牛津逗号；<br>    &emsp;&emsp;(2)若并列连词and连接的部分作为同位语修饰整个结构前的其他部分，那么在and前面不要添加牛津逗号。<br>以上是对并列连词and前是否添加牛津逗号的简单分析，其他并列连词前的牛津逗号也可以类似进行分析，即<strong>作为插入语还是作为同位语</strong>。</p>
+]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+        <tag>Grammar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>To be a good ENGLISH LEARNER No.1 :语态和时态Voice and Tense</title>
+    <url>/2017/08/11/2017-08-11--English-Grammar-Voice-And-Tense/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>英语中，助动词和谓语动词形式的使用，需要从三个方面上区分并选择，即**语态(Voice)<strong>、</strong>状态(Aspect)<strong>和</strong>时间(Tense, Tense Group)<strong>。而过去将来时则作为一种时间上的复合体，同时需要结合</strong>语气(Mood)**进行区分。</p>
+<h1 id="语态"><a href="#语态" class="headerlink" title="语态"></a>语态</h1><p>语态是英语也是大多数语言中最基础、最简单的部分，从我们最熟悉的中文来理解：“我把他打了”和“他被我打了”就分别是“我打了他”这句话在**主动语态(Active Voice)<strong>和</strong>被动语态(Passive Voice)**下的表达。<br>而在英语中，理论上，每种时态都对应有主动语态和被动语态两种表达，以最简单的一般现在时为例，主动语态和被动语态其谓语动词的变化形式如下：<span id="more"></span></p>
+<table>
+<thead>
+<tr>
+<th>主动语态</th>
+<th>被动语态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><em>do</em></td>
+<td><em>be done</em></td>
+</tr>
+</tbody></table>
+<p>更直观地，上面两句话在主动语态和被动语态中分别为：<br>    &emsp;&emsp;<em>我把他打了。  I hit him.</em><br>    &emsp;&emsp;<em>他被我打了。  He is hit by me.</em></p>
+<h1 id="状态"><a href="#状态" class="headerlink" title="状态"></a>状态</h1><p>在英语中，谓语动词共有四种状态，即**一般式(The Simple Aspect)<strong>、</strong>进行式(The Progressive Aspect)<strong>、</strong>完成式(The Perfective Aspect)<strong>和</strong>完成进行式(The Perfective Progressive Aspect)**。下表中将以主动语态列举四种状态谓语动词的变化：</p>
+<table>
+<thead>
+<tr>
+<th>状态</th>
+<th>形式</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>一般式</td>
+<td><em>do</em></td>
+</tr>
+<tr>
+<td>现在式</td>
+<td><em>be doing</em></td>
+</tr>
+<tr>
+<td>完成式</td>
+<td><em>have done</em></td>
+</tr>
+<tr>
+<td>现在完成式</td>
+<td><em>have been doing</em></td>
+</tr>
+</tbody></table>
+<p>不难发现，进行状态下总包含“be doing”这一结构(been即be之过去分词)，因此，将“be”归为一个特殊的动词，而将“doing”认为是be的后接名词，如此一来，便可将“be doing”这一结构作为进行式的一个<em>标记</em>来进行处理，即可一般地认为<strong>含这一结构的句子都是进行式</strong>。<br>类似地，“have done”这一结构在完成式中都有出现，也可被作为完成式的一个<em>标记</em>来进行处理。</p>
+<h1 id="时间"><a href="#时间" class="headerlink" title="时间"></a>时间</h1><p>在英语中，一个动作发生的时间有四个，即三种简单体**现在时(Present Tense)<strong>、</strong>过去时(Past Tense)<strong>、</strong>将来时(Future Tense)<strong>，和一种复合体</strong>过去将来时(Past Future Tense)**。对于三种简单体，我们可以如此理解：</p>
+<ul>
+<li>过去时：语句所强调的时间点在时间轴原点左侧“过去”；</li>
+<li>现在时：语句所强调的时间点在时间轴原点“现在”；</li>
+<li>将来时：语句所强调的时间点在时间轴原点右侧“将来”。</li>
+</ul>
+<p>上述，“语句所强调的时间点”即动作发生时(一般时)、动作进行时(现在时)、动作造成影响时(完成时和完成进行时)是相对于何时而言的。为了方便理解这一点，通过几个例子来说明：<br>    &emsp;&emsp;<em>He is an Engineer.</em><br>    &emsp;&emsp;<em>他是一位工程师。</em><br>    &emsp;&emsp;<em>(分析：一般现在时，语句所要强调的时间点在现在，即“现在他是一位工程师”)</em><br>    &emsp;&emsp;<em>I was writing my article when last night you sent the E-mail to me.</em><br>    &emsp;&emsp;<em>昨晚你发电子邮件给我时，我正在写论文。</em><br>    &emsp;&emsp;<em>(分析：过去进行时，语句所要强调的时间点在过去，即“昨晚你发电子邮件给我时”)</em><br>    &emsp;&emsp;<em>Till the meeting began, I had been working for 7 days.</em><br>    &emsp;&emsp;<em>直到会议开始，我已经连续工作了7天时间。</em><br>    &emsp;&emsp;<em>(分析：过去完成进行时，语句所要强调的时间点在过去，即截止于“会议开始”)</em></p>
+<p>而对于过去将来时，我们将在下文进行独立拆解，因为在此之前还需先介绍它所涉及到的另一个概念：语气。</p>
+<h1 id="语气"><a href="#语气" class="headerlink" title="语气"></a>语气</h1><p>语气指说话者所表达的某种意图或态度。在英语中，共有三种语气，它们分别是**陈述语气(Indicative Mood)<strong>、</strong>祈使语气(Imperative Mood)<strong>和</strong>虚拟语气(Subjunctive Mood)**。与语态、时态和时间类似的，语气也是一种谓语动词的变化形式。</p>
+<h2 id="陈述语气-Indicative-Mood"><a href="#陈述语气-Indicative-Mood" class="headerlink" title="陈述语气(Indicative Mood)"></a>陈述语气(Indicative Mood)</h2><p>陈述语气是最常见的一种语气，它包括**肯定(Affirmative Structure)<strong>、</strong>否定(Negative Structure)<strong>和</strong>疑问(Questional Structure)<strong>三种</strong>句式(Syntactic Structure)**。区别于另外两种语气，这一语气的句子通常结构完整且不含有表示假设的助动词和情态动词。如：<br>    &emsp;&emsp;<em>She is a teacher.</em><br>    &emsp;&emsp;<em>她是一位老师。</em><br>    &emsp;&emsp;<em>The weather is not very good.</em><br>    &emsp;&emsp;<em>天气并不是很好。</em><br>    &emsp;&emsp;<em>Have you finished your homework yet?</em><br>    &emsp;&emsp;<em>你已经做完你的作业了吗？</em></p>
+<h2 id="祈使语气-Imperative-Mood"><a href="#祈使语气-Imperative-Mood" class="headerlink" title="祈使语气(Imperative Mood)"></a>祈使语气(Imperative Mood)</h2><p>祈使语气是在祈使句中所表现的一种语气，通常以省略主语的一般现在时为结构，如：<br>    &emsp;&emsp;<em>Do be quiet!</em><br>    &emsp;&emsp;<em>保持安静！</em><br>    &emsp;&emsp;<em>Go and wash your hands!</em><br>    &emsp;&emsp;<em>去洗洗你的手！</em></p>
+<p>在强调一个动作的重要性和紧急性时，也会在句首加上强调助动词do。</p>
+<h2 id="虚拟语气-Subjunctive-Mood"><a href="#虚拟语气-Subjunctive-Mood" class="headerlink" title="虚拟语气(Subjunctive Mood)"></a>虚拟语气(Subjunctive Mood)</h2><p>虚拟语气是英语语法中变化较复杂的部分，通常这些句子含有情态动词，为将来时或过去将来时；被用来表示假设、猜测、愿望等非客观存在的与事实不符的事物。<br>将来时的虚拟语气用来表示一种预测或愿望，其所表达的内容按情节发展是可能发生的，也可能不会发生。如：<br>    &emsp;&emsp;<em>If does not hurry up, he will miss the bus.</em><br>    &emsp;&emsp;<em>如果再不快点，他会错过公交车的。</em><br>    &emsp;&emsp;<em>I wish I can go there with you!</em><br>    &emsp;&emsp;<em>我多希望我能和你一块去那儿！</em></p>
+<p>而过去将来时的虚拟语气则用来表示一种假设、遗憾或推测，通常并非客观事实或可能为客观事实但说话时无法确定。如：<br>    &emsp;&emsp;<em>She never realized that some day her husband would be working in such an important place.</em><br>    &emsp;&emsp;<em>她从未想过，她的丈夫有朝一日会在如此重要的岗位上工作。</em><br>    &emsp;&emsp;<em>Since the ground is wet, it must have rained last night.</em><br>    &emsp;&emsp;<em>既然地面是湿的，那昨天晚上肯定下雨了。</em><br>    &emsp;&emsp;<em>If you hadn’t reminded me of this matter, I would certainly have forgotten it.</em><br>    &emsp;&emsp;<em>多亏你提醒了我，不然我真把这事忘了。</em><br>    &emsp;&emsp;<em>I expected long ago that you would have been teaching there.</em><br>    &emsp;&emsp;<em>我早就料到你会去那里当老师了。</em><br>    &emsp;&emsp;<em>Then we were worried that she was going to die.</em><br>    &emsp;&emsp;<em>我们很担心她快要死了。</em></p>
+<p>从上面几个例句中都可以看出，过去将来时态都以情态动词或其过去式“modal v(-ed)”、一般将来时中be的过去式“be-ed going to”作为<em>标记</em>。</p>
+<h1 id="附录1"><a href="#附录1" class="headerlink" title="附录1"></a>附录1</h1><p>上文中不止一次提到<em>标记</em>一词，笔者旨在试图总结出一种区分时态和语态的方法，其步骤如下：<br>    &emsp;&emsp;①是否有各种形式的be与过去分词done相连接的结构be(-ing,-en) done，是则为被动语态，否则为主动语态；<br>    &emsp;&emsp;②是否有各种形式的be与现在分词doing相连接的结构be(-ing,-en) doing，是则为进行式或完成进行式，否则为一般式或一般完成式；<br>    &emsp;&emsp;③是否有have及其过去式与过去分词done相连接的结构，是则为完成式或完成进行式，否则为一般式或一般进行式；<br>    &emsp;&emsp;④位于主语之后的动词是否为过去式did(包括be-ed,had和modal v-ed)是则为过去时或过去将来时，否则为现在时或将来时；<br>    &emsp;&emsp;⑤位于主语之后的动词是否为情态动词或动词词块be(-ed) going，是则为将来时或过去将来时，否则为现在时或过去时。</p>
+<h1 id="附录2"><a href="#附录2" class="headerlink" title="附录2"></a>附录2</h1><p>未完待续。介绍完区分时态和语态的方法，接下来将总结根据所要表达的意思选择所用时态的方法。<br>对于把英语当作第一语言的母语使用者来说，他们并不需要这样的方法；但对于非母语学习者就不一样了，他们在较多的时候需要一个这样的方法来处理他们想要表达的意思，这样说出来的话才不会出错。</p>
+]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+        <tag>Grammar</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中文语法词义混淆现象(一)：浅谈“作”和“做”的区别</title>
+    <url>/2017/09/28/2017-09-28--The-Difference-Between-Zuo/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>前几日在一篇报道上看到“做介绍”一词，顿觉心中一丝疑虑一闪而过，于是查阅了大量资料，发现这事实上是一个长期存在且难以改变的问题了。先来看一则小资料：<br>&emsp;&emsp;<FONT face="Kaiti">《现代汉语规范词典》和《人民日报》等主流媒体，均多处采用“做介绍”这一用法。<br>&emsp;&emsp;更有趣的是，《现代汉语词典》中，几乎每一版都就这两个字的用法有推敲和修订，而且多次修订后还出现词典内容前后矛盾的糊涂笑话。</FONT></p>
+<p>经查阅多方资料与反复推敲比较，笔者基本认同吕叔湘在其所著《现代汉语八百词》一书中提出的意见，即：<br>“<br><em>习惯上，具体东西的制造一般写‘做’；书面语色彩重一点的词语，特别是成语里，一般都写成‘作’；在书面表达时遇到没有把握的词，写‘作’而不写‘做’；而口语表达则因二字同音而不存在争议。</em><br>”<br>但此处亦要提到另一种观点：<br>“<br><em>在官方书籍《现代汉语词典》和《现代汉语规范词典》的数次修订中，纵观其趋势，“做”正在逐渐取代“作”的某些用法，而在口语复述或类口语的书面表达中亦较多使用“做”。</em><br>”<span id="more"></span></p>
+<h1 id="起源辨析"><a href="#起源辨析" class="headerlink" title="起源辨析"></a>起源辨析</h1><p>正确辨析这二字的用法和区别，要先从其起源谈起，一个字语义的宽窄往往与其起源的时间、背景有关，一般来说，起源较早的字往往被赋予较多的含义，这是因为在使用过程中，会不断被赋予新的含义。<br>从起源上来看：<br>&emsp;&emsp;①“作”多见于书面表达，起源于古代文书如文言文中多用“作”，成语中多用“作”；<br>&emsp;&emsp;②“做”具有较强的口头色彩，古时鲜见于书面表达，起源于北方白话，相比之下，“做”的起源晚于“作”。</p>
+<p>这样一来也便可以做个粗略结论，具有古义的词语大多由“作”组成，词源较旧；而“做”组成的词则相对年代较晚，词源较新。<br>例如：<br>“作为”“作恶”“作假”“作乱”<br>“做饭”“做梦”“做操”“做戏”“做衣服”</p>
+<p>在上述列举的一些词语和成语中，“作”和“做”都是用作动词的，可以看出“作”的一组多半是古代就已被使用的词汇；而“做”的一组都是较新的现代白话词汇。</p>
+<p><FONT face="Kaiti">注：此处特地列举了“作为”一词，这个词语可能存在古今异义，在古汉语中系名词，表示“行为；成就”；而在现代汉语中多用作类似于动介短语的含义，如“作为学生”。<br>&emsp;&emsp;(而在现代汉语中，“作为”用作古义已较为罕见，其古义并非凭空消失，而是被派生到了“做”组词“做为”。这从某个方面上也反映了汉语“作”“做”二字意义的相似性。)</FONT></p>
+<h1 id="语义辨析"><a href="#语义辨析" class="headerlink" title="语义辨析"></a>语义辨析</h1><p>从语义内容来看：<br>&emsp;&emsp;①与“作”组词的宾语，多是较抽象的词语，且其本身具有一定的动词特征；<br>&emsp;&emsp;②而“做”则具有明显的动作性，其后的宾语通常是较为具象的明确表示人或事物的名词，区别于“作”，“做”在词语或词组中具有实际动作含义。</p>
+<p>例如：<br>“作痛”“作祟”“作弊”“作揖”“作怪”“作介绍”<br>“做事”“做怪”“逢场作戏”</p>
+<p><FONT face="Kaiti">注：此处特意列举了一处二字通用的现象，“作怪”和“做怪”，这两个词有着别无二致的用法与含义，反映了“作”“做”二字用法的相通性。</FONT></p>
+<h1 id="语法辨析"><a href="#语法辨析" class="headerlink" title="语法辨析"></a>语法辨析</h1><p>对比英文，中文似乎并不那么明显的存在严格的语法体系，但作为一种成熟并且经历过数次变革的语言，毫无疑问中文语法是存在且多方面存在的；句子的平仄格律、成分结构等都是中文语法的体现。<br>现就在语法层面，再一次探讨“作”与“做”二字的区别：</p>
+<h2 id="后接宾语为双音节词"><a href="#后接宾语为双音节词" class="headerlink" title="后接宾语为双音节词"></a>后接宾语为双音节词</h2><p>&emsp;&emsp;①成语或宾语是双音节动词可派生为名词的情况下，多用“作”，此处“作”应类似于英语中进行式的be的作用，即将其后的动词变为动名词，而“作”本身的动词词性则较不明显，类似于英语中强调句的助动词do，甚至在一些情况下，此“作”可以被省略或舍去；<br>&emsp;&emsp;②宾语是双音节名词的情况下，多用“做”，此处“做”起实义动词的作用，一般不可被省略或舍去。</p>
+<p>例如：<br>“作比较”“作斗争”“作决定”“作牺牲”“作思考”<br>“做功课”“做生意”“做家务”“做学问”</p>
+<p><FONT face="Kaiti">注：依官方文献上的观点，上述例子和一些类似上述例子的词组中，“作”可以被“做”代替，举例“作决定”亦作“做决定”，而反之则多不然。</FONT></p>
+<h2 id="后接副词或介词等非宾语结构，多用“做”"><a href="#后接副词或介词等非宾语结构，多用“做”" class="headerlink" title="后接副词或介词等非宾语结构，多用“做”"></a>后接副词或介词等非宾语结构，多用“做”</h2><p>例如：“做好”“做成”“做实”“做完”“做出”</p>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>接文章开头以有声明的观点部分，经以上研究与辨析，中华文化博大精深，“作”与“做”二字的问题，归根结底源于白话文产生初期，极具复杂性与深刻性，不可一概而论亦无法轻易变更。因此，对于已经固化的某些固定词素，应遵其规范用法而不可混淆；但在一些条件较宽敞而无明确分别的情况下，“作”与“做”二字通用，而并不完全是非此即彼的。<br>而究其趋势，“作”产生于较早的古汉语时期的书面语；而“做”产生于白话文初期，被用于分担“作”的一部分含义，但因长期未规范的使用，二者的用法逐渐交织得错综复杂，在近年才得到留意并有所改善。而就目前而言，“做”的使用频率已明显高于“作”且仍在逐步取代“作”，因此，“作”的动词词性逐渐被取消而本身趋于虚词是一种基本固定的发展趋势。</p>
+]]></content>
+      <categories>
+        <category>中文</category>
+      </categories>
+      <tags>
+        <tag>Grammar</tag>
+        <tag>中文语法词义混淆现象</tag>
+        <tag>醉仙阁杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Hexo中使用LaTeX语法输入数学公式</title>
+    <url>/2017/10/03/2017-10-04--Use-MathJax-In-Hexo-Next/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>作为一款以简洁为宗旨的标记语言，HTML的扩展性并不强，其自身也不具有满足一些特殊需求的功能，要使用HTML渲染出漂亮的数学公式可以说并非轻而易举，因此大多数人使用截图上传的方式实现在网页上展示数学公式。<br>但前阵子浏览<a href="https://en.wikipedia.org/">Wikipedia</a>，便偶然想到一个问题此多的数学公式，如果都使用截图上传的方式来展现，岂不是太费力气了。这显然是不现实的。<br>原来，对于在网页上展示数学公式这个问题，早已经有前辈开发了具有对应功能的插件来解决了，这便是MathJax。<span id="more"></span></p>
+<p>MathJax是一款用以支持在网页中插入数学公式的开源JavaScript插件。支持LaTeX、MathML等多种语言。它负责将网页上指定标签内用这些标记语言的语法输入的数学公式渲染成HTML和CSS代码，使这些漂亮的数学公式不需要复杂的代码便可以在网页中被渲染出来。<br>在此之前，我在书写博文时也采用传统的截图上传的方式来展示数学公式，这样的方式带来的几个问题便是操作量大、整齐性不佳、加载速度慢。因此在前不久重新开始打理博客时，便产生了使用MathJax的想法。于是着手进行了一番尝试。</p>
+<h1 id="在Hexo中启用MathJax"><a href="#在Hexo中启用MathJax" class="headerlink" title="在Hexo中启用MathJax"></a>在Hexo中启用MathJax</h1><p>Hexo原生兼容MathJax，且大多数主流主题如醉仙阁所采用的<a href="https://github.com/iissnan/hexo-theme-next">Next</a>都内置了MathJax，此处即以其为例，在Next中启用MathJax只需要一步。在<code>主题目录</code>下找到<code>_config.yml</code>。用文本编辑器找到如下部分：</p>
+<figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: false</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure>
+<p>将第二行修改为<code>enable: true</code>即可。</p>
+<p>如此以来就在Next主题中启用了MathJax支持，但事实上还存在着不少问题：</p>
+<ul>
+<li>部分数学公式直接显示为代码的形式</li>
+<li>部分数学公式的下标、角标等显示异常</li>
+<li>希腊字母字体显示异常</li>
+</ul>
+<h1 id="更换渲染引擎"><a href="#更换渲染引擎" class="headerlink" title="更换渲染引擎"></a>更换渲染引擎</h1><p>Hexo默认使用<code>hexo-renderer-marked</code>引擎进行网页渲染，其中对许多字符诸如划线、下划线、中括号等定义了转义。因此，在进行网页渲染时，数学公式中的这些字符先通过<code>hexo-renderer-marked</code>进行转义，就发生了歧义，而再通过MathJax渲染出来的数学公式，自然就显示不正常了。<br>在知道了原因以后，问题也就迎刃而解了，解决方法就是更换Hexo默认的<code>hexo-renderer-marked</code>渲染引擎。<code>hexo-renderer-kramed</code>就是一个不错的选择，它在<code>hexo-renderer-marked</code>的基础上修复了一些Bug，其中就包括取消大部分多余的转义。<br>安装<code>hexo-renderer-kramed</code>非常简单，只需在Hexo根目录下执行以下命令：</p>
+<figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure>
+<p>这样就完成了<code>hexo-renderer-kramed</code>的安装，但还有一个容易被忽略的问题是，安装<code>hexo-renderer-kramed</code>的同时并不会自动对<code>hexo-renderer-marked</code>进行停用，数学公式仍要经过<code>hexo-renderer-marked</code>的转义，这样显然没有完全解决问题，故我们还需手动对<code>hexo-renderer-marked</code>进行停用。<br>在Hexo的<code>根目录</code>下找到<code>package.json</code>文件，用文本编辑器打开它，删除字符串<code>hexo-renderer-marked</code>所在的一行并保存。之所以不直接卸载<code>hexo-renderer-marked</code>，是因为其他重要包极有可能在卸载该包的同时被删除。</p>
+<h1 id="修复行内公式的转义字符"><a href="#修复行内公式的转义字符" class="headerlink" title="修复行内公式的转义字符"></a>修复行内公式的转义字符</h1><p>在做完工作上面的工作后，行间公式就可以被正确渲染了，但行内公式却还存在着部分问题，这是因为对行间定义的转义字符和对行内定义的转义字符并不相同，还有部分已定义的行间转义字符会与数学公式中可能用到的字符发生冲突，用到这些字符的数学公式在渲染前仍被进行了转义。<br>修复这一问题的方法是，在根目录下依次打开<code>node_modules\kramed\lib\rules</code>，并找到<code>inline.js</code>文件。<br>用文本编辑器编辑文件的第11行和第20行：</p>
+<figure class="highlight plaintext"><figcaption><span>js inline.js</span></figcaption><table><tr><td class="code"><pre><span class="line">line 11,</span><br><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">-&gt;  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br><span class="line"></span><br><span class="line">line 20,</span><br><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">-&gt;  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure>
+<p>保存文件。如此一来，所有对数学公式中字符的不合理转义就都被取消了，数学公式的渲染和显示也就正常了。</p>
+<h1 id="确保所有公式都被渲染"><a href="#确保所有公式都被渲染" class="headerlink" title="确保所有公式都被渲染"></a>确保所有公式都被渲染</h1><p>在条件支持的情况下，MathJax会对页面上的所有位置的标签内都进行渲染；但在条件不允许时，MathJax对数学公式的渲染可能止于页面上的某个位置，其后的数学公式都将不被渲染而直接显示为代码的形式。<br>这时，就需要在文章的开头font-matter中手动打开MathJax的开关，如下图：</p>
+<figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<p>如上，在使用了数学公式的页面上增加一行<code>mathjax: true</code>，这样就能确保页面上所有数学公式都被正确渲染了。</p>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="http://theme-next.iissnan.com/third-party-services.html">http://theme-next.iissnan.com/third-party-services.html</a></li>
+<li><a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
+<li><a href="http://www.jianshu.com/p/7ab21c7f0674">http://www.jianshu.com/p/7ab21c7f0674</a></li>
+<li><a href="http://www.jianshu.com/p/6c1196f12302">http://www.jianshu.com/p/6c1196f12302</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Computer Skill</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Javascript</tag>
+        <tag>Node.js</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>概率论的几个悖论</title>
+    <url>/2018/07/15/2018-07-15--Some-Paradoxes-of-Probability/</url>
+    <content><![CDATA[<h1 id="引子-概率论-Theory-of-Probability-简介"><a href="#引子-概率论-Theory-of-Probability-简介" class="headerlink" title="引子  概率论(Theory of Probability)简介"></a>引子  概率论(Theory of Probability)简介</h1><p>概率论是研究自然科学中随机现象的分布规律的数学分支，最早起源于人们对机会游戏的思考和探索。现代数学体系中的概率论，已经是经过集合论公理化的基本数学工具之一，它可以被称作是一个公理系统，一个将现实中的随机现象通过建模抽象成集合和函数再进行运算得到其“概率(Probability)”的方法系统。<br>但是今天我们不讨论那些过于抽象的学术问题，就来聊一聊一些概率论中比较有趣的“悖论”，历史上这些悖论也为促进概率论的发展起了很大的作用<span id="more"></span>；也希望尚未学习过概率论的读者可以在阅读本文之后对概率论的相关内容有一定了解，如果这部分读者愿意把它视作一份简单的概率论的入门引导并产生对概率论的学习兴趣那笔者可以说是相当开心了。<br>本文采用尽可能简单、直观的方式进行说明，但仍然有不少地方涉及到一些简单的定义和定理，对此笔者用简短的文字在下面给出了它们(样本空间、事件、概率等过于基础的除外)。</p>
+<h2 id="贝叶斯定理-Bayes’-Theorem"><a href="#贝叶斯定理-Bayes’-Theorem" class="headerlink" title="贝叶斯定理(Bayes’ Theorem)"></a>贝叶斯定理(Bayes’ Theorem)</h2><p>贝叶斯公式是18世纪英国数学家贝叶斯(<em>Bayes</em>)提出的用来求边缘概率一个的定理。<br>完整的定理被提出时包括了多个事件的情形，但由于本文只需了解两个事件的情形且对多个事件的情形仅仅是两个事件的情形的数学归纳，所以在此仅对两个事件的情形作较详细的讨论和证明，有兴趣的读者可自行进行深入学习，在搜索引擎搜索关键字“贝叶斯公式”或“贝叶斯定理”就可以很容易地搜索到相关内容。所谓边缘概率也即条件概率(Conditional Probability)，是指一个事件$E$在另一个事件$F$已经发生的情况下的概率。<br>一般地，我们有以下定理：<br><FONT face="Kaiti">设非空集合$S$是一次试验的样本空间，$E,F$是样本空间$S$中的两个随机事件，且$F$不是不可能事件或必然事件，即$0 &lt; P(F) &lt; 1$，则称$P(E|F) &#x3D; \frac{P(EF)}{P(F)}$为事件$E$在事件$F$已经发生的情况下的边缘概率。</FONT></p>
+<p>如果我们写事件$F$的对立事件为$\bar F$，则$P(\bar F) &#x3D;  1 - P(F)$，显然：<br>$$\begin{aligned}<br>  P(E) &amp;&#x3D; P(EF) + P(E\bar F) &#x3D; P(E|F)P(F) + P(E|\bar F)P(\bar F) &#x3D; P(E|F)P(F) + P(E|\bar F)[1 - P(F)]<br>\end{aligned}$$<br>即事件$E$发生的概率等于在另一个事件$F$已经发生的条件下$E$的条件概率与在$F$已被确认不发生的条件下$E$的条件概率的加权平均，权重就是作为条件的事件$F, \bar F$发生的概率，这就是我们所要说到的贝叶斯定理在两个事件的情形，我们在下文还要用到它的另一个变形：<br>$$P(E|F) &#x3D; \frac{P(F|E)P(E)}{P(F)}$$<br>读者可以由上面给出的第一个形式经过简单的变形得到也可以直接从条件概率的定义式推导得出。</p>
+<h2 id="数学期望-期望-Expectation"><a href="#数学期望-期望-Expectation" class="headerlink" title="数学期望(期望,Expectation)"></a>数学期望(期望,Expectation)</h2><p>概率论中除了概率之外另一个非常重要的量就是期望，它的意义与我们日常生活中所谈及的“期望”是相似的，就是对试验结果的一种预期，它被定义为随机变量的一阶矩(First Moment)，简而言之就是对一个随机变量所有可能取值的一个加权平均，权重就是变量取该值的概率，我们将在下面通过简单的例子展现其计算过程。在这里我们不就矩(Moment)和期望的推理过程进行过多的讨论而只给出其定义，有兴趣的读者可以自行进行更进一步的了解。<br>为了说明期望的计算过程，骰子可谓是不二之选了，几乎每本概率论的入门教材都会采用骰子作为例子，本文亦是如此：掷一枚均匀的六面体骰子，显然可能出现点数的值为$X &#x3D; 1,2,3,4,5,6$，每个值出现的概率都是$\tfrac{1}{6}$，故可能出现点数的期望为：<br>$$E[X] &#x3D; \sum\limits_{x &#x3D; 1}^6 {xP{ X &#x3D; x} }  &#x3D; 1 \times \frac{1}{6} + 2 \times \frac{1}{6} +  \cdots  + 6 \times \frac{1}{6} &#x3D; \frac{7}{2}$$<br>在这里我们还看到，对于一个随机变量，它的期望值可以不等于它的任何可能取值，简单地说，这就好像一组样本的平均值可以不等于任何一个样本的值。</p>
+<h1 id="圣彼得堡悖论-St-Peterburg-Paradox"><a href="#圣彼得堡悖论-St-Peterburg-Paradox" class="headerlink" title="圣彼得堡悖论(St.Peterburg Paradox)"></a>圣彼得堡悖论(St.Peterburg Paradox)</h1><p>面对充满了不确定性一次的赌博，或者是一次投资，人们常常会用对未来的期望来作出选择，我们似乎可以确定地说期望就是人在面对风险进行决策时的唯一考虑因素了，显然在不进行深思熟虑的情况下几乎没有人会对此提出质疑。<br>但是在18世纪数学家丹尼尔·伯努利(<em>Daniel Bernoulli</em>)的哥哥尼古拉·伯努利(<em>Nicolaus Bernoulli</em>)就提出了一个悖论彻底地反驳了这种观点，颠覆了人们的认知，这就是后来以圣彼得堡悖论为名广为流传的一个概率论悖论：<br><FONT face="Kaiti">假设一名赌徒参加一场这样的赌局，连续抛掷一枚均匀的硬币，如果第$n$次抛掷时出现正面，则赌局结束，赌徒赢得$2^{n-1}$元；如果出现反面，则进行下一次抛掷。那么赌徒赢得钱数的期望是多少？如果你是那个赌徒，你又愿意为了参加这个赌局支付多少钱的门票呢？</FONT></p>
+<p>这个悖论给我们提出了两个问题，对于第一个问题，我们很容易计算这个期望值是无穷大：<br>$$E &#x3D; \frac{1}{2} \times 1 + \frac{1}{4} \times 2 + \frac{1}{2^n} \times {2^{n - 1}} +  \cdots  &#x3D; \sum\limits_{n &#x3D; 1}^\infty  {\frac{2^{n - 1}}{2^n}}  &#x3D; \sum {\frac{1}{2}}  \to  + \infty$$<br>但在面对第二个问题时，显然我们都是明智的，不会愿意为了参加这个赌局支付价格太高的门票，这就把在上文中提出的那个观点否认了。接下来要考虑的问题是，你可以接受的最高的门票价格具体又是多少呢？2元？10元？20元？</p>
+<h2 id="期望效用理论-Expected-Utility-Theory"><a href="#期望效用理论-Expected-Utility-Theory" class="headerlink" title="期望效用理论(Expected Utility Theory)"></a>期望效用理论(Expected Utility Theory)</h2><p>对于这样一个矛盾的事实，丹尼尔·伯努利也就是前面提到的弟弟给出了一个较为合理的解释，人在面对风险进行决策时并不是只看重收益的期望，而是看重不同可能性下效用的期望，但是效用和期望的函数关系并不是线性正相关的，而是边际递减的。伯努利用对数函数作为效用函数来计算这个赌局的期望效用，即：<br>$$E(U) &#x3D; \sum\limits_{n &#x3D; 1}^\infty  {\frac{\ln ({2^{n - 1}})}{2^n}}  &#x3D; \ln 2\sum\limits_{n &#x3D; 1}^\infty  {\frac{n - 1}{2^n}}  &#x3D; \ln 2(\frac{1}{2} + \frac{1}{4} + \frac{1}{8} +  \cdots ) &#x3D; \ln 2 &lt; \infty $$<br>这样一来，对于伯努利来说，他愿意为这个赌局支付的门票价格最多就只有$e^{E(U)} &#x3D; 2$元。<br>但事实上我们在选择这一期望效用函数时忽略了一个问题，为什么要选择对数函数作为效用函数呢？对于这一问题我们无法用较少的篇幅进行阐述，事实上在此处应该认为这是一个被假设出来的客观存在(我们几乎无法想象现实中一个投资者在决策时的效用函数具体应该是怎么样的)，而选择一些较简单的函数作为模型只是为了统计学上的方便。<br>但在此笔者可以给出一个比较简单的解释，绝大多数时候人是风险厌恶的，尤其当你像在做数学题一样考虑这个悖论，而不是在充满噪声的市场面前投资股票。所谓风险(Risk)在此处可以简单地理解为方差，这就像我们在对这一赌局进行考量时总是很自然地把一些概率极小而回报极高的事件(如连续10次出现反面)忽视了，尽管它们对期望值的贡献是等同的。但如果赌局能够以充分大的次数重复进行，显然我们对这些极小概率事件又会有不一样的看法，所以可以想象的是，随着重复次数的增加，所选取的效用函数模型应该越接近于线性(对应风险中性，可以接受更高的门票价格)。</p>
+<h1 id="有效市场悖论-Paradox-to-Efficient-Markets-Hypothesis-Grossman-Stiglitz-Paradox"><a href="#有效市场悖论-Paradox-to-Efficient-Markets-Hypothesis-Grossman-Stiglitz-Paradox" class="headerlink" title="有效市场悖论(Paradox to Efficient Markets Hypothesis, Grossman - Stiglitz Paradox)"></a>有效市场悖论(Paradox to Efficient Markets Hypothesis, Grossman - Stiglitz Paradox)</h1><p>从该悖论的英文名上可以看出，这一悖论的提出者提出这一悖论最早是用来否定有效市场假说(Efficient Markets Hypothesis)的，所谓有效市场是指资产价格能够充分反映所有有关、可用信息的市场，这一假设的本质上是说参与市场的投资者都足够理性，能够在短时间内掌握市场的所有信息并对这些市场信息作出合理的反应，反应包括参与市场的投资者的一切行为。<br>这一悖论在逻辑上是说，搜集市场的信息是需要成本的，如果市场是有效的，那么就没有人会愿意支付成本来搜集信息，那么信息又怎么能有价值而被包含到资产的价格里呢？上面这种表述看上去很深奥，但这个悖论简单说来甚至可以是一个笑话：<br><FONT face="Kaiti">一位经济学教授和他的学生走在大街上，突然学生看到地上散落着一些钱，于是马上提醒教授：“老师，地上有钱。”听了学生的话，教授却没有低头去捡钱反而头也不回地继续向前走了。</FONT></p>
+<p>看到这里可能有人会开始嘲笑教授，有人会开始揣摩教授的思想。显然一位经济学教授不可能像一些人想的那样是个傻瓜，也并不像大多数人所想的那样富有到不愿为了一笔小钱而弯腰，事实上这个笑话中的这位经济学教授是有效市场假说的拥护者。前面已经提到，有效市场的所有参与者都能很快地了解市场中的所有信息，当然包括大街上散落的钱，因此只要钱掉在大街上马上就会被人捡走，根本不可能会发生大街上散落着一些钱这样的事情。<br>看到这里相信大多数人已经发现了矛盾，如果所有人都像教授这么想，那么大街上真的散落着一些钱又怎么会被捡走呢？这就从逻辑上论证了市场不可能有效。</p>
+<h2 id="有效市场理论的实用性"><a href="#有效市场理论的实用性" class="headerlink" title="有效市场理论的实用性"></a>有效市场理论的实用性</h2><p>上面给出的悖论已经否定了有效市场的存在，那么是否有效市场理论就一文不值了呢？答案显然是否定的，爱因斯坦的相对论也论证了牛顿经典力学的巨大漏洞，但牛顿经典力学依然有用武之地，作为宏观低速情形下相对论的近似。显然有效市场理论是否实用关键在于有效市场是不是现实中市场一个不错的近似。<br>相信很多人都有注意到，有效市场假说背后隐含的逻辑是：多人做出的判断要优于个人做出的判断，群体智慧要高于个人智慧。一个证券的价格所反映的是成千上万交易者在多次交易后达成的共识。可能有人很想持有这个证券的期权愿意高价购买，也可能有人急需用钱正在低价出售这个证券的期权，这样的投资者都将破坏市场的有效性；但同时我们也要注意到永远只有极少数人愿意这么做，在这些极少数破坏市场的有效性的交易发生的同时，还有绝大多数投资者正在以正常的价格进行交易，这些正常交易都将巩固市场的有效性。<br>正像经济学家布莱克(<em>Black</em>)所说的那样，极少数噪声交易者(Noise Trader)和大多数信息交易者(Information Trader)之间时时刻刻正在发生的交易，形成了一个90%的时候有效的市场。</p>
+<h1 id="车羊问题-Car-and-Sheep-Behind-Three-Doors"><a href="#车羊问题-Car-and-Sheep-Behind-Three-Doors" class="headerlink" title="车羊问题(Car and Sheep Behind Three Doors)"></a>车羊问题(Car and Sheep Behind Three Doors)</h1><p>相信看过电影《决胜21点》的读者对这个问题都不会感到陌生，所谓车羊问题主要是说：<br><FONT face="Kaiti">假设你作为嘉宾参加一档娱乐节目，在一个有奖竞猜环节你面临着三扇关闭的门，其中一扇门后藏着一辆汽车，选中并开启那扇门你就可以赢得该汽车，另外两扇门后则各藏着一只羊。当你选择了一扇门未开启时，主持人开启你未选择的剩余两扇门中的一扇门，开启后露出了一只羊，此时主持人询问你要不要更改选择另一扇未开启的门。</FONT></p>
+<p>事实上这一问题并不是在电影《决胜21点》中首次出现的原创剧情，在此之前在美国一档娱乐节目<em>Let’s make a deal</em>中便真实出现过，它的真正闻名还得益于美国专栏作者玛丽莲(<em>Marilyn</em>)在杂志《Parade》创办的一个专栏<em>Ask Marilyn</em>，玛丽莲在这个专栏解决读者向她提出的各种问题，玛丽莲当时给出的答案是有必要更改选择，但是这期专栏一经刊出就遭到了各界人士的各种反对，最后她不得不另外制作了两期专栏来说服大家，但从那时起，各大论坛便从来不缺这一问题的讨论者，直到现在仍然可以在一些网络论坛上看到它的身影，因此这一问题又常常被称作“玛丽莲问题”，它确然是专栏<em>Ask Marilyn</em>所有问题中最著名的一个。</p>
+<h2 id="两种答案"><a href="#两种答案" class="headerlink" title="两种答案"></a>两种答案</h2><p>车羊问题的一个隐含假设是参与嘉宾的目的是为了赢得汽车，因而问题主要在于，更改选择会不会增加赢得汽车的概率。<br>关于车羊问题的讨论至今没有停止过，一个重要的原因就是在讨论过程中人们通过不同思路可以得到两种不同的答案：</p>
+<ul>
+<li>主持人打开了一扇门并露出了羊，那么原来三选一的问题就变成了二选一的问题，更改选择和不更改选择分别对应着一扇门，嘉宾赢得汽车的概率都是$\tfrac{1}{2}$，没有必要更改选择；</li>
+<li>在你选择一扇门之前，该问题是一个三选一问题，此时嘉宾选择的任何一扇门赢得汽车的概率都是$\tfrac{1}{3}$；在主持人打开一扇门并露出了羊之后，主持人所打开那扇门对应的$\tfrac{1}{3}$的概率自然不会凭空消失，嘉宾选择那扇门对应的$\tfrac{1}{3}$的概率依然不变，因此这部分概率是被合并到了另一扇门上，所以此时另一扇门对应的概率变为$\tfrac{2}{3}$，因此有必要更改选择。</li>
+</ul>
+<h2 id="枚举法巧妙解决问题"><a href="#枚举法巧妙解决问题" class="headerlink" title="枚举法巧妙解决问题"></a>枚举法巧妙解决问题</h2><p>事实上有时候我们对某些问题的复杂印象仅仅是表面上的，这种表面上的复杂只需通过一些简单甚至是无脑的小技巧就可以简单化解，因此对于车羊问题，不妨试试小学数学老师曾经教过我们的枚举法：</p>
+<ul>
+<li>嘉宾首次选择的门后面藏着汽车(概率为$\tfrac{1}{3}$)，则无论主持人选择的是哪一扇门；嘉宾更改选择都只会开启一扇藏着羊的门；</li>
+<li>嘉宾首次选择的门后面藏着羊(概率为$\tfrac{2}{3}$)，则主持人选择的门是另一只羊；嘉宾更改选择一定会开启藏着汽车的那扇门。</li>
+</ul>
+<p>通过枚举，我们发现，参赛者更改选择后赢得汽车(不更改选择不能赢得汽车)的概率恰好等于首次选择的门后面藏着羊的概率$\tfrac{2}{3}$，参赛者更改选择后不能赢得汽车(不更改选择赢得汽车)的概率恰好等于首次选择的门后面藏着汽车的概率$\tfrac{1}{3}$，因此更改选择会增加赢得汽车的概率，因此有必要更改选择。</p>
+<h2 id="概率建模"><a href="#概率建模" class="headerlink" title="概率建模"></a>概率建模</h2><p>对上面通过枚举法得到的答案思索片刻，似乎能明白其中的暗藏的玄机了，但似乎仍觉得这样的答案有一些奇怪，这也就是在就此问题的讨论过程中双方都各执一词最终却往往难以得到结论的原因，甚至还出现一些形如“这个问题本就有两个答案”的荒诞说法。这样的说法在数学上显然是站不住脚的，这时候我们不妨采用概率建模检验一下这一答案的正确性：<br>如果只考虑结果，样本空间由一组事件组成：</p>
+<ul>
+<li>事件$E$：嘉宾选择的门后面藏着汽车；</li>
+<li>事件$\bar E$：嘉宾选择的门后面藏着羊。</li>
+</ul>
+<p>其中$P(E) &#x3D;  \tfrac{1}{3}, P(\bar E) &#x3D; \tfrac{2}{3}$，但显然这样的概率建模并不能为我们解决问题带来任何帮助，因为没有把主持人也考虑进去，为此我们还要设：</p>
+<ul>
+<li>事件$F$：主持人选择的门后面藏着汽车；</li>
+<li>事件$\bar F$：主持人选择的门后面藏着羊。</li>
+</ul>
+<p>根据上面已经推导过的贝叶斯公式，可以得到：<br>$$P(E|\bar F) &#x3D; \frac{P(E)P(\bar F|E)}{P(\bar F)}$$<br>上式左端的$P(E|\bar F)$即对应事件“在主持人选择的门后面藏着羊的情况下嘉宾选择的门后面藏着汽车”的条件概率，注意到“主持人选择的门后面藏着羊”这一事件$\bar F$作为条件等于是减少了一扇门了，因此这时可以说嘉宾是在只有两扇门和们后面藏着的物品所组成的新的样本空间中做出选择，即：</p>
+<ul>
+<li>如果$P(E|\bar F) &lt; \tfrac{1}{2}$，意味着不更改选择赢得汽车的概率小于更改选择赢得汽车的概率，因此有必要更改选择；</li>
+<li>如果$P(E|\bar F) \geqslant \tfrac{1}{2}$，意味着不更改选择赢得汽车的概率大于或等于更改选择赢得汽车的概率，因此没有必要更改选择。</li>
+</ul>
+<p>又知$P(E) &#x3D; \tfrac{1}{3}, P{\bar F|E} &#x3D; 1$，所以解决问题的关键点就落到了等式右边未知的唯一一项$P(\bar F)$的身上，也就是主持人选择的门后面有羊的概率，乍一看似乎应该和嘉宾一样有$P(F) &#x3D; \tfrac{1}{3}, P(\bar F) &#x3D; \tfrac{2}{3}$，算之得：<br>$$P(E|\bar F) &#x3D; \frac{P(E)P(\bar F|E)}{P(\bar F)} &#x3D; \frac{\tfrac{1}{3} \times 1}{\tfrac{2}{3}} &#x3D; \frac{1}{2}$$<br>似乎又得到了与枚举法相悖的结论，这是因为我们默认了主持人和嘉宾一样不知道车藏在哪一扇门后而随机地选择了一扇门，而关于主持人是否知道门后面的情况也恰恰没有在题目中被提到，但还有最关键的一点没有被注意到，题目提到了主持人选择的那扇门开启后露出一只羊，这就意味着事实上无论主持人是否知道门后面的情况，他都选择了一扇后面藏着羊的门，应该取$P(\bar F) &#x3D; 1$，应该算得：<br>$$P(E|\bar F) &#x3D; \frac{2}{3} &gt; \frac{1}{2}$$<br>这样得到的才是正确的结论，上面$P(F) &#x3D; \tfrac{1}{3}, P(\bar F) &#x3D; \tfrac{2}{3}$的情况对应的应该是主持人不知道门后面的情况且选择的门未被开启的情况，并不符合问题原义。<br>此外还有不少网友设计了程序来检验这一答案的正确性(由于版权原因在此不给出，有兴趣的读者可以通过搜索引擎得到)，结果都表明更改选择是正确的结论。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>这些悖论看起来诚然是有趣的，另一方面在于它们背后也在影射着深刻的自然科学发展的哲学原理：<FONT face="Kaiti">矛盾是促进发展的原动力。</FONT>寻求真理的过程本质就是在寻求现在的理论无法解释的一些悖论，这样朴实，这样简单，这样有趣。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Mathematics</tag>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+</search>
