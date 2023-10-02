@@ -115,18 +115,18 @@
   <meta name="description" content="这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？">
 <meta property="og:type" content="article">
 <meta property="og:title" content="美女的硬币游戏">
-<meta property="og:url" content="http://once4623.site/2023/08/06/2023-08-06--CoinGame/index.html">
+<meta property="og:url" content="http://once4623.site/2023/08/06/2023-08-06--Coin-Game/index.html">
 <meta property="og:site_name" content="醉仙阁">
 <meta property="og:description" content="这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://once4623.site/images/2023-08-06--CoinGame/image.png">
+<meta property="og:image" content="http://once4623.site/images/2023-08-06--Coin-Game/image.png">
 <meta property="article:published_time" content="2023-08-06T13:12:37.000Z">
-<meta property="article:modified_time" content="2023-09-05T18:55:46.776Z">
+<meta property="article:modified_time" content="2023-10-02T19:19:38.114Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="Mathematics">
 <meta property="article:tag" content="Probability">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="http://once4623.site/images/2023-08-06--CoinGame/image.png">
+<meta name="twitter:image" content="http://once4623.site/images/2023-08-06--Coin-Game/image.png">
 
 
 
@@ -135,7 +135,7 @@
 
 
 
-  <link rel="canonical" href="http://once4623.site/2023/08/06/2023-08-06--CoinGame/"/>
+  <link rel="canonical" href="http://once4623.site/2023/08/06/2023-08-06--Coin-Game/"/>
 
 
 
@@ -365,7 +365,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://once4623.site/2023/08/06/2023-08-06--CoinGame/">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2023/08/06/2023-08-06--Coin-Game/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="OnceBeta">
@@ -424,7 +424,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2023-09-06 02:55:46" itemprop="dateModified" datetime="2023-09-06T02:55:46+08:00">2023-09-06</time>
+                <time title="修改时间：2023-10-03 03:19:38" itemprop="dateModified" datetime="2023-10-03T03:19:38+08:00">2023-10-03</time>
               
             
           </span>
@@ -540,7 +540,7 @@
 <script type="math/tex; mode=display">E = 3pq-2p(1-q)-2(1-p)q+(1-p)(1-q)</script><script type="math/tex; mode=display">= 8pq - 3p - 3q + 1</script><script type="math/tex; mode=display">= p(8q-3)-(3q-1)</script><p>显然，当$p,q$在$0$到$1$之间任意取值时，你的收益期望值并不一定是$0$。<br>另一方面，我们可以发现这场游戏的本质是“零和博弈(<em>Zero-sum Game</em>)”，换言之，美女赢的钱就是你输的钱，你赢的钱就是美女输的钱。数学上，如果你的收益期望值是$E$，那么美女的收益期望值就是$-E$。<br>那么如果我们站在美女的角度来考虑问题，如果她有一种策略可以令$E&lt;0$，则在长期看来她便可以赢走你的钱，即：</p>
 <script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
 <script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
-<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--CoinGame/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
+<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
 <script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0<q<\frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p>\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
 <script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
 <script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
@@ -630,8 +630,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/15/2018-07-15--Some-Paradoxes-of-Probability/" rel="next" title="概率论的几个悖论">
-                <i class="fa fa-chevron-left"></i> 概率论的几个悖论
+              <a href="/2018/07/19/2018-07-19--Drug-Abuse/" rel="next" title="漫谈毒品">
+                <i class="fa fa-chevron-left"></i> 漫谈毒品
               </a>
             
           </div>
@@ -639,6 +639,10 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2023/10/03/2023-10-03--Enrollment-Expansion/" rel="prev" title="也来谈谈学历贬值问题：高校扩招与教育产业化">
+                也来谈谈学历贬值问题：高校扩招与教育产业化 <i class="fa fa-chevron-right"></i>
+              </a>
             
           </div>
         </div>
@@ -699,7 +703,7 @@
                 
                   <a href="/archives/%20%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">9</span>
+                    <span class="site-state-item-count">11</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -722,7 +726,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">5</span>
+                      
+                    
+                    <span class="site-state-item-count">6</span>
                     <span class="site-state-item-name">分类</span>
                   </a>
                 </div>
@@ -757,7 +763,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">11</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">13</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
