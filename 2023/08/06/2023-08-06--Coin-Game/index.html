@@ -121,7 +121,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://once4623.site/images/2023-08-06--Coin-Game/image.png">
 <meta property="article:published_time" content="2023-08-06T13:12:37.000Z">
-<meta property="article:modified_time" content="2023-10-02T19:19:38.114Z">
+<meta property="article:modified_time" content="2023-10-07T17:12:48.275Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="Mathematics">
 <meta property="article:tag" content="Probability">
@@ -411,22 +411,6 @@
             
 
             
-              
-
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2023-10-03 03:19:38" itemprop="dateModified" datetime="2023-10-03T03:19:38+08:00">2023-10-03</time>
-              
-            
           </span>
 
           
@@ -457,14 +441,6 @@
           
 
           
-            <span class="post-meta-divider">|</span>
-            <span class="post-meta-item-icon"
-            >
-            <i class="fa fa-eye"></i>
-             阅读次数： 
-            <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
-            </span>
-          
 
           
             <div class="post-symbolscount">
@@ -477,7 +453,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数"></span>
+                <span title="本文字数">3.2k</span>
               
 
               
@@ -491,7 +467,7 @@
                 
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
-                <span title="阅读时长"></span>
+                <span title="阅读时长">3 分钟</span>
               
             </div>
           
@@ -541,11 +517,11 @@
 <script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
 <script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
 <script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
-<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0<q<\frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p>\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
+<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0 &lt; q &lt; \frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p&gt;\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
 <script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
 <script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
 <script type="math/tex; mode=display">E_B = -2q+(1-q)</script><p>由上述分析，再令$E_F=E_B$，可以解得$p=\frac{3}{8}$。而这个最大化的收益期望值，恰恰就是上文中计算过的：</p>
-<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。</p>
+<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。<br>美女的硬币游戏，是博弈论中相当经典的模型之一，它十分清晰地表明了在不完全信息博弈中，掌握规则的制定权是多么重要，而生活中在那些我们习以为常的表面公平的规则背后，往往也暗藏着剥削与不公。</p>
 
       
     </div>
@@ -569,14 +545,14 @@
 
     
       <div id="wechat" style="display: inline-block">
-        <img id="wechat_qr" src="/images/rewards/wechatpay.png" alt="OnceBeta 微信支付"/>
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
         <p>微信支付</p>
       </div>
     
 
     
       <div id="alipay" style="display: inline-block">
-        <img id="alipay_qr" src="/images/rewards/alipay.png" alt="OnceBeta 支付宝"/>
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
         <p>支付宝</p>
       </div>
     
@@ -842,7 +818,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数"></span>
+    <span title="站点总字数">44k</span>
   
 
   
@@ -851,7 +827,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长"></span>
+    <span title="站点阅读时长">40 分钟</span>
   
 </div>
 
@@ -884,11 +860,6 @@
     </span>
   
 
-  
-    <span class="site-pv" title="总访问量">
-      <i class="fa fa-eye"></i>
-      <span class="busuanzi-value" id="busuanzi_value_site_pv"></span>
-    </span>
   
 </div>
 
