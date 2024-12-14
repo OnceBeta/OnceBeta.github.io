@@ -132,36 +132,38 @@
       </tags>
   </entry>
   <entry>
-    <title>在Hexo中使用LaTeX语法输入数学公式</title>
-    <url>/2017/10/03/2017-10-04--Use-MathJax-In-Hexo-Next/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>作为一款以简洁为宗旨的标记语言，HTML的扩展性并不强，其自身也不具有满足一些特殊需求的功能，要使用HTML渲染出漂亮的数学公式可以说并非轻而易举，因此大多数人使用截图上传的方式实现在网页上展示数学公式。<br>但前阵子浏览<a href="https://en.wikipedia.org">Wikipedia</a>，便偶然想到一个问题此多的数学公式，如果都使用截图上传的方式来展现，岂不是太费力气了。这显然是不现实的。<br>原来，对于在网页上展示数学公式这个问题，早已经有前辈开发了具有对应功能的插件来解决了，这便是MathJax。<span id="more"></span></p>
-<p>MathJax是一款用以支持在网页中插入数学公式的开源JavaScript插件。支持LaTeX、MathML等多种语言。它负责将网页上指定标签内用这些标记语言的语法输入的数学公式渲染成HTML和CSS代码，使这些漂亮的数学公式不需要复杂的代码便可以在网页中被渲染出来。<br>在此之前，我在书写博文时也采用传统的截图上传的方式来展示数学公式，这样的方式带来的几个问题便是操作量大、整齐性不佳、加载速度慢。因此在前不久重新开始打理博客时，便产生了使用MathJax的想法。于是着手进行了一番尝试。</p>
-<h1 id="在Hexo中启用MathJax"><a href="#在Hexo中启用MathJax" class="headerlink" title="在Hexo中启用MathJax"></a>在Hexo中启用MathJax</h1><p>Hexo原生兼容MathJax，且大多数主流主题如醉仙阁所采用的<a href="https://github.com/iissnan/hexo-theme-next">Next</a>都内置了MathJax，此处即以其为例，在Next中启用MathJax只需要一步。在<code>主题目录</code>下找到<code>_config.yml</code>。用文本编辑器找到如下部分：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: false</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure><br>将第二行修改为<code>enable: true</code>即可。</p>
-<p>如此以来就在Next主题中启用了MathJax支持，但事实上还存在着不少问题：</p>
-<ul>
-<li>部分数学公式直接显示为代码的形式</li>
-<li>部分数学公式的下标、角标等显示异常</li>
-<li>希腊字母字体显示异常</li>
-</ul>
-<h1 id="更换渲染引擎"><a href="#更换渲染引擎" class="headerlink" title="更换渲染引擎"></a>更换渲染引擎</h1><p>Hexo默认使用<code>hexo-renderer-marked</code>引擎进行网页渲染，其中对许多字符诸如划线、下划线、中括号等定义了转义。因此，在进行网页渲染时，数学公式中的这些字符先通过<code>hexo-renderer-marked</code>进行转义，就发生了歧义，而再通过MathJax渲染出来的数学公式，自然就显示不正常了。<br>在知道了原因以后，问题也就迎刃而解了，解决方法就是更换Hexo默认的<code>hexo-renderer-marked</code>渲染引擎。<code>hexo-renderer-kramed</code>就是一个不错的选择，它在<code>hexo-renderer-marked</code>的基础上修复了一些Bug，其中就包括取消大部分多余的转义。<br>安装<code>hexo-renderer-kramed</code>非常简单，只需在Hexo根目录下执行以下命令：<br><figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><br>这样就完成了<code>hexo-renderer-kramed</code>的安装，但还有一个容易被忽略的问题是，安装<code>hexo-renderer-kramed</code>的同时并不会自动对<code>hexo-renderer-marked</code>进行停用，数学公式仍要经过<code>hexo-renderer-marked</code>的转义，这样显然没有完全解决问题，故我们还需手动对<code>hexo-renderer-marked</code>进行停用。<br>在Hexo的<code>根目录</code>下找到<code>package.json</code>文件，用文本编辑器打开它，删除字符串<code>hexo-renderer-marked</code>所在的一行并保存。之所以不直接卸载<code>hexo-renderer-marked</code>，是因为其他重要包极有可能在卸载该包的同时被删除。</p>
-<h1 id="修复行内公式的转义字符"><a href="#修复行内公式的转义字符" class="headerlink" title="修复行内公式的转义字符"></a>修复行内公式的转义字符</h1><p>在做完工作上面的工作后，行间公式就可以被正确渲染了，但行内公式却还存在着部分问题，这是因为对行间定义的转义字符和对行内定义的转义字符并不相同，还有部分已定义的行间转义字符会与数学公式中可能用到的字符发生冲突，用到这些字符的数学公式在渲染前仍被进行了转义。<br>修复这一问题的方法是，在根目录下依次打开<code>node_modules\kramed\lib\rules</code>，并找到<code>inline.js</code>文件。<br>用文本编辑器编辑文件的第11行和第20行：<br><figure class="highlight plaintext"><figcaption><span>js inline.js</span></figcaption><table><tr><td class="code"><pre><span class="line">line 11,</span><br><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">-&gt;  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br><span class="line"></span><br><span class="line">line 20,</span><br><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">-&gt;  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure><br>保存文件。如此一来，所有对数学公式中字符的不合理转义就都被取消了，数学公式的渲染和显示也就正常了。</p>
-<h1 id="确保所有公式都被渲染"><a href="#确保所有公式都被渲染" class="headerlink" title="确保所有公式都被渲染"></a>确保所有公式都被渲染</h1><p>在条件支持的情况下，MathJax会对页面上的所有位置的标签内都进行渲染；但在条件不允许时，MathJax对数学公式的渲染可能止于页面上的某个位置，其后的数学公式都将不被渲染而直接显示为代码的形式。<br>这时，就需要在文章的开头font-matter中手动打开MathJax的开关，如下图：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure><br>如上，在使用了数学公式的页面上增加一行<code>mathjax: true</code>，这样就能确保页面上所有数学公式都被正确渲染了。</p>
-<hr>
-<p>参考资料：</p>
-<ul>
-<li><a href="http://theme-next.iissnan.com/third-party-services.html">http://theme-next.iissnan.com/third-party-services.html</a></li>
-<li><a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
-<li><a href="http://www.jianshu.com/p/7ab21c7f0674">http://www.jianshu.com/p/7ab21c7f0674</a></li>
-<li><a href="http://www.jianshu.com/p/6c1196f12302">http://www.jianshu.com/p/6c1196f12302</a></li>
-</ul>
+    <title>英语语法歧义现象(二)：悬垂(Dangling)与误置(Misplaced)</title>
+    <url>/2017/10/30/2017-10-30--Dangling-Modifier/</url>
+    <content><![CDATA[<h1 id="独立主格"><a href="#独立主格" class="headerlink" title="独立主格"></a>独立主格</h1><p>在讲到这两种歧义现象之前，有必要先介绍一下独立主格，因为这两种歧义现象都源于独立主格。<br>独立主格是英语语法中一种常见的独立结构，在一个句子中的功能类似于一个从句。</p>
+<p>例：<br>    &emsp;&emsp;<em>The meeting over, we all went home.</em><br>    &emsp;&emsp;<em>会议结束后，我们都回家了。</em><br>    &emsp;&emsp;<em>There being no salt, we had to go to buy some.</em><br>    &emsp;&emsp;<em>由于没有盐了，我们只好去买一些。</em><br>    &emsp;&emsp;<em>There being no taxis, we had to walk.</em><br>    &emsp;&emsp;<em>All man came in time, John being the first.</em><br>    &emsp;&emsp;<em>所有人都按时到了，而约翰则是第一个。</em><br>    &emsp;&emsp;<em>Dad and mom dressed formally, one to attend the party, one to go to work.</em><br>    &emsp;&emsp;<em>父亲和母亲都换上了正装，一个去赴宴，一个去工作。</em><br>    &emsp;&emsp;<em>Threet representatives moderate the meeting， the youngest John Smith in age of 24.</em><br>    &emsp;&emsp;<em>主持会议的三位代表，最年轻的是24岁的约翰·史密斯。</em><span id="more"></span></p>
+<p>独立主格有别于从句的特点正是没有连接词、没有完整的主谓结构。从以上列举的一些例句可以看出，独立主格大致上是由名词或代词充当的逻辑主语和动词的分词形式充当的谓语动词构成的，逻辑主语和动词分词构成形式的主谓关系。<br>事实上，独立主格也有“时态”的相关定义，而且是相似的，只不过没有严格意义上的谓语动词，常见的独立主格的时态有四种，分别由进行时doing、过去时done、完成时having done、完成进行时having been doing和它们的不定式构成，且都有对应的被动语态。独立主格不能使用情态动词因而没有虚拟语气。<br>独立主格“时态”的选择也是由逻辑主语与动作的关系决定的。<br>还有一些习惯上的规律可循，如前置的独立主格一般表示原因、条件或结果，相当于对应功能的状语从句；而后置的独立主格一般表示补充说明伴随状况，相当于并列句或伴随状语从句；还有一种是以插入语的形式出现的，相当于方式状语从句。</p>
+<h2 id="逻辑介词引导的独立主格"><a href="#逻辑介词引导的独立主格" class="headerlink" title="逻辑介词引导的独立主格"></a>逻辑介词引导的独立主格</h2><p>当单独的独立主格不能表达独立主格和主句的某种逻辑关系或表达逻辑关系不够强烈时，就需要用逻辑介词引导独立主格。常用来引导独立主格的逻辑介词有with和without等。</p>
+<p>例：<br>    &emsp;&emsp;<em>The original manuscript has been hidden, without anyone knowing where it was.</em><br>    &emsp;&emsp;<em>原稿被藏起来了，没有人知道它在哪里。</em><br>    &emsp;&emsp;<em>He picked up the papers scattered on the ground, without a word more spoken.</em><br>    &emsp;&emsp;<em>他捡起散落在地上的文件，没有多说一句话。</em><br>    &emsp;&emsp;<em>The manager was so excited with many staffs to join the team.</em><br>    &emsp;&emsp;<em>有这么多的应聘者将要加入项目组，经理很高兴。</em><br>    &emsp;&emsp;<em>He stood before the door, with a computer in his hand. = He stood before the door, computer in hand.</em><br>    &emsp;&emsp;<em>他伫立在门前，手里拿着一部电脑。</em><br>    &emsp;&emsp;<em>With his son so sympathetic, the woman felt gratified.</em><br>    &emsp;&emsp;<em>女人为她的儿子如此有同情心而感到欣慰。</em></p>
+<h2 id="独立主格中的省略"><a href="#独立主格中的省略" class="headerlink" title="独立主格中的省略"></a>独立主格中的省略</h2><p>独立主格本身作为一个用以代替状语从句和并列句的结构，简略是其一大特点。因而在独立主格中，一些删去后不影响句子意思的词常被省略。</p>
+<h3 id="逻辑介词的省略与be的省略"><a href="#逻辑介词的省略与be的省略" class="headerlink" title="逻辑介词的省略与be的省略"></a>逻辑介词的省略与be的省略</h3><p>上文提到的with，在独立主格前置作状语时，就常常被省略，甚至在一些情况下(如逻辑主语是形式主语时)句首不能出现with。<br>be在独立主格中一般也会被省略，甚至包括be后的一些特殊的介词结构中的介词，变为“逻辑主语+形容词/副词”或“逻辑主语+宾语/介词宾语”的结构。</p>
+<p>例：<br>    &emsp;&emsp;<em>(<del>with</del>) There being no further business to discuss, we all went home.</em><br>    &emsp;&emsp;<em>没有别的事可讨论，我们都回家了。</em><br>    &emsp;&emsp;<em>With his son (been) so disappointing, the old man felt unhappy.</em><br>    &emsp;&emsp;<em>儿子如此令人失望，老人感到很伤心。</em><br>    &emsp;&emsp;<em>His first shot (been) (in) a failure, he fired again.</em><br>    &emsp;&emsp;<em>他的第一枪未命中，又打了一枪。</em></p>
+<p>但需要注意的是，与with类似的without不能省略，因为删去后句意将改变。</p>
+<p>关于独立主格中的省略，还有一些特殊规定，如独立主格中有结构介词in时，省略in前的be，前后的名词或代词均使用单数且不带任何成分，例：<br>    &emsp;&emsp;<em>The manager is standing in front of Amy, seriousness in face.</em><br>    &emsp;&emsp;<em>经理一脸严肃地站在艾米面前，</em><br>    &emsp;&emsp;<em>The sniper stood behind a wall without any movement, rifle in hand.</em><br>    &emsp;&emsp;<em>狙击手一动不动地站在一面墙后，手里拿着来福枪。</em></p>
+<h3 id="不完整的独立主格"><a href="#不完整的独立主格" class="headerlink" title="不完整的独立主格"></a>不完整的独立主格</h3><p>独立主格的省略还有一类特殊情况，它们是一种更像副词或介词的独立结构，通常是约定俗成的习惯用法。</p>
+<p>例：<br>    &emsp;&emsp;<em>generally speaking: 总的说来</em><br>    &emsp;&emsp;<em>frankly speaking: 坦白地说</em><br>    &emsp;&emsp;<em>judging from: 据…判断</em><br>    &emsp;&emsp;<em>according to: 据…说</em><br>    &emsp;&emsp;<em>considering (that): 考虑到…</em></p>
+<p>还有一类以不定式为特征的独立主格，它们常用作插入语。</p>
+<p>例：<br>    &emsp;&emsp;<em>to be honest: 实话实说</em><br>    &emsp;&emsp;<em>to be sure: 诚然</em><br>    &emsp;&emsp;<em>to tell the truth: 讲真的</em><br>    &emsp;&emsp;<em>to cut a long story short: 长话短说；简而言之</em></p>
+<h2 id="特殊情况"><a href="#特殊情况" class="headerlink" title="特殊情况"></a>特殊情况</h2><h3 id="独立主格作定语"><a href="#独立主格作定语" class="headerlink" title="独立主格作定语"></a>独立主格作定语</h3><p>独立主格在句中一般是作状语的，但这是一种由口语进入书面语的表达方式，也便有了一些例外情况，如作为以定语，但限于表达习惯，这种情况是极其少见的。</p>
+<p>例：<br>    &emsp;&emsp;<em>He is the person with a lot of debts to be repaid. = He is the person who has a lot of debts to be repaid.</em><br>    &emsp;&emsp;<em>他就是那个债务繁多的人。</em><br>    &emsp;&emsp;<em>The boy sitting here with nothing to do is Jim.</em><br>    &emsp;&emsp;<em>那个坐着无所事事的男孩就是吉姆。</em></p>
+<h1 id="悬垂-Dangling"><a href="#悬垂-Dangling" class="headerlink" title="悬垂(Dangling)"></a>悬垂(Dangling)</h1><p>悬垂是英语口语中的一种常见现象，本质上是一种由独立主格的主语省略带来的一种与独立结构对应的被修饰成分不明而产生的歧义现象。在不发生歧义的前提下，适当的悬垂能使表达更加简略，但在一些情况下则可能导致误会。</p>
+<h2 id="悬垂修饰语-Dangling-Modifier"><a href="#悬垂修饰语-Dangling-Modifier" class="headerlink" title="悬垂修饰语(Dangling Modifier)"></a>悬垂修饰语(Dangling Modifier)</h2><p>从这一名词的字面意思便可看出，悬垂修饰语是指悬垂的对主句起修饰作用的独立结构，但通常不包括分词短语。</p>
+<p>例：<br>    &emsp;&emsp;<em>At the age of eight, my family finally bought a dog.</em><br>    &emsp;&emsp;<em>在我八岁时，我家终于买了狗。</em><br>    &emsp;&emsp;<em>(分析：At the age of eight悬垂，它不依附于主句的主语my family finally，而正确的被修饰成分应该是说话者本人，但在句中并未出现)</em></p>
+<h2 id="悬垂分词-Dangling-Participle"><a href="#悬垂分词-Dangling-Participle" class="headerlink" title="悬垂分词(Dangling Participle)"></a>悬垂分词(Dangling Participle)</h2><p>悬垂分词与悬垂修饰语是类似的，只不过这种情况下作为独立结构的是分词短语。分词短语一般放在句首或句末，当被省略的逻辑主语与主句主语不一致或主句缺失时，分词短语就发生悬垂，这种情况就称为悬垂分词。</p>
+<p>例：<br>    &emsp;&emsp;<em>Walking down Main Street, the trees were beautiful.</em><br>    &emsp;&emsp;<em>走在大街上，树木很美。</em><br>    &emsp;&emsp;<em>(分析：Walking down Main Street悬垂，它不依附于主句的主语the trees，而正确的被修饰成分应该是说话者本人，这显然是一个只有人才能进行的动作，但说话者本人并未在句中出现)</em></p>
+<h1 id="误置-Misplaced"><a href="#误置-Misplaced" class="headerlink" title="误置(Misplaced)"></a>误置(Misplaced)</h1><p>误置是另一种歧义现象，这种现象在写作中较为少见，但在口语中却尤其常见于话语的即兴补充部分。误置的特征是主句和独立结构本身不存在问题，但因主句和独立结构的位置关系错误而发生歧义。</p>
+<p>例：<br>    &emsp;&emsp;<em>I saw the trailer peeking through the window.</em><br>    &emsp;&emsp;<em>我从窗口望见了卡车。</em><br>    &emsp;&emsp;<em>(分析：peeking through the window误置，被修饰成分本应是说话者本人，但在句中被修饰成分却似the trailer，原因是独立结构的错误后置)</em></p>
+<h1 id="结论与分析"><a href="#结论与分析" class="headerlink" title="结论与分析"></a>结论与分析</h1><p>就如开头所言，悬垂和误置都是英语语法中常见的歧义现象，它们在本质上都源于独立主格的简略性与随意性。<br>但英语作为一种语言，从其长久发展来看，这种情况的出现是正常且必然的。相比歧义现象带来的不便与误会，适当的简略性与随意性给表达带来的极大方便也是不容忽视的。我们不应该严厉杜绝这种导致歧义现象的简略性与随意性，而如何在接收到带有这种歧义现象的信息时正确理解才是更加值得考虑的问题。笔者认为，在接收到带有悬垂或误置结构的句子信息时，首先将主结构与悬垂结构分别解读，再判断主结构与悬垂结构的逻辑关系，最后对整个句子的句意作诠释，在绝大多数情况下，不会产生曲解和误会。<br>此外，悬垂和误置本身作为一种主观性和随意性较强的争议性结构，多出现在日常对话等非正式场合，是英语文法主观能动性的一种体现，但在书面语或正式场合中，发言者应尽量避免该类结构的出现，确保语言的逻辑性和严谨性。</p>
 ]]></content>
       <categories>
-        <category>Computer Skill</category>
+        <category>English</category>
       </categories>
       <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Javascript</tag>
-        <tag>Node.js</tag>
+        <tag>英语语法歧义现象</tag>
       </tags>
   </entry>
   <entry>
@@ -217,6 +219,39 @@
         <tag>醉仙阁杂谈</tag>
         <tag>Trolley Problem</tag>
         <tag>Philosophy</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>在Hexo中使用LaTeX语法输入数学公式</title>
+    <url>/2017/10/03/2017-10-04--Use-MathJax-In-Hexo-Next/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>作为一款以简洁为宗旨的标记语言，HTML的扩展性并不强，其自身也不具有满足一些特殊需求的功能，要使用HTML渲染出漂亮的数学公式可以说并非轻而易举，因此大多数人使用截图上传的方式实现在网页上展示数学公式。<br>但前阵子浏览<a href="https://en.wikipedia.org">Wikipedia</a>，便偶然想到一个问题此多的数学公式，如果都使用截图上传的方式来展现，岂不是太费力气了。这显然是不现实的。<br>原来，对于在网页上展示数学公式这个问题，早已经有前辈开发了具有对应功能的插件来解决了，这便是MathJax。<span id="more"></span></p>
+<p>MathJax是一款用以支持在网页中插入数学公式的开源JavaScript插件。支持LaTeX、MathML等多种语言。它负责将网页上指定标签内用这些标记语言的语法输入的数学公式渲染成HTML和CSS代码，使这些漂亮的数学公式不需要复杂的代码便可以在网页中被渲染出来。<br>在此之前，我在书写博文时也采用传统的截图上传的方式来展示数学公式，这样的方式带来的几个问题便是操作量大、整齐性不佳、加载速度慢。因此在前不久重新开始打理博客时，便产生了使用MathJax的想法。于是着手进行了一番尝试。</p>
+<h1 id="在Hexo中启用MathJax"><a href="#在Hexo中启用MathJax" class="headerlink" title="在Hexo中启用MathJax"></a>在Hexo中启用MathJax</h1><p>Hexo原生兼容MathJax，且大多数主流主题如醉仙阁所采用的<a href="https://github.com/iissnan/hexo-theme-next">Next</a>都内置了MathJax，此处即以其为例，在Next中启用MathJax只需要一步。在<code>主题目录</code>下找到<code>_config.yml</code>。用文本编辑器找到如下部分：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: false</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure><br>将第二行修改为<code>enable: true</code>即可。</p>
+<p>如此以来就在Next主题中启用了MathJax支持，但事实上还存在着不少问题：</p>
+<ul>
+<li>部分数学公式直接显示为代码的形式</li>
+<li>部分数学公式的下标、角标等显示异常</li>
+<li>希腊字母字体显示异常</li>
+</ul>
+<h1 id="更换渲染引擎"><a href="#更换渲染引擎" class="headerlink" title="更换渲染引擎"></a>更换渲染引擎</h1><p>Hexo默认使用<code>hexo-renderer-marked</code>引擎进行网页渲染，其中对许多字符诸如划线、下划线、中括号等定义了转义。因此，在进行网页渲染时，数学公式中的这些字符先通过<code>hexo-renderer-marked</code>进行转义，就发生了歧义，而再通过MathJax渲染出来的数学公式，自然就显示不正常了。<br>在知道了原因以后，问题也就迎刃而解了，解决方法就是更换Hexo默认的<code>hexo-renderer-marked</code>渲染引擎。<code>hexo-renderer-kramed</code>就是一个不错的选择，它在<code>hexo-renderer-marked</code>的基础上修复了一些Bug，其中就包括取消大部分多余的转义。<br>安装<code>hexo-renderer-kramed</code>非常简单，只需在Hexo根目录下执行以下命令：<br><figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><br>这样就完成了<code>hexo-renderer-kramed</code>的安装，但还有一个容易被忽略的问题是，安装<code>hexo-renderer-kramed</code>的同时并不会自动对<code>hexo-renderer-marked</code>进行停用，数学公式仍要经过<code>hexo-renderer-marked</code>的转义，这样显然没有完全解决问题，故我们还需手动对<code>hexo-renderer-marked</code>进行停用。<br>在Hexo的<code>根目录</code>下找到<code>package.json</code>文件，用文本编辑器打开它，删除字符串<code>hexo-renderer-marked</code>所在的一行并保存。之所以不直接卸载<code>hexo-renderer-marked</code>，是因为其他重要包极有可能在卸载该包的同时被删除。</p>
+<h1 id="修复行内公式的转义字符"><a href="#修复行内公式的转义字符" class="headerlink" title="修复行内公式的转义字符"></a>修复行内公式的转义字符</h1><p>在做完工作上面的工作后，行间公式就可以被正确渲染了，但行内公式却还存在着部分问题，这是因为对行间定义的转义字符和对行内定义的转义字符并不相同，还有部分已定义的行间转义字符会与数学公式中可能用到的字符发生冲突，用到这些字符的数学公式在渲染前仍被进行了转义。<br>修复这一问题的方法是，在根目录下依次打开<code>node_modules\kramed\lib\rules</code>，并找到<code>inline.js</code>文件。<br>用文本编辑器编辑文件的第11行和第20行：<br><figure class="highlight plaintext"><figcaption><span>js inline.js</span></figcaption><table><tr><td class="code"><pre><span class="line">line 11,</span><br><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">-&gt;  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br><span class="line"></span><br><span class="line">line 20,</span><br><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">-&gt;  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure><br>保存文件。如此一来，所有对数学公式中字符的不合理转义就都被取消了，数学公式的渲染和显示也就正常了。</p>
+<h1 id="确保所有公式都被渲染"><a href="#确保所有公式都被渲染" class="headerlink" title="确保所有公式都被渲染"></a>确保所有公式都被渲染</h1><p>在条件支持的情况下，MathJax会对页面上的所有位置的标签内都进行渲染；但在条件不允许时，MathJax对数学公式的渲染可能止于页面上的某个位置，其后的数学公式都将不被渲染而直接显示为代码的形式。<br>这时，就需要在文章的开头font-matter中手动打开MathJax的开关，如下图：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure><br>如上，在使用了数学公式的页面上增加一行<code>mathjax: true</code>，这样就能确保页面上所有数学公式都被正确渲染了。</p>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="http://theme-next.iissnan.com/third-party-services.html">http://theme-next.iissnan.com/third-party-services.html</a></li>
+<li><a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
+<li><a href="http://www.jianshu.com/p/7ab21c7f0674">http://www.jianshu.com/p/7ab21c7f0674</a></li>
+<li><a href="http://www.jianshu.com/p/6c1196f12302">http://www.jianshu.com/p/6c1196f12302</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Computer Skill</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Javascript</tag>
+        <tag>Node.js</tag>
       </tags>
   </entry>
   <entry>
@@ -287,41 +322,6 @@
       <tags>
         <tag>Mathematics</tag>
         <tag>Probability</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语语法歧义现象(二)：悬垂(Dangling)与误置(Misplaced)</title>
-    <url>/2017/10/30/2017-10-30--Dangling-Modifier/</url>
-    <content><![CDATA[<h1 id="独立主格"><a href="#独立主格" class="headerlink" title="独立主格"></a>独立主格</h1><p>在讲到这两种歧义现象之前，有必要先介绍一下独立主格，因为这两种歧义现象都源于独立主格。<br>独立主格是英语语法中一种常见的独立结构，在一个句子中的功能类似于一个从句。</p>
-<p>例：<br>    &emsp;&emsp;<em>The meeting over, we all went home.</em><br>    &emsp;&emsp;<em>会议结束后，我们都回家了。</em><br>    &emsp;&emsp;<em>There being no salt, we had to go to buy some.</em><br>    &emsp;&emsp;<em>由于没有盐了，我们只好去买一些。</em><br>    &emsp;&emsp;<em>There being no taxis, we had to walk.</em><br>    &emsp;&emsp;<em>All man came in time, John being the first.</em><br>    &emsp;&emsp;<em>所有人都按时到了，而约翰则是第一个。</em><br>    &emsp;&emsp;<em>Dad and mom dressed formally, one to attend the party, one to go to work.</em><br>    &emsp;&emsp;<em>父亲和母亲都换上了正装，一个去赴宴，一个去工作。</em><br>    &emsp;&emsp;<em>Threet representatives moderate the meeting， the youngest John Smith in age of 24.</em><br>    &emsp;&emsp;<em>主持会议的三位代表，最年轻的是24岁的约翰·史密斯。</em><span id="more"></span></p>
-<p>独立主格有别于从句的特点正是没有连接词、没有完整的主谓结构。从以上列举的一些例句可以看出，独立主格大致上是由名词或代词充当的逻辑主语和动词的分词形式充当的谓语动词构成的，逻辑主语和动词分词构成形式的主谓关系。<br>事实上，独立主格也有“时态”的相关定义，而且是相似的，只不过没有严格意义上的谓语动词，常见的独立主格的时态有四种，分别由进行时doing、过去时done、完成时having done、完成进行时having been doing和它们的不定式构成，且都有对应的被动语态。独立主格不能使用情态动词因而没有虚拟语气。<br>独立主格“时态”的选择也是由逻辑主语与动作的关系决定的。<br>还有一些习惯上的规律可循，如前置的独立主格一般表示原因、条件或结果，相当于对应功能的状语从句；而后置的独立主格一般表示补充说明伴随状况，相当于并列句或伴随状语从句；还有一种是以插入语的形式出现的，相当于方式状语从句。</p>
-<h2 id="逻辑介词引导的独立主格"><a href="#逻辑介词引导的独立主格" class="headerlink" title="逻辑介词引导的独立主格"></a>逻辑介词引导的独立主格</h2><p>当单独的独立主格不能表达独立主格和主句的某种逻辑关系或表达逻辑关系不够强烈时，就需要用逻辑介词引导独立主格。常用来引导独立主格的逻辑介词有with和without等。</p>
-<p>例：<br>    &emsp;&emsp;<em>The original manuscript has been hidden, without anyone knowing where it was.</em><br>    &emsp;&emsp;<em>原稿被藏起来了，没有人知道它在哪里。</em><br>    &emsp;&emsp;<em>He picked up the papers scattered on the ground, without a word more spoken.</em><br>    &emsp;&emsp;<em>他捡起散落在地上的文件，没有多说一句话。</em><br>    &emsp;&emsp;<em>The manager was so excited with many staffs to join the team.</em><br>    &emsp;&emsp;<em>有这么多的应聘者将要加入项目组，经理很高兴。</em><br>    &emsp;&emsp;<em>He stood before the door, with a computer in his hand. = He stood before the door, computer in hand.</em><br>    &emsp;&emsp;<em>他伫立在门前，手里拿着一部电脑。</em><br>    &emsp;&emsp;<em>With his son so sympathetic, the woman felt gratified.</em><br>    &emsp;&emsp;<em>女人为她的儿子如此有同情心而感到欣慰。</em></p>
-<h2 id="独立主格中的省略"><a href="#独立主格中的省略" class="headerlink" title="独立主格中的省略"></a>独立主格中的省略</h2><p>独立主格本身作为一个用以代替状语从句和并列句的结构，简略是其一大特点。因而在独立主格中，一些删去后不影响句子意思的词常被省略。</p>
-<h3 id="逻辑介词的省略与be的省略"><a href="#逻辑介词的省略与be的省略" class="headerlink" title="逻辑介词的省略与be的省略"></a>逻辑介词的省略与be的省略</h3><p>上文提到的with，在独立主格前置作状语时，就常常被省略，甚至在一些情况下(如逻辑主语是形式主语时)句首不能出现with。<br>be在独立主格中一般也会被省略，甚至包括be后的一些特殊的介词结构中的介词，变为“逻辑主语+形容词/副词”或“逻辑主语+宾语/介词宾语”的结构。</p>
-<p>例：<br>    &emsp;&emsp;<em>(<del>with</del>) There being no further business to discuss, we all went home.</em><br>    &emsp;&emsp;<em>没有别的事可讨论，我们都回家了。</em><br>    &emsp;&emsp;<em>With his son (been) so disappointing, the old man felt unhappy.</em><br>    &emsp;&emsp;<em>儿子如此令人失望，老人感到很伤心。</em><br>    &emsp;&emsp;<em>His first shot (been) (in) a failure, he fired again.</em><br>    &emsp;&emsp;<em>他的第一枪未命中，又打了一枪。</em></p>
-<p>但需要注意的是，与with类似的without不能省略，因为删去后句意将改变。</p>
-<p>关于独立主格中的省略，还有一些特殊规定，如独立主格中有结构介词in时，省略in前的be，前后的名词或代词均使用单数且不带任何成分，例：<br>    &emsp;&emsp;<em>The manager is standing in front of Amy, seriousness in face.</em><br>    &emsp;&emsp;<em>经理一脸严肃地站在艾米面前，</em><br>    &emsp;&emsp;<em>The sniper stood behind a wall without any movement, rifle in hand.</em><br>    &emsp;&emsp;<em>狙击手一动不动地站在一面墙后，手里拿着来福枪。</em></p>
-<h3 id="不完整的独立主格"><a href="#不完整的独立主格" class="headerlink" title="不完整的独立主格"></a>不完整的独立主格</h3><p>独立主格的省略还有一类特殊情况，它们是一种更像副词或介词的独立结构，通常是约定俗成的习惯用法。</p>
-<p>例：<br>    &emsp;&emsp;<em>generally speaking: 总的说来</em><br>    &emsp;&emsp;<em>frankly speaking: 坦白地说</em><br>    &emsp;&emsp;<em>judging from: 据…判断</em><br>    &emsp;&emsp;<em>according to: 据…说</em><br>    &emsp;&emsp;<em>considering (that): 考虑到…</em></p>
-<p>还有一类以不定式为特征的独立主格，它们常用作插入语。</p>
-<p>例：<br>    &emsp;&emsp;<em>to be honest: 实话实说</em><br>    &emsp;&emsp;<em>to be sure: 诚然</em><br>    &emsp;&emsp;<em>to tell the truth: 讲真的</em><br>    &emsp;&emsp;<em>to cut a long story short: 长话短说；简而言之</em></p>
-<h2 id="特殊情况"><a href="#特殊情况" class="headerlink" title="特殊情况"></a>特殊情况</h2><h3 id="独立主格作定语"><a href="#独立主格作定语" class="headerlink" title="独立主格作定语"></a>独立主格作定语</h3><p>独立主格在句中一般是作状语的，但这是一种由口语进入书面语的表达方式，也便有了一些例外情况，如作为以定语，但限于表达习惯，这种情况是极其少见的。</p>
-<p>例：<br>    &emsp;&emsp;<em>He is the person with a lot of debts to be repaid. = He is the person who has a lot of debts to be repaid.</em><br>    &emsp;&emsp;<em>他就是那个债务繁多的人。</em><br>    &emsp;&emsp;<em>The boy sitting here with nothing to do is Jim.</em><br>    &emsp;&emsp;<em>那个坐着无所事事的男孩就是吉姆。</em></p>
-<h1 id="悬垂-Dangling"><a href="#悬垂-Dangling" class="headerlink" title="悬垂(Dangling)"></a>悬垂(Dangling)</h1><p>悬垂是英语口语中的一种常见现象，本质上是一种由独立主格的主语省略带来的一种与独立结构对应的被修饰成分不明而产生的歧义现象。在不发生歧义的前提下，适当的悬垂能使表达更加简略，但在一些情况下则可能导致误会。</p>
-<h2 id="悬垂修饰语-Dangling-Modifier"><a href="#悬垂修饰语-Dangling-Modifier" class="headerlink" title="悬垂修饰语(Dangling Modifier)"></a>悬垂修饰语(Dangling Modifier)</h2><p>从这一名词的字面意思便可看出，悬垂修饰语是指悬垂的对主句起修饰作用的独立结构，但通常不包括分词短语。</p>
-<p>例：<br>    &emsp;&emsp;<em>At the age of eight, my family finally bought a dog.</em><br>    &emsp;&emsp;<em>在我八岁时，我家终于买了狗。</em><br>    &emsp;&emsp;<em>(分析：At the age of eight悬垂，它不依附于主句的主语my family finally，而正确的被修饰成分应该是说话者本人，但在句中并未出现)</em></p>
-<h2 id="悬垂分词-Dangling-Participle"><a href="#悬垂分词-Dangling-Participle" class="headerlink" title="悬垂分词(Dangling Participle)"></a>悬垂分词(Dangling Participle)</h2><p>悬垂分词与悬垂修饰语是类似的，只不过这种情况下作为独立结构的是分词短语。分词短语一般放在句首或句末，当被省略的逻辑主语与主句主语不一致或主句缺失时，分词短语就发生悬垂，这种情况就称为悬垂分词。</p>
-<p>例：<br>    &emsp;&emsp;<em>Walking down Main Street, the trees were beautiful.</em><br>    &emsp;&emsp;<em>走在大街上，树木很美。</em><br>    &emsp;&emsp;<em>(分析：Walking down Main Street悬垂，它不依附于主句的主语the trees，而正确的被修饰成分应该是说话者本人，这显然是一个只有人才能进行的动作，但说话者本人并未在句中出现)</em></p>
-<h1 id="误置-Misplaced"><a href="#误置-Misplaced" class="headerlink" title="误置(Misplaced)"></a>误置(Misplaced)</h1><p>误置是另一种歧义现象，这种现象在写作中较为少见，但在口语中却尤其常见于话语的即兴补充部分。误置的特征是主句和独立结构本身不存在问题，但因主句和独立结构的位置关系错误而发生歧义。</p>
-<p>例：<br>    &emsp;&emsp;<em>I saw the trailer peeking through the window.</em><br>    &emsp;&emsp;<em>我从窗口望见了卡车。</em><br>    &emsp;&emsp;<em>(分析：peeking through the window误置，被修饰成分本应是说话者本人，但在句中被修饰成分却似the trailer，原因是独立结构的错误后置)</em></p>
-<h1 id="结论与分析"><a href="#结论与分析" class="headerlink" title="结论与分析"></a>结论与分析</h1><p>就如开头所言，悬垂和误置都是英语语法中常见的歧义现象，它们在本质上都源于独立主格的简略性与随意性。<br>但英语作为一种语言，从其长久发展来看，这种情况的出现是正常且必然的。相比歧义现象带来的不便与误会，适当的简略性与随意性给表达带来的极大方便也是不容忽视的。我们不应该严厉杜绝这种导致歧义现象的简略性与随意性，而如何在接收到带有这种歧义现象的信息时正确理解才是更加值得考虑的问题。笔者认为，在接收到带有悬垂或误置结构的句子信息时，首先将主结构与悬垂结构分别解读，再判断主结构与悬垂结构的逻辑关系，最后对整个句子的句意作诠释，在绝大多数情况下，不会产生曲解和误会。<br>此外，悬垂和误置本身作为一种主观性和随意性较强的争议性结构，多出现在日常对话等非正式场合，是英语文法主观能动性的一种体现，但在书面语或正式场合中，发言者应尽量避免该类结构的出现，确保语言的逻辑性和严谨性。</p>
-]]></content>
-      <categories>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>英语语法歧义现象</tag>
       </tags>
   </entry>
   <entry>
@@ -642,6 +642,25 @@
       </tags>
   </entry>
   <entry>
+    <title>在LaTeX中输出平行四边形符号</title>
+    <url>/2024/10/07/2024-10-07--Parallelogram-in-LaTeX/</url>
+    <content><![CDATA[<p>在LaTeX中，我们能快速地运用其强大的排版功能对各类数学公式进行排版，但在LaTeX宏集中预定义的只有国际标准符号，而平行四边形符号并不在其中，故我们无法直接通过LaTeX或<code>amsmath</code>等数学宏包中的预定义命令输出这一符号。对此，一种比较通俗的做法是使用Unicode字符▱，但在大多数输入法中该字符较难输入。因此，如需在一个文档中大量使用该符号，利用如<code>TikZ</code>等绘图宏包自定义一个命令是较为方便的，例如：<span id="more"></span></p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>&#123;article&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>&#123;amsmath&#125;</span><br><span class="line"><span class="keyword">\usepackage</span>&#123;tikz&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\newcommand</span><span class="keyword">\parallelogram</span>&#123;<span class="comment">%</span></span><br><span class="line">    <span class="keyword">\mathord</span>&#123;<span class="keyword">\text</span>&#123;<span class="comment">%</span></span><br><span class="line">        <span class="keyword">\tikz</span>[baseline] <span class="keyword">\draw</span> (0,.1ex) -- (.8em,.1ex) -- (1em,1.6ex) -- (.2em,1.6ex) -- cycle;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
+<p>上方的代码通过<code>TikZ</code>宏包定义了一个命令<code>\parallelogram</code>，在正文部分中，只需在数学公式环境下使用该命令即可输出平行四边形符号。</p>
+<p>在文档中使用该命令绘制平行四边形的输出效果如下图所示：</p>
+<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;document&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\[</span><span class="keyword">\parallelogram</span> ABCD<span class="keyword">\]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
+<p><img src="/images/2024-10-02--Parallelogram-in-LaTeX/Parallelogram.png" alt="Parallelogram"> </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>简介14个化工产业链</title>
     <url>/2024/10/04/2024-10-04--Chemical-Industry/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>最近因为项目上的原因，需要对化工领域产业链有一定了解，现将各个产业链的概况总结为本文。<span id="more"></span></p>
@@ -698,25 +717,6 @@
       </tags>
   </entry>
   <entry>
-    <title>在LaTeX中输出平行四边形符号</title>
-    <url>/2024/10/07/2024-10-07--Parallelogram-in-LaTeX/</url>
-    <content><![CDATA[<p>在LaTeX中，我们能快速地运用其强大的排版功能对各类数学公式进行排版，但在LaTeX宏集中预定义的只有国际标准符号，而平行四边形符号并不在其中，故我们无法直接通过LaTeX或<code>amsmath</code>等数学宏包中的预定义命令输出这一符号。对此，一种比较通俗的做法是使用Unicode字符▱，但在大多数输入法中该字符较难输入。因此，如需在一个文档中大量使用该符号，利用如<code>TikZ</code>等绘图宏包自定义一个命令是较为方便的，例如：<span id="more"></span></p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>&#123;article&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>&#123;amsmath&#125;</span><br><span class="line"><span class="keyword">\usepackage</span>&#123;tikz&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\newcommand</span><span class="keyword">\parallelogram</span>&#123;<span class="comment">%</span></span><br><span class="line">    <span class="keyword">\mathord</span>&#123;<span class="keyword">\text</span>&#123;<span class="comment">%</span></span><br><span class="line">        <span class="keyword">\tikz</span>[baseline] <span class="keyword">\draw</span> (0,.1ex) -- (.8em,.1ex) -- (1em,1.6ex) -- (.2em,1.6ex) -- cycle;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
-<p>上方的代码通过<code>TikZ</code>宏包定义了一个命令<code>\parallelogram</code>，在正文部分中，只需在数学公式环境下使用该命令即可输出平行四边形符号。</p>
-<p>在文档中使用该命令绘制平行四边形的输出效果如下图所示：</p>
-<figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\begin</span>&#123;document&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\[</span><span class="keyword">\parallelogram</span> ABCD<span class="keyword">\]</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">\end</span>&#123;document&#125;</span><br></pre></td></tr></table></figure>
-<p><img src="/images/2024-10-02--Parallelogram-in-LaTeX/Parallelogram.png" alt="Parallelogram"> </p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>LaTeX</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>谈谈期刊影响因子</title>
     <url>/2024/10/12/2024-10-12--Impact-Factor/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>许多科研工作者，在发表学术论文时，为了确保其论文的质量和学术影响力，往往会从多个方面进行考量。一般来说，不同的学术期刊往往侧重于刊登不同领域的文章，而学术工作者需要首先确保其论文能被发表在对应领域的刊物上，才能获得更多同业工作者的阅读及引用。</p>
@@ -732,6 +732,21 @@
 ]]></content>
       <tags>
         <tag>醉仙阁杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>纯粹数学科普系列(三)：特殊函数(三)</title>
+    <url>/2024/10/25/2024-10-25--Bessel/</url>
+    <content><![CDATA[<p>由于近日公务繁多，无暇写作，因而本次更新内容较少但历时较长。</p>
+<p>内容方面，这是本系列文章的第三卷，内容主要为贝塞尔函数。至此，本系列文章一共完成四卷，分别是第一卷（Gamma函数、Polygamma函数、黎曼Zeta函数和Beta函数）、第二卷（Polylog函数）、第三卷（贝塞尔函数）和第四卷（超几何函数），短期暂时不会再推出新的内容了。</p>
+<p>此后，笔者的工作计划主要是将它们的一些应用作一定的补充，如黎曼Zeta函数在解析数论中的重要应用、Polylog函数与对数积分和欧拉和的联系、Bessel函数在极坐标系上求解偏微分方程的应用，还包括之前有许多读者留言询问的常微分方程级数解的有关技术，在最后形成完整的系列文章之后再进行一次统一的发布。</p>
+<p><a href="/files/bessel.pdf">特殊函数(三)</a> </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -764,21 +779,6 @@
         <tag>醉仙阁杂谈</tag>
         <tag>Social Science</tag>
         <tag>资本论学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>纯粹数学科普系列(三)：特殊函数(三)</title>
-    <url>/2024/10/25/2024-10-25--Bessel/</url>
-    <content><![CDATA[<p>由于近日公务繁多，无暇写作，因而本次更新内容较少但历时较长。</p>
-<p>内容方面，这是本系列文章的第三卷，内容主要为贝塞尔函数。至此，本系列文章一共完成四卷，分别是第一卷（Gamma函数、Polygamma函数、黎曼Zeta函数和Beta函数）、第二卷（Polylog函数）、第三卷（贝塞尔函数）和第四卷（超几何函数），短期暂时不会再推出新的内容了。</p>
-<p>此后，笔者的工作计划主要是将它们的一些应用作一定的补充，如黎曼Zeta函数在解析数论中的重要应用、Polylog函数与对数积分和欧拉和的联系、Bessel函数在极坐标系上求解偏微分方程的应用，还包括之前有许多读者留言询问的常微分方程级数解的有关技术，在最后形成完整的系列文章之后再进行一次统一的发布。</p>
-<p><a href="/files/bessel.pdf">特殊函数(三)</a> </p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
