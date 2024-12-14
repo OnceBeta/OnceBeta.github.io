@@ -388,20 +388,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Trolley-Problem/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Philosophy/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Javascript/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -410,6 +396,20 @@
   
   <url>
     <loc>http://once4623.site/tags/Node-js/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Trolley-Problem/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Philosophy/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -451,13 +451,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Graph-Theory/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Math/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
@@ -480,6 +473,13 @@
   
   <url>
     <loc>http://once4623.site/tags/LaTeX/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Graph-Theory/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -544,14 +544,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Social-Science/</loc>
+    <loc>http://once4623.site/categories/Computer-Skill/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Computer-Skill/</loc>
+    <loc>http://once4623.site/categories/Social-Science/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
