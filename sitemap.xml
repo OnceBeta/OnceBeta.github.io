@@ -395,21 +395,7 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Mathematics/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Probability/</loc>
-    <lastmod>2024-12-14</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Social-View/</loc>
+    <loc>http://once4623.site/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95%E6%AD%A7%E4%B9%89%E7%8E%B0%E8%B1%A1/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -430,7 +416,21 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/%E8%8B%B1%E8%AF%AD%E8%AF%AD%E6%B3%95%E6%AD%A7%E4%B9%89%E7%8E%B0%E8%B1%A1/</loc>
+    <loc>http://once4623.site/tags/Mathematics/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Probability/</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Social-View/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -551,14 +551,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Math/</loc>
+    <loc>http://once4623.site/categories/Social-Science/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Social-Science/</loc>
+    <loc>http://once4623.site/categories/Math/</loc>
     <lastmod>2024-12-14</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
