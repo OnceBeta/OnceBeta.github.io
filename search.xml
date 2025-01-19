@@ -383,53 +383,6 @@
       </tags>
   </entry>
   <entry>
-    <title>美女的硬币游戏</title>
-    <url>/2023/08/06/2023-08-06--Coin-Game/</url>
-    <content><![CDATA[<p>这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：<br>当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”<br>那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？<br><span id="more"></span><br>我们可以用一张表格简明地表示这个游戏中可能出现的各种情况，以及每种情况发生时你的盈亏，这是博弈论中相当常见的支付矩阵(<em>Payoff Matrix</em>)。</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>美女，你</th>
-<th>正</th>
-<th>反</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>正</td>
-<td>3</td>
-<td>-2</td>
-</tr>
-<tr>
-<td>反</td>
-<td>-2</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>通过上面的表格，我们可以发现，游戏总共有4种可能发生的情况。更进一步地说，如果每种情况发生的概率相等，都是$\frac{1}{4}$，那么通过概率论的知识可以算出你的收益期望值：</p>
-<script type="math/tex; mode=display">E = \frac{1}{4} \times (3+1-2-2) = 0</script><p>这么看来，游戏似乎是公平的，长期看来，你的收益是$0$元，不赚也不亏。<br>但是事实真的是如此吗？或者说，每种情况发生的概率真的相等吗？<br>在这个游戏中，我们之所以会不假思索地认为每种情况发生的概率相等，是由于各种“抛硬币游戏”带来的思维定势。但在这个例子中，双方做的并不是“各自抛一枚硬币”，而是“各自亮出一枚硬币”。换句话说，每种情况发生的概率，取决于双方的决策。<br>更进一步地说，双方都可以以一定的概率选择亮出硬币的正面或反面。在这里，我们假设美女亮出正面的概率为$p$，你亮出正面的概率为$q$。此时，你的收益期望值变为：</p>
-<script type="math/tex; mode=display">E = 3pq-2p(1-q)-2(1-p)q+(1-p)(1-q)</script><script type="math/tex; mode=display">= 8pq - 3p - 3q + 1</script><script type="math/tex; mode=display">= p(8q-3)-(3q-1)</script><p>显然，当$p,q$在$0$到$1$之间任意取值时，你的收益期望值并不一定是$0$。<br>另一方面，我们可以发现这场游戏的本质是“零和博弈(<em>Zero-sum Game</em>)”，换言之，美女赢的钱就是你输的钱，你赢的钱就是美女输的钱。数学上，如果你的收益期望值是$E$，那么美女的收益期望值就是$-E$。<br>那么如果我们站在美女的角度来考虑问题，如果她有一种策略可以令$E&lt;0$，则在长期看来她便可以赢走你的钱，即：</p>
-<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
-<script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
-<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
-<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0 &lt; q &lt; \frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p&gt;\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
-<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
-<script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
-<script type="math/tex; mode=display">E_B = -2q+(1-q)</script><p>由上述分析，再令$E_F=E_B$，可以解得$p=\frac{3}{8}$。而这个最大化的收益期望值，恰恰就是上文中计算过的：</p>
-<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。<br>美女的硬币游戏，是博弈论中相当经典的模型之一，它十分清晰地表明了在不完全信息博弈中，掌握规则的制定权是多么重要，而生活中在那些我们习以为常的表面公平的规则背后，往往也暗藏着剥削与不公。</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>Mathematics</tag>
-        <tag>Probability</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>英文经典短篇翻译(一)：奥斯维辛没有新闻</title>
     <url>/2023/08/31/2023-08-31--Translation-No-News-from-Auschwitz/</url>
     <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><em>No News from Auschwitz</em> ，《奥斯维辛没有新闻》是一篇著名的新闻稿，于1958年8月31日刊登于《纽约时报》。作者亚伯拉罕·迈克尔·罗森塔尔(<em>A. M. Rosenthal</em>)在此后曾任《纽约时报》的执行主编和专栏作者，也是美国历史上最著名的新闻编辑之一。</p>
@@ -522,25 +475,59 @@
       </tags>
   </entry>
   <entry>
+    <title>美女的硬币游戏</title>
+    <url>/2023/08/06/2023-08-06--Coin-Game/</url>
+    <content><![CDATA[<p>这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：<br>当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”<br>那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？<br><span id="more"></span><br>我们可以用一张表格简明地表示这个游戏中可能出现的各种情况，以及每种情况发生时你的盈亏，这是博弈论中相当常见的支付矩阵(<em>Payoff Matrix</em>)。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>美女，你</th>
+<th>正</th>
+<th>反</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正</td>
+<td>3</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>反</td>
+<td>-2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>通过上面的表格，我们可以发现，游戏总共有4种可能发生的情况。更进一步地说，如果每种情况发生的概率相等，都是$\frac{1}{4}$，那么通过概率论的知识可以算出你的收益期望值：</p>
+<script type="math/tex; mode=display">E = \frac{1}{4} \times (3+1-2-2) = 0</script><p>这么看来，游戏似乎是公平的，长期看来，你的收益是$0$元，不赚也不亏。<br>但是事实真的是如此吗？或者说，每种情况发生的概率真的相等吗？<br>在这个游戏中，我们之所以会不假思索地认为每种情况发生的概率相等，是由于各种“抛硬币游戏”带来的思维定势。但在这个例子中，双方做的并不是“各自抛一枚硬币”，而是“各自亮出一枚硬币”。换句话说，每种情况发生的概率，取决于双方的决策。<br>更进一步地说，双方都可以以一定的概率选择亮出硬币的正面或反面。在这里，我们假设美女亮出正面的概率为$p$，你亮出正面的概率为$q$。此时，你的收益期望值变为：</p>
+<script type="math/tex; mode=display">E = 3pq-2p(1-q)-2(1-p)q+(1-p)(1-q)</script><script type="math/tex; mode=display">= 8pq - 3p - 3q + 1</script><script type="math/tex; mode=display">= p(8q-3)-(3q-1)</script><p>显然，当$p,q$在$0$到$1$之间任意取值时，你的收益期望值并不一定是$0$。<br>另一方面，我们可以发现这场游戏的本质是“零和博弈(<em>Zero-sum Game</em>)”，换言之，美女赢的钱就是你输的钱，你赢的钱就是美女输的钱。数学上，如果你的收益期望值是$E$，那么美女的收益期望值就是$-E$。<br>那么如果我们站在美女的角度来考虑问题，如果她有一种策略可以令$E&lt;0$，则在长期看来她便可以赢走你的钱，即：</p>
+<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
+<script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
+<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
+<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0 &lt; q &lt; \frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p&gt;\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
+<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
+<script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
+<script type="math/tex; mode=display">E_B = -2q+(1-q)</script><p>由上述分析，再令$E_F=E_B$，可以解得$p=\frac{3}{8}$。而这个最大化的收益期望值，恰恰就是上文中计算过的：</p>
+<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。<br>美女的硬币游戏，是博弈论中相当经典的模型之一，它十分清晰地表明了在不完全信息博弈中，掌握规则的制定权是多么重要，而生活中在那些我们习以为常的表面公平的规则背后，往往也暗藏着剥削与不公。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Mathematics</tag>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>纯粹数学科普系列(一)：特殊函数(一)</title>
     <url>/2024/08/18/2024-08-18--SF1/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>近日公务繁多，奔走劳碌，却偶感内心空洞，所望皆虚，乃思忆起多年以前那段徜徉在数学和真理当中的日子。遂于这几日夜半心猿意马，挑灯提笔，以为撰文思过往。</p>
 <h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这是本人近日开始着手撰写的纯粹数学科普系列文章的第一篇，内容主要是基础数学与解析数论当中的一些特殊函数，总体来说难度不算太大。但由于本人已有多年未接触数学，且工作繁忙，行文仓促，内容可能存在笔误与疏漏，恳请读者指出与纠正。</p>
 <p>由于全文数学公式繁多，我将链接附在下方，欢迎阅读。</p>
 <p><a href="/files/sf.pdf">特殊函数(一)</a> </p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>纯粹数学科普系列(二)：特殊函数(二)</title>
-    <url>/2024/09/13/2024-09-13--Polylog/</url>
-    <content><![CDATA[<p>这是本系列文章的第二篇，内容同样为特殊函数，这次主要内容为多重对数函数，其中也简单地介绍了一下欧拉和(Euler Sum)和MZV(Multivariate Zeta Value)，但主要还是以数学分析和复变函数论为主。</p>
-<p><a href="/files/polylog.pdf">特殊函数(二)</a> </p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -698,8 +685,21 @@
       </tags>
   </entry>
   <entry>
+    <title>纯粹数学科普系列(二)：特殊函数(二)</title>
+    <url>/2024/09/13/2024-09-13--Polylog/</url>
+    <content><![CDATA[<p>这是本系列文章的第二篇，内容同样为特殊函数，这次主要内容为多重对数函数，其中也简单地介绍了一下欧拉和(Euler Sum)和MZV(Multivariate Zeta Value)，但主要还是以数学分析和复变函数论为主。</p>
+<p><a href="/files/polylog.pdf">特殊函数(二)</a> </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在LaTeX中输出平行四边形符号</title>
-    <url>/2024/10/07/2024-10-07--Parallelogram-in-LaTeX/</url>
+    <url>/2024/10/07/2024-10-07--Parallelogram-In-LaTeX/</url>
     <content><![CDATA[<p>在LaTeX中，我们能快速地运用其强大的排版功能对各类数学公式进行排版，但在LaTeX宏集中预定义的只有国际标准符号，而平行四边形符号并不在其中，故我们无法直接通过LaTeX或<code>amsmath</code>等数学宏包中的预定义命令输出这一符号。对此，一种比较通俗的做法是使用Unicode字符▱，但在大多数输入法中该字符较难输入。因此，如需在一个文档中大量使用该符号，利用如<code>TikZ</code>等绘图宏包自定义一个命令是较为方便的，例如：<span id="more"></span></p>
 <figure class="highlight latex"><table><tr><td class="code"><pre><span class="line"><span class="keyword">\documentclass</span>&#123;article&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\usepackage</span>&#123;amsmath&#125;</span><br><span class="line"><span class="keyword">\usepackage</span>&#123;tikz&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">\newcommand</span><span class="keyword">\parallelogram</span>&#123;<span class="comment">%</span></span><br><span class="line">    <span class="keyword">\mathord</span>&#123;<span class="keyword">\text</span>&#123;<span class="comment">%</span></span><br><span class="line">        <span class="keyword">\tikz</span>[baseline] <span class="keyword">\draw</span> (0,.1ex) -- (.8em,.1ex) -- (1em,1.6ex) -- (.2em,1.6ex) -- cycle;&#125;&#125;&#125;</span><br></pre></td></tr></table></figure>
 <p>上方的代码通过<code>TikZ</code>宏包定义了一个命令<code>\parallelogram</code>，在正文部分中，只需在数学公式环境下使用该命令即可输出平行四边形符号。</p>
@@ -1070,11 +1070,13 @@
       </tags>
   </entry>
   <entry>
-    <title>一类交错级数的解法</title>
-    <url>/2025/01/15/Closed-Form-of-an-Alternating-Series/</url>
-    <content><![CDATA[<p>在数学分析中，所谓莱布尼茨级数(也被称为交错级数, Alternating Series)一般是指所有项的符号为正负交替出现的一类级数。本文将以下面的级数为例，讨论一类分母为一次多项式的莱布尼茨级数的解析解求法。</p>
+    <title>数术杂编(一)：一类交错级数的解法</title>
+    <url>/2025/01/15/2025-01-15--Closed-Form-Of-An-Alternating-Series/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本系列收录笔者在日常中遇到的一些比较有意思的数学题目，它们一般是一些难度较高或比较巧妙的积分或级数。</p>
+<p>在数学分析中，所谓莱布尼茨级数(也被称为交错级数, Alternating Series)一般是指所有项的符号为正负交替出现的一类级数。本文将以下面的级数为例，讨论一类分母为一次多项式的莱布尼茨级数的解析解求法。</p>
 <script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} = \frac{\pi}{3\sqrt{3}} + \frac{1}{3}\log 2</script><span id="more"></span>
-<p>【解】<br>考虑函数：</p>
+<p>【解】</p>
+<p>考虑函数：</p>
 <script type="math/tex; mode=display">f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} x^{3n+1}</script><p>求导得：</p>
 <script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{3n} = \frac{1}{1+x^3}</script><p>故：</p>
 <script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{dt}{1+t^3}</script><p>因此：</p>
@@ -1091,6 +1093,50 @@
       <tags>
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
+        <tag>数术杂编</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数术杂编(二)：一个与三角函数有关的积分的改良</title>
+    <url>/2025/01/20/2025-01-20--Improvement-Of-An-Interesting-Integral-Related-To-Trigonometric-Functions/</url>
+    <content><![CDATA[<p>今晚在无意间发现并解决了一个很有意思且颇有难度的定积分题目，事情的起因源于笔者对如下这个简单的定积分的改良：</p>
+<script type="math/tex; mode=display">\int_{0}^{\pi} \frac{x\sin x}{1+\cos^2 x} dx</script><p>这个积分可以通过区间再现公式的一个推论解决，即如下一般性的结论：</p>
+<script type="math/tex; mode=display">\int_{0}^{\pi} xf(\sin x) dx = \frac{\pi}{2}\int_{0}^{\pi} f(\sin x) dx</script><span id="more"></span>
+<p>利用上述性质，我们可以简单地解决上面的定积分，具体的计算过程如下：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\pi} \frac{x\sin x}{1+\cos^2 x} dx & = \frac{\pi}{2}\int_{0}^{\pi} \frac{\sin x}{1+\cos^2 x} dx \\
+& = \frac{\pi}{2} \int_{0}^{\pi} \frac{\sin x}{1+\cos^2 x} dx \\
+& = \frac{\pi}{2} \int_{-1}^{1} \frac{dx}{1+x^2} \\
+& = \frac{\pi}{2} [\arctan x]_{-1}^{1} \\
+& = \frac{\pi}{2} \left(\frac{\pi}{4} + \frac{\pi}{4}\right) \\
+& = \frac{\pi^2}{4}
+\end{align*}</script><p>我于是又突发奇想道，倘若把积分上限的$\pi$改为$\tfrac{\pi}{2}$又会发生什么呢？即考虑下面的定积分：</p>
+<script type="math/tex; mode=display">\int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx</script><p>在经过一番无果的尝试后，我开始怀疑这个积分是否具有解析解，于是决定把它喂给Wolfram Alpha。又经过了一番漫长的等待，就在我准备盖棺定论地认为该积分并没有解析解时，Wolfram Alpha竟意外地给出了答案：</p>
+<script type="math/tex; mode=display">\int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx = -\frac{1}{2}\log^2 (1+\sqrt{2}) + \frac{\pi^2}{8}</script><p>这表明我最初的判断是错误的，但Wolfram Alpha只给出了结果，并没有给出具体的计算过程，这勾起了强烈的好奇心。由于积分区间发生了变化，区间再现公式已经不再适用，各种各样的换元法也无法带来实质性的进展，我的求解过程只得再度陷入了停滞。</p>
+<p>尽管如此，在通过在各种角度对结果中两个项的观察后，我还是通过无穷级数的手段解决了它，解的第一步也是关键利用了著名Wallis积分。我将具体的计算过程贴在下面：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+\int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx & = \sum_{n=0}^{\infty} (-1)^n \int_{0}^{\frac{\pi}{2}} x\sin x\cos^{2n} x dx \\
+& = \sum_{n=0}^{\infty} (-1)^n \frac{(2n)!!}{(2n+1)!!(2n+1)} \\
+& = \int_{0}^{1} \frac{\arcsinh x}{x\sqrt{1+x^2}} dx \\
+& = \left. -\arcsinh x\arcsinh\left(\frac{1}{x}\right)\right|_0^1 + \int_{1}^{\infty} \frac{\arcsinh x}{x\sqrt{1+x^2}} dx \\
+& = -\frac{1}{2}\arcsin^2 1 + \frac{1}{2}\int_{0}^{\infty} \frac{\arcsinh x}{x\sqrt{1+x^2}} dx \\
+& = -\frac{1}{2}\arcsin^2 1 + \frac{1}{2}\int_{0}^{\infty} \frac{x}{\sinh x} dx \\
+& = -\frac{1}{2}\arcsin^2 1 + \frac{1}{2}\int_{0}^{\infty} \frac{xe^{-x}}{1+e^{-2x}} dx \\
+& = -\frac{1}{2}\arcsin^2 1 + \sum_{n=0}^{\infty} (-1)^n \int_{0}^{\infty} xe^{-(2n+1)x} dx \\
+& = -\frac{1}{2}\arcsin^2 1 + \sum_{n=0}^{\infty} \frac{(-1)^n}{(2n+1)^2} \\
+& = -\frac{1}{2}\log^2 (1+\sqrt{2}) + \frac{\pi^2}{8} 
+\end{align*}</script><p>至此便又解决了一个颇具挑战性的定积分，这大概也是作为一个积佬的乐趣所在吧。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>数术杂编</tag>
+        <tag>Integral</tag>
       </tags>
   </entry>
 </search>
