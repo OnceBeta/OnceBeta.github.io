@@ -1,0 +1,1424 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next mist use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+  <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css">
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon-32x32.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon-16x16.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Mist',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="引子在美国，买卖资产如果赚钱了要交税，也就是常说的资本利得税(Capital Gains Tax, CGT)。资本利得税在美国是一种十分重要的税种，你所买卖的资产，不管是邮票，还是汽车；不管是房产，还是股票，只要通过买卖某宗资产赚钱了，就需要缴纳资本利得税。">
+<meta property="og:type" content="article">
+<meta property="og:title" content="谈谈美国的资本利得税与个人税务规划">
+<meta property="og:url" content="http://once4623.site/2025/01/24/2025-01-24--Capital-Gains-Tax-In-The-US-And-Personal-Tax-Planning/index.html">
+<meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="引子在美国，买卖资产如果赚钱了要交税，也就是常说的资本利得税(Capital Gains Tax, CGT)。资本利得税在美国是一种十分重要的税种，你所买卖的资产，不管是邮票，还是汽车；不管是房产，还是股票，只要通过买卖某宗资产赚钱了，就需要缴纳资本利得税。">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-01-23T17:31:26.000Z">
+<meta property="article:modified_time" content="2025-01-23T18:25:44.887Z">
+<meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="醉仙阁杂谈">
+<meta property="article:tag" content="Finance">
+<meta property="article:tag" content="Account">
+<meta property="article:tag" content="Taxation">
+<meta property="article:tag" content="财务规划">
+<meta name="twitter:card" content="summary">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="醉仙阁" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://once4623.site/2025/01/24/2025-01-24--Capital-Gains-Tax-In-The-US-And-Personal-Tax-Planning/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>谈谈美国的资本利得税与个人税务规划 | 醉仙阁</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">醉仙阁</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">孤亭一座，美酒一盏；故人一梦，笙歌一曲。</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-notes">
+    <a href="/notes/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />札记</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+    
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script language="javascript" src="/plugin/clicking.js"></script>
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2025/01/24/2025-01-24--Capital-Gains-Tax-In-The-US-And-Personal-Tax-Planning/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">谈谈美国的资本利得税与个人税务规划
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2025-01-24 01:31:26" itemprop="dateCreated datePublished" datetime="2025-01-24T01:31:26+08:00">2025-01-24</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Finance/" itemprop="url" rel="index"><span itemprop="name">Finance</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">3.5k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">3 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>在美国，买卖资产如果赚钱了要交税，也就是常说的资本利得税(Capital Gains Tax, CGT)。资本利得税在美国是一种十分重要的税种，你所买卖的资产，不管是邮票，还是汽车；不管是房产，还是股票，只要通过买卖某宗资产赚钱了，就需要缴纳资本利得税。<span id="more"></span></p>
+<p>在美国，资本利得税的税基为买卖资产时所实现的增值部分(Realized Gain)，举个例子，如果你买入一套房产的价格为40万美元，而卖出的价格为60万美元，那么你需要对20万美元的增值部分缴纳资本利得税。此外，资本利得税还分为短期资本利得税和长期资本利得税，这取决于你持有对应资产的时间长短，不足一年则为短期，超过一年则为长期，一般来说，短期资本利得税的税率和工资收入(Ordinary Income)相同，要明显高于长期资本利得税。最后，资本利得税的税率还取决于个人收入，具体的征收标准如下表所示(截至本文的发表时间)：</p>
+<h2 id="短期资本利得"><a href="#短期资本利得" class="headerlink" title="短期资本利得"></a>短期资本利得</h2><p>短期资本利得指的是投资者持有资产一年或更短时间后出售所获得的利润。根据2023年的税法，短期资本利得的税率与个人所得税的普通税率相同，分为以下几个档次：</p>
+<ul>
+<li>10%：适用于年收入不超过11,925美元的单身纳税人，以及年收入不超过23,850美元的已婚联合申报纳税人。</li>
+<li>12%：适用于年收入在11,926至48,475美元之间的单身纳税人，以及年收入在23,851至96,950美元之间的已婚联合申报纳税人。</li>
+<li>22%：适用于年收入在48,476至103,350美元之间的单身纳税人，以及年收入在96,951至206,700美元之间的已婚联合申报纳税人。</li>
+<li>24%：适用于年收入在103,351至197,300美元之间的单身纳税人，以及年收入在206,701至394,600美元之间的已婚联合申报纳税人。</li>
+<li>32%：适用于年收入在197,301至250,525美元之间的单身纳税人，以及年收入在394,601至501,050美元之间的已婚联合申报纳税人。</li>
+<li>35%：适用于年收入在250,526至626,350美元之间的单身纳税人，以及年收入在501,051至751,600美元之间的已婚联合申报纳税人。</li>
+<li>37%：适用于年收入超过626,350美元的单身纳税人，以及年收入超过751,600美元的已婚联合申报纳税人。</li>
+</ul>
+<h2 id="长期资本利得"><a href="#长期资本利得" class="headerlink" title="长期资本利得"></a>长期资本利得</h2><p>长期资本利得指的是投资者持有资产超过一年后出售所获得的利润。长期资本利得的税率通常低于短期资本利得税率，这反映了美国税法鼓励长期投资的政策。税率分为三个档次：</p>
+<ul>
+<li>0%：适用于年收入不超过48,350美元的单身纳税人，以及年收入不超过96,700美元的已婚联合申报纳税人。</li>
+<li>15%：适用于年收入在48,350至533,400美元之间的单身纳税人，以及年收入在96,700至600,050美元之间的已婚联合申报纳税人。</li>
+<li>20%：适用于年收入超过533,400美元的单身纳税人，以及年收入超过600,050美元的已婚联合申报纳税人。</li>
+</ul>
+<h1 id="房地产"><a href="#房地产" class="headerlink" title="房地产"></a>房地产</h1><p>在美国，买卖房地产是作为一个普通人所能接触到的最大宗的资产交易。在美国税法当中，有一项针对自住房的免税额度，即如果买卖的房产为自住房，则单身纳税人享有25万美元的免税额，或已婚联合申报纳税人享有50万美元的免税额。用一开始的例子，如果你买卖的房产是自住房，则增值部分20万美元在25万美元的免税额以内，那么你在这宗交易当中可享有免征资本利得税；但是如果卖出的价格为70万美元，则增值部分为30万美元，超过了25万美元的免税额，那么你需要对超出的部分5万美元缴纳资本利得税。<br>那么联邦税务局如何判断买卖的房产是不是自住房呢？通过税表上的住址信息，如果你在报税的时候，税表上的住址信息是该处房产，则认为你居住在该处房产中。只要在卖房时间点的前五年内，至少有两年的税表的住址信息是该处房产的，则该处房产就适用自住房免税政策。<br>所以，在有卖出房产的规划时，可以回想一下过去五年内是否有两年时间的税务申报地址属于该处房产，如果时间刚好差不多两年，且你又预计在未来一阵子里房价不会大跌，那么就可以适当延后卖房计划，省下一笔不菲的资本利得税。</p>
+<h1 id="固收产品"><a href="#固收产品" class="headerlink" title="固收产品"></a>固收产品</h1><p>我们进行资产投资所赚取的收益一般有两种形式，一种是通过低买高卖所赚取的差价部分，一种是资产所有权所提供的现金流，如租金、分红或利息。后者也被称为固定收益产品。根据美国税法规定，固定收益产品所提供的现金流收益应计入个人收入，并征收个人所得税。</p>
+<p>所以，如果你每月、每季度或每年收到固定收益产品提供的现金流而随时交税的话，就是一件十分吃亏的事情。对此，一个比较有效的策略是尽可能将这类需要长期持有的提供固定收益的资产放在退休账户中，因为退休账户可以享有免税增长(Grow Tax Free)。</p>
+<p>而对于看涨的资产，主要是通过低买高卖实现投资收益的资产，则可以放在一般账户中。但也可以通过制定周详的税务规划，在合适的时机进行资产交易，规避一些不必要的税收。这是因为对于增值的资产，持有者只在卖出的时候才交税(Realized Gain)。</p>
+<p>具体地说，由于美国对资本利得税也实行阶梯税率，税率的高低取决于纳税人当前年度的工资收入(Ordinary Gain)。因此，你在考虑卖出某项处于盈利状态的资产时，可以考虑在工资收入较少的年份进行交易，从而达到降低税率的目的。</p>
+<h1 id="股票"><a href="#股票" class="headerlink" title="股票"></a>股票</h1><p>对于长期持有股票的投资者，如果考虑卖出上涨盈利的股票，应注意持有时间是否超过一年。如果持有股票的时间不足一年，则会被按照短期资本利得税的税率对增值部分征税，税收成本较高。</p>
+<p>因此，股票的长期投资者在考虑卖出盈利的股票时，在非紧急情况且预期股价不会大跌的情况下，可以考虑持有超过一年时间在卖，或在年度工资收入(Ordinary Income)较少的年份卖出，这样就可以少交资本利得税。</p>
+<p>此外，对于个人来说，如果投资损失超过了投资收益，净损失可以被利用在一般所得税的减免中。每年每个个人可以申报一定额度的净投资损失（如3,000美元）用来减免一般所得税，剩余的投资损失还可以归入下一年继续用来计算下一年的资本利得净值，当你的投资发生较大亏损时，这些投资损失也应该被纳入到未来一年甚至几年的税务规划当中。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>美国税制历史悠久，自1787年美国新宪法发布首次规定联邦政府享有独立征税权以来，美国税制经历了从关税为主到商品税、再到所得税为主体的演变，形成了如今以所得税为核心，辅以商品税、财产税、社会保险税等多税种并存的复杂税收体系，旨在调节经济、促进社会公平和财政稳定。</p>
+<p>现行版本的美国税法相当复杂，且联邦税务局有一套十分完善的执法系统，税务管理严格且执法力度大。因此，在美国无论是个人还是企业，都应具有一定的税务学常识和税务规划能力，否则很可能由于偷税漏税造成税务风险，或因为规划失策导致税务损失。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%86%89%E4%BB%99%E9%98%81%E6%9D%82%E8%B0%88/" rel="tag"># 醉仙阁杂谈</a>
+          
+            <a href="/tags/Finance/" rel="tag"># Finance</a>
+          
+            <a href="/tags/Account/" rel="tag"># Account</a>
+          
+            <a href="/tags/Taxation/" rel="tag"># Taxation</a>
+          
+            <a href="/tags/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/" rel="tag"># 财务规划</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2025/01/23/2025-01-23--Example-Of-Calculating-Improper-Integral-Of-Rational-Function-By-Residue-Theorem/" rel="next" title="数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例">
+                <i class="fa fa-chevron-left"></i> 数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">OnceBeta</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/%20%7C%7C%20archive">
+                
+                    <span class="site-state-item-count">36</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">11</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">31</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/oncebeta" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:oncebeta@hotmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E7%9F%AD%E6%9C%9F%E8%B5%84%E6%9C%AC%E5%88%A9%E5%BE%97"><span class="nav-number">1.1.</span> <span class="nav-text">短期资本利得</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%95%BF%E6%9C%9F%E8%B5%84%E6%9C%AC%E5%88%A9%E5%BE%97"><span class="nav-number">1.2.</span> <span class="nav-text">长期资本利得</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%88%BF%E5%9C%B0%E4%BA%A7"><span class="nav-number">2.</span> <span class="nav-text">房地产</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%BA%E6%94%B6%E4%BA%A7%E5%93%81"><span class="nav-number">3.</span> <span class="nav-text">固收产品</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E8%82%A1%E7%A5%A8"><span class="nav-number">4.</span> <span class="nav-text">股票</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2025</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">OnceBeta</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">84k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">1:16</span>
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v6.3.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Mist</a> v6.5.0</div>
+
+
+
+  <div class="footer-custom">Hosted by <a target="_blank" rel="external nofollow" href="https://github.com"><b>Github Pages</b></a></div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span class="busuanzi-value" id="busuanzi_value_site_uv"></span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+  
+  
+  <script src="/lib/needsharebutton/needsharebutton.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "box";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "bottomCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
