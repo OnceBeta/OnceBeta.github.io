@@ -112,12 +112,19 @@
 
 
 
-  <meta property="og:type" content="website">
-<meta property="og:title" content="醉仙阁">
-<meta property="og:url" content="http://once4623.site/archives/2024/09/index.html">
+  <meta name="description" content="引子对于一般的单变量定积分，常用的求解方法是利用换元积分法和分部积分法找到被积函数的原函数，然后再按照牛顿-莱布尼茨公式计算定积分的值。然而，对于一些特殊的定积分，被积函数的原函数并不一定是初等的，此时牛顿-莱布尼茨公式就不再奏效了，若要计算这类定积分的值，我们就需要借助一些其他的技巧，费曼积分法(Feynman’s Trick)就是一个十分重要的解法。 简单地说，费曼积分法的基本思路是在被积函数">
+<meta property="og:type" content="article">
+<meta property="og:title" content="数术杂编(四)：费曼积分法(Feynman&#39;s Trick)">
+<meta property="og:url" content="http://once4623.site/2025/02/07/2025-02-07--Feynmans-Trick/index.html">
 <meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="引子对于一般的单变量定积分，常用的求解方法是利用换元积分法和分部积分法找到被积函数的原函数，然后再按照牛顿-莱布尼茨公式计算定积分的值。然而，对于一些特殊的定积分，被积函数的原函数并不一定是初等的，此时牛顿-莱布尼茨公式就不再奏效了，若要计算这类定积分的值，我们就需要借助一些其他的技巧，费曼积分法(Feynman’s Trick)就是一个十分重要的解法。 简单地说，费曼积分法的基本思路是在被积函数">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-02-07T01:32:22.000Z">
+<meta property="article:modified_time" content="2025-02-06T18:17:22.544Z">
 <meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="醉仙阁杂谈">
+<meta property="article:tag" content="Math">
+<meta property="article:tag" content="数术杂编">
 <meta name="twitter:card" content="summary">
 
 
@@ -127,7 +134,7 @@
 
 
 
-  <link rel="canonical" href="http://once4623.site/archives/2024/09/"/>
+  <link rel="canonical" href="http://once4623.site/2025/02/07/2025-02-07--Feynmans-Trick/"/>
 
 
 
@@ -137,7 +144,7 @@
   };
 </script>
 
-  <title>归档 | 醉仙阁</title>
+  <title>数术杂编(四)：费曼积分法(Feynman's Trick) | 醉仙阁</title>
   
 
 
@@ -190,7 +197,7 @@
     
   
 
-  <div class="container sidebar-position-left page-archive">
+  <div class="container sidebar-position-left page-post-detail">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -263,7 +270,7 @@
         
         
           
-          <li class="menu-item menu-item-archives menu-item-active">
+          <li class="menu-item menu-item-archives">
     <a href="/archives/" rel="section">
       <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
   </li>
@@ -291,31 +298,6 @@
 
   
     
-
-    
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-      
-      
-    
-    
-
-  
-
 
   
 
@@ -366,190 +348,291 @@
           <div id="content" class="content">
             
 
+  <div id="posts" class="posts-expand">
+    
+
+  
+
   
   
   
-  <div class="post-block archive">
-    <div id="posts" class="posts-collapse">
-      <span class="archive-move-on"></span>
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2025/02/07/2025-02-07--Feynmans-Trick/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">数术杂编(四)：费曼积分法(Feynman's Trick)
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2025-02-07 09:32:22" itemprop="dateCreated datePublished" datetime="2025-02-07T09:32:22+08:00">2025-02-07</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Math/" itemprop="url" rel="index"><span itemprop="name">Math</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">4.3k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">4 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
 
       
-      <span class="archive-page-counter">
-        
-        
-         
-        
-        还行! 目前共计 37 篇日志。 继续努力。
-      </span>
       
 
       
+        <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>对于一般的单变量定积分，常用的求解方法是利用换元积分法和分部积分法找到被积函数的原函数，然后再按照牛顿-莱布尼茨公式计算定积分的值。然而，对于一些特殊的定积分，被积函数的原函数并不一定是初等的，此时牛顿-莱布尼茨公式就不再奏效了，若要计算这类定积分的值，我们就需要借助一些其他的技巧，费曼积分法(Feynman’s Trick)就是一个十分重要的解法。</p>
+<p>简单地说，费曼积分法的基本思路是在被积函数中引入一个新的参变量，使得原本的定积分成为该参变量的一个函数，再注意到：</p>
+<script type="math/tex; mode=display">\frac{d}{dt} \int_a^b f(x,t) dx = \int_a^b \frac{\partial f(x,t)}{\partial t} dx</script><p>从而我们可以通过对新的含参积分进行积分号下求导，得到该含参积分的导数，再通过求原函数的方法确定含参积分的解析式，最后代入特定的参数值求出原定积分的值。<span id="more"></span></p>
+<p>最早给出上式的严谨证明的人是莱布尼茨，但是理查德·费曼围绕它作出了极大的发展，这使得该技术在如今被称为费曼积分法。下面的这段话摘自他的著名出版物<em>Surely You’re Joking, Mr. Feynman!</em>：</p>
+<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">有一件事我从来没有学过，那就是轮廓积分。我已经学会了用高中物理老师巴德先生给我的一本书中展示的各种方法做积分。</span><br><span class="line">有一天，他让我下课后留下来。“费曼，”他说，“你说话太多，噪音太大。我知道为什么。你很无聊。所以我要给你一本书。你到后面角落里去，研究这本书，当你知道这本书中的所有内容后，你就可以再说话了。”</span><br><span class="line">所以每节物理课，我都没有注意帕斯卡定律发生了什么，或者他们在做什么。我在后面有一本书：伍兹的《高等微积分》。巴德知道我学过一点微积分，所以他给了我真正的作品——这是大学三年级或四年级的课程。它有傅里叶级数、贝塞尔函数、行列式、椭圆函数——各种我一无所知的奇妙东西。</span><br><span class="line">那本书还展示了如何在积分符号下区分参数——这是一个特定的操作。事实证明，大学里并没有教太多；他们没有强调这一点。但我学会了如何使用这种方法，我一次又一次地使用了那个该死的工具。所以，因为我是自学成才的，所以我有独特的积分方法。</span><br><span class="line">结果是，当麻省理工学院或普林斯顿大学的学生在做某个积分时遇到困难，这是因为他们无法用在学校学到的标准方法来做。如果是轮廓积分，他们会找到的；如果这是一个简单的级数展开，他们就会找到它。然后我来尝试在整数符号下进行微分，结果往往奏效。因此，我在积分方面享有盛誉，只是因为我的工具箱与其他人的工具箱不同，他们在把问题交给我之前已经尝试了所有的工具。</span><br></pre></td></tr></table></figure>
+<p>费曼在书中所写的上面这段话，迄今仍然适用，尽管在很多时候这一方法在求解定积分时屡见奇效，但在大学课堂上很少有老师教授这种方法。这在一方面是由于在引入参数时并没有一条十分通用的明确途径，初学者很难完全掌握它；而至于另一方面的原因，那便是大学里的大多数教授，也并没有完全掌握它。</p>
+<p>对于初学者而言，在使用费曼积分法求解定积分时，引入参数应遵循几个法则，一是引入参数后的含参积分在求导后便于求解，二是对于含参积分的导数可以方便地求出原函数并确定任意常数$C$的值，三是代入特定的参数值后可以得到原定积分的值。</p>
+<p>在下文中，笔者将通过两个简单的例子展示费曼积分法的具体应用。</p>
+<h1 id="Ex-1"><a href="#Ex-1" class="headerlink" title="Ex 1"></a>Ex 1</h1><script type="math/tex; mode=display">I = \int_{0}^{\infty} \frac{e^{-x} \sin x}{x} dx</script><p>令：</p>
+<script type="math/tex; mode=display">I(a) = \int_{0}^{\infty} \frac{e^{-ax} \sin x}{x} dx</script><p>则：</p>
+<script type="math/tex; mode=display">I'(a) = -\int_{0}^{\infty} e^{-ax} \sin x dx = -\frac{1}{1+a^2}</script><p>故：</p>
+<script type="math/tex; mode=display">I(a) = -\arctan a + C</script><p>注意到当$a\to\infty$时有$I(a)\to 0$，解得$C = \pi / 2$，即：</p>
+<script type="math/tex; mode=display">I(a) = \frac{\pi}{2} - \arctan a</script><p>代入得：</p>
+<script type="math/tex; mode=display">I = I(1) = \frac{\pi}{2} - \arctan 1 = \frac{\pi}{4}</script><h1 id="Ex-2"><a href="#Ex-2" class="headerlink" title="Ex 2"></a>Ex 2</h1><script type="math/tex; mode=display">I = \int_{0}^{\infty} \frac{e^{-x^2} \sin (x^2)}{x^2} dx</script><p>令：</p>
+<script type="math/tex; mode=display">I(a) = \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx</script><p>则：</p>
+<script type="math/tex; mode=display">\begin{align*}
+I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
+& = \int_{0}^{\infty} \frac{d}{da} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
+& = \int_{0}^{\infty} e^{-x^2} \cos (ax^2) dx \\
+& = \Re \left(\int_{0}^{\infty} e^{-x^2} e^{iax^2} dx\right) \\
+& = \Re \left(\int_{0}^{\infty} e^{-x^2(1-ia)} dx\right) \\
+& = \frac{\sqrt{\pi}}{2}\Re \left(\frac{1}{\sqrt{1-ia}}\right)
+\end{align*}</script><p>故：</p>
+<script type="math/tex; mode=display">I(a) = \sqrt{\pi} \Re (i\sqrt{1-ia}) + C</script><p>由于</p>
+<script type="math/tex; mode=display">I(0) = \int_{0}^{\infty} \frac{e^{-x^2} \sin (0x^2)}{x^2} dx = 0</script><p>故：</p>
+<script type="math/tex; mode=display">\sqrt{\pi} \Re (i\sqrt{1}) + C = 0</script><p>解得$C = 0$。故：</p>
+<script type="math/tex; mode=display">I = I(1) = \sqrt{\pi} \Re (i\sqrt{1-i}) = 2^{1/4} \sqrt{\pi} \sin \left(\frac{\pi}{8}\right)</script><h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>通过上面两个简单的例子，我们可以发现，在使用费曼积分法求解定积分时，引入参数的具体做法是五花八门的。Ex 1和Ex 2是两个十分相似的定积分，它们的不同之处仅仅在于被积函数中Ex 1的$x$在Ex 2中全部被替换成了$x^2$。在求解Ex 1时，我们需要在指数项中引入参数；而在求解Ex 2时，我们则需要在正弦函数中引入参数。</p>
+<p>尽管如此，费曼积分法的具体应用并非完全无迹可寻，上文中所提到的几个法则在一定程度上可以给初学者提供一些参考，而至于背后更重要的东西，那便是经年累月所磨练出的数学直觉吧。</p>
 
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%86%89%E4%BB%99%E9%98%81%E6%9D%82%E8%B0%88/" rel="tag"># 醉仙阁杂谈</a>
+          
+            <a href="/tags/Math/" rel="tag"># Math</a>
+          
+            <a href="/tags/%E6%95%B0%E6%9C%AF%E6%9D%82%E7%BC%96/" rel="tag"># 数术杂编</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
         
-        
+
         
 
         
           
-          <div class="collection-title">
-            <h1 class="archive-year" id="archive-year-2024">2024</h1>
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
           </div>
         
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2024/09/27/2024-09-27--Hypergeometric/" itemprop="url">
-              
-                <span itemprop="name">纯粹数学科普系列(四)：特殊函数(四)</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2024-09-27T23:52:08+08:00"
-              content="2024-09-27" >
-          09-27
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+        </div>
+      
       
 
-        
-        
-        
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2025/01/24/2025-01-24--Capital-Gains-Tax-In-The-US-And-Personal-Tax-Planning/" rel="next" title="谈谈美国的资本利得税与个人税务规划">
+                <i class="fa fa-chevron-left"></i> 谈谈美国的资本利得税与个人税务规划
+              </a>
+            
+          </div>
 
-        
-        
+          <span class="post-nav-divider"></span>
 
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2024/09/23/2024-09-23--Chem-in-LaTeX/" itemprop="url">
-              
-                <span itemprop="name">使用LaTeX输入化学方程式与结构式</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2024-09-23T12:22:42+08:00"
-              content="2024-09-23" >
-          09-23
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
 
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2024/09/19/2024-09-19--For-a-Better-Day/" itemprop="url">
-              
-                <span itemprop="name">For a Better Day - Avicii钢琴扒谱</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2024-09-19T04:52:33+08:00"
-              content="2024-09-19" >
-          09-19
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-        
-        
-        
-
-        
-        
-
-        
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
-
-      <h2 class="post-title">
-        
-            <a class="post-title-link" href="/2024/09/13/2024-09-13--Polylog/" itemprop="url">
-              
-                <span itemprop="name">纯粹数学科普系列(二)：特殊函数(二)</span>
-              
-            </a>
-        
-      </h2>
-
-      <div class="post-meta">
-        <time class="post-time" itemprop="dateCreated"
-              datetime="2024-09-13T01:12:55+08:00"
-              content="2024-09-13" >
-          09-13
-        </time>
-      </div>
-
-    </header>
-  </article>
-
-
-
       
-
-    </div>
+    </footer>
   </div>
   
   
   
+  </article>
 
-  
 
+  </div>
 
 
           </div>
           
+
+  
+
+
 
         </div>
         
@@ -570,8 +653,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
             
@@ -744,6 +836,22 @@
       </section>
 
       
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Ex-1"><span class="nav-number">2.</span> <span class="nav-text">Ex 1</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Ex-2"><span class="nav-number">3.</span> <span class="nav-text">Ex 2</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AF%AD"><span class="nav-number">4.</span> <span class="nav-text">结语</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
 
       
 
@@ -902,6 +1010,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
 
   
 
@@ -1265,6 +1377,30 @@
   
   
 
+  
+    
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
   
 
 
