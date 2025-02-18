@@ -465,13 +465,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Social-View/</loc>
-    <lastmod>2025-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Trolley-Problem/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
@@ -500,14 +493,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Social-Science/</loc>
+    <loc>http://once4623.site/tags/Social-View/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/%E8%8B%B1%E6%96%87%E7%BB%8F%E5%85%B8%E7%9F%AD%E7%AF%87%E7%BF%BB%E8%AF%91/</loc>
+    <loc>http://once4623.site/tags/Social-Science/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -522,6 +515,13 @@
   
   <url>
     <loc>http://once4623.site/tags/Math/</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Music/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -563,7 +563,7 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Chess/</loc>
+    <loc>http://once4623.site/tags/Poker/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -577,14 +577,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Poker/</loc>
+    <loc>http://once4623.site/tags/Chess/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Music/</loc>
+    <loc>http://once4623.site/tags/%E8%8B%B1%E6%96%87%E7%BB%8F%E5%85%B8%E7%9F%AD%E7%AF%87%E7%BF%BB%E8%AF%91/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -599,6 +599,13 @@
   
   <url>
     <loc>http://once4623.site/tags/Integral/</loc>
+    <lastmod>2025-02-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Number-Theory/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -627,13 +634,6 @@
   
   <url>
     <loc>http://once4623.site/tags/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/</loc>
-    <lastmod>2025-02-18</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Number-Theory/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -684,14 +684,14 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Chem/</loc>
+    <loc>http://once4623.site/categories/Music/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Chess/</loc>
+    <loc>http://once4623.site/categories/Chem/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -705,7 +705,7 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/categories/Music/</loc>
+    <loc>http://once4623.site/categories/Chess/</loc>
     <lastmod>2025-02-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
