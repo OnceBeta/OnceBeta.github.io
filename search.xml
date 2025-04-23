@@ -1258,24 +1258,6 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       </tags>
   </entry>
   <entry>
-    <title>数术杂编(五)：几个椭圆积分奇异值的初等计算方法</title>
-    <url>/2025/02/18/2025-02-18--Calculation-Of-Singular-Values-Of-Elliptical-Integral/</url>
-    <content><![CDATA[<p>椭圆积分是数论和代数几何中一个十分重要的范畴，近代的模形式理论更是涉及了许多对椭圆积分的性质的研究。在研究过程中，一些学者注意到，椭圆积分在某些特殊点处的函数值可以通过Gamma函数解析地表达出来，这些值统称为椭圆积分奇异值(Singular Values of Elliptical Integral)，是代数数论的一个重要课题。</p>
-<p>而在狭义上，椭圆积分奇异值则是指满足下式的值$K(k_n)$和$K’(k_n)$：</p>
-<script type="math/tex; mode=display">K(k_n) = \sqrt{n}K'(k_n), n\in\mathbb{Z}^+</script><p>在本文中，我将采用初等方法计算前几个椭圆积分奇异值，这主要是通过利用积分换元法将椭圆积分变成Beta函数来实现的。<span id="more"></span></p>
-<p><a href="/files/EISV.pdf">几个椭圆积分奇异值的初等计算方法</a> </p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>数术杂编</tag>
-        <tag>Number Theory</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>浅谈红眼睛悖论及其所揭示的信息现象</title>
     <url>/2025/04/24/2025-04-24--Paradox-Of-Red-Eyes/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>红眼睛悖论最早出自华人数学家陶哲轩(Terence Tao)设计的一个巧妙的思维实验：</p>
@@ -1324,6 +1306,24 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       <tags>
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数术杂编(五)：几个椭圆积分奇异值的初等计算方法</title>
+    <url>/2025/02/18/2025-02-18--Calculation-Of-Singular-Values-Of-Elliptical-Integral/</url>
+    <content><![CDATA[<p>椭圆积分是数论和代数几何中一个十分重要的范畴，近代的模形式理论更是涉及了许多对椭圆积分的性质的研究。在研究过程中，一些学者注意到，椭圆积分在某些特殊点处的函数值可以通过Gamma函数解析地表达出来，这些值统称为椭圆积分奇异值(Singular Values of Elliptical Integral)，是代数数论的一个重要课题。</p>
+<p>而在狭义上，椭圆积分奇异值则是指满足下式的值$K(k_n)$和$K’(k_n)$：</p>
+<script type="math/tex; mode=display">K(k_n) = \sqrt{n}K'(k_n), n\in\mathbb{Z}^+</script><p>在本文中，我将采用初等方法计算前几个椭圆积分奇异值，这主要是通过利用积分换元法将椭圆积分变成Beta函数来实现的。<span id="more"></span></p>
+<p><a href="/files/EISV.pdf">几个椭圆积分奇异值的初等计算方法</a> </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>数术杂编</tag>
+        <tag>Number Theory</tag>
       </tags>
   </entry>
 </search>
