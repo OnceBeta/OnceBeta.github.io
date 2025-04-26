@@ -574,20 +574,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Natural-Science/</loc>
-    <lastmod>2025-04-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Chem/</loc>
-    <lastmod>2025-04-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Chess/</loc>
     <lastmod>2025-04-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -645,6 +631,20 @@
   
   <url>
     <loc>http://once4623.site/tags/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/</loc>
+    <lastmod>2025-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Natural-Science/</loc>
+    <lastmod>2025-04-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Chem/</loc>
     <lastmod>2025-04-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

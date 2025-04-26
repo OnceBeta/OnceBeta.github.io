@@ -66,8 +66,6 @@ http://once4623.site/tags/Music/
 http://once4623.site/tags/Chemistry/
 http://once4623.site/tags/LaTeX/
 http://once4623.site/tags/%E8%B5%84%E6%9C%AC%E8%AE%BA%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/
-http://once4623.site/tags/Natural-Science/
-http://once4623.site/tags/Chem/
 http://once4623.site/tags/Chess/
 http://once4623.site/tags/Game/
 http://once4623.site/tags/Poker/
@@ -77,6 +75,8 @@ http://once4623.site/tags/Finance/
 http://once4623.site/tags/Account/
 http://once4623.site/tags/Taxation/
 http://once4623.site/tags/%E8%B4%A2%E5%8A%A1%E8%A7%84%E5%88%92/
+http://once4623.site/tags/Natural-Science/
+http://once4623.site/tags/Chem/
 http://once4623.site/tags/Number-Theory/
 http://once4623.site/tags/Economics/
 http://once4623.site/categories/English/
