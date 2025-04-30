@@ -383,6 +383,53 @@
       </tags>
   </entry>
   <entry>
+    <title>美女的硬币游戏</title>
+    <url>/2023/08/06/2023-08-06--Coin-Game/</url>
+    <content><![CDATA[<p>这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：<br>当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”<br>那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？<br><span id="more"></span><br>我们可以用一张表格简明地表示这个游戏中可能出现的各种情况，以及每种情况发生时你的盈亏，这是博弈论中相当常见的支付矩阵(<em>Payoff Matrix</em>)。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>美女，你</th>
+<th>正</th>
+<th>反</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>正</td>
+<td>3</td>
+<td>-2</td>
+</tr>
+<tr>
+<td>反</td>
+<td>-2</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>通过上面的表格，我们可以发现，游戏总共有4种可能发生的情况。更进一步地说，如果每种情况发生的概率相等，都是$\frac{1}{4}$，那么通过概率论的知识可以算出你的收益期望值：</p>
+<script type="math/tex; mode=display">E = \frac{1}{4} \times (3+1-2-2) = 0</script><p>这么看来，游戏似乎是公平的，长期看来，你的收益是$0$元，不赚也不亏。<br>但是事实真的是如此吗？或者说，每种情况发生的概率真的相等吗？<br>在这个游戏中，我们之所以会不假思索地认为每种情况发生的概率相等，是由于各种“抛硬币游戏”带来的思维定势。但在这个例子中，双方做的并不是“各自抛一枚硬币”，而是“各自亮出一枚硬币”。换句话说，每种情况发生的概率，取决于双方的决策。<br>更进一步地说，双方都可以以一定的概率选择亮出硬币的正面或反面。在这里，我们假设美女亮出正面的概率为$p$，你亮出正面的概率为$q$。此时，你的收益期望值变为：</p>
+<script type="math/tex; mode=display">E = 3pq-2p(1-q)-2(1-p)q+(1-p)(1-q)</script><script type="math/tex; mode=display">= 8pq - 3p - 3q + 1</script><script type="math/tex; mode=display">= p(8q-3)-(3q-1)</script><p>显然，当$p,q$在$0$到$1$之间任意取值时，你的收益期望值并不一定是$0$。<br>另一方面，我们可以发现这场游戏的本质是“零和博弈(<em>Zero-sum Game</em>)”，换言之，美女赢的钱就是你输的钱，你赢的钱就是美女输的钱。数学上，如果你的收益期望值是$E$，那么美女的收益期望值就是$-E$。<br>那么如果我们站在美女的角度来考虑问题，如果她有一种策略可以令$E&lt;0$，则在长期看来她便可以赢走你的钱，即：</p>
+<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
+<script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
+<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
+<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0 &lt; q &lt; \frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p&gt;\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
+<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
+<script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
+<script type="math/tex; mode=display">E_B = -2q+(1-q)</script><p>由上述分析，再令$E_F=E_B$，可以解得$p=\frac{3}{8}$。而这个最大化的收益期望值，恰恰就是上文中计算过的：</p>
+<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。<br>美女的硬币游戏，是博弈论中相当经典的模型之一，它十分清晰地表明了在不完全信息博弈中，掌握规则的制定权是多么重要，而生活中在那些我们习以为常的表面公平的规则背后，往往也暗藏着剥削与不公。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Mathematics</tag>
+        <tag>Probability</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>英文经典短篇翻译(一)：奥斯维辛没有新闻</title>
     <url>/2023/08/31/2023-08-31--Translation-No-News-from-Auschwitz/</url>
     <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><em>No News from Auschwitz</em> ，《奥斯维辛没有新闻》是一篇著名的新闻稿，于1958年8月31日刊登于《纽约时报》。作者亚伯拉罕·迈克尔·罗森塔尔(<em>A. M. Rosenthal</em>)在此后曾任《纽约时报》的执行主编和专栏作者，也是美国历史上最著名的新闻编辑之一。</p>
@@ -487,53 +534,6 @@
       </categories>
       <tags>
         <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>美女的硬币游戏</title>
-    <url>/2023/08/06/2023-08-06--Coin-Game/</url>
-    <content><![CDATA[<p>这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：<br>当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”<br>那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？<br><span id="more"></span><br>我们可以用一张表格简明地表示这个游戏中可能出现的各种情况，以及每种情况发生时你的盈亏，这是博弈论中相当常见的支付矩阵(<em>Payoff Matrix</em>)。</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>美女，你</th>
-<th>正</th>
-<th>反</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>正</td>
-<td>3</td>
-<td>-2</td>
-</tr>
-<tr>
-<td>反</td>
-<td>-2</td>
-<td>1</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>通过上面的表格，我们可以发现，游戏总共有4种可能发生的情况。更进一步地说，如果每种情况发生的概率相等，都是$\frac{1}{4}$，那么通过概率论的知识可以算出你的收益期望值：</p>
-<script type="math/tex; mode=display">E = \frac{1}{4} \times (3+1-2-2) = 0</script><p>这么看来，游戏似乎是公平的，长期看来，你的收益是$0$元，不赚也不亏。<br>但是事实真的是如此吗？或者说，每种情况发生的概率真的相等吗？<br>在这个游戏中，我们之所以会不假思索地认为每种情况发生的概率相等，是由于各种“抛硬币游戏”带来的思维定势。但在这个例子中，双方做的并不是“各自抛一枚硬币”，而是“各自亮出一枚硬币”。换句话说，每种情况发生的概率，取决于双方的决策。<br>更进一步地说，双方都可以以一定的概率选择亮出硬币的正面或反面。在这里，我们假设美女亮出正面的概率为$p$，你亮出正面的概率为$q$。此时，你的收益期望值变为：</p>
-<script type="math/tex; mode=display">E = 3pq-2p(1-q)-2(1-p)q+(1-p)(1-q)</script><script type="math/tex; mode=display">= 8pq - 3p - 3q + 1</script><script type="math/tex; mode=display">= p(8q-3)-(3q-1)</script><p>显然，当$p,q$在$0$到$1$之间任意取值时，你的收益期望值并不一定是$0$。<br>另一方面，我们可以发现这场游戏的本质是“零和博弈(<em>Zero-sum Game</em>)”，换言之，美女赢的钱就是你输的钱，你赢的钱就是美女输的钱。数学上，如果你的收益期望值是$E$，那么美女的收益期望值就是$-E$。<br>那么如果我们站在美女的角度来考虑问题，如果她有一种策略可以令$E&lt;0$，则在长期看来她便可以赢走你的钱，即：</p>
-<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) < 0</script><p>这也就是说</p>
-<script type="math/tex; mode=display">p(8q-3) < 3q - 1</script><p>我们首先讨论$8p-3&gt;0$的情况，此时上式意味着：</p>
-<script type="math/tex; mode=display">p < \frac{3q-1}{8q-3}</script><p>上式右边的$f(q) = \frac{3q-1}{8q-3}$的图像如下图所示：<br><img src="/images/2023-08-06--Coin-Game/image.png" alt="不等式右边函数的图像" title="不等式右边函数的图像"><br>我们发现，它在区间$\frac{3}{8}&lt;q&lt;1$上是递减的，而$f(1)=\frac{2}{5}$。这意味着当$p&lt;\frac{2}{5}$时，不等式成立。<br>而当$8q-3&lt;0$时，不等式等价于</p>
-<script type="math/tex; mode=display">p>\frac{3q-1}{8q-3}</script><p>由于$f(q) = \frac{3q-1}{8q-3}$在区间$0 &lt; q &lt; \frac{3}{8}$上是递减的，而$f(0)=\frac{1}{3}$。这意味着当$p&gt;\frac{1}{3}$时，上式成立。<br>最后，当$8q-3=0$时，我们发现：</p>
-<script type="math/tex; mode=display">E = p(8q-3)-(3q-1) = 1 - 3 \times \frac{3}{8}= -\frac{1}{8}</script><p>换句话说，此时无论美女的如何，你的收益期望值都是$\frac{1}{8}$。<br>综上所述，当美女选择的策略为$\frac{1}{3}&lt;p&lt;\frac{2}{5}$时，无论你的策略如何，长期来看美女都能赢走你的钱。换句话说，美女在该游戏中是有必胜策略(<em>Winning Strategy</em>)的。<br>反过来说，你在该游戏中没有必胜策略。为了论证这一点，不妨反过来站在你的角度来考虑问题，如果你要使收益最大化，即无论美女选择的策略$p$如何，你都不能让美女有机可乘。在这种情况下，无论美女亮出正面还是反面，你的收益期望值相等。这是因为，若二者不相等，美女就可以通过改变概率$p$，来调整正面或反面出现的次数，降低你的收益期望值，此时你就无法做到“收益最大化”。<br>在这一思路下，当美女亮出硬币正面时，你的收益期望值为：</p>
-<script type="math/tex; mode=display">E_F = 3q-2(1-q)</script><p>当美女亮出硬币反面时，你的收益期望值为：</p>
-<script type="math/tex; mode=display">E_B = -2q+(1-q)</script><p>由上述分析，再令$E_F=E_B$，可以解得$p=\frac{3}{8}$。而这个最大化的收益期望值，恰恰就是上文中计算过的：</p>
-<script type="math/tex; mode=display">E|_{p=\frac{3}{8}}=-\frac{1}{8}</script><p>这也就是说，即使你采取最优策略，长期来看，平均每局也要亏$-\frac{1}{8}$元钱。而如上文所述，美女其实是有必胜策略的。<br>事实上，以上情况也就是该游戏的混合策略纳什均衡(<em>Mixed Strategy Nash Equilibrium, MSNE</em>)，即双方都考虑自己的收益最大化的情况下，就有$E=-\frac{1}{8}$。<br>美女的硬币游戏，是博弈论中相当经典的模型之一，它十分清晰地表明了在不完全信息博弈中，掌握规则的制定权是多么重要，而生活中在那些我们习以为常的表面公平的规则背后，往往也暗藏着剥削与不公。</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>Mathematics</tag>
-        <tag>Probability</tag>
       </tags>
   </entry>
   <entry>
@@ -809,6 +809,46 @@
       </tags>
   </entry>
   <entry>
+    <title>德州扑克(二)：游戏常用术语</title>
+    <url>/2024/12/10/2024-12-10--Taxes-Holdem-2/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本文整理德州扑克游戏中的一些常用术语，理解这些术语对于深入学习了解德州扑克的规则和打法也是十分重要的。本文不定期更新，如笔者在后续发现有遗漏的，将会陆续补充到本文。<span id="more"></span></p>
+<h1 id="玩家类型和打法"><a href="#玩家类型和打法" class="headerlink" title="玩家类型和打法"></a>玩家类型和打法</h1><p>Fish：菜鸟，鱼，指在一个牌桌上经常输筹码的玩家。<br>Shark：高手，鲨鱼，指在一个牌桌上经常赢筹码的玩家。</p>
+<p>Loose：松，指在牌局中游戏较多手牌组合（尤其是翻牌前）<br>Tight：紧，指在牌局中游戏较少手牌组合（尤其是翻牌前）<br>Aggressive：凶，指具有较强进攻性，常常主动下注或加注的打法<br>Passive：弱，指较为被动，常常跟注很少主动下注的打法</p>
+<p>Rock：岩石玩家，指在翻牌前只用极少数强牌入池<br>Nit：紧弱，指翻牌前只用极少数强牌入池，且翻牌后只在中牌时下注的打法</p>
+<p>Game Theory Optimization：博弈论最优打法，GTO</p>
+<h1 id="游戏术语和阶段"><a href="#游戏术语和阶段" class="headerlink" title="游戏术语和阶段"></a>游戏术语和阶段</h1><h2 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h2><p>Small Blind：小盲，SB，翻牌后第一个行动的玩家<br>Big Blind：大盲，BB，小盲的下家（也指大盲注，常用BB作为筹码数量的单位，1BB指一份与大盲注相同的筹码数量）<br>Under the Gun：枪口，UTG，指翻牌前第一个行动的玩家<br>UTG+1：枪口+1，UTG的下家<br>Middle Position：中位，MP，UTG+1的下家<br>Lojack：中位+1，LJ，中位的下家<br>Highjack：劫位，HJ，LJ的下家<br>Cutoff：关位，CO，劫位的下家<br>Button：庄位，按钮位，BTN，翻牌后最后一个行动的玩家<br>Dealer：荷官</p>
+<p>Pot：底池<br>Sidepot：边池</p>
+<h2 id="阶段"><a href="#阶段" class="headerlink" title="阶段"></a>阶段</h2><p>Preflop：翻牌前，指一局游戏过程中暂未发出公共牌的一圈<br>Flop：翻牌圈，指一局游戏过程中发出前三张公共牌后的一圈<br>Turn：转牌圈，指一局游戏过程中发出第四张公共牌后的一圈<br>River：河牌圈，指一局游戏过程中发出第五张公共牌后的一圈</p>
+<h1 id="动作"><a href="#动作" class="headerlink" title="动作"></a>动作</h1><p>Action：动作<br>Check：过牌<br>Bet：下注<br>Call：跟注<br>Fold：盖牌<br>All in：全下<br>Muck：在可以过牌或摊牌时主动盖牌</p>
+<h2 id="翻牌前"><a href="#翻牌前" class="headerlink" title="翻牌前"></a>翻牌前</h2><p>Limp：平跟，指在翻牌前跟注1BB入池<br>Open：开池，指在翻牌前第一个加注入池<br>Cold Call：冷跟，指在翻牌前跟注前位玩家的开池或加注入池<br>3-bet：再加注，指再翻牌前前位有人加注的情况下再加注入池<br>Squeeze：挤压，指在翻牌前通过大尺度加注以入池并减少对手<br>Ante：前注，指游戏开始前所有玩家先向底池中投入的一部分筹码<br>Straddle：强抓，指枪口位玩家在查看手牌前强制性或非强制性地提前向底池中投入一部分筹码，通常是大盲注的两倍，然后在翻牌前第一个行动的玩家变为其下家</p>
+<h2 id="翻牌后"><a href="#翻牌后" class="headerlink" title="翻牌后"></a>翻牌后</h2><p>Fastplay / Strike：快打，指利用强排尽快下注或加注造大底池或提前收池<br>Slowplay：慢打，指拿到强牌埋伏诱骗对手下注<br>Float：缠打，指至少两位玩家纠缠<br>C-bet：指上一条街主动下注或加注的玩家，在下一条街最先下注<br>Donk：领打，指前位玩家或上一条街跟注的玩家在下一条街主动下注<br>Value Bet：价值下注，指希望对手用比自己差的牌跟注以获取价值<br>Bluff：诈唬，指希望通过下注使对手放弃比自己好的牌以收下底池<br>Heavy Bet：重注，指下注2/3至一个底池<br>Thin Bet：小注，指下注半个底池以下<br>Over Bet：超池，指下注超过一个底池<br>Block Bet：指希望通过下小注阻止对手下注或加注以掌握主动权<br>Showhand：秀牌<br>Showdown：摊牌</p>
+<p>Semi-bluff：指用听牌进行诈唬<br>Trap Bluff：指用强牌伪装成诈唬诱骗对手跟注<br>Hero Call：指用弱牌跟注抓诈唬</p>
+<h1 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h1><p>Buy-in：买入<br>VPIP：入池率<br>PFR：翻牌前加注频率<br>ATS：在后位攻击盲注的频率<br>3-bet rate：翻牌前3-bet频率<br>Fluctuation：波动<br>Bankroll：资金管理<br>EV：期望值<br>Odds：赔率</p>
+<h1 id="牌型"><a href="#牌型" class="headerlink" title="牌型"></a>牌型</h1><p>High Cards：高牌<br>One Pair：一对<br>Two Pair：两对<br>Three of a Kind：三条<br>Straight：顺子<br>Flush：同花<br>Fullhouse：葫芦<br>Four of a Kind：四条<br>Flush Straight：同花顺<br>Royal Flush：皇家同花顺</p>
+<h2 id="翻牌前-1"><a href="#翻牌前-1" class="headerlink" title="翻牌前"></a>翻牌前</h2><p>Pocket Pair：口袋对，指一对的手牌<br>Suited Connector：指两张连续的同花手牌<br>American Airline：口袋对A<br>Cowboys：口袋对K</p>
+<h2 id="翻牌后-1"><a href="#翻牌后-1" class="headerlink" title="翻牌后"></a>翻牌后</h2><p>Over Pair：超对<br>Top Pair：顶对<br>Middle Pair：中对<br>Bottom Pair：底对<br>Under Pair：小对<br>Top Pair Top Kicker(TPTK)：顶对顶踢脚</p>
+<p>Set：暗三条<br>Trip / Triple：明三条</p>
+<p>Flopped Boat：指在翻牌圈拿到葫芦牌型</p>
+<p>Bicycle：最小的顺子(A2345)<br>Broadway：最大的顺子(10JQKA)</p>
+<p>Draw：听牌，指在翻牌圈或转牌圈拿到需要一张特定点数或花色的牌来组成顺子或同花的牌型<br>Outs：补牌（数），通常指帮助听牌击中完成反超的牌的数量<br>Backdoor Draw：后门听牌，指在翻牌圈拿到需要两张补牌来组成顺子或同花的牌型<br>Flush Draw：指在翻牌圈或转牌圈拿到四张同花，需要再发出一张该花色的牌就能组成同花的牌型<br>Open-ended Straight：两头顺听牌<br>Gunshot：卡顺听牌<br>Runner Runner：指翻牌圈的后门听牌在转牌圈和河牌圈连续发出两张补牌，是一种小概率事件，通常只有不到10%的概率发生</p>
+<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>Monster：超强牌<br>Nuts：坚果牌，指当前牌面下可能的最强牌型，例如没有公对和同花顺面下的A同花<br>Cooler：冤家牌，指两位或多位玩家同时拿到强牌</p>
+<p>Board：牌面<br>Scare Board：潮湿面，指公共牌发出连接性高或同花色牌较多的牌面<br>Blank Board：干燥面，指公共牌发出没有连接性且花色不同的牌面</p>
+<p>Diamond(d)：方片，例9d表示♦9<br>Club(c)：梅花，例2c表示♣2<br>Heart(h)：红桃，例Kh表示♥K<br>Spade(s)：黑桃，例As表示♠A</p>
+<p>Suited(s)：两张同花手牌，例A5s表示手牌为同花的A和5<br>Off Suit(o)：两张不同花手牌，例KQo表示手牌为不同花的K和Q</p>
+<p>Set over Set：小三条碰上大三条<br>Flush over Flush：小同花碰上大同花</p>
+<p>Kicker：踢脚，指在摊牌比较牌型大小时不组成对子或三条的单牌<br>Rainbow：彩虹面，指翻牌发出三张不同花色的牌<br>Community Pair：公对，指公共牌发出两张相同点数的牌<br>Cap：帽子，指手持口袋对公共牌发出比手牌点数大的牌<br>Rag：无关张，指公共牌发出对当前双方牌型影响不大的牌</p>
+<h1 id="其他-1"><a href="#其他-1" class="headerlink" title="其他"></a>其他</h1><p>Range：范围，指一位玩家可能持有的所有手牌组合<br>Cover：筹码压制，指一位玩家拥有比其他玩家多的筹码<br>Dominated：主导，指一名玩家胜率大幅领先<br>Heads-up：单挑，指两位玩家争夺一个底池<br>Run：跑马<br>Bad Beat：爆冷门，指原本领先或在胜率上占有优势的一方被弱势一方打败<br>Bust：输光<br>Drawing Dead：听死牌，指无论发出任何牌都无法反超对手的牌型</p>
+]]></content>
+      <categories>
+        <category>Poker</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Game</tag>
+        <tag>Poker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>德州扑克(一)：游戏规则介绍</title>
     <url>/2024/12/10/2024-12-10--Taxes-Holdem-1/</url>
     <content><![CDATA[<p><img src="/images/2024-12-10--Taxes-Holdem-1/1.jpg" alt="1"></p>
@@ -883,46 +923,6 @@
 <p>举例来说，目前彩池为10BB，大盲注为1BB，上家下注1BB，彩池变为10BB+1BB=11BB，此时将要行动的玩家能加注的最大上限为：11BB（底池中的筹码数量）+1BB（玩家将要跟注的筹码数量）=12BB，则此时最大可加注为12BB，进行最大加注后底池大小将变为11BB（底池中的筹码数量）+1BB（玩家将要跟注的筹码数量）+12BB（玩家加注的筹码数量）=24BB，再下家可加注之最大上限为24BB（底池中的筹码数量）+13BB（玩家将要跟注的筹码数量）=37BB，进行最大加注后的彩池大小变为24BB+13BB+37BB=74BB。</p>
 <h3 id="无限注德州扑克-No-Limit-Taxes-Hold’em"><a href="#无限注德州扑克-No-Limit-Taxes-Hold’em" class="headerlink" title="无限注德州扑克(No Limit Taxes Hold’em)"></a>无限注德州扑克(No Limit Taxes Hold’em)</h3><p>无限注德州扑克是德州扑克里最受欢迎的玩法。在这个玩法中，玩家在轮到自己下注时可下注至当时持有的全部筹码，若仅为下注时，则最少须满足该圈的下注限额；加注时须满足当时的最小加注额。若有玩家全下，在满足加注条件时，其他手上有更多筹码的玩家仍然可以再加注。如果这时候没有其他还没盖牌的玩家有足够的筹码再行加注而只能跟注或盖牌的话，牌局就直接发完剩余的公牌并进行摊牌比大小，称为跑马(Run)，在跑马时各个玩家可以商量是否进行多次发牌，一般为一次或两次，如有一名玩家选择一次发牌则只发一次，多次发牌时按发牌次数对底池进行分割，按每次发牌的结果决定对应部分底池的赢家。持有最好牌型的玩家可赢得主池及有参与的边池，其后再加注的玩家仍有可能赢走其他边池。</p>
 <p>下注大小最低须等于大盲，每一轮可加注的筹码和次数均无上限。无限注德州扑克常见于直播牌局，也是扑克赛事的主要项目。在无限注德州扑克中，玩家可下注或加注台面上任何下限以上的筹码，甚至直接全下，如同梭哈。最小加注额为大盲或该轮最后一次的加注大小之较大者。如果某位玩家加注，同一轮中，其他于加注者之后的玩家要再加注，则加注大小至少需等于最后一次加注者的加注大小。比如：大盲为1BB，大盲加注3BB，即下注4BB，则其后的玩家要再加注，最低须加注该加注额，也就是再加注3BB以上，此次加注的最小总下注额为：1BB+3BB（跟之前的加注）+3BB（自己的加注额）=7BB。这一轮中有玩家要再加注，最少也必须再加前次的加注额（本例此时为3BB），亦即最小加注总下注额为1BB+6BB+3BB=10BB；同一轮加注持续直到参与本轮游戏的玩家都投入了相同筹码或全下后，再进入下一轮游戏。</p>
-]]></content>
-      <categories>
-        <category>Poker</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Game</tag>
-        <tag>Poker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>德州扑克(二)：游戏常用术语</title>
-    <url>/2024/12/10/2024-12-10--Taxes-Holdem-2/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本文整理德州扑克游戏中的一些常用术语，理解这些术语对于深入学习了解德州扑克的规则和打法也是十分重要的。本文不定期更新，如笔者在后续发现有遗漏的，将会陆续补充到本文。<span id="more"></span></p>
-<h1 id="玩家类型和打法"><a href="#玩家类型和打法" class="headerlink" title="玩家类型和打法"></a>玩家类型和打法</h1><p>Fish：菜鸟，鱼，指在一个牌桌上经常输筹码的玩家。<br>Shark：高手，鲨鱼，指在一个牌桌上经常赢筹码的玩家。</p>
-<p>Loose：松，指在牌局中游戏较多手牌组合（尤其是翻牌前）<br>Tight：紧，指在牌局中游戏较少手牌组合（尤其是翻牌前）<br>Aggressive：凶，指具有较强进攻性，常常主动下注或加注的打法<br>Passive：弱，指较为被动，常常跟注很少主动下注的打法</p>
-<p>Rock：岩石玩家，指在翻牌前只用极少数强牌入池<br>Nit：紧弱，指翻牌前只用极少数强牌入池，且翻牌后只在中牌时下注的打法</p>
-<p>Game Theory Optimization：博弈论最优打法，GTO</p>
-<h1 id="游戏术语和阶段"><a href="#游戏术语和阶段" class="headerlink" title="游戏术语和阶段"></a>游戏术语和阶段</h1><h2 id="位置"><a href="#位置" class="headerlink" title="位置"></a>位置</h2><p>Small Blind：小盲，SB，翻牌后第一个行动的玩家<br>Big Blind：大盲，BB，小盲的下家（也指大盲注，常用BB作为筹码数量的单位，1BB指一份与大盲注相同的筹码数量）<br>Under the Gun：枪口，UTG，指翻牌前第一个行动的玩家<br>UTG+1：枪口+1，UTG的下家<br>Middle Position：中位，MP，UTG+1的下家<br>Lojack：中位+1，LJ，中位的下家<br>Highjack：劫位，HJ，LJ的下家<br>Cutoff：关位，CO，劫位的下家<br>Button：庄位，按钮位，BTN，翻牌后最后一个行动的玩家<br>Dealer：荷官</p>
-<p>Pot：底池<br>Sidepot：边池</p>
-<h2 id="阶段"><a href="#阶段" class="headerlink" title="阶段"></a>阶段</h2><p>Preflop：翻牌前，指一局游戏过程中暂未发出公共牌的一圈<br>Flop：翻牌圈，指一局游戏过程中发出前三张公共牌后的一圈<br>Turn：转牌圈，指一局游戏过程中发出第四张公共牌后的一圈<br>River：河牌圈，指一局游戏过程中发出第五张公共牌后的一圈</p>
-<h1 id="动作"><a href="#动作" class="headerlink" title="动作"></a>动作</h1><p>Action：动作<br>Check：过牌<br>Bet：下注<br>Call：跟注<br>Fold：盖牌<br>All in：全下<br>Muck：在可以过牌或摊牌时主动盖牌</p>
-<h2 id="翻牌前"><a href="#翻牌前" class="headerlink" title="翻牌前"></a>翻牌前</h2><p>Limp：平跟，指在翻牌前跟注1BB入池<br>Open：开池，指在翻牌前第一个加注入池<br>Cold Call：冷跟，指在翻牌前跟注前位玩家的开池或加注入池<br>3-bet：再加注，指再翻牌前前位有人加注的情况下再加注入池<br>Squeeze：挤压，指在翻牌前通过大尺度加注以入池并减少对手<br>Ante：前注，指游戏开始前所有玩家先向底池中投入的一部分筹码<br>Straddle：强抓，指枪口位玩家在查看手牌前强制性或非强制性地提前向底池中投入一部分筹码，通常是大盲注的两倍，然后在翻牌前第一个行动的玩家变为其下家</p>
-<h2 id="翻牌后"><a href="#翻牌后" class="headerlink" title="翻牌后"></a>翻牌后</h2><p>Fastplay / Strike：快打，指利用强排尽快下注或加注造大底池或提前收池<br>Slowplay：慢打，指拿到强牌埋伏诱骗对手下注<br>Float：缠打，指至少两位玩家纠缠<br>C-bet：指上一条街主动下注或加注的玩家，在下一条街最先下注<br>Donk：领打，指前位玩家或上一条街跟注的玩家在下一条街主动下注<br>Value Bet：价值下注，指希望对手用比自己差的牌跟注以获取价值<br>Bluff：诈唬，指希望通过下注使对手放弃比自己好的牌以收下底池<br>Heavy Bet：重注，指下注2/3至一个底池<br>Thin Bet：小注，指下注半个底池以下<br>Over Bet：超池，指下注超过一个底池<br>Block Bet：指希望通过下小注阻止对手下注或加注以掌握主动权<br>Showhand：秀牌<br>Showdown：摊牌</p>
-<p>Semi-bluff：指用听牌进行诈唬<br>Trap Bluff：指用强牌伪装成诈唬诱骗对手跟注<br>Hero Call：指用弱牌跟注抓诈唬</p>
-<h1 id="统计"><a href="#统计" class="headerlink" title="统计"></a>统计</h1><p>Buy-in：买入<br>VPIP：入池率<br>PFR：翻牌前加注频率<br>ATS：在后位攻击盲注的频率<br>3-bet rate：翻牌前3-bet频率<br>Fluctuation：波动<br>Bankroll：资金管理<br>EV：期望值<br>Odds：赔率</p>
-<h1 id="牌型"><a href="#牌型" class="headerlink" title="牌型"></a>牌型</h1><p>High Cards：高牌<br>One Pair：一对<br>Two Pair：两对<br>Three of a Kind：三条<br>Straight：顺子<br>Flush：同花<br>Fullhouse：葫芦<br>Four of a Kind：四条<br>Flush Straight：同花顺<br>Royal Flush：皇家同花顺</p>
-<h2 id="翻牌前-1"><a href="#翻牌前-1" class="headerlink" title="翻牌前"></a>翻牌前</h2><p>Pocket Pair：口袋对，指一对的手牌<br>Suited Connector：指两张连续的同花手牌<br>American Airline：口袋对A<br>Cowboys：口袋对K</p>
-<h2 id="翻牌后-1"><a href="#翻牌后-1" class="headerlink" title="翻牌后"></a>翻牌后</h2><p>Over Pair：超对<br>Top Pair：顶对<br>Middle Pair：中对<br>Bottom Pair：底对<br>Under Pair：小对<br>Top Pair Top Kicker(TPTK)：顶对顶踢脚</p>
-<p>Set：暗三条<br>Trip / Triple：明三条</p>
-<p>Flopped Boat：指在翻牌圈拿到葫芦牌型</p>
-<p>Bicycle：最小的顺子(A2345)<br>Broadway：最大的顺子(10JQKA)</p>
-<p>Draw：听牌，指在翻牌圈或转牌圈拿到需要一张特定点数或花色的牌来组成顺子或同花的牌型<br>Outs：补牌（数），通常指帮助听牌击中完成反超的牌的数量<br>Backdoor Draw：后门听牌，指在翻牌圈拿到需要两张补牌来组成顺子或同花的牌型<br>Flush Draw：指在翻牌圈或转牌圈拿到四张同花，需要再发出一张该花色的牌就能组成同花的牌型<br>Open-ended Straight：两头顺听牌<br>Gunshot：卡顺听牌<br>Runner Runner：指翻牌圈的后门听牌在转牌圈和河牌圈连续发出两张补牌，是一种小概率事件，通常只有不到10%的概率发生</p>
-<h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><p>Monster：超强牌<br>Nuts：坚果牌，指当前牌面下可能的最强牌型，例如没有公对和同花顺面下的A同花<br>Cooler：冤家牌，指两位或多位玩家同时拿到强牌</p>
-<p>Board：牌面<br>Scare Board：潮湿面，指公共牌发出连接性高或同花色牌较多的牌面<br>Blank Board：干燥面，指公共牌发出没有连接性且花色不同的牌面</p>
-<p>Diamond(d)：方片，例9d表示♦9<br>Club(c)：梅花，例2c表示♣2<br>Heart(h)：红桃，例Kh表示♥K<br>Spade(s)：黑桃，例As表示♠A</p>
-<p>Suited(s)：两张同花手牌，例A5s表示手牌为同花的A和5<br>Off Suit(o)：两张不同花手牌，例KQo表示手牌为不同花的K和Q</p>
-<p>Set over Set：小三条碰上大三条<br>Flush over Flush：小同花碰上大同花</p>
-<p>Kicker：踢脚，指在摊牌比较牌型大小时不组成对子或三条的单牌<br>Rainbow：彩虹面，指翻牌发出三张不同花色的牌<br>Community Pair：公对，指公共牌发出两张相同点数的牌<br>Cap：帽子，指手持口袋对公共牌发出比手牌点数大的牌<br>Rag：无关张，指公共牌发出对当前双方牌型影响不大的牌</p>
-<h1 id="其他-1"><a href="#其他-1" class="headerlink" title="其他"></a>其他</h1><p>Range：范围，指一位玩家可能持有的所有手牌组合<br>Cover：筹码压制，指一位玩家拥有比其他玩家多的筹码<br>Dominated：主导，指一名玩家胜率大幅领先<br>Heads-up：单挑，指两位玩家争夺一个底池<br>Run：跑马<br>Bad Beat：爆冷门，指原本领先或在胜率上占有优势的一方被弱势一方打败<br>Bust：输光<br>Drawing Dead：听死牌，指无论发出任何牌都无法反超对手的牌型</p>
 ]]></content>
       <categories>
         <category>Poker</category>
