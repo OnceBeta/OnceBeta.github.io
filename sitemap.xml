@@ -559,13 +559,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/Graph-Theory/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Math/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -574,6 +567,27 @@
   
   <url>
     <loc>http://once4623.site/tags/Music/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Graph-Theory/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/Chemistry/</loc>
+    <lastmod>2025-08-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://once4623.site/tags/LaTeX/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -601,13 +615,6 @@
   </url>
   
   <url>
-    <loc>http://once4623.site/tags/LaTeX/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://once4623.site/tags/Chess/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
@@ -623,13 +630,6 @@
   
   <url>
     <loc>http://once4623.site/tags/Poker/</loc>
-    <lastmod>2025-08-26</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://once4623.site/tags/Chemistry/</loc>
     <lastmod>2025-08-26</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
