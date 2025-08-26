@@ -121,7 +121,7 @@
 <meta property="og:description" content="今晚在无意间发现并解决了一个很有意思且颇有难度的定积分题目，事情的起因源于笔者对如下这个简单的定积分的改良： \int_{0}^{\pi} \frac{x\sin x}{1+\cos^2 x} dx这个积分可以通过区间再现公式的一个推论解决，即如下一般性的结论： \int_{0}^{\pi} xf(\sin x) dx &#x3D; \frac{\pi}{2}\int_{0}^{\pi} f(\sin x)">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-01-19T17:39:40.000Z">
-<meta property="article:modified_time" content="2025-01-19T18:13:07.859Z">
+<meta property="article:modified_time" content="2025-08-26T18:37:22.195Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="醉仙阁杂谈">
 <meta property="article:tag" content="Math">
@@ -513,7 +513,7 @@
 \end{align*}</script><p>我于是又突发奇想道，倘若把积分上限的$\pi$改为$\tfrac{\pi}{2}$又会发生什么呢？即考虑下面的定积分：</p>
 <script type="math/tex; mode=display">\int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx</script><p>在经过一番无果的尝试后，我开始怀疑这个积分是否具有解析解，于是决定把它喂给Wolfram Alpha。又经过了一番漫长的等待，就在我准备盖棺定论地认为该积分并没有解析解时，Wolfram Alpha竟意外地给出了答案：</p>
 <script type="math/tex; mode=display">\int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx = -\frac{1}{2}\log^2 (1+\sqrt{2}) + \frac{\pi^2}{8}</script><p>这表明我最初的判断是错误的，但Wolfram Alpha只给出了结果，并没有给出具体的计算过程，这勾起了强烈的好奇心。由于积分区间发生了变化，区间再现公式已经不再适用，各种各样的换元法也无法带来实质性的进展，我的求解过程只得再度陷入了停滞。</p>
-<p>尽管如此，在通过在各种角度对结果中两个项的观察后，我还是通过无穷级数的手段解决了它，解的第一步也是关键利用了著名Wallis积分。我将具体的计算过程贴在下面：</p>
+<p>尽管如此，通过在各种角度对结果中的两项进行观察后，我还是通过无穷级数的手段解决了它，解的第一步也是关键利用了著名的沃利斯积分(Wallis’ Integral)。我将具体的计算过程贴在下面：</p>
 <script type="math/tex; mode=display">
 \begin{align*}
 \int_{0}^{\frac{\pi}{2}} \frac{x\sin x}{1+\cos^2 x} dx & = \sum_{n=0}^{\infty} (-1)^n \int_{0}^{\frac{\pi}{2}} x\sin x\cos^{2n} x dx \\
@@ -691,7 +691,7 @@
                 
                   <a href="/archives/%20%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">41</span>
+                    <span class="site-state-item-count">43</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -811,7 +811,9 @@
                     
                       
                     
-                    <span class="site-state-item-count">35</span>
+                      
+                    
+                    <span class="site-state-item-count">36</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -884,7 +886,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">96k</span>
+    <span title="站点总字数">100k</span>
   
 
   
@@ -893,7 +895,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">1:27</span>
+    <span title="站点阅读时长">1:31</span>
   
 </div>
 
