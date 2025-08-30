@@ -121,7 +121,7 @@
 <meta property="og:description" content="引子本系列文章记录我在金融工程(Financial Engineering)的学习心得，内容涵盖远期合约、期权等金融衍生品的定价模型。本文为该系列的引论，将简单介绍现代金融学中利息的计算方式、资产定价的基本原理、远期合约和期权的合约形式，并推导期权平价公式。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-08-30T14:52:31.000Z">
-<meta property="article:modified_time" content="2025-08-30T14:55:19.217Z">
+<meta property="article:modified_time" content="2025-08-30T18:09:24.490Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="Finance">
 <meta property="article:tag" content="Financial Engineering">
@@ -462,7 +462,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">4.3k</span>
+                <span title="本文字数">4.5k</span>
               
 
               
@@ -531,7 +531,8 @@
 <p>对于看涨期权的买方，可以在到期日选择是否在到期日$T$以执行价格$K$买入标的资产，所以只有在到期日标的资产的价格$S_T &gt; K$时，买方才会选择行权。</p>
 <p>如果令$(X)^+ = \max (X,0)$，则看涨期权的到期收益为$(S_T - K)^+$，而看跌期权的收益则为$(K – S_T)^+$。作为一个投资组合，如果我们同时买入看涨期权并卖出看跌期权，那么无论如何，该组合的到期收益始终为$S_T - K$。</p>
 <p>要复制这一投资组合的现金流，我们需要在期权到期日同时持有一单位的标的资产$S_T$和$-K$的货币资金。因此，我们可以得到所谓的期权平价公式(Put-Call Parity)：</p>
-<script type="math/tex; mode=display">C(K,T) – P(K,T) = S_t – Ke^{-(T-t)r}</script>
+<script type="math/tex; mode=display">C(K,T) – P(K,T) = S_t – Ke^{-(T-t)r}</script><p>与远期合约类似的，若标的资产在到期前分红，例如在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则期权平价公式变为：</p>
+<script type="math/tex; mode=display">C(K,T) - P(K,T) = S_t - Ke^{-(T-t)r} - \delta e^{-(T-\delta)r}</script>
       
     </div>
 
