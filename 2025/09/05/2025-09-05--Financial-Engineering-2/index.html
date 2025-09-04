@@ -121,7 +121,7 @@
 <meta property="og:description" content="引子这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。 离散模型离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-09-04T21:59:57.000Z">
-<meta property="article:modified_time" content="2025-09-04T21:59:53.745Z">
+<meta property="article:modified_time" content="2025-09-04T22:13:56.520Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="Finance">
 <meta property="article:tag" content="Financial Engineering">
@@ -499,7 +499,7 @@
         <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。</p>
 <h1 id="离散模型"><a href="#离散模型" class="headerlink" title="离散模型"></a>离散模型</h1><p>离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑资产的价格在相邻的两个时间节点的始末状态的变化，而不涉及中间的变化过程。<span id="more"></span></p>
 <h1 id="两期模型"><a href="#两期模型" class="headerlink" title="两期模型"></a>两期模型</h1><p>离散模型中最简单的是两期模型(Two-period Model)，即$T=0,1$，时间间隔为$\Delta t$。</p>
-<p>我们以$S<em>{k,t}$表示标的资产$S_k$在$t$时间的价格，并以$S_0$表示无风险资产，并约定$S</em>{0,0} = 1, S_{0,1} = e^{r\Delta t}$。</p>
+<p>我们以$ S<em>{k,t} $表示标的资产$ S_k $在$t$时间的价格，并以$ S_0 $表示无风险资产，并约定$ S</em>{0,0} = 1, S_{0,1} = e^{r\Delta t} $。</p>
 <p>在模型中，除了无风险资产，有且仅有一个标的资产$S_1$，它在相邻的两个时间节点之间只有两种状态，即以一定的比率上涨或下跌。</p>
 <p>因此，模型的样本空间为$\Omega = { U,D }$，分别代表标的资产的上涨或下跌两个可能事件。</p>
 <p>概率测度$\mathbb{P}$满足$P(U) = p, P(D) = 1-p, 0 \leq p \leq 1$。即标的资产有$p$概率在$t=1$时间上涨到$S_1 (U)$，有$1-p$概率下跌到$S_1 (D)$；而无风险资产无论在何种情况下都是$e^{r\Delta t}$。</p>
@@ -513,9 +513,14 @@
 & 0 \text{ otherwise}
 \end{align*} \right.</script><p>于是：</p>
 <script type="math/tex; mode=display">X_1^{\pi} = \pi_0 S_{0,1} + \pi_1 (\mathbf{1}_{\{U\}} S_{1,1} (U) + \mathbf{1}_{\{D\}} S_{1,1} (D))</script><p>在无套利定价理论中，我们所说的一个套利机会是一个自融资策略$\pi$，满足三个条件：</p>
-<p>1、$X_0^pi = 0$</p>
-<p>2、\mathbb{P} (\hat{X}_1^pi \geq 0) = 1</p>
-<p>3、\mathbb{P} (\hat{X}_1^pi &gt; 0) &gt; 0</p>
+<ol>
+<li><p>$X_0^{\pi} = 0$</p>
+</li>
+<li><p>$\mathbb{P} (\hat{X}_1^{\pi} \geq 0) = 1$</p>
+</li>
+<li><p>$\mathbb{P} (\hat{X}_1^{\pi} &gt; 0) &gt; 0$</p>
+</li>
+</ol>
 <h1 id="无套利定价"><a href="#无套利定价" class="headerlink" title="无套利定价"></a>无套利定价</h1><p>我们希望利用无套利定价，对上述模型中标的资产$S_1$的一个两期衍生品进行定价。在本节中，我们假设$H$为衍生品的支付(Payoff)。即在状态$U$下，衍生品产生一个现金流$H(U)$；在状态$D$下，衍生品产生一个现金流$H(D)$。</p>
 <p>根据一价定律，我们需要找到一个投资组合$\pi$，使得该投资组合在$t=1$期各状态下的支付与该衍生品完全相同，则衍生品的价格即为该投资组合的价格。即我们需要找到满足以下条件的投资组合$\pi$：</p>
 <script type="math/tex; mode=display">\left \{ \begin{align*}
