@@ -1,27 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>英语语法歧义现象(一):牛津逗号(Oxford Comma)</title>
-    <url>/2017/07/16/2017-07-16--Oxford-Comma/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>牛津逗号是英语中逗号的一类特殊用法，通常情况下它是指在枚举事物时，出现在and或or等并列连词之前的逗号，如：<br>    &emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>    &emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>在上句中，and前的逗号即是牛津逗号，因牛津大学对其用法和必要性的规范化而得名，由于哈佛大学也曾对其有过类似的规定，故也可称其为“哈佛逗号”，当然这两个名称都并不是它真正的名字，在语言学中它的正式名称是“<strong>序列逗号(Serial Comma)</strong>”。任何事物都有其存在的理由，牛津逗号的存在也是合理的，下面就来介绍它的一些用法。<span id="more"></span></p>
-<h1 id="合理使用消除歧义"><a href="#合理使用消除歧义" class="headerlink" title="合理使用消除歧义"></a>合理使用消除歧义</h1><p>直接用文章开头举的例子进行分析吧：<br>    &emsp;&emsp;①无牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师：杰克和约翰组成。</em><br>    &emsp;&emsp;②有牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>两个句子几乎一模一样，仔细一看才发现是Jack和and John之间相差了一个“牛津逗号”，但两个句子的语义却截然不同，在没有添加牛津逗号的第一个句子中，由于并列连词and的优先级高于逗号，因此“Jack and John”就中二者的并列关系就应该在考虑逗号之前被优先考虑，这样“Jack and John”就成了“two engineers”的同位语，二者是修饰与被修饰的从属关系；而在添加牛津逗号的第一个句子中，由于“Jack”和并列连词and之间被牛津逗号隔开了，因此并不存在需要优先考虑的并列关系，这样句子就顺次枚举了“two engineers”“Jack”“John”，三者是彼此独立而以并列关系存在的。前句无牛津逗号，连词and前后的事物是应被作为一个整体考虑的；后句有牛津逗号，牛津逗号和连词and前后的事物是并列关系而彼此独立的。由此可以看到，添加或删去句子中的牛津逗号，是可以起到改变句意的作用的，这样也就达到了合理使用牛津逗号消除歧义的目的。</p>
-<h1 id="错误使用产生歧义"><a href="#错误使用产生歧义" class="headerlink" title="错误使用产生歧义"></a>错误使用产生歧义</h1><p>下面我们分析另外两句话：<br>    &emsp;&emsp;<em>To my parents, Mary and John.</em><br>    &emsp;&emsp;<em>To my parents, Mary, and John.</em><br>事实上，第一句话有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的父母、玛丽以及约翰。</em>(共四人，玛丽和约翰不是我的父母)<br>    &emsp;&emsp;(2)<em>献给我的父母：玛丽和约翰。 </em>(共二人，玛丽和约翰是我的父母)<br>而第二句话就只有(2)一种理解。<br>    &emsp;&emsp;<em>To my mother, Mary and John.</em><br>    &emsp;&emsp;<em>To my mother, Mary, and John.</em><br>此时，第二句话就有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的母亲、玛丽以及约翰。</em>(共三人，玛丽不是我的母亲)<br>    &emsp;&emsp;(2)<em>献给我的母亲(玛丽)以及约翰。</em>(共二人，玛丽是我的母亲)<br>而第一句话，就只有(1)一种理解，因为并列连词and优先将其前后的事物结合为一个整体，而如果将这个整体(两个人)作为mother之后的插入语，就矛盾了一个人只有一个母亲的事实。在第一组句子中，前句因为缺少牛津逗号而导致歧义，后句中添加的牛津逗号则消除了歧义；而在第二组句子中则恰恰相反，多出的牛津逗号反而导致了歧义。</p>
-<h1 id="问题的出现与分析"><a href="#问题的出现与分析" class="headerlink" title="问题的出现与分析"></a>问题的出现与分析</h1><p>上面举例说明了英语中牛津逗号的作用及在其使用过程中可能出现的问题，那么我们不禁要思考，为什么会出现这样的问题？在这里就不得不谈及英文中逗号的主要用途了：<br>    &emsp;&emsp;<em><FONT face="Kaiti">各分句间表停顿、主句与从句间表停顿、两个或两个以上结构间表并列、句子独立成分前后表停顿。</FONT></em><br>总而言之，英语中逗号的两个用途就是表示停顿和并列。而在中文，我们未曾听闻类似于英文中牛津逗号的尴尬用法。我们来看看，在正规中文中，表示并列这一用途被顿号和分号取而代之了，顿号表示句子内部两个词语的并列，分号表示复句内部两个分句的并列。因此，牛津逗号的尴尬处境，根本上来自于英语中逗号功能的多样性和混杂性，也正因如此，几乎逗号的任何用法都处于一种“低不成，高不就”的定位：逗号可以表示并列，但意味并不如专用的并列连词强烈；它可以连接插入语，但使用不当又会造成插入语和被修饰部分的概念不匹配。</p>
-<h1 id="趣闻"><a href="#趣闻" class="headerlink" title="趣闻"></a>趣闻</h1><p>值得一提的是，<em>Oxford Comma</em>一词在美国俚语中常被用来比喻鸡毛蒜皮或不值一提的小事，但历史上也确有因一个牛津逗号而引发的“大事”。如下面这篇短文：</p>
-<blockquote>
-<p><em>The canning, processing, preserving, freezing, drying, marketing, storing, <strong>packing for shipment or distribution</strong> of:<br>(1)Agricultural produce;<br>(2)Meat and fish products; and<br>(3)Perishable foods.</em></p>
-</blockquote>
-<p>这篇短文的内容事实上是是美国缅因州某奶制品公司关于司机加班费的规定，也是一起劳务纠纷案件的争端，它规定以上工作内容都是司机在职责范围内的本职工作，不能获得加班费。乍一看还没有发现什么问题，但我们看到第一句话中用加粗字体强调的部分文字，这起争端事件的起因就是细心的司机们发现“packing for shipment”(打包)与“distribution”(分拣)间缺少了一个牛津逗号，导致两项工作内容由公司认定的并列关系变为选择关系，也就是说，司机们如果把打包和分拣两项工作都完成了，他们就应该获得加班费，对此公司保留解释，而司机们则把公司告上了法庭，基于劳动法中保护劳动者的原则，在公司规定语焉不详的情况下，法官作出了有利于劳动者的判决，这起官司最终以司机胜诉告终。<br>在英文正式文献中，类似的乌龙事件还有很多，上文所举的例子和种种事件都揭示了，牛津逗号在为书面英语使用者带来方便的同时，也会在不经意间带来许多麻烦，因此，对于是否需要添加牛津逗号，还需仔细分析and连接的内容是否可以作为插入语或与前面的内容是以何种关系存在。对此，结合上文第三版块的分析，给出一般性的分析方法：<br>    &emsp;&emsp;(1)若并列连词and连接的部分作为插入语出现，那么在and前面要添加牛津逗号；<br>    &emsp;&emsp;(2)若并列连词and连接的部分作为同位语修饰整个结构前的其他部分，那么在and前面不要添加牛津逗号。<br>以上是对并列连词and前是否添加牛津逗号的简单分析，其他并列连词前的牛津逗号也可以类似进行分析，即<strong>作为插入语还是作为同位语</strong>。</p>
-]]></content>
-      <categories>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>English</tag>
-        <tag>Grammar</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>To be a good ENGLISH LEARNER No.1 :语态和时态Voice and Tense</title>
     <url>/2017/08/11/2017-08-11--English-Grammar-Voice-And-Tense/</url>
     <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>英语中，助动词和谓语动词形式的使用，需要从三个方面上区分并选择，即<strong>语态(Voice)</strong>、<strong>状态(Aspect)</strong>和<strong>时间(Tense, Tense Group)</strong>。而过去将来时则作为一种时间上的复合体，同时需要结合<strong>语气(Mood)</strong>进行区分。</p>
@@ -129,6 +108,27 @@
         <tag>Grammar</tag>
         <tag>中文语法词义混淆现象</tag>
         <tag>醉仙阁杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语语法歧义现象(一):牛津逗号(Oxford Comma)</title>
+    <url>/2017/07/16/2017-07-16--Oxford-Comma/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>牛津逗号是英语中逗号的一类特殊用法，通常情况下它是指在枚举事物时，出现在and或or等并列连词之前的逗号，如：<br>    &emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>    &emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>在上句中，and前的逗号即是牛津逗号，因牛津大学对其用法和必要性的规范化而得名，由于哈佛大学也曾对其有过类似的规定，故也可称其为“哈佛逗号”，当然这两个名称都并不是它真正的名字，在语言学中它的正式名称是“<strong>序列逗号(Serial Comma)</strong>”。任何事物都有其存在的理由，牛津逗号的存在也是合理的，下面就来介绍它的一些用法。<span id="more"></span></p>
+<h1 id="合理使用消除歧义"><a href="#合理使用消除歧义" class="headerlink" title="合理使用消除歧义"></a>合理使用消除歧义</h1><p>直接用文章开头举的例子进行分析吧：<br>    &emsp;&emsp;①无牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师：杰克和约翰组成。</em><br>    &emsp;&emsp;②有牛津逗号：<br>        &emsp;&emsp;&emsp;&emsp;<em>The group consists of two engineers, Jack, and John.</em><br>        &emsp;&emsp;&emsp;&emsp;<em>这个小组由两位工程师、杰克和约翰组成。</em><br>两个句子几乎一模一样，仔细一看才发现是Jack和and John之间相差了一个“牛津逗号”，但两个句子的语义却截然不同，在没有添加牛津逗号的第一个句子中，由于并列连词and的优先级高于逗号，因此“Jack and John”就中二者的并列关系就应该在考虑逗号之前被优先考虑，这样“Jack and John”就成了“two engineers”的同位语，二者是修饰与被修饰的从属关系；而在添加牛津逗号的第一个句子中，由于“Jack”和并列连词and之间被牛津逗号隔开了，因此并不存在需要优先考虑的并列关系，这样句子就顺次枚举了“two engineers”“Jack”“John”，三者是彼此独立而以并列关系存在的。前句无牛津逗号，连词and前后的事物是应被作为一个整体考虑的；后句有牛津逗号，牛津逗号和连词and前后的事物是并列关系而彼此独立的。由此可以看到，添加或删去句子中的牛津逗号，是可以起到改变句意的作用的，这样也就达到了合理使用牛津逗号消除歧义的目的。</p>
+<h1 id="错误使用产生歧义"><a href="#错误使用产生歧义" class="headerlink" title="错误使用产生歧义"></a>错误使用产生歧义</h1><p>下面我们分析另外两句话：<br>    &emsp;&emsp;<em>To my parents, Mary and John.</em><br>    &emsp;&emsp;<em>To my parents, Mary, and John.</em><br>事实上，第一句话有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的父母、玛丽以及约翰。</em>(共四人，玛丽和约翰不是我的父母)<br>    &emsp;&emsp;(2)<em>献给我的父母：玛丽和约翰。 </em>(共二人，玛丽和约翰是我的父母)<br>而第二句话就只有(2)一种理解。<br>    &emsp;&emsp;<em>To my mother, Mary and John.</em><br>    &emsp;&emsp;<em>To my mother, Mary, and John.</em><br>此时，第二句话就有两种理解：<br>    &emsp;&emsp;(1)<em>献给我的母亲、玛丽以及约翰。</em>(共三人，玛丽不是我的母亲)<br>    &emsp;&emsp;(2)<em>献给我的母亲(玛丽)以及约翰。</em>(共二人，玛丽是我的母亲)<br>而第一句话，就只有(1)一种理解，因为并列连词and优先将其前后的事物结合为一个整体，而如果将这个整体(两个人)作为mother之后的插入语，就矛盾了一个人只有一个母亲的事实。在第一组句子中，前句因为缺少牛津逗号而导致歧义，后句中添加的牛津逗号则消除了歧义；而在第二组句子中则恰恰相反，多出的牛津逗号反而导致了歧义。</p>
+<h1 id="问题的出现与分析"><a href="#问题的出现与分析" class="headerlink" title="问题的出现与分析"></a>问题的出现与分析</h1><p>上面举例说明了英语中牛津逗号的作用及在其使用过程中可能出现的问题，那么我们不禁要思考，为什么会出现这样的问题？在这里就不得不谈及英文中逗号的主要用途了：<br>    &emsp;&emsp;<em><FONT face="Kaiti">各分句间表停顿、主句与从句间表停顿、两个或两个以上结构间表并列、句子独立成分前后表停顿。</FONT></em><br>总而言之，英语中逗号的两个用途就是表示停顿和并列。而在中文，我们未曾听闻类似于英文中牛津逗号的尴尬用法。我们来看看，在正规中文中，表示并列这一用途被顿号和分号取而代之了，顿号表示句子内部两个词语的并列，分号表示复句内部两个分句的并列。因此，牛津逗号的尴尬处境，根本上来自于英语中逗号功能的多样性和混杂性，也正因如此，几乎逗号的任何用法都处于一种“低不成，高不就”的定位：逗号可以表示并列，但意味并不如专用的并列连词强烈；它可以连接插入语，但使用不当又会造成插入语和被修饰部分的概念不匹配。</p>
+<h1 id="趣闻"><a href="#趣闻" class="headerlink" title="趣闻"></a>趣闻</h1><p>值得一提的是，<em>Oxford Comma</em>一词在美国俚语中常被用来比喻鸡毛蒜皮或不值一提的小事，但历史上也确有因一个牛津逗号而引发的“大事”。如下面这篇短文：</p>
+<blockquote>
+<p><em>The canning, processing, preserving, freezing, drying, marketing, storing, <strong>packing for shipment or distribution</strong> of:<br>(1)Agricultural produce;<br>(2)Meat and fish products; and<br>(3)Perishable foods.</em></p>
+</blockquote>
+<p>这篇短文的内容事实上是是美国缅因州某奶制品公司关于司机加班费的规定，也是一起劳务纠纷案件的争端，它规定以上工作内容都是司机在职责范围内的本职工作，不能获得加班费。乍一看还没有发现什么问题，但我们看到第一句话中用加粗字体强调的部分文字，这起争端事件的起因就是细心的司机们发现“packing for shipment”(打包)与“distribution”(分拣)间缺少了一个牛津逗号，导致两项工作内容由公司认定的并列关系变为选择关系，也就是说，司机们如果把打包和分拣两项工作都完成了，他们就应该获得加班费，对此公司保留解释，而司机们则把公司告上了法庭，基于劳动法中保护劳动者的原则，在公司规定语焉不详的情况下，法官作出了有利于劳动者的判决，这起官司最终以司机胜诉告终。<br>在英文正式文献中，类似的乌龙事件还有很多，上文所举的例子和种种事件都揭示了，牛津逗号在为书面英语使用者带来方便的同时，也会在不经意间带来许多麻烦，因此，对于是否需要添加牛津逗号，还需仔细分析and连接的内容是否可以作为插入语或与前面的内容是以何种关系存在。对此，结合上文第三版块的分析，给出一般性的分析方法：<br>    &emsp;&emsp;(1)若并列连词and连接的部分作为插入语出现，那么在and前面要添加牛津逗号；<br>    &emsp;&emsp;(2)若并列连词and连接的部分作为同位语修饰整个结构前的其他部分，那么在and前面不要添加牛津逗号。<br>以上是对并列连词and前是否添加牛津逗号的简单分析，其他并列连词前的牛津逗号也可以类似进行分析，即<strong>作为插入语还是作为同位语</strong>。</p>
+]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>English</tag>
+        <tag>Grammar</tag>
       </tags>
   </entry>
   <entry>
@@ -255,6 +255,45 @@
       </tags>
   </entry>
   <entry>
+    <title>漫谈毒品</title>
+    <url>/2018/07/19/2018-07-19--Drug-Abuse/</url>
+    <content><![CDATA[<h1 id="写在前面：珍爱生命，远离毒品"><a href="#写在前面：珍爱生命，远离毒品" class="headerlink" title="写在前面：珍爱生命，远离毒品"></a>写在前面：珍爱生命，远离毒品</h1><h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><h2 id="什么是毒品"><a href="#什么是毒品" class="headerlink" title="什么是毒品"></a>什么是毒品</h2><p>在这个禁毒教育日渐普及的年代和国度，几乎任何人都对毒品有着模糊或清晰的概念，尽管如此在展开更详细的讨论之前还是要明确一下它的定义，在日常或法律中，毒品是对一类<strong>滥用</strong>会产生依赖性的精神类药物的统称。</p>
+<h2 id="常见的毒品种类-活性成分及作用机制"><a href="#常见的毒品种类-活性成分及作用机制" class="headerlink" title="常见的毒品种类  活性成分及作用机制"></a>常见的毒品种类  活性成分及作用机制</h2><p>绝大多数信息在人体内的流动是靠神经递质的定向流动与对应受体发生相互作用来完成的，就这一方面来说，毒品的作用机制也几乎都可以被归纳为与受体发生相互作用，只不过前者是人体内自然分泌的，而后者是外界摄入的。因此从不太严谨的角度来说，可以认为<strong>毒品和神经递质本质上是同一类物质</strong>。<br>由于人体内的神经递质种类繁多，因此毒品也是多种多样，目前已被发现或合成的有精神活性的物质就有数千种，其中被列为毒品的有200余种，本文中仅选取较为常见的几种作简单介绍。<br><span id="more"></span></p>
+<h3 id="大麻-Cannabis-Sativa-Marijuana"><a href="#大麻-Cannabis-Sativa-Marijuana" class="headerlink" title="大麻(Cannabis Sativa, Marijuana)"></a>大麻(Cannabis Sativa, Marijuana)</h3><p>一种桑科大麻属植物，有一定药用价值和应用价值，在合理使用的前提下可入药用，在中医文化中曾被用来治疗关节炎、惊厥等；在现代亦有用其所开发的药品治疗青光眼等疾病。在被当作一种毒品时，这个词更准确的一种定义应该是含有四氢大麻酚(Tetrahydrocannabinol, THC)的可被用于吸食的大麻制剂或其他制剂，四氢大麻酚是大麻制剂的主要活性成分，主要存在于雌花分泌的树脂中。吸食者在吸食大麻制剂后常表现出安逸舒适，但增加剂量又可达到相反的效果；此外，吸食大麻会延长大脑的反应时间，在这方面与酒精有一定相似性，许多因驾驶员吸食大麻造成的车祸就是因此发生的。<br>四氢大麻酚是一种与花生四烯酸乙醇胺结构相似的物质，而后者是人体正常生理、心理活动所必需的神经递质之一，相似的结构使四氢大麻酚和花生四烯酸乙醇胺容易发生相互作用，简而言之就是人体会把进入体内的四氢大麻酚当作花生四烯酸乙醇胺，从而导致某些错误的信息被产生和传递；这种相互作用可以直接对中枢神经系统产生抑制作用或兴奋作用，视其剂量、环境等因素的不同而不同。对大麻制剂的长期吸食还会导致多巴胺奖励机制被破坏，造成情绪调节能力的损伤或丧失，这被认为是吸食者对大麻制剂产生依赖性的重要原因之一。<br><img src="/images/2018-07-19--Drug-Abuse/Tetrahydrocannabinol.png" alt="四氢大麻酚(Tetrahydrocannabinol, THC)的结构式" title="四氢大麻酚(Tetrahydrocannabinol, THC)的结构式"></p>
+<h3 id="鸦片类药物-Opiates-Opioids"><a href="#鸦片类药物-Opiates-Opioids" class="headerlink" title="鸦片类药物(Opiates, Opioids)"></a>鸦片类药物(Opiates, Opioids)</h3><p>鸦片类药物和大麻一样是最早有使用记录的毒品之一，是罂粟未成熟的蒴果所含汁液的干燥物，内含多种对人类神经系统有明确作用的活性成分，吗啡是它们的代表，早在17世纪初就首次被德国化学家泽尔蒂纳在鸦片中分离出来，使用方面更早在14-15世纪就有使用鸦片来得到精神满足的文献记录，可以认为正是鸦片的活性成分发挥了作用。此外，鸦片还是多种医学麻醉剂或麻醉剂原料的来源。<br>但相比大麻，鸦片类药物的作用效果则要明显得多，吸食者在吸食后主要表现出极其强烈的舒适，伴随有心跳加速、血压升高等一系列兴奋作用，最主要的是它对痛觉的屏蔽作用即镇痛。<br>内啡肽系统(Endorphin System)是大脑进行生理调节的模块之一，目前已经发现的与内啡肽系统相关的包括4种内啡肽类物质和5种鸦片受体，这些受体主要分布在痛觉传导区和行为调控区。吗啡是一种与β-内啡肽(前面提到的4种内啡肽类物质的其中一种)结构相似的物质，在进入人体后能和β-内啡肽一样能被鸦片受体正常识别从而抑制大脑皮质层的痛觉传导区，此外还对中枢神经系统多个区域有着不同的作用。另外还有很重要的一点，吗啡类药物有较强的生理依赖性，在数次吸食或服用后就能激活鸦片受体引发代偿性适应，简单地说就是外来的内啡肽会减少体内正常分泌的内啡肽的量，停止吸食后也不会再回复到原来的水平，这就破坏了内啡肽系统的正常功能，对吸食者的生理和心理造成严重的损伤。<br>海洛因(Heroine)是吗啡的结构修饰产物之一，学名又作二乙酰吗啡(Diamorphine)，其作用效果比吗啡更为显著，但其依赖性也略强于吗啡，有学者认为是两个乙酰取代基增强了海洛因的亲油性使其较吗啡更易于通过血脑屏障。<br>此外，市售的鸦片制剂通常是未经提纯的蒴果汁液干燥物，还含有罂粟碱等杂质，它们是鸦片制剂毒性的重要来源之一，另一个重要来源已经被确认是吗啡的二聚体。<br><img src="/images/2018-07-19--Drug-Abuse/Morphine.png" alt="吗啡(Morphine)的结构式" title="吗啡(Morphine)的结构式"><img src="/images/2018-07-19--Drug-Abuse/Heroine.png" alt="海洛因(Heroine)的结构式" title="海洛因(Heroine)的结构式"><img src="/images/2018-07-19--Drug-Abuse/Thebaine.png" alt="蒂巴因(Thebaine)的结构式，是鸦片中所含的另一种生物碱，因毒性弱于吗啡而更广泛地被用作医学麻醉剂" title="蒂巴因(Thebaine)的结构式，是鸦片中所含的另一种生物碱，因毒性弱于吗啡而更广泛地被用作医学麻醉剂"></p>
+<h3 id="氯胺酮类药物-Ketamine"><a href="#氯胺酮类药物-Ketamine" class="headerlink" title="氯胺酮类药物(Ketamine)"></a>氯胺酮类药物(Ketamine)</h3><p>在黑市交易中常常被称为<em>K, Khat</em>，因此又音译为K粉，最早在医学上用作麻醉剂，对大脑有一系列复杂的作用(包括边缘系统-丘脑新皮质系统分离和与K-鸦片受体的相互作用)，吸入者在吸食后会进入一种特殊的麻醉状态，表现为强烈的分离感和镇痛作用。<br><img src="/images/2018-07-19--Drug-Abuse/Ketamine.png" alt="氯胺酮(Ketamine)的结构式，包括左右两种旋光异构体" title="氯胺酮(Ketamine)的结构式，包括左右两种旋光异构体"></p>
+<h3 id="古柯碱-Cocaine"><a href="#古柯碱-Cocaine" class="headerlink" title="古柯碱(Cocaine)"></a>古柯碱(Cocaine)</h3><p>又音译为可卡因，也是有悠久历史的传统毒品的代表之一，主要存在于古柯树的叶子中。南美洲用古柯叶泡茶泡水饮用的习惯迄今已有千年之久，早在航海时代也有西班牙探险家在南美航行时便注意到南美土著人通过咀嚼古柯叶来提神，拉开了该类制剂商业化的帷幕，17世纪中期奥地利化学家纽曼(<em>Neiman</em>)在古柯叶中提纯出高纯度的活性成分并将其命名为可卡因，学名为苯甲基芽子碱。值得注意的是，市售的可卡因几乎是直接从古柯叶中提取的，没有经历过多的提纯工序，因此含有多种相似成分而并不纯。<br>可卡因在进入人体后的作用主要通过阻断神经电位的传导产生局部麻醉和刺激多巴胺的分泌来实现，此外也可与鸦片受体发生作用(可以看到它和吗啡一样有氮杂双环的特殊结构)，吸食者表现为情绪高涨、躁动不安、性欲增强等，长期吸食会导致脑部结构和功能发生不可逆的改变，因此以生理依赖性显著被称为最难戒除的毒品，复吸率高达95%。<br><img src="/images/2018-07-19--Drug-Abuse/Cocaine.png" alt="古柯碱(Cocaine)的结构式" title="古柯碱(Cocaine)的结构式"></p>
+<h3 id="肾上腺素类似物-Adrenaline-Analogues"><a href="#肾上腺素类似物-Adrenaline-Analogues" class="headerlink" title="肾上腺素类似物(Adrenaline Analogues)"></a>肾上腺素类似物(Adrenaline Analogues)</h3><p>在这类药物中最著名的要属甲基苯丙胺了，因其高纯结晶体形似冰块又被俗称为冰毒(Ice)，又因常常制成丸状和强烈的兴奋作用被称为摇头丸。和海洛因在传统毒品中并称为危害最大的两种毒品。长期服用会导致以肾上腺素为主的内分泌调节机制紊乱，因而也有一定的生理依赖性，但以吸食带来的极大快感造成的心理依赖性为主，因此产生依赖性后也很难戒除。<br><img src="/images/2018-07-19--Drug-Abuse/Methamphetamine.png" alt="甲基苯丙胺的结构式" title="甲基苯丙胺的结构式"></p>
+<h3 id="浴盐-Methcathinone"><a href="#浴盐-Methcathinone" class="headerlink" title="浴盐(Methcathinone)"></a>浴盐(Methcathinone)</h3><p>新型毒品的代表之一，是一类有强烈的中枢神经兴奋作用的致幻剂的统称，通常是甲氧麻黄酮、亚甲基双氧吡咯戊酮及其类似物(常有卤代烃取代物或小分子烷烃的酰基取代物，这是它们的生产者为了提纯方便而加上的特殊修饰结构，药理作用尚不明确)。浴盐的出现和流行标志着以合成药物为主的新型毒品生产方式代表的新型毒品市场的诞生，其作用效果类似于甲基苯丙胺和可卡因的混合物。<br>值得注意的是，现代化学合成和提纯工艺的发达使新型毒品的开发更加廉价，在结构上也更有针对性，许多研究都表示，浴盐的危害性和依赖性对个体来说强于任何传统毒品。<br><img src="/images/2018-07-19--Drug-Abuse/Methcathinone.png" alt="甲卡西酮的结构式，是浴盐的活性成分之一" title="甲卡西酮的结构式，是浴盐的活性成分之一"></p>
+<h1 id="毒品的依赖性和危害性"><a href="#毒品的依赖性和危害性" class="headerlink" title="毒品的依赖性和危害性"></a>毒品的依赖性和危害性</h1><p><img src="/images/2018-07-19--Drug-Abuse/Dependence-and-physical-harm-chart.png" alt="各种常见毒品的依赖性和危害性相对分布图" title="各种常见毒品的依赖性和危害性相对分布图，纵坐标为依赖性，横坐标为危害性"><br>依赖性和危害性是考察一种毒品或一种精神类药物是否应该被称为毒品的两项重要指标(事实上它们在某种程度上是正相关的)，危害性主要包括吸食者在吸食后表现出的社会危害性和毒品本身的毒性对吸食者的生理毒性(注：上表中的危害性应被认为只是强调了生理毒性)；依赖性主要包括生理依赖性和心理依赖性，前者是指长期吸食导致的生理上结构和功能的改变而产生的依赖性，而后者则是指吸食带来的特殊感受而产生的依赖性，因该指标较难直接考量，故实际中常以复吸率和产生依赖性的剂量次数作为间接的参考指标。<br>其次还要考察其贸易市场和滥用群体，在这方面主要由多种社会因素共同决定，例如杜冷丁现在仅仅在医学上被用作止痛药，很少人将其作为毒品进行滥用，就不能将其视为毒品，尽管其依赖性和危害性也是不容忽略的。因此上表给出的数据也仅有一定参考性，即<strong>不能简单地认为有依赖性和危害性的精神类药物就是毒品</strong>，对一种毒品总体的评定也不能仅仅依靠依赖性和危害性两项指标，还要综合考虑是否存在贸易市场、是否存在滥用者群体等社会因素。</p>
+<h1 id="即将被打开的潘多拉魔盒：大麻的合法化或去罪化"><a href="#即将被打开的潘多拉魔盒：大麻的合法化或去罪化" class="headerlink" title="即将被打开的潘多拉魔盒：大麻的合法化或去罪化"></a>即将被打开的潘多拉魔盒：大麻的合法化或去罪化</h1><p>历史上人类在经受毒品的折磨后逐渐形成了基本的共识，那就是“禁毒”，这种共识在联合国和许多地区以法律的形式存在，因此毒品从生产、贸易到吸食也都是政府严厉打压的犯罪行为之一，这也给毒品行业带来了巨大的风险，这种风险在毒品贸易中以风险溢价的形式存在，以毒品价格走高的形式表现出来。同时，由于禁毒教育工作的不足或不善也给毒品行业蒙上了神秘的面纱，这种神秘性不断吸引着好奇心强的个体走上吸毒的道路。<br>另一方面，也正由于从事毒品行业本身被认定为道德禁止行为和法律禁止行为以及毒品极高的风险溢价，也使得毒品贸易常伴随着其他犯罪行为的发生，更给这一行业蒙上了一层黑暗。<br>因此我们认为，<strong>巨大的风险溢价吸引的生产者端和好奇心与依赖性维持的消费者端是毒品行业及其市场存在的重要保证，相关行为的道德违反性和法律违反性是这一行业的重要特征。</strong><br>由于这些原因，毒品行业还是在地下市场占有相当的份额，另一方面由于人类追求快感的本能需要和思想的逐渐解放，越来越多的人开始对毒品充满了好奇心，这种群体意识的逐渐转变，给毒品行业的未来引出了第二条走向光明的道路，那就是进行合法化或去罪化。<br>但在此之前我们也必须要考虑到两个重要问题：</p>
+<ul>
+<li>毒品与其他犯罪行为是否有着直接必然的联系？合法化后的毒品行业还会是一幅伴随着其他犯罪行为的黑暗景象吗？</li>
+<li>如果毒品行业的一切行为从生产到消费完全被合法化，将给这个社会带来怎样的影响？</li>
+</ul>
+<p>对于第一个问题，许多人认为毒品贸易常常伴随着其他犯罪行为的发生是由于毒品行业本身被法律禁止所导致的，完全合法化后将不存在这样的问题。诚然，这样<strong>仅仅认为毒品行业伴随着其他犯罪行为的发生仅存在于毒品贸易行为过程中</strong>的观点是片面的，毒驾、“酗毒”等行为都有可能在吸食毒品后发生。<br>对于第二个问题，毫无疑问这也是“禁毒”的根本原因之一，显然如果考虑毒品的合法化或去罪化，主要要考虑的问题在于毒品会对吸食者带来怎样的影响(比起这一点毒品的生产和贸易影响甚微)，推而广之在吸食者占有一定人口比例时(这是毒品合法化后必然要发生的)，会对社会带来怎样的影响，显然这足以把那些依赖性和危害性较为严重的毒品排除掉了，因为吸食它们会对吸食者的身体造成严重的伤害，合法化或去罪化后广泛地吸食将严重降低社会生产力，在这一点上可以参考清末明初鸦片泛滥的中国地区。<br>综上所述，我们可以看到，毒品行业完全的合法化或去罪化是严重脱离现实的，对于像海洛因、甲基苯丙胺等一些依赖性和危害性较强的毒品，保持其非法性是社会发展所必需的；即使要对一些依赖性和危害性较弱的毒品实行合法化或去罪化，也需要其他相关制度的充分保障。对于后者我们在大麻问题上看到了希望，截至这篇文章的撰写日期，目前已经实现大麻合法化的地区主要有美国部分洲、加拿大北部阿尔伯塔省，还有更多的地区效而仿之正走在大麻的合法化或去罪化的道路上。<br>在上一节的表格中我们可以看到，大麻的依赖性和危害性均小于广泛合法的酒精(酒的活性成分)和尼古丁(烟草的活性成分)，这给评价大麻合法化或去罪化这一问题又带来了一定的复杂性。<br>笔者认为要考虑到的主要有三方面：</p>
+<ul>
+<li>大麻被认为是扮演了“入门毒品(Gateway Drug)”的角色，研究表明大多数使用者在吸食大麻后会选择尝试其他作用效果更强的毒品，在实行大麻合法化或去罪化后，如何处理大麻与其他毒品的关系也是必要考虑的；</li>
+<li>部分大麻的吸食者会为了追求更大的快感而选择品质更好的大麻(THC含量更高，参考下表)，这样的大麻对吸食者的危害性更高也可能会导致更强的依赖性，在实行大麻合法化或去罪化后如何规范管理大麻的生产者甚至是消费者；</li>
+<li>大麻的合法化与去罪化无疑是迈出了毒品合法化的第一步，如何避免在此之后其他依赖性和危害性更强的毒品也纷纷被提上合法化或去罪化的日程。</li>
+</ul>
+<p><img src="/images/2018-07-19--Drug-Abuse/Figure-Non-normalized-Average-THC-vs-Year-of-Confiscation.png" alt="娱乐大麻中THC含量年度平均数据" title="娱乐大麻中THC含量年度平均数据"><br>第一个问题需要对那些依赖性和危害性较强的毒品更强硬的管控措施作为保障，显然我们无法去遏止一个人对新鲜事物的好奇心，那要阻止他去尝试一种新鲜事物就只有不然它出现在触手可得的地方。<br>第二个问题则需要更微妙的制度调控与更好的教育普及，这是需要每个实行大麻合法化或去罪化的地区政府的立法者所需要想到的。<br>第三个问题事实上并不比过多地担心，在禁毒教育良好、群众对该类毒品的依赖性和危害性有清晰认知的地区并不会发生这样的事情，法律是群众意志的体现，只要这样的事情群众在意志中不发生那么在法律中也不会发生。<br>诚然我们无法对大麻合法化或去罪化的决定做出或好或坏的评价，合法化或去罪化的影响也还取决于其他措施是否完善、社会属性是否适合等其他多而复杂的因素；身处这样一个全面禁毒的国度也不必过分地追求这些纸醉金迷的快感。人对快乐的追求是无止境的，但快乐自身的定义也是无止境的，更多时候它只取决于你自己是否认为你是快乐的。</p>
+<h1 id="写在最后：珍爱生命，远离毒品。"><a href="#写在最后：珍爱生命，远离毒品。" class="headerlink" title="写在最后：珍爱生命，远离毒品。"></a>写在最后：珍爱生命，远离毒品。</h1><p><hr></p>
+<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
+<li>文中化学结构式均引自<a href="https://zh.wikipedia.org/">维基百科</a></li>
+<li>各种常见毒品的依赖性和危害性相对分布图引自<a href="https://www.thevespiary.org/rhodium/Rhodium/Vespiary/talk/files/6416-615_Pharmacology_Therapeutics_NUTT_Rational_Scale_Harm_Drugs_Misuse07ea.pdf">《Health Policy: Development of a rational scale to assess the harm of drugs of potential misuse》</a></li>
+<li>娱乐大麻中THC含量年度平均数据表格引自<em>NIDA(National Institute of Drug Abuse)</em>组织发表的数据统计报告<a href="https://www.ncjrs.gov/pdffiles1/ondcp/mpmp_report_104.pdf">《REPORT 104: December 16, 2008 thru March 15, 2009》</a></li>
+</ul>
+]]></content>
+      <categories>
+        <category>Social Science</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Social View</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>概率论的几个悖论</title>
     <url>/2018/07/15/2018-07-15--Some-Paradoxes-of-Probability/</url>
     <content><![CDATA[<h1 id="引子-概率论-Theory-of-Probability-简介"><a href="#引子-概率论-Theory-of-Probability-简介" class="headerlink" title="引子  概率论(Theory of Probability)简介"></a>引子  概率论(Theory of Probability)简介</h1><p>概率论是研究自然科学中随机现象的分布规律的数学分支，最早起源于人们对机会游戏的思考和探索。现代数学体系中的概率论，已经是经过集合论公理化的基本数学工具之一，它可以被称作是一个公理系统，一个将现实中的随机现象通过建模抽象成集合和函数再进行运算得到其“概率(Probability)”的方法系统。<br>但是今天我们不讨论那些过于抽象的学术问题，就来聊一聊一些概率论中比较有趣的“悖论”，历史上这些悖论也为促进概率论的发展起了很大的作用<span id="more"></span>；也希望尚未学习过概率论的读者可以在阅读本文之后对概率论的相关内容有一定了解，如果这部分读者愿意把它视作一份简单的概率论的入门引导并产生对概率论的学习兴趣那笔者可以说是相当开心了。<br>本文采用尽可能简单、直观的方式进行说明，但仍然有不少地方涉及到一些简单的定义和定理，对此笔者用简短的文字在下面给出了它们(样本空间、事件、概率等过于基础的除外)。</p>
@@ -325,64 +364,6 @@
       </tags>
   </entry>
   <entry>
-    <title>漫谈毒品</title>
-    <url>/2018/07/19/2018-07-19--Drug-Abuse/</url>
-    <content><![CDATA[<h1 id="写在前面：珍爱生命，远离毒品"><a href="#写在前面：珍爱生命，远离毒品" class="headerlink" title="写在前面：珍爱生命，远离毒品"></a>写在前面：珍爱生命，远离毒品</h1><h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><h2 id="什么是毒品"><a href="#什么是毒品" class="headerlink" title="什么是毒品"></a>什么是毒品</h2><p>在这个禁毒教育日渐普及的年代和国度，几乎任何人都对毒品有着模糊或清晰的概念，尽管如此在展开更详细的讨论之前还是要明确一下它的定义，在日常或法律中，毒品是对一类<strong>滥用</strong>会产生依赖性的精神类药物的统称。</p>
-<h2 id="常见的毒品种类-活性成分及作用机制"><a href="#常见的毒品种类-活性成分及作用机制" class="headerlink" title="常见的毒品种类  活性成分及作用机制"></a>常见的毒品种类  活性成分及作用机制</h2><p>绝大多数信息在人体内的流动是靠神经递质的定向流动与对应受体发生相互作用来完成的，就这一方面来说，毒品的作用机制也几乎都可以被归纳为与受体发生相互作用，只不过前者是人体内自然分泌的，而后者是外界摄入的。因此从不太严谨的角度来说，可以认为<strong>毒品和神经递质本质上是同一类物质</strong>。<br>由于人体内的神经递质种类繁多，因此毒品也是多种多样，目前已被发现或合成的有精神活性的物质就有数千种，其中被列为毒品的有200余种，本文中仅选取较为常见的几种作简单介绍。<br><span id="more"></span></p>
-<h3 id="大麻-Cannabis-Sativa-Marijuana"><a href="#大麻-Cannabis-Sativa-Marijuana" class="headerlink" title="大麻(Cannabis Sativa, Marijuana)"></a>大麻(Cannabis Sativa, Marijuana)</h3><p>一种桑科大麻属植物，有一定药用价值和应用价值，在合理使用的前提下可入药用，在中医文化中曾被用来治疗关节炎、惊厥等；在现代亦有用其所开发的药品治疗青光眼等疾病。在被当作一种毒品时，这个词更准确的一种定义应该是含有四氢大麻酚(Tetrahydrocannabinol, THC)的可被用于吸食的大麻制剂或其他制剂，四氢大麻酚是大麻制剂的主要活性成分，主要存在于雌花分泌的树脂中。吸食者在吸食大麻制剂后常表现出安逸舒适，但增加剂量又可达到相反的效果；此外，吸食大麻会延长大脑的反应时间，在这方面与酒精有一定相似性，许多因驾驶员吸食大麻造成的车祸就是因此发生的。<br>四氢大麻酚是一种与花生四烯酸乙醇胺结构相似的物质，而后者是人体正常生理、心理活动所必需的神经递质之一，相似的结构使四氢大麻酚和花生四烯酸乙醇胺容易发生相互作用，简而言之就是人体会把进入体内的四氢大麻酚当作花生四烯酸乙醇胺，从而导致某些错误的信息被产生和传递；这种相互作用可以直接对中枢神经系统产生抑制作用或兴奋作用，视其剂量、环境等因素的不同而不同。对大麻制剂的长期吸食还会导致多巴胺奖励机制被破坏，造成情绪调节能力的损伤或丧失，这被认为是吸食者对大麻制剂产生依赖性的重要原因之一。<br><img src="/images/2018-07-19--Drug-Abuse/Tetrahydrocannabinol.png" alt="四氢大麻酚(Tetrahydrocannabinol, THC)的结构式" title="四氢大麻酚(Tetrahydrocannabinol, THC)的结构式"></p>
-<h3 id="鸦片类药物-Opiates-Opioids"><a href="#鸦片类药物-Opiates-Opioids" class="headerlink" title="鸦片类药物(Opiates, Opioids)"></a>鸦片类药物(Opiates, Opioids)</h3><p>鸦片类药物和大麻一样是最早有使用记录的毒品之一，是罂粟未成熟的蒴果所含汁液的干燥物，内含多种对人类神经系统有明确作用的活性成分，吗啡是它们的代表，早在17世纪初就首次被德国化学家泽尔蒂纳在鸦片中分离出来，使用方面更早在14-15世纪就有使用鸦片来得到精神满足的文献记录，可以认为正是鸦片的活性成分发挥了作用。此外，鸦片还是多种医学麻醉剂或麻醉剂原料的来源。<br>但相比大麻，鸦片类药物的作用效果则要明显得多，吸食者在吸食后主要表现出极其强烈的舒适，伴随有心跳加速、血压升高等一系列兴奋作用，最主要的是它对痛觉的屏蔽作用即镇痛。<br>内啡肽系统(Endorphin System)是大脑进行生理调节的模块之一，目前已经发现的与内啡肽系统相关的包括4种内啡肽类物质和5种鸦片受体，这些受体主要分布在痛觉传导区和行为调控区。吗啡是一种与β-内啡肽(前面提到的4种内啡肽类物质的其中一种)结构相似的物质，在进入人体后能和β-内啡肽一样能被鸦片受体正常识别从而抑制大脑皮质层的痛觉传导区，此外还对中枢神经系统多个区域有着不同的作用。另外还有很重要的一点，吗啡类药物有较强的生理依赖性，在数次吸食或服用后就能激活鸦片受体引发代偿性适应，简单地说就是外来的内啡肽会减少体内正常分泌的内啡肽的量，停止吸食后也不会再回复到原来的水平，这就破坏了内啡肽系统的正常功能，对吸食者的生理和心理造成严重的损伤。<br>海洛因(Heroine)是吗啡的结构修饰产物之一，学名又作二乙酰吗啡(Diamorphine)，其作用效果比吗啡更为显著，但其依赖性也略强于吗啡，有学者认为是两个乙酰取代基增强了海洛因的亲油性使其较吗啡更易于通过血脑屏障。<br>此外，市售的鸦片制剂通常是未经提纯的蒴果汁液干燥物，还含有罂粟碱等杂质，它们是鸦片制剂毒性的重要来源之一，另一个重要来源已经被确认是吗啡的二聚体。<br><img src="/images/2018-07-19--Drug-Abuse/Morphine.png" alt="吗啡(Morphine)的结构式" title="吗啡(Morphine)的结构式"><img src="/images/2018-07-19--Drug-Abuse/Heroine.png" alt="海洛因(Heroine)的结构式" title="海洛因(Heroine)的结构式"><img src="/images/2018-07-19--Drug-Abuse/Thebaine.png" alt="蒂巴因(Thebaine)的结构式，是鸦片中所含的另一种生物碱，因毒性弱于吗啡而更广泛地被用作医学麻醉剂" title="蒂巴因(Thebaine)的结构式，是鸦片中所含的另一种生物碱，因毒性弱于吗啡而更广泛地被用作医学麻醉剂"></p>
-<h3 id="氯胺酮类药物-Ketamine"><a href="#氯胺酮类药物-Ketamine" class="headerlink" title="氯胺酮类药物(Ketamine)"></a>氯胺酮类药物(Ketamine)</h3><p>在黑市交易中常常被称为<em>K, Khat</em>，因此又音译为K粉，最早在医学上用作麻醉剂，对大脑有一系列复杂的作用(包括边缘系统-丘脑新皮质系统分离和与K-鸦片受体的相互作用)，吸入者在吸食后会进入一种特殊的麻醉状态，表现为强烈的分离感和镇痛作用。<br><img src="/images/2018-07-19--Drug-Abuse/Ketamine.png" alt="氯胺酮(Ketamine)的结构式，包括左右两种旋光异构体" title="氯胺酮(Ketamine)的结构式，包括左右两种旋光异构体"></p>
-<h3 id="古柯碱-Cocaine"><a href="#古柯碱-Cocaine" class="headerlink" title="古柯碱(Cocaine)"></a>古柯碱(Cocaine)</h3><p>又音译为可卡因，也是有悠久历史的传统毒品的代表之一，主要存在于古柯树的叶子中。南美洲用古柯叶泡茶泡水饮用的习惯迄今已有千年之久，早在航海时代也有西班牙探险家在南美航行时便注意到南美土著人通过咀嚼古柯叶来提神，拉开了该类制剂商业化的帷幕，17世纪中期奥地利化学家纽曼(<em>Neiman</em>)在古柯叶中提纯出高纯度的活性成分并将其命名为可卡因，学名为苯甲基芽子碱。值得注意的是，市售的可卡因几乎是直接从古柯叶中提取的，没有经历过多的提纯工序，因此含有多种相似成分而并不纯。<br>可卡因在进入人体后的作用主要通过阻断神经电位的传导产生局部麻醉和刺激多巴胺的分泌来实现，此外也可与鸦片受体发生作用(可以看到它和吗啡一样有氮杂双环的特殊结构)，吸食者表现为情绪高涨、躁动不安、性欲增强等，长期吸食会导致脑部结构和功能发生不可逆的改变，因此以生理依赖性显著被称为最难戒除的毒品，复吸率高达95%。<br><img src="/images/2018-07-19--Drug-Abuse/Cocaine.png" alt="古柯碱(Cocaine)的结构式" title="古柯碱(Cocaine)的结构式"></p>
-<h3 id="肾上腺素类似物-Adrenaline-Analogues"><a href="#肾上腺素类似物-Adrenaline-Analogues" class="headerlink" title="肾上腺素类似物(Adrenaline Analogues)"></a>肾上腺素类似物(Adrenaline Analogues)</h3><p>在这类药物中最著名的要属甲基苯丙胺了，因其高纯结晶体形似冰块又被俗称为冰毒(Ice)，又因常常制成丸状和强烈的兴奋作用被称为摇头丸。和海洛因在传统毒品中并称为危害最大的两种毒品。长期服用会导致以肾上腺素为主的内分泌调节机制紊乱，因而也有一定的生理依赖性，但以吸食带来的极大快感造成的心理依赖性为主，因此产生依赖性后也很难戒除。<br><img src="/images/2018-07-19--Drug-Abuse/Methamphetamine.png" alt="甲基苯丙胺的结构式" title="甲基苯丙胺的结构式"></p>
-<h3 id="浴盐-Methcathinone"><a href="#浴盐-Methcathinone" class="headerlink" title="浴盐(Methcathinone)"></a>浴盐(Methcathinone)</h3><p>新型毒品的代表之一，是一类有强烈的中枢神经兴奋作用的致幻剂的统称，通常是甲氧麻黄酮、亚甲基双氧吡咯戊酮及其类似物(常有卤代烃取代物或小分子烷烃的酰基取代物，这是它们的生产者为了提纯方便而加上的特殊修饰结构，药理作用尚不明确)。浴盐的出现和流行标志着以合成药物为主的新型毒品生产方式代表的新型毒品市场的诞生，其作用效果类似于甲基苯丙胺和可卡因的混合物。<br>值得注意的是，现代化学合成和提纯工艺的发达使新型毒品的开发更加廉价，在结构上也更有针对性，许多研究都表示，浴盐的危害性和依赖性对个体来说强于任何传统毒品。<br><img src="/images/2018-07-19--Drug-Abuse/Methcathinone.png" alt="甲卡西酮的结构式，是浴盐的活性成分之一" title="甲卡西酮的结构式，是浴盐的活性成分之一"></p>
-<h1 id="毒品的依赖性和危害性"><a href="#毒品的依赖性和危害性" class="headerlink" title="毒品的依赖性和危害性"></a>毒品的依赖性和危害性</h1><p><img src="/images/2018-07-19--Drug-Abuse/Dependence-and-physical-harm-chart.png" alt="各种常见毒品的依赖性和危害性相对分布图" title="各种常见毒品的依赖性和危害性相对分布图，纵坐标为依赖性，横坐标为危害性"><br>依赖性和危害性是考察一种毒品或一种精神类药物是否应该被称为毒品的两项重要指标(事实上它们在某种程度上是正相关的)，危害性主要包括吸食者在吸食后表现出的社会危害性和毒品本身的毒性对吸食者的生理毒性(注：上表中的危害性应被认为只是强调了生理毒性)；依赖性主要包括生理依赖性和心理依赖性，前者是指长期吸食导致的生理上结构和功能的改变而产生的依赖性，而后者则是指吸食带来的特殊感受而产生的依赖性，因该指标较难直接考量，故实际中常以复吸率和产生依赖性的剂量次数作为间接的参考指标。<br>其次还要考察其贸易市场和滥用群体，在这方面主要由多种社会因素共同决定，例如杜冷丁现在仅仅在医学上被用作止痛药，很少人将其作为毒品进行滥用，就不能将其视为毒品，尽管其依赖性和危害性也是不容忽略的。因此上表给出的数据也仅有一定参考性，即<strong>不能简单地认为有依赖性和危害性的精神类药物就是毒品</strong>，对一种毒品总体的评定也不能仅仅依靠依赖性和危害性两项指标，还要综合考虑是否存在贸易市场、是否存在滥用者群体等社会因素。</p>
-<h1 id="即将被打开的潘多拉魔盒：大麻的合法化或去罪化"><a href="#即将被打开的潘多拉魔盒：大麻的合法化或去罪化" class="headerlink" title="即将被打开的潘多拉魔盒：大麻的合法化或去罪化"></a>即将被打开的潘多拉魔盒：大麻的合法化或去罪化</h1><p>历史上人类在经受毒品的折磨后逐渐形成了基本的共识，那就是“禁毒”，这种共识在联合国和许多地区以法律的形式存在，因此毒品从生产、贸易到吸食也都是政府严厉打压的犯罪行为之一，这也给毒品行业带来了巨大的风险，这种风险在毒品贸易中以风险溢价的形式存在，以毒品价格走高的形式表现出来。同时，由于禁毒教育工作的不足或不善也给毒品行业蒙上了神秘的面纱，这种神秘性不断吸引着好奇心强的个体走上吸毒的道路。<br>另一方面，也正由于从事毒品行业本身被认定为道德禁止行为和法律禁止行为以及毒品极高的风险溢价，也使得毒品贸易常伴随着其他犯罪行为的发生，更给这一行业蒙上了一层黑暗。<br>因此我们认为，<strong>巨大的风险溢价吸引的生产者端和好奇心与依赖性维持的消费者端是毒品行业及其市场存在的重要保证，相关行为的道德违反性和法律违反性是这一行业的重要特征。</strong><br>由于这些原因，毒品行业还是在地下市场占有相当的份额，另一方面由于人类追求快感的本能需要和思想的逐渐解放，越来越多的人开始对毒品充满了好奇心，这种群体意识的逐渐转变，给毒品行业的未来引出了第二条走向光明的道路，那就是进行合法化或去罪化。<br>但在此之前我们也必须要考虑到两个重要问题：</p>
-<ul>
-<li>毒品与其他犯罪行为是否有着直接必然的联系？合法化后的毒品行业还会是一幅伴随着其他犯罪行为的黑暗景象吗？</li>
-<li>如果毒品行业的一切行为从生产到消费完全被合法化，将给这个社会带来怎样的影响？</li>
-</ul>
-<p>对于第一个问题，许多人认为毒品贸易常常伴随着其他犯罪行为的发生是由于毒品行业本身被法律禁止所导致的，完全合法化后将不存在这样的问题。诚然，这样<strong>仅仅认为毒品行业伴随着其他犯罪行为的发生仅存在于毒品贸易行为过程中</strong>的观点是片面的，毒驾、“酗毒”等行为都有可能在吸食毒品后发生。<br>对于第二个问题，毫无疑问这也是“禁毒”的根本原因之一，显然如果考虑毒品的合法化或去罪化，主要要考虑的问题在于毒品会对吸食者带来怎样的影响(比起这一点毒品的生产和贸易影响甚微)，推而广之在吸食者占有一定人口比例时(这是毒品合法化后必然要发生的)，会对社会带来怎样的影响，显然这足以把那些依赖性和危害性较为严重的毒品排除掉了，因为吸食它们会对吸食者的身体造成严重的伤害，合法化或去罪化后广泛地吸食将严重降低社会生产力，在这一点上可以参考清末明初鸦片泛滥的中国地区。<br>综上所述，我们可以看到，毒品行业完全的合法化或去罪化是严重脱离现实的，对于像海洛因、甲基苯丙胺等一些依赖性和危害性较强的毒品，保持其非法性是社会发展所必需的；即使要对一些依赖性和危害性较弱的毒品实行合法化或去罪化，也需要其他相关制度的充分保障。对于后者我们在大麻问题上看到了希望，截至这篇文章的撰写日期，目前已经实现大麻合法化的地区主要有美国部分洲、加拿大北部阿尔伯塔省，还有更多的地区效而仿之正走在大麻的合法化或去罪化的道路上。<br>在上一节的表格中我们可以看到，大麻的依赖性和危害性均小于广泛合法的酒精(酒的活性成分)和尼古丁(烟草的活性成分)，这给评价大麻合法化或去罪化这一问题又带来了一定的复杂性。<br>笔者认为要考虑到的主要有三方面：</p>
-<ul>
-<li>大麻被认为是扮演了“入门毒品(Gateway Drug)”的角色，研究表明大多数使用者在吸食大麻后会选择尝试其他作用效果更强的毒品，在实行大麻合法化或去罪化后，如何处理大麻与其他毒品的关系也是必要考虑的；</li>
-<li>部分大麻的吸食者会为了追求更大的快感而选择品质更好的大麻(THC含量更高，参考下表)，这样的大麻对吸食者的危害性更高也可能会导致更强的依赖性，在实行大麻合法化或去罪化后如何规范管理大麻的生产者甚至是消费者；</li>
-<li>大麻的合法化与去罪化无疑是迈出了毒品合法化的第一步，如何避免在此之后其他依赖性和危害性更强的毒品也纷纷被提上合法化或去罪化的日程。</li>
-</ul>
-<p><img src="/images/2018-07-19--Drug-Abuse/Figure-Non-normalized-Average-THC-vs-Year-of-Confiscation.png" alt="娱乐大麻中THC含量年度平均数据" title="娱乐大麻中THC含量年度平均数据"><br>第一个问题需要对那些依赖性和危害性较强的毒品更强硬的管控措施作为保障，显然我们无法去遏止一个人对新鲜事物的好奇心，那要阻止他去尝试一种新鲜事物就只有不然它出现在触手可得的地方。<br>第二个问题则需要更微妙的制度调控与更好的教育普及，这是需要每个实行大麻合法化或去罪化的地区政府的立法者所需要想到的。<br>第三个问题事实上并不比过多地担心，在禁毒教育良好、群众对该类毒品的依赖性和危害性有清晰认知的地区并不会发生这样的事情，法律是群众意志的体现，只要这样的事情群众在意志中不发生那么在法律中也不会发生。<br>诚然我们无法对大麻合法化或去罪化的决定做出或好或坏的评价，合法化或去罪化的影响也还取决于其他措施是否完善、社会属性是否适合等其他多而复杂的因素；身处这样一个全面禁毒的国度也不必过分地追求这些纸醉金迷的快感。人对快乐的追求是无止境的，但快乐自身的定义也是无止境的，更多时候它只取决于你自己是否认为你是快乐的。</p>
-<h1 id="写在最后：珍爱生命，远离毒品。"><a href="#写在最后：珍爱生命，远离毒品。" class="headerlink" title="写在最后：珍爱生命，远离毒品。"></a>写在最后：珍爱生命，远离毒品。</h1><p><hr></p>
-<h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><ul>
-<li>文中化学结构式均引自<a href="https://zh.wikipedia.org/">维基百科</a></li>
-<li>各种常见毒品的依赖性和危害性相对分布图引自<a href="https://www.thevespiary.org/rhodium/Rhodium/Vespiary/talk/files/6416-615_Pharmacology_Therapeutics_NUTT_Rational_Scale_Harm_Drugs_Misuse07ea.pdf">《Health Policy: Development of a rational scale to assess the harm of drugs of potential misuse》</a></li>
-<li>娱乐大麻中THC含量年度平均数据表格引自<em>NIDA(National Institute of Drug Abuse)</em>组织发表的数据统计报告<a href="https://www.ncjrs.gov/pdffiles1/ondcp/mpmp_report_104.pdf">《REPORT 104: December 16, 2008 thru March 15, 2009》</a></li>
-</ul>
-]]></content>
-      <categories>
-        <category>Social Science</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Social View</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>谈谈货币和人生的价值</title>
-    <url>/2023/07/21/2023-07-21--Value-of-Money/</url>
-    <content><![CDATA[<p>西班牙文学家塞万提斯(<em>Cervantes</em>)曾说过：“金钱是世界上最坚实的基础。”<br>诚然，金钱是当今世界上最珍贵的东西之一，是一切经济活动的媒介和基础，也是一个人生活处世的不可或缺之物。</p>
-<p>在本文中，我们便先来探讨这个散发着铜臭味的问题——金钱的价值，在今天，它表现为货币的价值。<span id="more"></span></p>
-<p>时间是货币价值中一个重要的维度，现在几乎没有人不知道，今天的一块钱比明天的一块钱更值钱，这就是货币的时间价值，它是一切现代金融理论的奠基石。货币的时间价值又包括通货膨胀和机会成本两个方面。通货膨胀是指在一个正常运行的经济系统中，流通的货币量在长期来看总是不断增加的。而机会成本则是货币持有者可以用他所持货币去做任何所能办到的事的能力，这种能力显然也是很有价值的，这在经济学中就是货币的机会成本。</p>
-<p>除了上文中所提到的时间价值，我们还能从其他几个维度去考虑货币的价值属性。比如美元和人民币的价值显然是不一样的，这个比价表现为某一时刻的汇率。如果说美元和人民币压根不是同一种东西，那事实上同一种货币在不同地区的价值也是不一样的。比如，上海CBD的物价水平和房价会比一些偏远地区高，尽管这里的交易单位都是人民币。</p>
-<p>更进一步地，我们还将发现，同样的钱，对于不同的人来说，价值也是不一样的。对于那些每天通过出卖时间、重复劳动获取相应报酬的人而言，他们手中的钱显然不如华尔街金融家手中的钱值钱。因为前者不懂得如何用他们手中的钱赚取更多的钱，而后者深谙资本运作之道。</p>
-<p>不幸的是，世界上的绝大多数人都是出售时间赚取收入的“傻瓜”。人的时间和精力始终是有限的，这决定了普通人通过劳动赚钱大概率一辈子也无法成为富人，而这一切还要以出卖自己的时间、牺牲自己的身体为代价，这两样东西对任何一个人而言都是不可再生资源。</p>
-<p>笔者曾经并未认识到这一问题的深刻性，在早年还相信人生最好的状态就是按部就班读个大学、找个班上，于是在校园里奋笔疾书，挑灯夜读，毕业后的加班熬夜也一度是生活常态，多年的劳累颈椎和肠胃都出现了问题。甚至在当时还一度为自己的所谓“高薪”感到自豪，却丝毫没有认识到那都是自己用时间和身体换来的。于是自己在二十多岁，本应该去爱、去思考、去追求理想的年龄里日复一日地工作以赚取一份还算体面的收入、维系一种还算凑合的生活。但是每隔一段时间，在某个夜不能寐的晚上，我总是难免会想起——这真的是我们人生的意义所在吗？关于人生的价值，也许每个人都会有各自的答案吧。</p>
-]]></content>
-      <categories>
-        <category>Social</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Social Science</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>美女的硬币游戏</title>
     <url>/2023/08/06/2023-08-06--Coin-Game/</url>
     <content><![CDATA[<p>这是博弈论中一个相当经典的游戏，它能为生活中的许多场景提供参照。问题的描述如下：<br>当你走在大街上时，有一位陌生美女上前与你搭讪，并邀请你与她玩一个硬币游戏。她说：“我们同时亮出一枚硬币的一面，或正或反。若我们亮出的都是正面，我给你$3$元；若我们亮出的都是反面，我给你$1$元；若我们亮出的不是同一面，你给我$2$元。”<br>那么你该不该和美女玩这个硬币游戏呢？或者说，这个游戏是公平的吗？<br><span id="more"></span><br>我们可以用一张表格简明地表示这个游戏中可能出现的各种情况，以及每种情况发生时你的盈亏，这是博弈论中相当常见的支付矩阵(<em>Payoff Matrix</em>)。</p>
@@ -430,25 +411,22 @@
       </tags>
   </entry>
   <entry>
-    <title>英文经典短篇翻译(一)：奥斯维辛没有新闻</title>
-    <url>/2023/08/31/2023-08-31--Translation-No-News-from-Auschwitz/</url>
-    <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><em>No News from Auschwitz</em> ，《奥斯维辛没有新闻》是一篇著名的新闻稿，于1958年8月31日刊登于《纽约时报》。作者亚伯拉罕·迈克尔·罗森塔尔(<em>A. M. Rosenthal</em>)在此后曾任《纽约时报》的执行主编和专栏作者，也是美国历史上最著名的新闻编辑之一。</p>
-<p>巧合的是，《奥斯维辛没有新闻》是为了缅怀二战时在纳粹集中营丧生的犹太人而创作的，而罗森塔尔本人也具有犹太血统，但他并非犹太教信徒，且在幼年时期就随家人移民到加拿大生活。虽然没有像在二战时期那些遭遇种族灭绝的犹太人那样凄惨，但是罗森塔尔的家庭也是十分贫穷，曾多次因学费问题而被迫辍学，这样的经历也对他后来的创作风格有很大的影响，他任《纽约时报》新闻总编期间，正值整个美国经济、政治、经济、文化的变革时代，他凭一位新闻人不畏强权、崇尚真理的优秀品格，让一部百年老报焕发出崭新的生命力。<span id="more"></span></p>
-<p>本文写作于1958年罗森塔尔被派驻波兰的一年半期间，它突破了传统新闻“客观报道”的枷锁，大胆地在反映客观事实的基础上，着力表现作为一名有使命感的记者的在场的主观印象，激情洋溢地抒发了对法西斯暴行的深恶痛疾，对自由、解放、新生的无比珍惜之情。此外，他还大胆地对当时波兰的民生经济进行了深入报道，尽管后来罗森塔尔因批评政府被逐出波兰，但本文和他的许多其他报道却深入人心，大获成功。</p>
-<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>— The most terrible thing of all, somehow, was that at Brzezinka the sun was bright and warm, the rows of graceful poplars were lovely to look upon, and on the grass near the gates children played.<br>不知道怎么的，最可怕的事情是，在布热津卡，阳光温暖明媚，成排矗立的白杨看起来很好看，孩子们在大门旁的草地上玩耍。</p>
-<p><em>somehow adv.(表接续)由于某种未知的原因</em></p>
-<p>It all seemed frighteningly wrong, as in a nightmare, that at Brzezinka the sun should ever shine or that there should be light and greenness and the sound of young laughter. It would be fitting if at Brzezinka the sun never shone and the grass withered, because this is a place of unutterable terror.<br>太阳应该永远照耀着布热津卡，或者那儿应该有阳光和绿色，还应该有年轻人的笑声，然而这一切似乎不该存在，就像在噩梦中一样。如果阳光永远不会照耀在布热津卡，草地也会枯萎，那将会是合理的，因为这是一个难以形容的恐怖之地。</p>
-<p><em>frighteningly adv.(fright的派生词)令人惊恐地</em></p>
-<p>And yet every day, from all over the world, people come to Brzezinka, quite possibly the most grisly tourist center on earth. They come for a variety of reasons—to see if it could really have been true, to remind themselves not to forget, to pay homage to the dead by the simple act of looking upon their place of suffering.<br>然而，每天都有来自世界各地的游客来到布热津卡，这里很可能是地球上最可怕的旅游中心。他们出于各种各样的原因来到这里——看看这是否是真的，提醒自己不要忘记，通过观察死者的痛苦之地来向他们表示致敬。</p>
-<p><em>grisly adj.恐怖的；可怕的；令人厌恶的</em></p>
-<p>Brzezinka is a couple of miles from the better-known southern Polish town of Oświęcim. Oświęcim has about 12,000 inhabitants, is situated about 171 miles from Warsaw, and lies in a damp, marshy area at the eastern end of the pass called the Moravian Gate. Brzezinka and Oświęcim together formed part of that minutely organized factory of torture and death that the Nazis called Konzentrationslager Auschwitz.<br>布热津卡距离波兰南部更出名的小镇奥斯维辛只有几英里。奥斯维辛约有大约12000名居民，距华沙约171英里，位于一个被称为莫拉维亚门的山口东部的沼泽湿地。布热津卡和奥斯维辛一起组成了被纳粹称为奥斯维辛集中营的死亡工厂的一部分。<br>By now, fourteen years after the last batch of prisoners was herded naked into the gas chambers by dogs and guards, the story of Auschwitz has been told a great many times. Some of the inmates have written of those memories of which sane men cannot conceive. Rudolf Franz Ferdinand Hoess, the superintendent of the camp, before he was executed wrote his detailed memoirs of mass exterminations and the experiments on living bodies. Four million people died here, the Poles say.<br>到目前为止，在最后一批囚犯被警犬和警卫全身赤裸地赶到毒气室已经14年过去了，奥斯维辛的故事已经被讲述了许多遍。一些囚犯写下了那些普通人无法想象的记忆。营地负责人鲁道夫·弗朗茨·费迪南德·霍斯在被处决前写下了关于大规模灭绝和活体实验的详细回忆。波兰有人说，这里有约400万人死亡。<br>And so there is no news to report about Auschwitz. There is merely the compulsion to write something about it, a compulsion that grows out of a restless feeling that to have visited Auschwitz and then turned away without having said or written anything would somehow be a most grievous act of discourtesy to those who died here.<br>因此关于奥斯维辛并没有什么新闻可以报道，这只是一种想写点什么的冲动。这冲动源于一种不安的感觉，即去到奥斯维辛，然后什么都没说或写就离开了，在某种程度上是对那些曾经死在这里的人们最大的不敬。<br>Brzezinka and Oświęcim are very quiet places now; the screams can no longer be heard. The tourist walks silently, quickly at first to get it over with and then, as his mind peoples the barracks and the chambers and the dungeons and flogging posts, he walks draggingly. The guide does not say much either, because there is nothing much for him to say after he has pointed.<br>现在的布热津卡和奥斯维辛是非常安静的地方；再也听不到尖叫声了。游客默默地走着，起初很快就结束了，然后当他的脑海充斥着营房、隔间、地牢、鞭笞和哨所时，他的步伐像是被什么拖住了一样。导游也不便多说什么，因为在他指了指之后就没什么好说的了。<br>For every visitor there is one particular bit of horror that he knows he will never forget. For some it is seeing the rebuilt gas chamber at Oświęcim and being told that this is the “small one.”<br>对于每一个来访的人来说，有一点特别的恐怖，他知道自己永远也不会忘记。对一些人来说，他好像看到了奥斯维辛重建的毒气室并被告知这是“小毒气室”。<br>For others it is the fact that at Brzezinka, in the ruins of the gas chambers and the crematoria the Germans blew up when they retreated, there are daisies growing.<br>而对于其他人来说，在德国人撤退时炸毁的毒气室和火葬场的废墟上长满了雏菊。<br>There are visitors who gaze blankly at the gas chambers and the furnaces because their minds simply cannot encompass them, but stand shivering before the great mounds of human hair behind the plate-glass window or the piles of babies’ shoes or the brick cells where men sentenced to death by suffocation were walled up.<br>有些游客木然地凝视着毒气室和熔炉，因为他们的思想根本无法保持清醒，只能杵着瑟瑟发抖，就站在平板玻璃窗后面一大堆人类头发前，站在堆成堆的婴儿鞋前，站在被判处死刑的因窒息而亡的被关起来的砖牢房前。<br>One visitor opened his mouth in a silent scream simply at the sight of boxes—great stretches of three-tiered wooden boxes in the women’s barracks. They were about six feet wide, about three feet high, and into them from five to ten prisoners were shoved for the night. The guide walks quickly through the barracks. Nothing more to see here.<br>一位游客只是看到了一些箱子就默默张开了嘴——妇女营房里有一大片三层木箱。它们大约有六英尺宽，三英尺高，曾经每晚有五到十名囚犯被推到其中过夜。导游快速地穿过营房。这里没有什么可看的了。<br>A brick building where sterilization experiments were carried out on women prisoners. The guide tries the door—it’s locked. The visitor is grateful that he does not have to go in, and then flushes with shame.<br>对女性进行绝育实验的砖砌建筑。导游试图开门，但它被锁住了。来访者为自己不用进去感到欣慰，然后羞愧地脸红了。<br>A long corridor where rows of faces stare from the walls. Thousands of pictures, the photographs of prisoners. They are all dead now, the men and women who stood before the cameras, and they all knew they were to die.<br>还有一条长长的走廊，一排排面孔在墙上发出凝视的目光。成千上万的照片，成千上万囚犯的照片。他们现在都死了，那些站在镜头前的男人和女人，他们当时都知道自己快要死了。<br>They all stare blank-faced, but one picture, in the middle of a row, seizes the eye and wrenches the mind. A girl, twenty-two years old, plumply pretty, blond. She is smiling gently, as at a sweet, treasured thought. What was the thought that passed through her young mind and is now her memorial on the wall of the dead at Auschwitz?<br>他们都面无表情地露出凝视的目光，但一排中间的一张照片让人耳目一新。照片上，一个22岁的女孩，丰满美丽，金发碧眼。她温柔地微笑着，好像在想一件甜蜜而珍贵的事情。当时浮现在她脑海中的想法究竟是什么？现在是奥斯维辛集中营死者墙上的纪念碑吗？<br>Into the suffocation dungeons the visitor is taken for a moment and feels himself strangling. Another visitor goes in, stumbles out, and crosses herself. There is no place to pray in Auschwitz.<br>在进入令人窒息的地牢时，游客有一瞬间感觉自己被勒死了。另一位游客走了进去，跌跌撞撞地走了出来，然后自己在胸前画十字架。奥斯维辛没有祷告的地方。<br>The visitors look pleadingly at each other and say to the guide, “Enough.”<br>游客们恳求地看着彼此，然后对导游说道：“够了。”<br>There is nothing new to report about Auschwitz. It was a sunny day and the trees were green and at the gates the children played.<br>关于奥斯维辛并没有什么新鲜事。那是一个晴朗的日子，树木是绿色的，孩子们在门口玩耍。</p>
+    <title>谈谈货币和人生的价值</title>
+    <url>/2023/07/21/2023-07-21--Value-of-Money/</url>
+    <content><![CDATA[<p>西班牙文学家塞万提斯(<em>Cervantes</em>)曾说过：“金钱是世界上最坚实的基础。”<br>诚然，金钱是当今世界上最珍贵的东西之一，是一切经济活动的媒介和基础，也是一个人生活处世的不可或缺之物。</p>
+<p>在本文中，我们便先来探讨这个散发着铜臭味的问题——金钱的价值，在今天，它表现为货币的价值。<span id="more"></span></p>
+<p>时间是货币价值中一个重要的维度，现在几乎没有人不知道，今天的一块钱比明天的一块钱更值钱，这就是货币的时间价值，它是一切现代金融理论的奠基石。货币的时间价值又包括通货膨胀和机会成本两个方面。通货膨胀是指在一个正常运行的经济系统中，流通的货币量在长期来看总是不断增加的。而机会成本则是货币持有者可以用他所持货币去做任何所能办到的事的能力，这种能力显然也是很有价值的，这在经济学中就是货币的机会成本。</p>
+<p>除了上文中所提到的时间价值，我们还能从其他几个维度去考虑货币的价值属性。比如美元和人民币的价值显然是不一样的，这个比价表现为某一时刻的汇率。如果说美元和人民币压根不是同一种东西，那事实上同一种货币在不同地区的价值也是不一样的。比如，上海CBD的物价水平和房价会比一些偏远地区高，尽管这里的交易单位都是人民币。</p>
+<p>更进一步地，我们还将发现，同样的钱，对于不同的人来说，价值也是不一样的。对于那些每天通过出卖时间、重复劳动获取相应报酬的人而言，他们手中的钱显然不如华尔街金融家手中的钱值钱。因为前者不懂得如何用他们手中的钱赚取更多的钱，而后者深谙资本运作之道。</p>
+<p>不幸的是，世界上的绝大多数人都是出售时间赚取收入的“傻瓜”。人的时间和精力始终是有限的，这决定了普通人通过劳动赚钱大概率一辈子也无法成为富人，而这一切还要以出卖自己的时间、牺牲自己的身体为代价，这两样东西对任何一个人而言都是不可再生资源。</p>
+<p>笔者曾经并未认识到这一问题的深刻性，在早年还相信人生最好的状态就是按部就班读个大学、找个班上，于是在校园里奋笔疾书，挑灯夜读，毕业后的加班熬夜也一度是生活常态，多年的劳累颈椎和肠胃都出现了问题。甚至在当时还一度为自己的所谓“高薪”感到自豪，却丝毫没有认识到那都是自己用时间和身体换来的。于是自己在二十多岁，本应该去爱、去思考、去追求理想的年龄里日复一日地工作以赚取一份还算体面的收入、维系一种还算凑合的生活。但是每隔一段时间，在某个夜不能寐的晚上，我总是难免会想起——这真的是我们人生的意义所在吗？关于人生的价值，也许每个人都会有各自的答案吧。</p>
 ]]></content>
       <categories>
         <category>Social</category>
       </categories>
       <tags>
+        <tag>醉仙阁杂谈</tag>
         <tag>Social Science</tag>
-        <tag>英文经典短篇翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -472,25 +450,25 @@
       </tags>
   </entry>
   <entry>
-    <title>谈谈利率换锚：从7月22日降息说起</title>
-    <url>/2024/08/08/2024-08-08--Interest-Rate/</url>
-    <content><![CDATA[<p><img src="/images/2024-08-08--Interest-Rate/Interest_Rate.jpg" alt="Interest Rate"></p>
-<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>7月22日，央行宣布1年期、5年期LPR及7天逆回购利率同时下调10个基点。此外，允许有出售中长期债券需求的中期借贷便利的参与机构申请MLF质押品的阶段性减免。这是今年央行第二次宣布降息，且此次发言在提及政策利率下调10BP的同时，还暗示了利率传导路径的改变，和以往的说辞相比，央行近期显然在刻意淡化MLF利率的影响。</p>
-<h1 id="利率传导机制"><a href="#利率传导机制" class="headerlink" title="利率传导机制"></a>利率传导机制</h1><p>所谓利率传导路径，是指央行通过调整政策利率来实现对社会资金总量调控的过程。在这一过程中，央行可以直接调控的环节被称为政策利率，而在市场上由资金供求关系决定的利率被称为市场利率。<span id="more"></span><br>目前中国利率传导路径如下图所示：</p>
-<p><img src="/images/2024-08-08--Interest-Rate/Interest_Rate_System.jpg" alt="&quot;中国利率传导机制示意图，《中国的利率体系与利率市场化改革》易纲&quot;" title="中国利率传导机制示意图，《中国的利率体系与利率市场化改革》易纲"></p>
-<p>当前我们社会上流通的货币，实际上全部来源于央行，央行通过7天逆回购（短期）、中期借贷便利（MLF）和常设借贷便利（SLF）把钱借给银行，这一过程中的利率通常由央行决定，也就是政策利率；银行再以贷款的形式把钱借给个人或企业流入实体经济，在资金市场上形成了三个重要的市场利率。<br>1、货币市场利率：不同银行之间进行短期拆借，形成银行间同业拆借市场，这一利率主要受到7天逆回购利率影响。<br>2、信贷市场利率：个人或企业以信用为凭证或以资产为抵押从银行贷款的利率。这一利率主要是由商业银行在MLF利率的基础上加点形成，几家大银行的利率报价的平均数形成LPR。<br>目前我国信贷市场上的贷款主要是由以下两部分组成：<br>| 经营贷 | 参考1年期LPR |<br>| 房贷 | 参考5年期LPR |<br>3、债券市场利率：政府在市场上发行各种债券进行融资，其中以信用程度最高的国债为代表，被广泛认为是无风险的。这些债券一般由银行承销，银行也会购买国债，作为其投资组合的一部分。如果MLF利率低于国债收益率，则银行会通过MLF进行融资并购买国债，反之不然。所以，MLF利率是国债收益率的锚，国债收益率会围绕MLF利率波动，这也被称为债券市场利率。</p>
-<h1 id="利率“换锚”"><a href="#利率“换锚”" class="headerlink" title="利率“换锚”"></a>利率“换锚”</h1><p>原本，与居民和企业关系最大的LPR利率主要受MLF利率的调控。央行向银行投放货币的主要方式也是以MLF为主，再以7天逆回购作为应对市场上短期流动性变化的辅助工具，以SLF为抽紧流动性的辅助工具。即目前央行调控银行现金流量表的主要手段为MLF。下游银行在释放贷款时，主要的利率参考标的也是MLF。<br>但在2024年7月16日，央行在《金融时报》中指出：“当前LPR报价与最优质客户贷款利率之间出现一定偏离。”这可以算是22号降息前的一种吹风。<br>究其原因，主要是由于疫情后金融市场波动加剧，信贷市场环境转坏，直接影响了银行资产负债表的平衡，居民和企业贷款意愿不强，甚至还纷纷选择把闲钱存起来，在这种情况下央行、银行都只能被迫不断下调贷款利率，但这种手段根本改变不了经济基本面不佳和未来预期差的事实。无论政策上如何降准和降息，居民存款意愿依然不减。<br>但受制于MLF利率调整周期长和出于保汇率的考量，央行无法做到对MLF利率进行实时、精确的调整，这就导致在信贷市场上出现市场利率先降、政策利率后降的现象。而在事实上，这一现象的出现并不反常，类似于房产、香烟等商品，实际成交价格偏离政策指导价的情况比比皆是。央行在调整政策利率时所参照的也是经济的运行情况，那么在市场短期波动较大的情况下出现一定滞后是再正常不过的事情。<br>只不过，这一次被央行所提及的“偏离”，已经严重到了一定程度，已经影响到了资金市场的正常运行。在上海、深圳等一线城市，由于银行资产端承压导致市场真实贷款利率的下降，而参考1年期LPR利率的存款利率调整幅度并不大，叠加中小银行在市场上高息揽储，已经导致局部发生存贷利率倒挂、资金空转的不良现象，倘若对这一现象放任不管将会影响到银行的正常经营和信贷市场的正常运转。<br>这便是央行在降息前夕的吹风中所提到的“偏离”背后的真实含义，即市场利率尤其是贷款利率已经领先于政策利率，更具体地说，市场真实贷款利率已经偏离了锚定1年期LPR的存款利率，息差空间缩小，银行业务不赚钱了。<br>此次，央行宣布LPR和7天逆回购利率下调10BP，而淡化提及MLF，背后所要传递的信息已经十分清楚，市场存贷利率以后参照7天逆回购利率，甚至银行间的7天期债券质押式回购利率DR007进行调整即可。至此，在最终所要形成的货币政策框架下，利率传导路径将彻底绕过MLF利率，三大市场利率全部锚定7天逆回购利率这一个“锚”，受到央行货币政策的调控。</p>
-<p>| - |<br>| 央行 -&gt; 7年逆回购利率 -&gt; LPR利率和国债收益率 -&gt; 存款利率、贷款利率 |<br>| - |</p>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>纵观全局，本次央行选择利率“换锚”和降息10BP，背后的原因是错综复杂的，只降10BP，原因可以列举出一箩筐。一方面，二季度GDP增速为4.7%，要使年终增长率稳定在5%以上，年中需要一次降息；另一方面，如果市场预期大幅降息，银行和金融机构抢筹买入长期债券，将导致国债收益率下降，结果便是大量居民缺乏投资标的选择提前偿还房贷，这是信贷市场上的又一个火药桶。因此，为了稳住息差，在给LPR利率换锚后只降10BP；为了防止缩表，在利率传导机制中去掉MLF利率，市场利率全部换锚到7天逆回购利率，缩小LPR利率报价与市场真实利率的差距，同时给市场释放进一步降息的信号；为了保住汇率，放宽对MLF质押品的要求，旨在提升发债意愿，扩大债券供给端，缓解债券市场上的供给压力，防止国债价格进一步上涨，稳住国债收益率。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>央行的货币政策，对常人而言就像是杂技演员在表演走钢丝。我们更应该从此次“降息换锚”和背后的原因中窥探到经济基本面的一些蛛丝马迹，如：<br>1、国内资产荒：高收益的安全资产变少，市场可投的资产完全无法覆盖社会热钱的资金成本；<br>2、外部汇率环境差：在本轮加息周期中，美联储相继进行了11次加息，导致人民币汇率和我国外贸行业承压；<br>3、房地产市场低迷：当前实际房贷利率甚至远低于5年期LPR，而楼市517新政对楼市的提振效果不佳，除了上海、深圳成交略微放量，30城新房成交量基本变化不大，这表明房贷利率可能远未触底；<br>4、实体贷款意愿差：在经济增速放缓后，社会投资的期望回报覆盖不了资金成本，导致贷款的核心动机缺失；<br>5、市场信心和消费需求不足：中国人向来居安思危，在面临未来现金流存在巨大不确定性的情况下，居民和企业都会更倾向于选择储蓄而非消费或投资，这将给经济的需求端带来更严重的冲击。</p>
-<p>如此严峻的经济形势又岂是央行靠货币政策洒洒水所能改变的，央行的这一番操作看似行云流水，实际上也只是权宜之计。在经济学中，一个决策要同时兼顾到多个方面本就绝非易事，这就是美国经济学家克鲁格曼提出的不可能三角(Impossible Triangle)。在央行的货币政策中也同样存在着一个这样的“不可能三角”，它导致在我们面对一个严峻的经济现实时，央行货币政策的调控作用也会受到诸多局限。<br>也许，本次降息本就是醉翁之意不在酒，“意在降息，实在换锚”，面对如此严峻的经济形势，央行所能做到的充其量也只是隔靴搔痒而已，破局的关键最终还是应该落到财税改革上来，在保障地方政府有足够税源的同时，逐步摆脱对土地财政的依赖，在这一基础上再去推动楼市的软着陆，在做好保交楼的同时推动二手房市场的出清，使房价回到正常的运行轨道。未来的金融市场乃至整个经济大盘形势究竟会如何演变，且看台上的那些老演员们如何演下去吧。</p>
+    <title>英文经典短篇翻译(一)：奥斯维辛没有新闻</title>
+    <url>/2023/08/31/2023-08-31--Translation-No-News-from-Auschwitz/</url>
+    <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><em>No News from Auschwitz</em> ，《奥斯维辛没有新闻》是一篇著名的新闻稿，于1958年8月31日刊登于《纽约时报》。作者亚伯拉罕·迈克尔·罗森塔尔(<em>A. M. Rosenthal</em>)在此后曾任《纽约时报》的执行主编和专栏作者，也是美国历史上最著名的新闻编辑之一。</p>
+<p>巧合的是，《奥斯维辛没有新闻》是为了缅怀二战时在纳粹集中营丧生的犹太人而创作的，而罗森塔尔本人也具有犹太血统，但他并非犹太教信徒，且在幼年时期就随家人移民到加拿大生活。虽然没有像在二战时期那些遭遇种族灭绝的犹太人那样凄惨，但是罗森塔尔的家庭也是十分贫穷，曾多次因学费问题而被迫辍学，这样的经历也对他后来的创作风格有很大的影响，他任《纽约时报》新闻总编期间，正值整个美国经济、政治、经济、文化的变革时代，他凭一位新闻人不畏强权、崇尚真理的优秀品格，让一部百年老报焕发出崭新的生命力。<span id="more"></span></p>
+<p>本文写作于1958年罗森塔尔被派驻波兰的一年半期间，它突破了传统新闻“客观报道”的枷锁，大胆地在反映客观事实的基础上，着力表现作为一名有使命感的记者的在场的主观印象，激情洋溢地抒发了对法西斯暴行的深恶痛疾，对自由、解放、新生的无比珍惜之情。此外，他还大胆地对当时波兰的民生经济进行了深入报道，尽管后来罗森塔尔因批评政府被逐出波兰，但本文和他的许多其他报道却深入人心，大获成功。</p>
+<h1 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h1><p>— The most terrible thing of all, somehow, was that at Brzezinka the sun was bright and warm, the rows of graceful poplars were lovely to look upon, and on the grass near the gates children played.<br>不知道怎么的，最可怕的事情是，在布热津卡，阳光温暖明媚，成排矗立的白杨看起来很好看，孩子们在大门旁的草地上玩耍。</p>
+<p><em>somehow adv.(表接续)由于某种未知的原因</em></p>
+<p>It all seemed frighteningly wrong, as in a nightmare, that at Brzezinka the sun should ever shine or that there should be light and greenness and the sound of young laughter. It would be fitting if at Brzezinka the sun never shone and the grass withered, because this is a place of unutterable terror.<br>太阳应该永远照耀着布热津卡，或者那儿应该有阳光和绿色，还应该有年轻人的笑声，然而这一切似乎不该存在，就像在噩梦中一样。如果阳光永远不会照耀在布热津卡，草地也会枯萎，那将会是合理的，因为这是一个难以形容的恐怖之地。</p>
+<p><em>frighteningly adv.(fright的派生词)令人惊恐地</em></p>
+<p>And yet every day, from all over the world, people come to Brzezinka, quite possibly the most grisly tourist center on earth. They come for a variety of reasons—to see if it could really have been true, to remind themselves not to forget, to pay homage to the dead by the simple act of looking upon their place of suffering.<br>然而，每天都有来自世界各地的游客来到布热津卡，这里很可能是地球上最可怕的旅游中心。他们出于各种各样的原因来到这里——看看这是否是真的，提醒自己不要忘记，通过观察死者的痛苦之地来向他们表示致敬。</p>
+<p><em>grisly adj.恐怖的；可怕的；令人厌恶的</em></p>
+<p>Brzezinka is a couple of miles from the better-known southern Polish town of Oświęcim. Oświęcim has about 12,000 inhabitants, is situated about 171 miles from Warsaw, and lies in a damp, marshy area at the eastern end of the pass called the Moravian Gate. Brzezinka and Oświęcim together formed part of that minutely organized factory of torture and death that the Nazis called Konzentrationslager Auschwitz.<br>布热津卡距离波兰南部更出名的小镇奥斯维辛只有几英里。奥斯维辛约有大约12000名居民，距华沙约171英里，位于一个被称为莫拉维亚门的山口东部的沼泽湿地。布热津卡和奥斯维辛一起组成了被纳粹称为奥斯维辛集中营的死亡工厂的一部分。<br>By now, fourteen years after the last batch of prisoners was herded naked into the gas chambers by dogs and guards, the story of Auschwitz has been told a great many times. Some of the inmates have written of those memories of which sane men cannot conceive. Rudolf Franz Ferdinand Hoess, the superintendent of the camp, before he was executed wrote his detailed memoirs of mass exterminations and the experiments on living bodies. Four million people died here, the Poles say.<br>到目前为止，在最后一批囚犯被警犬和警卫全身赤裸地赶到毒气室已经14年过去了，奥斯维辛的故事已经被讲述了许多遍。一些囚犯写下了那些普通人无法想象的记忆。营地负责人鲁道夫·弗朗茨·费迪南德·霍斯在被处决前写下了关于大规模灭绝和活体实验的详细回忆。波兰有人说，这里有约400万人死亡。<br>And so there is no news to report about Auschwitz. There is merely the compulsion to write something about it, a compulsion that grows out of a restless feeling that to have visited Auschwitz and then turned away without having said or written anything would somehow be a most grievous act of discourtesy to those who died here.<br>因此关于奥斯维辛并没有什么新闻可以报道，这只是一种想写点什么的冲动。这冲动源于一种不安的感觉，即去到奥斯维辛，然后什么都没说或写就离开了，在某种程度上是对那些曾经死在这里的人们最大的不敬。<br>Brzezinka and Oświęcim are very quiet places now; the screams can no longer be heard. The tourist walks silently, quickly at first to get it over with and then, as his mind peoples the barracks and the chambers and the dungeons and flogging posts, he walks draggingly. The guide does not say much either, because there is nothing much for him to say after he has pointed.<br>现在的布热津卡和奥斯维辛是非常安静的地方；再也听不到尖叫声了。游客默默地走着，起初很快就结束了，然后当他的脑海充斥着营房、隔间、地牢、鞭笞和哨所时，他的步伐像是被什么拖住了一样。导游也不便多说什么，因为在他指了指之后就没什么好说的了。<br>For every visitor there is one particular bit of horror that he knows he will never forget. For some it is seeing the rebuilt gas chamber at Oświęcim and being told that this is the “small one.”<br>对于每一个来访的人来说，有一点特别的恐怖，他知道自己永远也不会忘记。对一些人来说，他好像看到了奥斯维辛重建的毒气室并被告知这是“小毒气室”。<br>For others it is the fact that at Brzezinka, in the ruins of the gas chambers and the crematoria the Germans blew up when they retreated, there are daisies growing.<br>而对于其他人来说，在德国人撤退时炸毁的毒气室和火葬场的废墟上长满了雏菊。<br>There are visitors who gaze blankly at the gas chambers and the furnaces because their minds simply cannot encompass them, but stand shivering before the great mounds of human hair behind the plate-glass window or the piles of babies’ shoes or the brick cells where men sentenced to death by suffocation were walled up.<br>有些游客木然地凝视着毒气室和熔炉，因为他们的思想根本无法保持清醒，只能杵着瑟瑟发抖，就站在平板玻璃窗后面一大堆人类头发前，站在堆成堆的婴儿鞋前，站在被判处死刑的因窒息而亡的被关起来的砖牢房前。<br>One visitor opened his mouth in a silent scream simply at the sight of boxes—great stretches of three-tiered wooden boxes in the women’s barracks. They were about six feet wide, about three feet high, and into them from five to ten prisoners were shoved for the night. The guide walks quickly through the barracks. Nothing more to see here.<br>一位游客只是看到了一些箱子就默默张开了嘴——妇女营房里有一大片三层木箱。它们大约有六英尺宽，三英尺高，曾经每晚有五到十名囚犯被推到其中过夜。导游快速地穿过营房。这里没有什么可看的了。<br>A brick building where sterilization experiments were carried out on women prisoners. The guide tries the door—it’s locked. The visitor is grateful that he does not have to go in, and then flushes with shame.<br>对女性进行绝育实验的砖砌建筑。导游试图开门，但它被锁住了。来访者为自己不用进去感到欣慰，然后羞愧地脸红了。<br>A long corridor where rows of faces stare from the walls. Thousands of pictures, the photographs of prisoners. They are all dead now, the men and women who stood before the cameras, and they all knew they were to die.<br>还有一条长长的走廊，一排排面孔在墙上发出凝视的目光。成千上万的照片，成千上万囚犯的照片。他们现在都死了，那些站在镜头前的男人和女人，他们当时都知道自己快要死了。<br>They all stare blank-faced, but one picture, in the middle of a row, seizes the eye and wrenches the mind. A girl, twenty-two years old, plumply pretty, blond. She is smiling gently, as at a sweet, treasured thought. What was the thought that passed through her young mind and is now her memorial on the wall of the dead at Auschwitz?<br>他们都面无表情地露出凝视的目光，但一排中间的一张照片让人耳目一新。照片上，一个22岁的女孩，丰满美丽，金发碧眼。她温柔地微笑着，好像在想一件甜蜜而珍贵的事情。当时浮现在她脑海中的想法究竟是什么？现在是奥斯维辛集中营死者墙上的纪念碑吗？<br>Into the suffocation dungeons the visitor is taken for a moment and feels himself strangling. Another visitor goes in, stumbles out, and crosses herself. There is no place to pray in Auschwitz.<br>在进入令人窒息的地牢时，游客有一瞬间感觉自己被勒死了。另一位游客走了进去，跌跌撞撞地走了出来，然后自己在胸前画十字架。奥斯维辛没有祷告的地方。<br>The visitors look pleadingly at each other and say to the guide, “Enough.”<br>游客们恳求地看着彼此，然后对导游说道：“够了。”<br>There is nothing new to report about Auschwitz. It was a sunny day and the trees were green and at the gates the children played.<br>关于奥斯维辛并没有什么新鲜事。那是一个晴朗的日子，树木是绿色的，孩子们在门口玩耍。</p>
 ]]></content>
       <categories>
         <category>Social</category>
       </categories>
       <tags>
-        <tag>醉仙阁杂谈</tag>
         <tag>Social Science</tag>
+        <tag>英文经典短篇翻译</tag>
       </tags>
   </entry>
   <entry>
@@ -522,12 +500,32 @@
       </tags>
   </entry>
   <entry>
-    <title>纯粹数学科普系列(一)：特殊函数(一)</title>
-    <url>/2024/08/18/2024-08-18--SF1/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>近日公务繁多，奔走劳碌，却偶感内心空洞，所望皆虚，乃思忆起多年以前那段徜徉在数学和真理当中的日子。遂于这几日夜半心猿意马，挑灯提笔，以为撰文思过往。</p>
-<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这是本人近日开始着手撰写的纯粹数学科普系列文章的第一篇，内容主要是基础数学与解析数论当中的一些特殊函数，总体来说难度不算太大。但由于本人已有多年未接触数学，且工作繁忙，行文仓促，内容可能存在笔误与疏漏，恳请读者指出与纠正。</p>
-<p>由于全文数学公式繁多，我将链接附在下方，欢迎阅读。</p>
-<p><a href="/files/sf.pdf">特殊函数(一)</a> </p>
+    <title>谈谈利率换锚：从7月22日降息说起</title>
+    <url>/2024/08/08/2024-08-08--Interest-Rate/</url>
+    <content><![CDATA[<p><img src="/images/2024-08-08--Interest-Rate/Interest_Rate.jpg" alt="Interest Rate"></p>
+<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>7月22日，央行宣布1年期、5年期LPR及7天逆回购利率同时下调10个基点。此外，允许有出售中长期债券需求的中期借贷便利的参与机构申请MLF质押品的阶段性减免。这是今年央行第二次宣布降息，且此次发言在提及政策利率下调10BP的同时，还暗示了利率传导路径的改变，和以往的说辞相比，央行近期显然在刻意淡化MLF利率的影响。</p>
+<h1 id="利率传导机制"><a href="#利率传导机制" class="headerlink" title="利率传导机制"></a>利率传导机制</h1><p>所谓利率传导路径，是指央行通过调整政策利率来实现对社会资金总量调控的过程。在这一过程中，央行可以直接调控的环节被称为政策利率，而在市场上由资金供求关系决定的利率被称为市场利率。<span id="more"></span><br>目前中国利率传导路径如下图所示：</p>
+<p><img src="/images/2024-08-08--Interest-Rate/Interest_Rate_System.jpg" alt="&quot;中国利率传导机制示意图，《中国的利率体系与利率市场化改革》易纲&quot;" title="中国利率传导机制示意图，《中国的利率体系与利率市场化改革》易纲"></p>
+<p>当前我们社会上流通的货币，实际上全部来源于央行，央行通过7天逆回购（短期）、中期借贷便利（MLF）和常设借贷便利（SLF）把钱借给银行，这一过程中的利率通常由央行决定，也就是政策利率；银行再以贷款的形式把钱借给个人或企业流入实体经济，在资金市场上形成了三个重要的市场利率。<br>1、货币市场利率：不同银行之间进行短期拆借，形成银行间同业拆借市场，这一利率主要受到7天逆回购利率影响。<br>2、信贷市场利率：个人或企业以信用为凭证或以资产为抵押从银行贷款的利率。这一利率主要是由商业银行在MLF利率的基础上加点形成，几家大银行的利率报价的平均数形成LPR。<br>目前我国信贷市场上的贷款主要是由以下两部分组成：<br>| 经营贷 | 参考1年期LPR |<br>| 房贷 | 参考5年期LPR |<br>3、债券市场利率：政府在市场上发行各种债券进行融资，其中以信用程度最高的国债为代表，被广泛认为是无风险的。这些债券一般由银行承销，银行也会购买国债，作为其投资组合的一部分。如果MLF利率低于国债收益率，则银行会通过MLF进行融资并购买国债，反之不然。所以，MLF利率是国债收益率的锚，国债收益率会围绕MLF利率波动，这也被称为债券市场利率。</p>
+<h1 id="利率“换锚”"><a href="#利率“换锚”" class="headerlink" title="利率“换锚”"></a>利率“换锚”</h1><p>原本，与居民和企业关系最大的LPR利率主要受MLF利率的调控。央行向银行投放货币的主要方式也是以MLF为主，再以7天逆回购作为应对市场上短期流动性变化的辅助工具，以SLF为抽紧流动性的辅助工具。即目前央行调控银行现金流量表的主要手段为MLF。下游银行在释放贷款时，主要的利率参考标的也是MLF。<br>但在2024年7月16日，央行在《金融时报》中指出：“当前LPR报价与最优质客户贷款利率之间出现一定偏离。”这可以算是22号降息前的一种吹风。<br>究其原因，主要是由于疫情后金融市场波动加剧，信贷市场环境转坏，直接影响了银行资产负债表的平衡，居民和企业贷款意愿不强，甚至还纷纷选择把闲钱存起来，在这种情况下央行、银行都只能被迫不断下调贷款利率，但这种手段根本改变不了经济基本面不佳和未来预期差的事实。无论政策上如何降准和降息，居民存款意愿依然不减。<br>但受制于MLF利率调整周期长和出于保汇率的考量，央行无法做到对MLF利率进行实时、精确的调整，这就导致在信贷市场上出现市场利率先降、政策利率后降的现象。而在事实上，这一现象的出现并不反常，类似于房产、香烟等商品，实际成交价格偏离政策指导价的情况比比皆是。央行在调整政策利率时所参照的也是经济的运行情况，那么在市场短期波动较大的情况下出现一定滞后是再正常不过的事情。<br>只不过，这一次被央行所提及的“偏离”，已经严重到了一定程度，已经影响到了资金市场的正常运行。在上海、深圳等一线城市，由于银行资产端承压导致市场真实贷款利率的下降，而参考1年期LPR利率的存款利率调整幅度并不大，叠加中小银行在市场上高息揽储，已经导致局部发生存贷利率倒挂、资金空转的不良现象，倘若对这一现象放任不管将会影响到银行的正常经营和信贷市场的正常运转。<br>这便是央行在降息前夕的吹风中所提到的“偏离”背后的真实含义，即市场利率尤其是贷款利率已经领先于政策利率，更具体地说，市场真实贷款利率已经偏离了锚定1年期LPR的存款利率，息差空间缩小，银行业务不赚钱了。<br>此次，央行宣布LPR和7天逆回购利率下调10BP，而淡化提及MLF，背后所要传递的信息已经十分清楚，市场存贷利率以后参照7天逆回购利率，甚至银行间的7天期债券质押式回购利率DR007进行调整即可。至此，在最终所要形成的货币政策框架下，利率传导路径将彻底绕过MLF利率，三大市场利率全部锚定7天逆回购利率这一个“锚”，受到央行货币政策的调控。</p>
+<p>| - |<br>| 央行 -&gt; 7年逆回购利率 -&gt; LPR利率和国债收益率 -&gt; 存款利率、贷款利率 |<br>| - |</p>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>纵观全局，本次央行选择利率“换锚”和降息10BP，背后的原因是错综复杂的，只降10BP，原因可以列举出一箩筐。一方面，二季度GDP增速为4.7%，要使年终增长率稳定在5%以上，年中需要一次降息；另一方面，如果市场预期大幅降息，银行和金融机构抢筹买入长期债券，将导致国债收益率下降，结果便是大量居民缺乏投资标的选择提前偿还房贷，这是信贷市场上的又一个火药桶。因此，为了稳住息差，在给LPR利率换锚后只降10BP；为了防止缩表，在利率传导机制中去掉MLF利率，市场利率全部换锚到7天逆回购利率，缩小LPR利率报价与市场真实利率的差距，同时给市场释放进一步降息的信号；为了保住汇率，放宽对MLF质押品的要求，旨在提升发债意愿，扩大债券供给端，缓解债券市场上的供给压力，防止国债价格进一步上涨，稳住国债收益率。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>央行的货币政策，对常人而言就像是杂技演员在表演走钢丝。我们更应该从此次“降息换锚”和背后的原因中窥探到经济基本面的一些蛛丝马迹，如：<br>1、国内资产荒：高收益的安全资产变少，市场可投的资产完全无法覆盖社会热钱的资金成本；<br>2、外部汇率环境差：在本轮加息周期中，美联储相继进行了11次加息，导致人民币汇率和我国外贸行业承压；<br>3、房地产市场低迷：当前实际房贷利率甚至远低于5年期LPR，而楼市517新政对楼市的提振效果不佳，除了上海、深圳成交略微放量，30城新房成交量基本变化不大，这表明房贷利率可能远未触底；<br>4、实体贷款意愿差：在经济增速放缓后，社会投资的期望回报覆盖不了资金成本，导致贷款的核心动机缺失；<br>5、市场信心和消费需求不足：中国人向来居安思危，在面临未来现金流存在巨大不确定性的情况下，居民和企业都会更倾向于选择储蓄而非消费或投资，这将给经济的需求端带来更严重的冲击。</p>
+<p>如此严峻的经济形势又岂是央行靠货币政策洒洒水所能改变的，央行的这一番操作看似行云流水，实际上也只是权宜之计。在经济学中，一个决策要同时兼顾到多个方面本就绝非易事，这就是美国经济学家克鲁格曼提出的不可能三角(Impossible Triangle)。在央行的货币政策中也同样存在着一个这样的“不可能三角”，它导致在我们面对一个严峻的经济现实时，央行货币政策的调控作用也会受到诸多局限。<br>也许，本次降息本就是醉翁之意不在酒，“意在降息，实在换锚”，面对如此严峻的经济形势，央行所能做到的充其量也只是隔靴搔痒而已，破局的关键最终还是应该落到财税改革上来，在保障地方政府有足够税源的同时，逐步摆脱对土地财政的依赖，在这一基础上再去推动楼市的软着陆，在做好保交楼的同时推动二手房市场的出清，使房价回到正常的运行轨道。未来的金融市场乃至整个经济大盘形势究竟会如何演变，且看台上的那些老演员们如何演下去吧。</p>
+]]></content>
+      <categories>
+        <category>Social</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Social Science</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>纯粹数学科普系列(二)：特殊函数(二)</title>
+    <url>/2024/09/13/2024-09-13--Polylog/</url>
+    <content><![CDATA[<p>这是本系列文章的第二篇，内容同样为特殊函数，这次主要内容为多重对数函数，其中也简单地介绍了一下欧拉和(Euler Sum)和MZV(Multivariate Zeta Value)，但主要还是以数学分析和复变函数论为主。</p>
+<p><a href="/files/polylog.pdf">特殊函数(二)</a> </p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -537,10 +535,12 @@
       </tags>
   </entry>
   <entry>
-    <title>纯粹数学科普系列(二)：特殊函数(二)</title>
-    <url>/2024/09/13/2024-09-13--Polylog/</url>
-    <content><![CDATA[<p>这是本系列文章的第二篇，内容同样为特殊函数，这次主要内容为多重对数函数，其中也简单地介绍了一下欧拉和(Euler Sum)和MZV(Multivariate Zeta Value)，但主要还是以数学分析和复变函数论为主。</p>
-<p><a href="/files/polylog.pdf">特殊函数(二)</a> </p>
+    <title>纯粹数学科普系列(一)：特殊函数(一)</title>
+    <url>/2024/08/18/2024-08-18--SF1/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>近日公务繁多，奔走劳碌，却偶感内心空洞，所望皆虚，乃思忆起多年以前那段徜徉在数学和真理当中的日子。遂于这几日夜半心猿意马，挑灯提笔，以为撰文思过往。</p>
+<h1 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h1><p>这是本人近日开始着手撰写的纯粹数学科普系列文章的第一篇，内容主要是基础数学与解析数论当中的一些特殊函数，总体来说难度不算太大。但由于本人已有多年未接触数学，且工作繁忙，行文仓促，内容可能存在笔误与疏漏，恳请读者指出与纠正。</p>
+<p>由于全文数学公式繁多，我将链接附在下方，欢迎阅读。</p>
+<p><a href="/files/sf.pdf">特殊函数(一)</a> </p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -698,6 +698,24 @@
       </tags>
   </entry>
   <entry>
+    <title>谈谈期刊影响因子</title>
+    <url>/2024/10/12/2024-10-12--Impact-Factor/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>许多科研工作者，在发表学术论文时，为了确保其论文的质量和学术影响力，往往会从多个方面进行考量。一般来说，不同的学术期刊往往侧重于刊登不同领域的文章，而学术工作者需要首先确保其论文能被发表在对应领域的刊物上，才能获得更多同业工作者的阅读及引用。</p>
+<p>而在相同领域的不同期刊之间，也在影响力上存在着高下之别，期刊论文影响因子(Impact Factor, IF)就是评估学术期刊影响力的一个重要参考指标。<span id="more"></span></p>
+<h1 id="发展历史"><a href="#发展历史" class="headerlink" title="发展历史"></a>发展历史</h1><p>期刊影响因子的概念最早是由美国科学信息研究所的创始人尤金·加菲尔德(Eugene Garfield)提出的。1955年，加菲尔德在「Science」杂志上发表了一篇题目为「Science Citation Index」的文章，首次提出了“引文索引”的概念，并给出了“影响因子”的定义。他在文中建议推出一个可追踪论文被引用次数的索引，以帮助学术工作者找到特定领域的相关论文以及针对问题论文的批评，评估不同论文的相对重要性。</p>
+<p>后来，在经历了数次修订之后，美国科学信息研究所在1964年发布了第一份科学引文索引(SCI)，列出了两千多份学术期刊上发表论文的引文。此后，SCI目录保持着每年一次的更新频率，在学术界的影响力也日渐增强。</p>
+<h1 id="计算方法"><a href="#计算方法" class="headerlink" title="计算方法"></a>计算方法</h1><p>按照当前国际上的通用定义，期刊影响因子以年为单位进行计算。以2024年为例，A期刊在2024年的影响因子为该期刊在2022-2023年发表的所有文章在2024年被引用的次数与该期刊在2022-2023年发表的所有文章数的比值。</p>
+<h1 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h1><p>目前，影响因子是国际上通用的最重要的期刊评价指标之一。一方面，许多著名学术期刊，如美国化学会志、Oncogene等，会在其网站上注明期刊的影响因子，以表明在对应学科的影响力。另一方面，许多科研工作者在发表论文时也会参考期刊影响因子这一指标，以确保其论文能带来的学术影响力。</p>
+<p>而在国内，目前大部分高校都以学术期刊的影响因子作为评判硕士与博士研究生毕业的主要标准。</p>
+<p>然而，也有一部分学术界人士质疑引文分析的价值和影响因子的准确性，认为该指标在设计初衷上存在一些缺陷，这可能导致学术研究在方向上出现偏颇。首先，作为一项数据指标，期刊影响因子并不能全面反映期刊的学术质量，一些期刊可能只是因为发表了热点文章而获得高引用次数，但热点文章未必是高质量的学术成果。其次，由于引用数据的收录范围不够全面，期刊影响因子的计算方法就不够客观。最重要的是，期刊影响因子的计算方法可能导致有问题的激励，鼓励学术工作者和期刊进行自我引用，这么做可以提高期刊和文章的影响因子数值，这样的做法会导致学术研究偏离初衷。</p>
+<p>随着科研工作环境和学术评价体系的多元化发展，越来越多的学者和机构开始关注其他评价指标，如论文质量、创新性、引用次数、学术声誉等。同时，一些新的期刊评价指标也在不断涌现和发展中，为期刊评价提供了更多的选择和参考。</p>
+<p>总之，影响因子在当前仍然是全球学术界通用的期刊影响力参考指标之一，对于科研工作者、期刊出版商来说具有十分重要的参考意义。</p>
+]]></content>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>在LaTeX中输出平行四边形符号</title>
     <url>/2024/10/07/2024-10-07--Parallelogram-In-LaTeX/</url>
     <content><![CDATA[<p>在LaTeX中，我们能快速地运用其强大的排版功能对各类数学公式进行排版，但在LaTeX宏集中预定义的只有国际标准符号，而平行四边形符号并不在其中，故我们无法直接通过LaTeX或<code>amsmath</code>等数学宏包中的预定义命令输出这一符号。对此，一种比较通俗的做法是使用Unicode字符▱，但在大多数输入法中该字符较难输入。因此，如需在一个文档中大量使用该符号，利用如<code>TikZ</code>等绘图宏包自定义一个命令是较为方便的，例如：<span id="more"></span></p>
@@ -746,24 +764,6 @@
         <tag>醉仙阁杂谈</tag>
         <tag>Social Science</tag>
         <tag>资本论学习笔记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>谈谈期刊影响因子</title>
-    <url>/2024/10/12/2024-10-12--Impact-Factor/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>许多科研工作者，在发表学术论文时，为了确保其论文的质量和学术影响力，往往会从多个方面进行考量。一般来说，不同的学术期刊往往侧重于刊登不同领域的文章，而学术工作者需要首先确保其论文能被发表在对应领域的刊物上，才能获得更多同业工作者的阅读及引用。</p>
-<p>而在相同领域的不同期刊之间，也在影响力上存在着高下之别，期刊论文影响因子(Impact Factor, IF)就是评估学术期刊影响力的一个重要参考指标。<span id="more"></span></p>
-<h1 id="发展历史"><a href="#发展历史" class="headerlink" title="发展历史"></a>发展历史</h1><p>期刊影响因子的概念最早是由美国科学信息研究所的创始人尤金·加菲尔德(Eugene Garfield)提出的。1955年，加菲尔德在「Science」杂志上发表了一篇题目为「Science Citation Index」的文章，首次提出了“引文索引”的概念，并给出了“影响因子”的定义。他在文中建议推出一个可追踪论文被引用次数的索引，以帮助学术工作者找到特定领域的相关论文以及针对问题论文的批评，评估不同论文的相对重要性。</p>
-<p>后来，在经历了数次修订之后，美国科学信息研究所在1964年发布了第一份科学引文索引(SCI)，列出了两千多份学术期刊上发表论文的引文。此后，SCI目录保持着每年一次的更新频率，在学术界的影响力也日渐增强。</p>
-<h1 id="计算方法"><a href="#计算方法" class="headerlink" title="计算方法"></a>计算方法</h1><p>按照当前国际上的通用定义，期刊影响因子以年为单位进行计算。以2024年为例，A期刊在2024年的影响因子为该期刊在2022-2023年发表的所有文章在2024年被引用的次数与该期刊在2022-2023年发表的所有文章数的比值。</p>
-<h1 id="影响"><a href="#影响" class="headerlink" title="影响"></a>影响</h1><p>目前，影响因子是国际上通用的最重要的期刊评价指标之一。一方面，许多著名学术期刊，如美国化学会志、Oncogene等，会在其网站上注明期刊的影响因子，以表明在对应学科的影响力。另一方面，许多科研工作者在发表论文时也会参考期刊影响因子这一指标，以确保其论文能带来的学术影响力。</p>
-<p>而在国内，目前大部分高校都以学术期刊的影响因子作为评判硕士与博士研究生毕业的主要标准。</p>
-<p>然而，也有一部分学术界人士质疑引文分析的价值和影响因子的准确性，认为该指标在设计初衷上存在一些缺陷，这可能导致学术研究在方向上出现偏颇。首先，作为一项数据指标，期刊影响因子并不能全面反映期刊的学术质量，一些期刊可能只是因为发表了热点文章而获得高引用次数，但热点文章未必是高质量的学术成果。其次，由于引用数据的收录范围不够全面，期刊影响因子的计算方法就不够客观。最重要的是，期刊影响因子的计算方法可能导致有问题的激励，鼓励学术工作者和期刊进行自我引用，这么做可以提高期刊和文章的影响因子数值，这样的做法会导致学术研究偏离初衷。</p>
-<p>随着科研工作环境和学术评价体系的多元化发展，越来越多的学者和机构开始关注其他评价指标，如论文质量、创新性、引用次数、学术声誉等。同时，一些新的期刊评价指标也在不断涌现和发展中，为期刊评价提供了更多的选择和参考。</p>
-<p>总之，影响因子在当前仍然是全球学术界通用的期刊影响力参考指标之一，对于科研工作者、期刊出版商来说具有十分重要的参考意义。</p>
-]]></content>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -1016,6 +1016,33 @@
       </tags>
   </entry>
   <entry>
+    <title>数术杂编(一)：一类交错级数的解法</title>
+    <url>/2025/01/15/2025-01-15--Closed-Form-Of-An-Alternating-Series/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本系列收录笔者在日常中遇到的一些比较有意思的数学题目，它们一般是一些难度较高或比较巧妙的积分或级数。</p>
+<p>在数学分析中，所谓莱布尼茨级数(也被称为交错级数, Alternating Series)一般是指所有项的符号为正负交替出现的一类级数。本文将以下面的级数为例，讨论一类分母为一次多项式的莱布尼茨级数的解析解求法。</p>
+<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} = \frac{\pi}{3\sqrt{3}} + \frac{1}{3}\log 2</script><span id="more"></span>
+<p>【解】</p>
+<p>考虑函数：</p>
+<script type="math/tex; mode=display">f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} x^{3n+1}</script><p>求导得：</p>
+<script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{3n} = \frac{1}{1+x^3}</script><p>故：</p>
+<script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{dt}{1+t^3}</script><p>因此：</p>
+<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} = f(1) = \int_{0}^{1} \frac{dt}{1+t^3} = \frac{\pi}{3\sqrt{3}} + \frac{1}{3}\log 2</script><p>对于以下更一般的情形(容易证明它是收敛的)：</p>
+<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{an+b}, a,b>0</script><p>可以写：</p>
+<script type="math/tex; mode=display">f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{an+b} x^{an+b}</script><p>求导得：</p>
+<script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{an+b-1} = \frac{x^{b-1}}{1+x^a}</script><p>因此：</p>
+<script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{t^{b-1}}{1+t^a} dt</script><p>则所求级数即为：</p>
+<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{an+b} = f(1) = \int_{0}^{1} \frac{t^{b-1}}{1+t^a} dt</script><p>通过这样的方法，我们可以把该类莱布尼茨级数化为定积分的形式，再通过对定积分的计算即可得到对应莱布尼茨级数的值。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>数术杂编</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>德州扑克(四)：德州扑克打法与理论的发展历程</title>
     <url>/2024/12/31/2024-12-31--Taxes-Holdem-4/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>德州扑克自20世纪初起源以来，一直在美国本土保持着低密度流行的状态。一直以来，德州扑克主要流行于美国的上流社会，而且是一些较为聪明的商人才擅长的博弈游戏，这部分的群体主要是一些贸易商和投机交易商，当然也包括那些常年混迹于金融市场的交易员。<span id="more"></span></p>
@@ -1070,33 +1097,6 @@
       </tags>
   </entry>
   <entry>
-    <title>数术杂编(一)：一类交错级数的解法</title>
-    <url>/2025/01/15/2025-01-15--Closed-Form-Of-An-Alternating-Series/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本系列收录笔者在日常中遇到的一些比较有意思的数学题目，它们一般是一些难度较高或比较巧妙的积分或级数。</p>
-<p>在数学分析中，所谓莱布尼茨级数(也被称为交错级数, Alternating Series)一般是指所有项的符号为正负交替出现的一类级数。本文将以下面的级数为例，讨论一类分母为一次多项式的莱布尼茨级数的解析解求法。</p>
-<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} = \frac{\pi}{3\sqrt{3}} + \frac{1}{3}\log 2</script><span id="more"></span>
-<p>【解】</p>
-<p>考虑函数：</p>
-<script type="math/tex; mode=display">f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} x^{3n+1}</script><p>求导得：</p>
-<script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{3n} = \frac{1}{1+x^3}</script><p>故：</p>
-<script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{dt}{1+t^3}</script><p>因此：</p>
-<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{3n+1} = f(1) = \int_{0}^{1} \frac{dt}{1+t^3} = \frac{\pi}{3\sqrt{3}} + \frac{1}{3}\log 2</script><p>对于以下更一般的情形(容易证明它是收敛的)：</p>
-<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{an+b}, a,b>0</script><p>可以写：</p>
-<script type="math/tex; mode=display">f(x) = \sum_{n=0}^{\infty} \frac{(-1)^n}{an+b} x^{an+b}</script><p>求导得：</p>
-<script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{an+b-1} = \frac{x^{b-1}}{1+x^a}</script><p>因此：</p>
-<script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{t^{b-1}}{1+t^a} dt</script><p>则所求级数即为：</p>
-<script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{an+b} = f(1) = \int_{0}^{1} \frac{t^{b-1}}{1+t^a} dt</script><p>通过这样的方法，我们可以把该类莱布尼茨级数化为定积分的形式，再通过对定积分的计算即可得到对应莱布尼茨级数的值。</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>数术杂编</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数术杂编(二)：一个与三角函数有关的积分的改良</title>
     <url>/2025/01/20/2025-01-20--Improvement-Of-An-Interesting-Integral-Related-To-Trigonometric-Functions/</url>
     <content><![CDATA[<p>今晚在无意间发现并解决了一个很有意思且颇有难度的定积分题目，事情的起因源于笔者对如下这个简单的定积分的改良：</p>
@@ -1137,40 +1137,6 @@
         <tag>Math</tag>
         <tag>数术杂编</tag>
         <tag>Integral</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例</title>
-    <url>/2025/01/23/2025-01-23--Example-Of-Calculating-Improper-Integral-Of-Rational-Function-By-Residue-Theorem/</url>
-    <content><![CDATA[<p>本文基于以下两个例子，讨论一种利用留数定理计算有理函数反常积分的方法：</p>
-<script type="math/tex; mode=display">I_1 = \int_{-\infty}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><script type="math/tex; mode=display">I_2 = \int_{0}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><p>容易证明上面两个积分都是良定义且收敛的，下面我将利用留数定理计算它们。<span id="more"></span></p>
-<p>对于$I_1$，其解法是直接讨论被积函数本身，令：</p>
-<script type="math/tex; mode=display">f(z) = \frac{1}{z^4 + z^3 + z^2 + z + 1} = \frac{z-1}{z^5-1}</script><p>则：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I_1 & = 2\pi i \Res_{z = e^{2\pi i / 5}} f(z) + 2\pi i \Res_{z = e^{4\pi i / 5}} f(z) \\
-& = 2\pi i \left( \frac{e^{2\pi i / 5} - 1}{5e^{8\pi i / 5}} + \frac{e^{4\pi i / 5} - 1}{5e^{16\pi i / 5}} \right) \\
-& = \frac{2\pi i}{5}\left( e^{4\pi i / 5} - e^{2\pi i / 5} + e^{-2\pi i / 5} - e^{4\pi i / 5}\right) \\
-& = \frac{4\pi}{5}\sin\left(\frac{2\pi}{5}\right) \\
-& = \frac{\sqrt{10+2\sqrt{5}}}{5}\pi
-\end{align*}</script><p>$I_2$与$I_1$的区别在于积分区间缩小为正半轴，且被积函数是非奇非偶的，因此无法直接通过$I_1$的值算得。对于此类积分，其计算方法通常是令$g(z) = f(z)\log z$，沿正实轴割开平面，并简单地约定在支割线上方有$\arg z = 0$，则：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I_2 & = 2\pi i\sum_{k=1}^{4} \Res_{z = e^{2k\pi i/5}} g(z) \\
-& = -\sum_{k=1}^{4} \frac{2k\pi i}{5}\frac{e^{2k\pi i/5}}{5e^{8k\pi i/5}} \\
-& = -\frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{2\pi i/5}\right) -\frac{4\pi i}{25}\left(e^{-2\pi i/5} - e^{4\pi i/5}\right) -\frac{6\pi i}{25}\left(e^{2\pi i/5} - e^{-4\pi i/5}\right) -\frac{8\pi i}{25}\left(e^{-4\pi i/5} - e^{-2\pi i/5}\right) \\
-& = \frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{-4\pi i/5}\right) - \frac{4\pi i}{25}\left(e^{2\pi i/5} - e^{-2\pi i/5}\right) \\
-& = \frac{4\pi}{25}\left[2\sin\left(\frac{2\pi}{5}\right) - \sin\left(\frac{4\pi}{5}\right)\right] \\
-& = \frac{\sqrt{50-10\sqrt{5}}}{25}\pi
-\end{align*}</script><p>注：上述第二个积分在复平面上的积分路径为从$\infty$出发沿正实轴上沿，再沿一个半径任意小的圆逆时针绕过原点，最后沿正实轴上沿回到$\infty$。由于正实轴上下沿上的辐角相差$2\pi i$，因此，所求积分事实上是$2\pi i I_2$，故在应用留数定理时直接约去了等式两边的$2\pi i$。 </p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>数术杂编</tag>
       </tags>
   </entry>
   <entry>
@@ -1276,6 +1242,89 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       </tags>
   </entry>
   <entry>
+    <title>数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例</title>
+    <url>/2025/01/23/2025-01-23--Example-Of-Calculating-Improper-Integral-Of-Rational-Function-By-Residue-Theorem/</url>
+    <content><![CDATA[<p>本文基于以下两个例子，讨论一种利用留数定理计算有理函数反常积分的方法：</p>
+<script type="math/tex; mode=display">I_1 = \int_{-\infty}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><script type="math/tex; mode=display">I_2 = \int_{0}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><p>容易证明上面两个积分都是良定义且收敛的，下面我将利用留数定理计算它们。<span id="more"></span></p>
+<p>对于$I_1$，其解法是直接讨论被积函数本身，令：</p>
+<script type="math/tex; mode=display">f(z) = \frac{1}{z^4 + z^3 + z^2 + z + 1} = \frac{z-1}{z^5-1}</script><p>则：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I_1 & = 2\pi i \Res_{z = e^{2\pi i / 5}} f(z) + 2\pi i \Res_{z = e^{4\pi i / 5}} f(z) \\
+& = 2\pi i \left( \frac{e^{2\pi i / 5} - 1}{5e^{8\pi i / 5}} + \frac{e^{4\pi i / 5} - 1}{5e^{16\pi i / 5}} \right) \\
+& = \frac{2\pi i}{5}\left( e^{4\pi i / 5} - e^{2\pi i / 5} + e^{-2\pi i / 5} - e^{4\pi i / 5}\right) \\
+& = \frac{4\pi}{5}\sin\left(\frac{2\pi}{5}\right) \\
+& = \frac{\sqrt{10+2\sqrt{5}}}{5}\pi
+\end{align*}</script><p>$I_2$与$I_1$的区别在于积分区间缩小为正半轴，且被积函数是非奇非偶的，因此无法直接通过$I_1$的值算得。对于此类积分，其计算方法通常是令$g(z) = f(z)\log z$，沿正实轴割开平面，并简单地约定在支割线上方有$\arg z = 0$，则：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I_2 & = 2\pi i\sum_{k=1}^{4} \Res_{z = e^{2k\pi i/5}} g(z) \\
+& = -\sum_{k=1}^{4} \frac{2k\pi i}{5}\frac{e^{2k\pi i/5}}{5e^{8k\pi i/5}} \\
+& = -\frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{2\pi i/5}\right) -\frac{4\pi i}{25}\left(e^{-2\pi i/5} - e^{4\pi i/5}\right) -\frac{6\pi i}{25}\left(e^{2\pi i/5} - e^{-4\pi i/5}\right) -\frac{8\pi i}{25}\left(e^{-4\pi i/5} - e^{-2\pi i/5}\right) \\
+& = \frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{-4\pi i/5}\right) - \frac{4\pi i}{25}\left(e^{2\pi i/5} - e^{-2\pi i/5}\right) \\
+& = \frac{4\pi}{25}\left[2\sin\left(\frac{2\pi}{5}\right) - \sin\left(\frac{4\pi}{5}\right)\right] \\
+& = \frac{\sqrt{50-10\sqrt{5}}}{25}\pi
+\end{align*}</script><p>注：上述第二个积分在复平面上的积分路径为从$\infty$出发沿正实轴上沿，再沿一个半径任意小的圆逆时针绕过原点，最后沿正实轴上沿回到$\infty$。由于正实轴上下沿上的辐角相差$2\pi i$，因此，所求积分事实上是$2\pi i I_2$，故在应用留数定理时直接约去了等式两边的$2\pi i$。 </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>数术杂编</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>拍卖一美元(The Dollar Auction)</title>
+    <url>/2025/04/26/2025-04-26--The-Dollar-Auction/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>这是博弈论当中一个非常经典的游戏，由耶鲁大学经济学家马丁·舒比克(<em>Martin Schubik</em>)于1971年提出。游戏的规则是一群参与者拍卖一张普通的面值1美元的钞票，每次的加价幅度都为5美分的倍数，其条件是出价最高者和出价次高者都必须支付各自的最高出价，出价最高者获得拍品而出价次高者则什么也得不到。</p>
+<p>例如A出价40美分，而B出价50美分，此时由B以50美分的价格买下这件拍品，而A必须支付40美分却什么也得不到。</p>
+<span id="more"></span>
+<p>这样一场拍卖的荒谬之处在于，它会令参与者以高于一美元的价格去买下价值一美元的拍品，以至于参与者被引导着一步步走入一个非理性的陷阱当中。</p>
+<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><p>1971年，马丁·舒比克教授在他的最后一节课上，拿出了一张1美元的钞票，请学生们出价竞拍，游戏规则是每次的加价幅度都为5美分的倍数，出价最高者得到这张1美元，但出价最高和次高者都要向拍卖人支付各自的最高出价。</p>
+<p>这场别开生面的1美元拍卖会引起了大家浓厚的兴趣，在教授介绍完游戏规则后，台下的学生们争先恐后地纷纷喊价。“10 美分”，“15 美分”，“20 美分”，“30 美分”……直到有人喊出“50美分”时，教授的脸上露出了微笑，拍卖现场的节奏也慢了下来，只有几个学生还在继续叫价。</p>
+<p>最后，全场只剩下A和B还在叫价。“95美分”，A叫出了最新出价。“100美分”，B立刻做出回应。拍卖人看了看A，只见A毫不犹豫地喊出了“105美分”。这时，B咬咬牙，叫出了“205美分”，然后默默地盯着A，眼神里流露出希望A退出的神情。A迟疑半晌，无可奈何地退出了竞价。</p>
+<p>最终，B以205美分获得那张100美分大钞，净损失105美分；A付出了105美分，但什么也没得到。在这场拍卖会中，教授用一张1美元的钞票从A和B那里总共得到了310美分，净赚210美分。</p>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>与博弈论中的另一个经典游戏——囚徒困境截然不同的是，拍卖一美元所体现的并不是理性人“自私自利”造成的双输局面，而是人的非理性心理因素造成的“难以自拔”。</p>
+<p>对于理性人来说，一美元拍卖是完全可解的，率先抢占制胜点的拍卖者是可以获利的。首先，由于规定了加价幅度，一美元拍卖的状态空间是有限的，参与者完全可以通过枚举来分析所有子博弈过程并选择最优策略进行游戏。</p>
+<p>然而在现实当中，非理性的参与者往往会为了不断增加的沉没成本而不断报出更高的价格，最终导致损失越来越大的局面。</p>
+<p>马丁·舒比克教授随后又在哈佛大学、耶鲁大学等高校举行了多场“一美元拍卖会”，最终的报价通常在20美元到66美元之间。</p>
+<h1 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h1><p>由游戏规则可知，拍卖一美元的参与者在理论上存在以下三种游戏策略：</p>
+<ol>
+<li>形成联盟，由一人以最低价拍下拍品，然后所有参与者平分利润部分；</li>
+<li>所有参与者都不出价，流拍；</li>
+<li>由第一个竞拍者直接出价一美元，所有人的收益均为0。</li>
+</ol>
+<p>从结果上看，策略二和策略三的支付是相同的，所有参与者的收益都为0。但策略二显然不是稳定的纳什均衡策略，这类似于经典的囚徒困境，只要有一人选择背叛，他就能以最低价拍下拍品。在这一策略组合中，每个参与者都有偏离这一策略的动机。策略一显然也是如此，由于拍卖一美元属于单次博弈，以最低价拍下拍品的参与者总可以选择背叛联盟独吞一美元。</p>
+<p>而当某个参与者出价$x$美分($x&gt;100$)，已经落入陷阱时，当且仅当下一次出价超过$100+x$美分才能尽早结束把损失降到最低，此时所有其他参与者均没有继续竞价的动机，出价最高和出价次高者的损失均为$-x$美分。</p>
+<h1 id="全支付拍卖"><a href="#全支付拍卖" class="headerlink" title="全支付拍卖"></a>全支付拍卖</h1><p>拍卖一美元，尽管只是博弈论当中一个有趣的思维实验，但其背后的经济学原理却可以归结为全支付拍卖(All Pay Auction)，这是一种特殊的拍卖机制，其核心特征是所有参与竞拍的投标者无论是否中标，均需支付其投标金额。这种拍卖形式与传统的拍卖机制存在显著差异，后者通常仅要求中标者支付投标金额。</p>
+<p>这种拍卖并不是在真实拍卖场中存在的，因为其规则之特殊根本不会有人愿意去参加这样的拍卖。然而，它却确确实实存在于某些真实的经济场景当中。</p>
+<p>例如在某些领域的技术研发的场景中，假设多家企业都在从事某种新技术的研究，研究进度与研发投入具有正相关关系，由于一家企业在其中付出了最高的研发成本，因此最先完成并申请了专利保护，与这项新技术相关的整个市场都归这家企业所有了，其他公司也付出了相应的研发成本，却什么也没有得到，这就是一个典型的全支付拍卖的场景。这在经济学中也被称为研发竞赛(R&amp;D Competition)。</p>
+<h1 id="经济学分析"><a href="#经济学分析" class="headerlink" title="经济学分析"></a>经济学分析</h1><p>由于全支付拍卖的特殊机制，它在过程和策略等许多方面与传统拍卖是截然不同的。一般来说，全支付拍卖具有以下特点：</p>
+<ol>
+<li>高风险性：由于所有参与者均需支付投标金额，未中标的参与者将面临损失，因此这种拍卖形式具有较高的风险性。</li>
+<li>策略性投标：投标者需要权衡中标概率与支付金额之间的关系，策略性投标行为可能更加复杂。</li>
+<li>激励扭曲：由于未中标的参与者也会遭受损失，这种机制可能导致投标者过度竞争或选择退出拍卖。</li>
+</ol>
+<p>在一些场景中，全支付拍卖的这些特点可能会导致以下问题：</p>
+<ol>
+<li>效率问题：全支付拍卖可能导致资源浪费，因为未中标的参与者支付的金额无法收回，社会总福利可能低于传统拍卖形式。</li>
+<li>策略性行为：投标者可能采取过度竞争策略，导致投标金额虚高，增加拍卖的不确定性。</li>
+<li>收益分配：拍卖者的收益可能高于传统拍卖形式，因为所有参与者均需支付投标金额。</li>
+</ol>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>尽管全支付拍卖的机制本身是不合理的，但它仍广泛存在于现实中的许多场景中。“拍卖一美元”所揭示的决策过程中的非理性陷阱，即非理性人在决策过程中的损失厌恶心理，可以带给人们重要的启发。例如在陷入全支付拍卖的思维陷阱时，各参与方可以考虑通过设置合理的止损水平、引入中立的协调者和改变程序规则等方式来避免陷入无意义竞争并导致双输局面。</p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>Economics</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>浅谈红眼睛悖论及其所揭示的信息现象</title>
     <url>/2025/04/24/2025-04-24--Paradox-Of-Red-Eyes/</url>
     <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>红眼睛悖论最早出自华人数学家陶哲轩(Terence Tao)设计的一个巧妙的思维实验：</p>
@@ -1329,52 +1378,69 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       </tags>
   </entry>
   <entry>
-    <title>拍卖一美元(The Dollar Auction)</title>
-    <url>/2025/04/26/2025-04-26--The-Dollar-Auction/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>这是博弈论当中一个非常经典的游戏，由耶鲁大学经济学家马丁·舒比克(<em>Martin Schubik</em>)于1971年提出。游戏的规则是一群参与者拍卖一张普通的面值1美元的钞票，每次的加价幅度都为5美分的倍数，其条件是出价最高者和出价次高者都必须支付各自的最高出价，出价最高者获得拍品而出价次高者则什么也得不到。</p>
-<p>例如A出价40美分，而B出价50美分，此时由B以50美分的价格买下这件拍品，而A必须支付40美分却什么也得不到。</p>
-<span id="more"></span>
-<p>这样一场拍卖的荒谬之处在于，它会令参与者以高于一美元的价格去买下价值一美元的拍品，以至于参与者被引导着一步步走入一个非理性的陷阱当中。</p>
-<h1 id="过程"><a href="#过程" class="headerlink" title="过程"></a>过程</h1><p>1971年，马丁·舒比克教授在他的最后一节课上，拿出了一张1美元的钞票，请学生们出价竞拍，游戏规则是每次的加价幅度都为5美分的倍数，出价最高者得到这张1美元，但出价最高和次高者都要向拍卖人支付各自的最高出价。</p>
-<p>这场别开生面的1美元拍卖会引起了大家浓厚的兴趣，在教授介绍完游戏规则后，台下的学生们争先恐后地纷纷喊价。“10 美分”，“15 美分”，“20 美分”，“30 美分”……直到有人喊出“50美分”时，教授的脸上露出了微笑，拍卖现场的节奏也慢了下来，只有几个学生还在继续叫价。</p>
-<p>最后，全场只剩下A和B还在叫价。“95美分”，A叫出了最新出价。“100美分”，B立刻做出回应。拍卖人看了看A，只见A毫不犹豫地喊出了“105美分”。这时，B咬咬牙，叫出了“205美分”，然后默默地盯着A，眼神里流露出希望A退出的神情。A迟疑半晌，无可奈何地退出了竞价。</p>
-<p>最终，B以205美分获得那张100美分大钞，净损失105美分；A付出了105美分，但什么也没得到。在这场拍卖会中，教授用一张1美元的钞票从A和B那里总共得到了310美分，净赚210美分。</p>
-<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>与博弈论中的另一个经典游戏——囚徒困境截然不同的是，拍卖一美元所体现的并不是理性人“自私自利”造成的双输局面，而是人的非理性心理因素造成的“难以自拔”。</p>
-<p>对于理性人来说，一美元拍卖是完全可解的，率先抢占制胜点的拍卖者是可以获利的。首先，由于规定了加价幅度，一美元拍卖的状态空间是有限的，参与者完全可以通过枚举来分析所有子博弈过程并选择最优策略进行游戏。</p>
-<p>然而在现实当中，非理性的参与者往往会为了不断增加的沉没成本而不断报出更高的价格，最终导致损失越来越大的局面。</p>
-<p>马丁·舒比克教授随后又在哈佛大学、耶鲁大学等高校举行了多场“一美元拍卖会”，最终的报价通常在20美元到66美元之间。</p>
-<h1 id="策略"><a href="#策略" class="headerlink" title="策略"></a>策略</h1><p>由游戏规则可知，拍卖一美元的参与者在理论上存在以下三种游戏策略：</p>
+    <title>todesk软件日志分析</title>
+    <url>/2025/08/26/2025-08-26--The-Log-Of-Todesk/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>todesk、向日葵、anydesk等是大家在日常办公过程中常用的远程软件，在方便大家远程协作办公的同时，也带来一定的安全隐患。利用软件漏洞或泄露密码，攻击者可以直接使用这类绕过操作系统和安全软件的防护，达到直接远程软件直接操作目标主机的目的。</p>
+<p>若这类情况发生在主机无人值守期间，使用者往往可能对已经发生的入侵行为浑然不知，造成更严重的后果和损失。为此，分析远程软件运行日志是避免和挽回损失的关键。</p>
+<p>本文以todesk为例，通过查找关键语句分析todesk的软件运行日志，使用者可以简单明了地了解到当前设备的控制和被控记录。<span id="more"></span></p>
+<h1 id="日志位置"><a href="#日志位置" class="headerlink" title="日志位置"></a>日志位置</h1><p>在默认情况下，todesk的软件运行日志保存在安装目录同级目录的Logs文件夹中，目录下有以service开头的日志文件和以client开头的日志文件。</p>
+<p>以service开头的日志文件所保存的是该机器被别人远程控制的日志。</p>
+<p>以client开头的日志文件所保存的是该机器远程控制别人的日志。</p>
+<h1 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a>日志分析</h1><h2 id="被别人远程控制的日志"><a href="#被别人远程控制的日志" class="headerlink" title="被别人远程控制的日志"></a>被别人远程控制的日志</h2><p>在以service开头的日志文件中，使用者可以看到该机器被别人远程控制的日志。具体地说，匹配关键词<em>tcp begin connect</em>，带有该关键词的日志表示一次其他机器远程连接本机的记录。</p>
+<p>注意：<em>port=443</em>的端口是todesk官方服务器所产生的记录，在软件运行过程中每隔一段时间就会产生一条，可忽略。</p>
+<p>与之相对的，带有关键词<em>host connection sendCloseEvent</em>的日志则表示一次远程控制中止的记录。</p>
+<p>通过对日志文件的分析，使用者可以看到该机器每次被控的开始时间和结束时间，从而判断有没有异常连接记录。</p>
+<h2 id="远程控制别人的日志"><a href="#远程控制别人的日志" class="headerlink" title="远程控制别人的日志"></a>远程控制别人的日志</h2><p>在以client开头的日志文件中，使用者可以看到该机器远程控制别人的日志。具体地说，匹配关键词<em>Room createMuxRoom server</em>，带有该关键词的日志表示一次该机器远程控制别人的记录。</p>
+<p>与之相对的，带有关键词<em>Upnp stop</em>的日志则表示一次远程控制中止的记录。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一款实用的办公软件，todesk所提供的远程控制功能极大地方便了用户进行高效率的远程协作办公，但也给一些网络攻击创造了机会。因此，用户在使用该类远程软件的同时，也应当注意做好安全防护。以下是笔者的几点防护建议：</p>
 <ol>
-<li>形成联盟，由一人以最低价拍下拍品，然后所有参与者平分利润部分；</li>
-<li>所有参与者都不出价，流拍；</li>
-<li>由第一个竞拍者直接出价一美元，所有人的收益均为0。</li>
+<li>在不需要使用远程控制功能时将该类软件及时关闭；</li>
+<li>密码一次一改，仅使用临时密码，缩短临时密码的有效期；</li>
+<li>在有必要的情况下，将所有终端的远程软件运行日志归档至一处进行集中管理，实行监控策略，对异常连接行为进行预警。</li>
 </ol>
-<p>从结果上看，策略二和策略三的支付是相同的，所有参与者的收益都为0。但策略二显然不是稳定的纳什均衡策略，这类似于经典的囚徒困境，只要有一人选择背叛，他就能以最低价拍下拍品。在这一策略组合中，每个参与者都有偏离这一策略的动机。策略一显然也是如此，由于拍卖一美元属于单次博弈，以最低价拍下拍品的参与者总可以选择背叛联盟独吞一美元。</p>
-<p>而当某个参与者出价$x$美分($x&gt;100$)，已经落入陷阱时，当且仅当下一次出价超过$100+x$美分才能尽早结束把损失降到最低，此时所有其他参与者均没有继续竞价的动机，出价最高和出价次高者的损失均为$-x$美分。</p>
-<h1 id="全支付拍卖"><a href="#全支付拍卖" class="headerlink" title="全支付拍卖"></a>全支付拍卖</h1><p>拍卖一美元，尽管只是博弈论当中一个有趣的思维实验，但其背后的经济学原理却可以归结为全支付拍卖(All Pay Auction)，这是一种特殊的拍卖机制，其核心特征是所有参与竞拍的投标者无论是否中标，均需支付其投标金额。这种拍卖形式与传统的拍卖机制存在显著差异，后者通常仅要求中标者支付投标金额。</p>
-<p>这种拍卖并不是在真实拍卖场中存在的，因为其规则之特殊根本不会有人愿意去参加这样的拍卖。然而，它却确确实实存在于某些真实的经济场景当中。</p>
-<p>例如在某些领域的技术研发的场景中，假设多家企业都在从事某种新技术的研究，研究进度与研发投入具有正相关关系，由于一家企业在其中付出了最高的研发成本，因此最先完成并申请了专利保护，与这项新技术相关的整个市场都归这家企业所有了，其他公司也付出了相应的研发成本，却什么也没有得到，这就是一个典型的全支付拍卖的场景。这在经济学中也被称为研发竞赛(R&amp;D Competition)。</p>
-<h1 id="经济学分析"><a href="#经济学分析" class="headerlink" title="经济学分析"></a>经济学分析</h1><p>由于全支付拍卖的特殊机制，它在过程和策略等许多方面与传统拍卖是截然不同的。一般来说，全支付拍卖具有以下特点：</p>
-<ol>
-<li>高风险性：由于所有参与者均需支付投标金额，未中标的参与者将面临损失，因此这种拍卖形式具有较高的风险性。</li>
-<li>策略性投标：投标者需要权衡中标概率与支付金额之间的关系，策略性投标行为可能更加复杂。</li>
-<li>激励扭曲：由于未中标的参与者也会遭受损失，这种机制可能导致投标者过度竞争或选择退出拍卖。</li>
-</ol>
-<p>在一些场景中，全支付拍卖的这些特点可能会导致以下问题：</p>
-<ol>
-<li>效率问题：全支付拍卖可能导致资源浪费，因为未中标的参与者支付的金额无法收回，社会总福利可能低于传统拍卖形式。</li>
-<li>策略性行为：投标者可能采取过度竞争策略，导致投标金额虚高，增加拍卖的不确定性。</li>
-<li>收益分配：拍卖者的收益可能高于传统拍卖形式，因为所有参与者均需支付投标金额。</li>
-</ol>
-<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>尽管全支付拍卖的机制本身是不合理的，但它仍广泛存在于现实中的许多场景中。“拍卖一美元”所揭示的决策过程中的非理性陷阱，即非理性人在决策过程中的损失厌恶心理，可以带给人们重要的启发。例如在陷入全支付拍卖的思维陷阱时，各参与方可以考虑通过设置合理的止损水平、引入中立的协调者和改变程序规则等方式来避免陷入无意义竞争并导致双输局面。</p>
 ]]></content>
+      <categories>
+        <category>Computer</category>
+      </categories>
+      <tags>
+        <tag>Computer</tag>
+        <tag>Todesk</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>数术杂编(六)：费曼积分法两例</title>
+    <url>/2025/08/16/2025-08-16--Two-Exmaples-Of-Feynmans-Trick/</url>
+    <content><![CDATA[<script type="math/tex; mode=display">
+\begin{align*}
+I_1 & = \int_0^\infty \frac{1-\cos x}{x(1-e^x)} dx = \frac{1}{2}\log\left(\frac{\pi}{\sinh\pi}\right) \\
+I_2 & = \int_0^\infty \frac{1 - \cos x}{x(1+e^x)} dx = \frac{1}{2}\log\left(\frac{\pi}{2}\coth\frac{\pi}{2}\right)
+\end{align*}</script><span id="more"></span>
+<p>用费曼积分法，考虑如下含参积分：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I(a) & = \int_0^\infty \frac{dx}{1-e^x} \int_0^a \sin (xy) dy = -\int_0^a dy \int_0^\infty \sin (xy) \sum_{n=0}^{\infty} e^{-(n+1)x} dx \\
+& = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty e^{-(n+1)x}\sin (xy) dx = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \mathcal{L}^{-1} [e^{-(n+1)x}] \mathcal{L} [\sin (xy)] dx \\
+& = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \delta (x-(n+1))\frac{y}{x^2+y^2} dx = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \delta (x-(n+1)) \frac{y}{(n+1)^2 + y^2} dx \\
+& = -\sum_{n=0}^{\infty} \int_0^a \frac{y}{(n+1)^2 + y^2} dy \int_0^\infty \delta (x-(n+1)) dx = -\sum_{n=0}^{\infty} \int_0^a \frac{y}{(n+1)^2 + y^2} dy \\
+& = -\sum_{n=0}^{\infty} \left[\frac{1}{2}\log ((n+1)^2 +y^2)\right]_0^a = -\frac{1}{2}\sum_{n=0}^{\infty} \log\left( 1 + \frac{a^2}{(n+1)^2} \right)
+\end{align*}</script><p>则：</p>
+<script type="math/tex; mode=display">I_1 = I(1) = -\frac{1}{2} \sum_{n=0}^{\infty} \log\left( 1 + \frac{1}{(n+1)^2} \right) = \frac{1}{2}\log\left(\prod_{n=0}^{\infty}\frac{(n+1)^2}{1+(n+1)^2}\right) = \frac{1}{2}\log\left(\frac{\pi}{\sinh\pi}\right)</script><p>对$I_2$的处理也是类似的：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^\infty \frac{e^{-x}\sin(xy)}{1+e^x} dx = \int_0^1 dy \int_0^\infty \sin (xy) \sum_{n=0}^{\infty} (-1)^n e^{-(n+1)x} dx \\
+& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty e^{-(n+1)x} \sin (xy) dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \mathcal{L}^{-1} [e^{-(n+1)x}] \mathcal{L} [\sin(xy)] dx \\
+& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \delta (x-(n+1)) \frac{y}{x^2 + y^2} dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \delta (x-(n+1)) \frac{y}{(n+1)^2 + y^2} dx \\
+& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 \frac{y}{(n+1)^2 + y^2} dy \int_0^\infty \delta (x-(n+1)) dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 \frac{y}{(n+1)^2 + y^2} dy \\
+& = \sum_{n=0}^{\infty} (-1)^n \left[\frac{1}{2}\log ((n+1)^2 + y^2)\right]_0^1 = \frac{1}{2}\sum_{n=0}^{\infty} (-1)^n \log\left( 1 + \frac{1}{(n+1)^2}\right) = \frac{1}{2}\log\left(\prod_{n=0}^{\infty} (-1)^n \left( 1 + \frac{1}{(n+1)^2}\right)\right) \\
+& = \frac{1}{2}\log\left(\frac{\pi}{2}\coth\frac{\pi}{2}\right)
+\end{align*}</script>]]></content>
       <categories>
         <category>Math</category>
       </categories>
       <tags>
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
-        <tag>Economics</tag>
+        <tag>数术杂编</tag>
       </tags>
   </entry>
   <entry>
@@ -1417,72 +1483,6 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
         <tag>醉仙阁杂谈</tag>
         <tag>命理学</tag>
         <tag>中国古代命理学通俗演义</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数术杂编(六)：费曼积分法两例</title>
-    <url>/2025/08/16/2025-08-16--Two-Exmaples-Of-Feynmans-Trick/</url>
-    <content><![CDATA[<script type="math/tex; mode=display">
-\begin{align*}
-I_1 & = \int_0^\infty \frac{1-\cos x}{x(1-e^x)} dx = \frac{1}{2}\log\left(\frac{\pi}{\sinh\pi}\right) \\
-I_2 & = \int_0^\infty \frac{1 - \cos x}{x(1+e^x)} dx = \frac{1}{2}\log\left(\frac{\pi}{2}\coth\frac{\pi}{2}\right)
-\end{align*}</script><span id="more"></span>
-<p>用费曼积分法，考虑如下含参积分：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I(a) & = \int_0^\infty \frac{dx}{1-e^x} \int_0^a \sin (xy) dy = -\int_0^a dy \int_0^\infty \sin (xy) \sum_{n=0}^{\infty} e^{-(n+1)x} dx \\
-& = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty e^{-(n+1)x}\sin (xy) dx = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \mathcal{L}^{-1} [e^{-(n+1)x}] \mathcal{L} [\sin (xy)] dx \\
-& = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \delta (x-(n+1))\frac{y}{x^2+y^2} dx = -\sum_{n=0}^{\infty} \int_0^a dy \int_0^\infty \delta (x-(n+1)) \frac{y}{(n+1)^2 + y^2} dx \\
-& = -\sum_{n=0}^{\infty} \int_0^a \frac{y}{(n+1)^2 + y^2} dy \int_0^\infty \delta (x-(n+1)) dx = -\sum_{n=0}^{\infty} \int_0^a \frac{y}{(n+1)^2 + y^2} dy \\
-& = -\sum_{n=0}^{\infty} \left[\frac{1}{2}\log ((n+1)^2 +y^2)\right]_0^a = -\frac{1}{2}\sum_{n=0}^{\infty} \log\left( 1 + \frac{a^2}{(n+1)^2} \right)
-\end{align*}</script><p>则：</p>
-<script type="math/tex; mode=display">I_1 = I(1) = -\frac{1}{2} \sum_{n=0}^{\infty} \log\left( 1 + \frac{1}{(n+1)^2} \right) = \frac{1}{2}\log\left(\prod_{n=0}^{\infty}\frac{(n+1)^2}{1+(n+1)^2}\right) = \frac{1}{2}\log\left(\frac{\pi}{\sinh\pi}\right)</script><p>对$I_2$的处理也是类似的：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^\infty \frac{e^{-x}\sin(xy)}{1+e^x} dx = \int_0^1 dy \int_0^\infty \sin (xy) \sum_{n=0}^{\infty} (-1)^n e^{-(n+1)x} dx \\
-& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty e^{-(n+1)x} \sin (xy) dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \mathcal{L}^{-1} [e^{-(n+1)x}] \mathcal{L} [\sin(xy)] dx \\
-& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \delta (x-(n+1)) \frac{y}{x^2 + y^2} dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 dy \int_0^\infty \delta (x-(n+1)) \frac{y}{(n+1)^2 + y^2} dx \\
-& = \sum_{n=0}^{\infty} (-1)^n \int_0^1 \frac{y}{(n+1)^2 + y^2} dy \int_0^\infty \delta (x-(n+1)) dx = \sum_{n=0}^{\infty} (-1)^n \int_0^1 \frac{y}{(n+1)^2 + y^2} dy \\
-& = \sum_{n=0}^{\infty} (-1)^n \left[\frac{1}{2}\log ((n+1)^2 + y^2)\right]_0^1 = \frac{1}{2}\sum_{n=0}^{\infty} (-1)^n \log\left( 1 + \frac{1}{(n+1)^2}\right) = \frac{1}{2}\log\left(\prod_{n=0}^{\infty} (-1)^n \left( 1 + \frac{1}{(n+1)^2}\right)\right) \\
-& = \frac{1}{2}\log\left(\frac{\pi}{2}\coth\frac{\pi}{2}\right)
-\end{align*}</script>]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>数术杂编</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>todesk软件日志分析</title>
-    <url>/2025/08/26/2025-08-26--The-Log-Of-Todesk/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>todesk、向日葵、anydesk等是大家在日常办公过程中常用的远程软件，在方便大家远程协作办公的同时，也带来一定的安全隐患。利用软件漏洞或泄露密码，攻击者可以直接使用这类绕过操作系统和安全软件的防护，达到直接远程软件直接操作目标主机的目的。</p>
-<p>若这类情况发生在主机无人值守期间，使用者往往可能对已经发生的入侵行为浑然不知，造成更严重的后果和损失。为此，分析远程软件运行日志是避免和挽回损失的关键。</p>
-<p>本文以todesk为例，通过查找关键语句分析todesk的软件运行日志，使用者可以简单明了地了解到当前设备的控制和被控记录。<span id="more"></span></p>
-<h1 id="日志位置"><a href="#日志位置" class="headerlink" title="日志位置"></a>日志位置</h1><p>在默认情况下，todesk的软件运行日志保存在安装目录同级目录的Logs文件夹中，目录下有以service开头的日志文件和以client开头的日志文件。</p>
-<p>以service开头的日志文件所保存的是该机器被别人远程控制的日志。</p>
-<p>以client开头的日志文件所保存的是该机器远程控制别人的日志。</p>
-<h1 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a>日志分析</h1><h2 id="被别人远程控制的日志"><a href="#被别人远程控制的日志" class="headerlink" title="被别人远程控制的日志"></a>被别人远程控制的日志</h2><p>在以service开头的日志文件中，使用者可以看到该机器被别人远程控制的日志。具体地说，匹配关键词<em>tcp begin connect</em>，带有该关键词的日志表示一次其他机器远程连接本机的记录。</p>
-<p>注意：<em>port=443</em>的端口是todesk官方服务器所产生的记录，在软件运行过程中每隔一段时间就会产生一条，可忽略。</p>
-<p>与之相对的，带有关键词<em>host connection sendCloseEvent</em>的日志则表示一次远程控制中止的记录。</p>
-<p>通过对日志文件的分析，使用者可以看到该机器每次被控的开始时间和结束时间，从而判断有没有异常连接记录。</p>
-<h2 id="远程控制别人的日志"><a href="#远程控制别人的日志" class="headerlink" title="远程控制别人的日志"></a>远程控制别人的日志</h2><p>在以client开头的日志文件中，使用者可以看到该机器远程控制别人的日志。具体地说，匹配关键词<em>Room createMuxRoom server</em>，带有该关键词的日志表示一次该机器远程控制别人的记录。</p>
-<p>与之相对的，带有关键词<em>Upnp stop</em>的日志则表示一次远程控制中止的记录。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一款实用的办公软件，todesk所提供的远程控制功能极大地方便了用户进行高效率的远程协作办公，但也给一些网络攻击创造了机会。因此，用户在使用该类远程软件的同时，也应当注意做好安全防护。以下是笔者的几点防护建议：</p>
-<ol>
-<li>在不需要使用远程控制功能时将该类软件及时关闭；</li>
-<li>密码一次一改，仅使用临时密码，缩短临时密码的有效期；</li>
-<li>在有必要的情况下，将所有终端的远程软件运行日志归档至一处进行集中管理，实行监控策略，对异常连接行为进行预警。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Computer</category>
-      </categories>
-      <tags>
-        <tag>Computer</tag>
-        <tag>Todesk</tag>
       </tags>
   </entry>
   <entry>
@@ -1564,74 +1564,6 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
 <p>要复制这一投资组合的现金流，我们需要在期权到期日同时持有一单位的标的资产$S_T$和$-K$的货币资金。因此，我们可以得到所谓的期权平价公式(Put-Call Parity)：</p>
 <script type="math/tex; mode=display">C(K,T) – P(K,T) = S_t – Ke^{-(T-t)r}</script><p>与远期合约类似的，若标的资产在到期前分红，例如在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则期权平价公式变为：</p>
 <script type="math/tex; mode=display">C(K,T) - P(K,T) = S_t - Ke^{-(T-t)r} - \delta e^{-(T-\delta)r}</script>]]></content>
-      <categories>
-        <category>Finance</category>
-      </categories>
-      <tags>
-        <tag>Finance</tag>
-        <tag>Financial Engineering</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>金融工程（二）：衍生品定价的离散模型（上）</title>
-    <url>/2025/09/05/2025-09-05--Financial-Engineering-2/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。</p>
-<h1 id="离散模型"><a href="#离散模型" class="headerlink" title="离散模型"></a>离散模型</h1><p>离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑资产的价格在相邻的两个时间节点的始末状态的变化，而不涉及中间的变化过程。<span id="more"></span></p>
-<h1 id="两期模型"><a href="#两期模型" class="headerlink" title="两期模型"></a>两期模型</h1><p>离散模型中最简单的是两期模型(Two-period Model)，即$T=0,1$，时间间隔为$\Delta t$。</p>
-<p>我们以$ S<em>{k,t} $表示标的资产$ S_k $在$t$时间的价格，并以$ S_0 $表示无风险资产，并约定$ S</em>{0,0} = 1, S_{0,1} = e^{r\Delta t} $。</p>
-<p>在模型中，除了无风险资产，有且仅有一个标的资产$S_1$，它在相邻的两个时间节点之间只有两种状态，即以一定的比率上涨或下跌。</p>
-<p>因此，模型的样本空间为$\Omega = { U,D }$，分别代表标的资产的上涨或下跌两个可能事件。</p>
-<p>概率测度$\mathbb{P}$满足$P(U) = p, P(D) = 1-p, 0 \leq p \leq 1$。即标的资产有$p$概率在$t=1$时间上涨到$S_1 (U)$，有$1-p$概率下跌到$S_1 (D)$；而无风险资产无论在何种情况下都是$e^{r\Delta t}$。</p>
-<p>对此，我们定义风险资产收益率为$\displaystyle R = \frac{pS_1 (U) + (1-p)S_1 (D)}{S_0} - 1$，无风险资产收益率为$R_0 = e^{r\Delta t} - 1$。</p>
-<p>在模型的上述假设下，一个投资组合(Portfolio)$\pi = (\pi_0, \pi_1)$是指在无风险资产和标的资产上的持仓，由于允许卖空且无限可分，$\pi\in\mathbb{R}^2$。对于一个投资组合$\pi$来说，它的价值为：</p>
-<script type="math/tex; mode=display">\begin{equation} X^{\pi} = S_0 \pi_0 + S_1 \pi_1 \end{equation}</script><p>$\hat{Z}$表示$X$的现值，例如$\hat{S}<em>{1,1} (U) = S</em>{1,1} (U) e^{r\Delta t}$</p>
-<p>对于一个投资组合$\pi$，该投资组合在任意期的价值可以由(1)给出。</p>
-<p>为了简化模型，我们引入所谓的指示函数(Indicator Function)：</p>
-<script type="math/tex; mode=display">\mathbf{1}_{\{A\}} = \left \{ \begin{align*}
-& 1 \text{ if condition } A \text{ holds}\\
-& 0 \text{ otherwise}
-\end{align*} \right.</script><p>于是：</p>
-<script type="math/tex; mode=display">X_1^{\pi} = \pi_0 S_{0,1} + \pi_1 (\mathbf{1}_{\{U\}} S_{1,1} (U) + \mathbf{1}_{\{D\}} S_{1,1} (D))</script><p>在无套利定价理论中，我们所说的一个套利机会是一个自融资策略$\pi$，满足三个条件：</p>
-<ol>
-<li><p>$X_0^{\pi} = 0$</p>
-</li>
-<li><p>$\mathbb{P} (\hat{X}_1^{\pi} \geq 0) = 1$</p>
-</li>
-<li><p>$\mathbb{P} (\hat{X}_1^{\pi} &gt; 0) &gt; 0$</p>
-</li>
-</ol>
-<h1 id="无套利定价"><a href="#无套利定价" class="headerlink" title="无套利定价"></a>无套利定价</h1><p>我们希望利用无套利定价，对上述模型中标的资产$S_1$的一个两期衍生品进行定价。在本节中，我们假设$H$为衍生品的支付(Payoff)。即在状态$U$下，衍生品产生一个现金流$H(U)$；在状态$D$下，衍生品产生一个现金流$H(D)$。</p>
-<p>根据一价定律，我们需要找到一个投资组合$\pi$，使得该投资组合在$t=1$期各状态下的支付与该衍生品完全相同，则衍生品的价格即为该投资组合的价格。即我们需要找到满足以下条件的投资组合$\pi$：</p>
-<script type="math/tex; mode=display">\left \{ \begin{align*}
-& X_1^{\pi} (U) = H(U) \\
-& X_1^{\pi} (D) = H(D)
-\end{align*} \right.</script><p>代入可得如下关于$\pi_0, \pi_1$的二元一次方程组：</p>
-<script type="math/tex; mode=display">\left \{ \begin{align*}
-& \pi_0 S_{0,1} + \pi_1 S_{1,1} (U) = H(U) \\
-& \pi_0 S_{0,1} + \pi_1 S_{1,1} (D) = H(D)
-\end{align*} \right.</script><p>只要$S<em>{1,1} (U) \neq S</em>{1,1} (D)$，上述方程组中的两个方程就不可能线性相关，在这种情况下，我们可以得出该方程组的解：</p>
-<script type="math/tex; mode=display">\left \{ \begin{align*}
-& \pi_0^* = \frac{H(D)S_{1,1} (U) – H(U)S_{1,1} (D)}{S_{0,1} (S_{1,1} (U) – S_{1,1} (D))} \\
-& \pi_1^* = \frac{H(U) – H(D)}{S_{1,1} (U) – S_{1,1} (D)}
-\end{align*} \right.</script><p>观察上述结果，我们可以发现一个重要的事实，即该衍生品的定价与概率测度$\mathbb{P}$无关，这个结果乍一看令人感觉很是不可思议，考虑两种比较极端的情况，难道上涨概率为$p=99%$的标的资产，与上涨概率为$p’=1%$的标的资产，它们的衍生品价格是相同的吗？</p>
-<p>要回答这个问题，要回到无套利定价的核心上来。无套利定价所强调的原则是无套利，而不关心市场是否均衡。也就是说，如果衍生品的价格不等于无套利定价的结果，市场上就会出现套利机会。而市场均衡只是无套利的充分条件，并非必要条件，我们在进行无套利定价时并不关心标的资产的价格是如何产生的。</p>
-<h1 id="风险中性概率测度"><a href="#风险中性概率测度" class="headerlink" title="风险中性概率测度"></a>风险中性概率测度</h1><p>由上节结果可知，衍生品定价与概率测度$\mathbb{P}$无关，即无论现实世界中标的资产涨跌概率是多少，都不会影响衍生品的价格。那么，我们便可以构造一个定价测度$\mathbb{Q}\sim\mathbb{P}$使得标的资产的期望收益率严格等于无风险收益率，这样的一个「公平」的概率测度，便是风险中性概率测度(Risk-neutral Probability Measure)。</p>
-<p>沿用上节中对于两期模型的一系列假设，风险中性概率测度下的上涨概率$q$，满足如下条件：</p>
-<script type="math/tex; mode=display">qS_{1,1} (U) + (1-q)S_{1,1} (D) = e^{r\Delta t} S_{1,0}</script><p>或者：</p>
-<script type="math/tex; mode=display">q = \frac{e^{r\Delta t} S_{1,0} – S_{1,1} (D)}{S_{1,1} (U) – S_{1,1} (D)}</script><p>这就是风险中性世界的上涨概率。</p>
-<p>在真实世界的概率测度$\mathbb{P}$中，标的资产在$t=0$时刻的期望收益率为：</p>
-<script type="math/tex; mode=display">\mathbb{E}^{\mathbb{P}} [\hat{S}_{1,1}] = p\hat{S}_{1,1} (U) + (1-p)\hat{S}_{1,1} (D)</script><p>而如果我们变化到风险中性概率测度$\mathbb{Q}$，标的资产的期望收益率将等于无风险收益率，这表明投资风险资产并不会取得任何高于或低于投资无风险资产的超额收益，这就是「风险中性」的定义。</p>
-<p>同样地，在风险中性测度下，我们用</p>
-<script type="math/tex; mode=display">H_0 = q\frac{H(U)}{S_{0,1}} + (1-q)\frac{H(D)}{S_{0,1}} = q\hat{H} (U) + (1-q)\hat{H} (D)</script><p>所求得的衍生品价格也将与上节所求得的衍生品价格相等，读者可以通过计算证明这一点。这一论述是十分重要的，因为在无套利定价理论中，我们从未假设过真实世界中的标的资产是风险中性的，只是在无套利的假设下，对于真实世界中的标的资产，衍生品的价格与风险中性概率测度下的衍生品价格相同。</p>
-<h1 id="等价鞅测度"><a href="#等价鞅测度" class="headerlink" title="等价鞅测度"></a>等价鞅测度</h1><p>在上节结尾，我们证明了通过用风险中性概率测度等价替代真实世界概率测度，所求得的衍生品定价结果必然相同，却可以极大地简化计算过程。更一般地，对于两个概率测度$\mathbb{P}$和$\mathbb{Q}$，我们说$\mathbb{Q}$对于$\mathbb{P}$是绝对连续的(Absolutely Continuous)，当且仅当：</p>
-<script type="math/tex; mode=display">\left \{ \begin{align*}
-& \mathbb{P} (A)=0\Rightarrow \mathbb{Q} (A)=0 \\
-& \mathbb{P} (A)=1\Rightarrow \mathbb{Q} (A)=1
-\end{align*} \right.</script><p>记作$\mathbb{Q}\ll\mathbb{P}$。</p>
-<p>而如果$\mathbb{Q}\ll\mathbb{P}且$\mathbb{P}\ll\mathbb{Q}同时成立，则称$\mathbb{Q}$和$\mathbb{P}$是等价的(Equivalent)，记作$\mathbb{Q}\sim\mathbb{P}$。</p>
-<p>对于概率测度$\mathbb{P}$，我们说一个自适应过程${M<em>t}</em>{t=0}^{T}$是一个$\mathbb{P}$鞅，如果它满足：</p>
-<script type="math/tex; mode=display">\forall t=0, 1, 2, \cdots, T : \mathbb{E}_t^{\mathbb{P}} [M_{t+1}] = \mathbb{E}^{\mathbb{P}} [M_{t+1} | \mathcal{F}_t] = M_t</script><p>回到衍生品定价的两期模型，我们所求的风险中性概率测度$\mathbb{Q}$和上涨概率$q$，实际上是把标的资产变成了一个鞅，或者说在风险中性概率测度$\mathbb{Q}$下，标的资产的价格具有鞅的性质，这便是所谓的等价鞅测度(Equivalent Martingale Probability Measure)。</p>
-]]></content>
       <categories>
         <category>Finance</category>
       </categories>
@@ -1776,6 +1708,74 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
         <tag>Poker</tag>
         <tag>Bridge Card</tag>
         <tag>桥牌</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>金融工程（二）：衍生品定价的离散模型（上）</title>
+    <url>/2025/09/05/2025-09-05--Financial-Engineering-2/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。</p>
+<h1 id="离散模型"><a href="#离散模型" class="headerlink" title="离散模型"></a>离散模型</h1><p>离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑资产的价格在相邻的两个时间节点的始末状态的变化，而不涉及中间的变化过程。<span id="more"></span></p>
+<h1 id="两期模型"><a href="#两期模型" class="headerlink" title="两期模型"></a>两期模型</h1><p>离散模型中最简单的是两期模型(Two-period Model)，即$T=0,1$，时间间隔为$\Delta t$。</p>
+<p>我们以$ S<em>{k,t} $表示标的资产$ S_k $在$t$时间的价格，并以$ S_0 $表示无风险资产，并约定$ S</em>{0,0} = 1, S_{0,1} = e^{r\Delta t} $。</p>
+<p>在模型中，除了无风险资产，有且仅有一个标的资产$S_1$，它在相邻的两个时间节点之间只有两种状态，即以一定的比率上涨或下跌。</p>
+<p>因此，模型的样本空间为$\Omega = { U,D }$，分别代表标的资产的上涨或下跌两个可能事件。</p>
+<p>概率测度$\mathbb{P}$满足$P(U) = p, P(D) = 1-p, 0 \leq p \leq 1$。即标的资产有$p$概率在$t=1$时间上涨到$S_1 (U)$，有$1-p$概率下跌到$S_1 (D)$；而无风险资产无论在何种情况下都是$e^{r\Delta t}$。</p>
+<p>对此，我们定义风险资产收益率为$\displaystyle R = \frac{pS_1 (U) + (1-p)S_1 (D)}{S_0} - 1$，无风险资产收益率为$R_0 = e^{r\Delta t} - 1$。</p>
+<p>在模型的上述假设下，一个投资组合(Portfolio)$\pi = (\pi_0, \pi_1)$是指在无风险资产和标的资产上的持仓，由于允许卖空且无限可分，$\pi\in\mathbb{R}^2$。对于一个投资组合$\pi$来说，它的价值为：</p>
+<script type="math/tex; mode=display">\begin{equation} X^{\pi} = S_0 \pi_0 + S_1 \pi_1 \end{equation}</script><p>$\hat{Z}$表示$X$的现值，例如$\hat{S}<em>{1,1} (U) = S</em>{1,1} (U) e^{r\Delta t}$</p>
+<p>对于一个投资组合$\pi$，该投资组合在任意期的价值可以由(1)给出。</p>
+<p>为了简化模型，我们引入所谓的指示函数(Indicator Function)：</p>
+<script type="math/tex; mode=display">\mathbf{1}_{\{A\}} = \left \{ \begin{align*}
+& 1 \text{ if condition } A \text{ holds}\\
+& 0 \text{ otherwise}
+\end{align*} \right.</script><p>于是：</p>
+<script type="math/tex; mode=display">X_1^{\pi} = \pi_0 S_{0,1} + \pi_1 (\mathbf{1}_{\{U\}} S_{1,1} (U) + \mathbf{1}_{\{D\}} S_{1,1} (D))</script><p>在无套利定价理论中，我们所说的一个套利机会是一个自融资策略$\pi$，满足三个条件：</p>
+<ol>
+<li><p>$X_0^{\pi} = 0$</p>
+</li>
+<li><p>$\mathbb{P} (\hat{X}_1^{\pi} \geq 0) = 1$</p>
+</li>
+<li><p>$\mathbb{P} (\hat{X}_1^{\pi} &gt; 0) &gt; 0$</p>
+</li>
+</ol>
+<h1 id="无套利定价"><a href="#无套利定价" class="headerlink" title="无套利定价"></a>无套利定价</h1><p>我们希望利用无套利定价，对上述模型中标的资产$S_1$的一个两期衍生品进行定价。在本节中，我们假设$H$为衍生品的支付(Payoff)。即在状态$U$下，衍生品产生一个现金流$H(U)$；在状态$D$下，衍生品产生一个现金流$H(D)$。</p>
+<p>根据一价定律，我们需要找到一个投资组合$\pi$，使得该投资组合在$t=1$期各状态下的支付与该衍生品完全相同，则衍生品的价格即为该投资组合的价格。即我们需要找到满足以下条件的投资组合$\pi$：</p>
+<script type="math/tex; mode=display">\left \{ \begin{align*}
+& X_1^{\pi} (U) = H(U) \\
+& X_1^{\pi} (D) = H(D)
+\end{align*} \right.</script><p>代入可得如下关于$\pi_0, \pi_1$的二元一次方程组：</p>
+<script type="math/tex; mode=display">\left \{ \begin{align*}
+& \pi_0 S_{0,1} + \pi_1 S_{1,1} (U) = H(U) \\
+& \pi_0 S_{0,1} + \pi_1 S_{1,1} (D) = H(D)
+\end{align*} \right.</script><p>只要$S<em>{1,1} (U) \neq S</em>{1,1} (D)$，上述方程组中的两个方程就不可能线性相关，在这种情况下，我们可以得出该方程组的解：</p>
+<script type="math/tex; mode=display">\left \{ \begin{align*}
+& \pi_0^* = \frac{H(D)S_{1,1} (U) – H(U)S_{1,1} (D)}{S_{0,1} (S_{1,1} (U) – S_{1,1} (D))} \\
+& \pi_1^* = \frac{H(U) – H(D)}{S_{1,1} (U) – S_{1,1} (D)}
+\end{align*} \right.</script><p>观察上述结果，我们可以发现一个重要的事实，即该衍生品的定价与概率测度$\mathbb{P}$无关，这个结果乍一看令人感觉很是不可思议，考虑两种比较极端的情况，难道上涨概率为$p=99%$的标的资产，与上涨概率为$p’=1%$的标的资产，它们的衍生品价格是相同的吗？</p>
+<p>要回答这个问题，要回到无套利定价的核心上来。无套利定价所强调的原则是无套利，而不关心市场是否均衡。也就是说，如果衍生品的价格不等于无套利定价的结果，市场上就会出现套利机会。而市场均衡只是无套利的充分条件，并非必要条件，我们在进行无套利定价时并不关心标的资产的价格是如何产生的。</p>
+<h1 id="风险中性概率测度"><a href="#风险中性概率测度" class="headerlink" title="风险中性概率测度"></a>风险中性概率测度</h1><p>由上节结果可知，衍生品定价与概率测度$\mathbb{P}$无关，即无论现实世界中标的资产涨跌概率是多少，都不会影响衍生品的价格。那么，我们便可以构造一个定价测度$\mathbb{Q}\sim\mathbb{P}$使得标的资产的期望收益率严格等于无风险收益率，这样的一个「公平」的概率测度，便是风险中性概率测度(Risk-neutral Probability Measure)。</p>
+<p>沿用上节中对于两期模型的一系列假设，风险中性概率测度下的上涨概率$q$，满足如下条件：</p>
+<script type="math/tex; mode=display">qS_{1,1} (U) + (1-q)S_{1,1} (D) = e^{r\Delta t} S_{1,0}</script><p>或者：</p>
+<script type="math/tex; mode=display">q = \frac{e^{r\Delta t} S_{1,0} – S_{1,1} (D)}{S_{1,1} (U) – S_{1,1} (D)}</script><p>这就是风险中性世界的上涨概率。</p>
+<p>在真实世界的概率测度$\mathbb{P}$中，标的资产在$t=0$时刻的期望收益率为：</p>
+<script type="math/tex; mode=display">\mathbb{E}^{\mathbb{P}} [\hat{S}_{1,1}] = p\hat{S}_{1,1} (U) + (1-p)\hat{S}_{1,1} (D)</script><p>而如果我们变化到风险中性概率测度$\mathbb{Q}$，标的资产的期望收益率将等于无风险收益率，这表明投资风险资产并不会取得任何高于或低于投资无风险资产的超额收益，这就是「风险中性」的定义。</p>
+<p>同样地，在风险中性测度下，我们用</p>
+<script type="math/tex; mode=display">H_0 = q\frac{H(U)}{S_{0,1}} + (1-q)\frac{H(D)}{S_{0,1}} = q\hat{H} (U) + (1-q)\hat{H} (D)</script><p>所求得的衍生品价格也将与上节所求得的衍生品价格相等，读者可以通过计算证明这一点。这一论述是十分重要的，因为在无套利定价理论中，我们从未假设过真实世界中的标的资产是风险中性的，只是在无套利的假设下，对于真实世界中的标的资产，衍生品的价格与风险中性概率测度下的衍生品价格相同。</p>
+<h1 id="等价鞅测度"><a href="#等价鞅测度" class="headerlink" title="等价鞅测度"></a>等价鞅测度</h1><p>在上节结尾，我们证明了通过用风险中性概率测度等价替代真实世界概率测度，所求得的衍生品定价结果必然相同，却可以极大地简化计算过程。更一般地，对于两个概率测度$\mathbb{P}$和$\mathbb{Q}$，我们说$\mathbb{Q}$对于$\mathbb{P}$是绝对连续的(Absolutely Continuous)，当且仅当：</p>
+<script type="math/tex; mode=display">\left \{ \begin{align*}
+& \mathbb{P} (A)=0\Rightarrow \mathbb{Q} (A)=0 \\
+& \mathbb{P} (A)=1\Rightarrow \mathbb{Q} (A)=1
+\end{align*} \right.</script><p>记作$\mathbb{Q}\ll\mathbb{P}$。</p>
+<p>而如果$\mathbb{Q}\ll\mathbb{P}且$\mathbb{P}\ll\mathbb{Q}同时成立，则称$\mathbb{Q}$和$\mathbb{P}$是等价的(Equivalent)，记作$\mathbb{Q}\sim\mathbb{P}$。</p>
+<p>对于概率测度$\mathbb{P}$，我们说一个自适应过程${M<em>t}</em>{t=0}^{T}$是一个$\mathbb{P}$鞅，如果它满足：</p>
+<script type="math/tex; mode=display">\forall t=0, 1, 2, \cdots, T : \mathbb{E}_t^{\mathbb{P}} [M_{t+1}] = \mathbb{E}^{\mathbb{P}} [M_{t+1} | \mathcal{F}_t] = M_t</script><p>回到衍生品定价的两期模型，我们所求的风险中性概率测度$\mathbb{Q}$和上涨概率$q$，实际上是把标的资产变成了一个鞅，或者说在风险中性概率测度$\mathbb{Q}$下，标的资产的价格具有鞅的性质，这便是所谓的等价鞅测度(Equivalent Martingale Probability Measure)。</p>
+]]></content>
+      <categories>
+        <category>Finance</category>
+      </categories>
+      <tags>
+        <tag>Finance</tag>
+        <tag>Financial Engineering</tag>
       </tags>
   </entry>
   <entry>
