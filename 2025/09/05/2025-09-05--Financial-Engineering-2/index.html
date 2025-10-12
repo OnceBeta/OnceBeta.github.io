@@ -121,7 +121,7 @@
 <meta property="og:description" content="引子这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。 离散模型离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-09-04T21:59:57.000Z">
-<meta property="article:modified_time" content="2025-09-04T22:13:56.520Z">
+<meta property="article:modified_time" content="2025-10-12T12:29:12.810Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="Finance">
 <meta property="article:tag" content="Financial Engineering">
@@ -462,7 +462,7 @@
                 
                   <span class="post-meta-item-text">本文字数：</span>
                 
-                <span title="本文字数">5.5k</span>
+                <span title="本文字数">5.7k</span>
               
 
               
@@ -499,14 +499,14 @@
         <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>这是该系列的第二篇文章，在本文中，将简要地阐述衍生品定价的离散模型，其中最简单的是两期模型，并以此为基础，引入风险中性世界和风险中性概率等概念，它们是金融工程中十分重要的一些概念。</p>
 <h1 id="离散模型"><a href="#离散模型" class="headerlink" title="离散模型"></a>离散模型</h1><p>离散模型(Discrete Model)是金融工程中一类重要的数学模型。有别于连续模型(Continuous Model)，在离散模型中，资产的价格在几个离散的数值之间取值，时间也不是连续变化的，我们只考虑资产的价格在相邻的两个时间节点的始末状态的变化，而不涉及中间的变化过程。<span id="more"></span></p>
 <h1 id="两期模型"><a href="#两期模型" class="headerlink" title="两期模型"></a>两期模型</h1><p>离散模型中最简单的是两期模型(Two-period Model)，即$T=0,1$，时间间隔为$\Delta t$。</p>
-<p>我们以$ S<em>{k,t} $表示标的资产$ S_k $在$t$时间的价格，并以$ S_0 $表示无风险资产，并约定$ S</em>{0,0} = 1, S_{0,1} = e^{r\Delta t} $。</p>
+<p>我们以<inline>$S_{k,t}$</inline>表示标的资产<inline>$S_k$</inline>在<inline>$t$</inline>时间的价格，并以<inline>$S_0$</inline>表示无风险资产，约定$ S<em>{0,0} = 1, S</em>{0,1} = e^{r\Delta t} $。</p>
 <p>在模型中，除了无风险资产，有且仅有一个标的资产$S_1$，它在相邻的两个时间节点之间只有两种状态，即以一定的比率上涨或下跌。</p>
 <p>因此，模型的样本空间为$\Omega = { U,D }$，分别代表标的资产的上涨或下跌两个可能事件。</p>
 <p>概率测度$\mathbb{P}$满足$P(U) = p, P(D) = 1-p, 0 \leq p \leq 1$。即标的资产有$p$概率在$t=1$时间上涨到$S_1 (U)$，有$1-p$概率下跌到$S_1 (D)$；而无风险资产无论在何种情况下都是$e^{r\Delta t}$。</p>
 <p>对此，我们定义风险资产收益率为$\displaystyle R = \frac{pS_1 (U) + (1-p)S_1 (D)}{S_0} - 1$，无风险资产收益率为$R_0 = e^{r\Delta t} - 1$。</p>
 <p>在模型的上述假设下，一个投资组合(Portfolio)$\pi = (\pi_0, \pi_1)$是指在无风险资产和标的资产上的持仓，由于允许卖空且无限可分，$\pi\in\mathbb{R}^2$。对于一个投资组合$\pi$来说，它的价值为：</p>
-<script type="math/tex; mode=display">\begin{equation} X^{\pi} = S_0 \pi_0 + S_1 \pi_1 \end{equation}</script><p>$\hat{Z}$表示$X$的现值，例如$\hat{S}<em>{1,1} (U) = S</em>{1,1} (U) e^{r\Delta t}$</p>
-<p>对于一个投资组合$\pi$，该投资组合在任意期的价值可以由(1)给出。</p>
+<script type="math/tex; mode=display">\begin{equation} X^{\pi} = S_0 \pi_0 + S_1 \pi_1 \end{equation}</script><p>$\hat{Z}$表示$X$的现值，例如：</p>
+<script type="math/tex; mode=display">\hat{S}_{1,1} (U) = S_{1,1} (U) e^{r\Delta t}</script><p>对于一个投资组合$\pi$，该投资组合在任意期的价值可以由(1)给出。</p>
 <p>为了简化模型，我们引入所谓的指示函数(Indicator Function)：</p>
 <script type="math/tex; mode=display">\mathbf{1}_{\{A\}} = \left \{ \begin{align*}
 & 1 \text{ if condition } A \text{ holds}\\
@@ -549,8 +549,8 @@
 & \mathbb{P} (A)=0\Rightarrow \mathbb{Q} (A)=0 \\
 & \mathbb{P} (A)=1\Rightarrow \mathbb{Q} (A)=1
 \end{align*} \right.</script><p>记作$\mathbb{Q}\ll\mathbb{P}$。</p>
-<p>而如果$\mathbb{Q}\ll\mathbb{P}且$\mathbb{P}\ll\mathbb{Q}同时成立，则称$\mathbb{Q}$和$\mathbb{P}$是等价的(Equivalent)，记作$\mathbb{Q}\sim\mathbb{P}$。</p>
-<p>对于概率测度$\mathbb{P}$，我们说一个自适应过程${M<em>t}</em>{t=0}^{T}$是一个$\mathbb{P}$鞅，如果它满足：</p>
+<p>而如果$\mathbb{Q}\ll\mathbb{P}$和$\mathbb{P}\ll\mathbb{Q}$同时成立，则称<inline>$\mathbb{Q}$</inline>和<inline>$\mathbb{P}$</inline>是等价的(Equivalent)，记作<inline>$\mathbb{Q}\sim\mathbb{P}$</inline>。</p>
+<p>对于概率测度$\mathbb{P}$，我们说一个自适应过程<inline>${M<em>t}</em>{t=0}^{T}$</inline>是一个$\mathbb{P}$鞅，如果它满足：</p>
 <script type="math/tex; mode=display">\forall t=0, 1, 2, \cdots, T : \mathbb{E}_t^{\mathbb{P}} [M_{t+1}] = \mathbb{E}^{\mathbb{P}} [M_{t+1} | \mathcal{F}_t] = M_t</script><p>回到衍生品定价的两期模型，我们所求的风险中性概率测度$\mathbb{Q}$和上涨概率$q$，实际上是把标的资产变成了一个鞅，或者说在风险中性概率测度$\mathbb{Q}$下，标的资产的价格具有鞅的性质，这便是所谓的等价鞅测度(Equivalent Martingale Probability Measure)。</p>
 
       
@@ -721,7 +721,7 @@
                 
                   <a href="/archives/%20%7C%7C%20archive">
                 
-                    <span class="site-state-item-count">48</span>
+                    <span class="site-state-item-count">49</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -857,7 +857,11 @@
                     
                       
                     
-                    <span class="site-state-item-count">41</span>
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">43</span>
                     <span class="site-state-item-name">标签</span>
                   </a>
                 </div>
@@ -946,7 +950,7 @@
       <i class="fa fa-area-chart"></i>
     </span>
     
-    <span title="站点总字数">115k</span>
+    <span title="站点总字数">117k</span>
   
 
   
@@ -955,7 +959,7 @@
       <i class="fa fa-coffee"></i>
     </span>
     
-    <span title="站点阅读时长">1:45</span>
+    <span title="站点阅读时长">1:47</span>
   
 </div>
 
