@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+  <!-- <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css">
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon-32x32.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon-16x16.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Gemini',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="简介在桥牌游戏中，叫牌是一个十分重要的核心环节，是双方通过约定符号和术语竞争制定定约的过程。在叫牌过程中，玩家通常的目的是达成对己方有利的最佳定约，这既包括在己方拿到强牌时使得分最高，也包括在己方拿到弱牌时使对手得分最低。 阻击叫(Preemptive Bid)，是玩家在拿到点力较弱、但拥有某个长套、具有一定做庄实力的牌时，可以采用的一种叫牌策略，其目的在于限制对手的叫牌空间，阻止对方在叫牌阶段充">
+<meta property="og:type" content="article">
+<meta property="og:title" content="三生定约 – 桥牌叫牌策略（一）：阻击叫">
+<meta property="og:url" content="http://once4623.site/2025/11/08/2025-11-08--Preemptive-Bid/index.html">
+<meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="简介在桥牌游戏中，叫牌是一个十分重要的核心环节，是双方通过约定符号和术语竞争制定定约的过程。在叫牌过程中，玩家通常的目的是达成对己方有利的最佳定约，这既包括在己方拿到强牌时使得分最高，也包括在己方拿到弱牌时使对手得分最低。 阻击叫(Preemptive Bid)，是玩家在拿到点力较弱、但拥有某个长套、具有一定做庄实力的牌时，可以采用的一种叫牌策略，其目的在于限制对手的叫牌空间，阻止对方在叫牌阶段充">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2025-11-08T01:12:14.000Z">
+<meta property="article:modified_time" content="2025-11-07T16:26:21.897Z">
+<meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="Game">
+<meta property="article:tag" content="Poker">
+<meta property="article:tag" content="Bridge Card">
+<meta property="article:tag" content="桥牌">
+<meta name="twitter:card" content="summary">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="醉仙阁" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://once4623.site/2025/11/08/2025-11-08--Preemptive-Bid/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>三生定约 – 桥牌叫牌策略（一）：阻击叫 | 醉仙阁</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">醉仙阁</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">孤亭一座，美酒一盏；故人一梦，笙歌一曲。</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-notes">
+    <a href="/notes/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />札记</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script language="javascript" src="/plugin/clicking.js"></script>
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2025/11/08/2025-11-08--Preemptive-Bid/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">三生定约 – 桥牌叫牌策略（一）：阻击叫
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2025-11-08 09:12:14" itemprop="dateCreated datePublished" datetime="2025-11-08T09:12:14+08:00">2025-11-08</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Bridge-and-Life/" itemprop="url" rel="index"><span itemprop="name">Bridge and Life</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2025/11/08/2025-11-08--Preemptive-Bid/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2025/11/08/2025-11-08--Preemptive-Bid/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">4.3k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">4 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="简介"><a href="#简介" class="headerlink" title="简介"></a>简介</h1><p>在桥牌游戏中，叫牌是一个十分重要的核心环节，是双方通过约定符号和术语竞争制定定约的过程。在叫牌过程中，玩家通常的目的是达成对己方有利的最佳定约，这既包括在己方拿到强牌时使得分最高，也包括在己方拿到弱牌时使对手得分最低。</p>
+<p>阻击叫(Preemptive Bid)，是玩家在拿到点力较弱、但拥有某个长套、具有一定做庄实力的牌时，可以采用的一种叫牌策略，其目的在于限制对手的叫牌空间，阻止对方在叫牌阶段充分交换信息，达成高阶定约。如果按叫牌目的进行分类，阻击叫显然属于后者。<span id="more"></span></p>
+<h1 id="弱二开叫"><a href="#弱二开叫" class="headerlink" title="弱二开叫"></a>弱二开叫</h1><p>在标准美国黄卡叫牌体系(SAYC)中，弱二开叫是一种重要的叫牌策略，它涵盖了2D/2H/2S开叫（2C开叫为强牌约定叫，属特例因而不在此列）。通过这一策略，玩家可以向同伴传达其手牌的关键信息：</p>
+<ol>
+<li><p>有一个六张长套，其中包含该花色的A和K，或者该花色的任意三张大牌，亦或者AT9、KT9或QT9的高张组合。简而言之，若这门花色成为最终定约的将牌，预计能取得4个或5个赢墩（取决于局况和花色）；</p>
+</li>
+<li><p>拥有6至10个大牌点，没有5张（或4张）及以上的低花（或高花）边花长套；</p>
+</li>
+<li><p>没有缺门。</p>
+</li>
+</ol>
+<h1 id="三阶有将定约阻击叫"><a href="#三阶有将定约阻击叫" class="headerlink" title="三阶有将定约阻击叫"></a>三阶有将定约阻击叫</h1><p>与弱二开叫类似的，三阶有将定约开叫，包括3C/3D/3H/3S，也属于一种阻击叫策略。在阻击效果上，它比弱二开叫更为强烈，能在更大程度上压缩对手的叫牌空间；在发动条件上，它的条件也比弱二开叫更为苛刻。在标准美国黄卡叫牌体系中，三阶有将定约开叫需要玩家的手牌满足以下条件：</p>
+<ol>
+<li><p>拥有一个七张长套；</p>
+</li>
+<li><p>拥有6至10个大牌点；</p>
+</li>
+<li><p>可以有某个缺门。</p>
+</li>
+</ol>
+<h1 id="四阶有将定约阻击叫"><a href="#四阶有将定约阻击叫" class="headerlink" title="四阶有将定约阻击叫"></a>四阶有将定约阻击叫</h1><p>这是一种更为犀利的阻击叫策略，这种开叫方式对对手的阻击力度极大，一旦玩家使用这一叫品，对手很有可能会因此陷入困境，他们可能会盲目地PASS并因此错过一个好的成局及以上定约，也有可能会冒着巨大风险在四阶以上进行叫牌并最终打宕定约。</p>
+<p>使用四阶有将定约进行阻击叫，需要玩家的手牌满足更为苛刻的条件：</p>
+<ol>
+<li><p>拥有一个八张长套，或者手牌分布为7-4-1-1或7-4-2-0的极端牌型；</p>
+</li>
+<li><p>拥有6至10个大牌点；</p>
+</li>
+<li><p>可以有某个缺门。</p>
+</li>
+</ol>
+<h1 id="米切尔阻击叫"><a href="#米切尔阻击叫" class="headerlink" title="米切尔阻击叫"></a>米切尔阻击叫</h1><p>在有些叫牌体系中，开叫2NT也被认为是一种阻击性叫品，它通常表示的含义为双低花套(如5-5或6-5的♦和♣)。但在有时候，一个坚强的双低花套也可以使用这一叫品进行争叫。</p>
+<h1 id="牌例分析"><a href="#牌例分析" class="headerlink" title="牌例分析"></a>牌例分析</h1><p>在同伴没有行动或者已经PASS的情况下，下面这副手牌适合弱二开叫2H：</p>
+<p>| ♠65♥KQT654♦JT3♣87 |</p>
+<p>下面的手牌则适合三阶开叫3C：</p>
+<p>| ♠98♥63♦JT♣KQJT432 |</p>
+<p>适合四阶有将定约开叫的手牌牌型在实战过程中则较为罕见。</p>
+<h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>在探讨阻击叫的应用时，我们需要注意，阻击叫并非总是能成功干扰对手，有时甚至可能适得其反。例如在同伴拥有一手较好的强牌且刚好与手中长套能形成配合时，己方也可能因为贸然采用阻击叫而错过最佳定约。因此，在使用这一策略时，必须根据具体的牌局情况灵活应对，谨慎选择。</p>
+<h1 id="二三法则"><a href="#二三法则" class="headerlink" title="二三法则"></a>二三法则</h1><p>阻击叫是一种风险与收益并存的战术策略，在实战过程中，我们通常使用「二三法则(Rule of 2-3)」来判断是否应该使用阻击叫，即在无局时最多宕3墩，在有局时最多宕2墩。</p>
+<p>此外，使用某些成局的高阶定约(4H/4S/5C/5D)进行阻击叫是一种风险极大的激进策略，通常是仅用于对抗对手的高花成局而不得以才使用的牺牲性叫品。因为这类定约一旦在局况不利的条件下遭到对手的惩罚性加倍，将会带来巨大的损失。</p>
+<h1 id="应对方式"><a href="#应对方式" class="headerlink" title="应对方式"></a>应对方式</h1><h2 id="准确判断牌情"><a href="#准确判断牌情" class="headerlink" title="准确判断牌情"></a>准确判断牌情</h2><ol>
+<li><p>分析对手的牌力范围：不同的阻击叫方式通常对应着一定的牌力范围。例如，弱二开叫一般是6-10点大牌，有一个好的6张套。了解这些常规范围后，可结合叫牌进程和已知信息，大致推断对手的牌力。如果对手在有局的情况下进行阻击叫，可能更接近其牌力上限；无局时则可能更随意一些；</p>
+</li>
+<li><p>推测对手的牌型分布：根据对手阻击叫所显示的花色及阶数，推测其牌型分布。如对手开叫3♣，大概率持有一个7张及以上的梅花长套，且边花实力较弱。同时，考虑到阻击叫的目的是干扰，对手可能会有一些极端的牌型分布，比如单缺等情况；</p>
+</li>
+<li><p>评估同伴的牌力配合：仔细分析自己和同伴的手牌，明确大牌点数量、长套花色、短套花色情况以及与同伴可能的配合。计算联手牌力是否具备与对手竞争或进局的实力，尤其是要关注是否有可以利用的长套作为潜在的赢墩来源；</p>
+</li>
+</ol>
+<h2 id="合理应用叫牌技巧"><a href="#合理应用叫牌技巧" class="headerlink" title="合理应用叫牌技巧"></a>合理应用叫牌技巧</h2><ol>
+<li><p>加倍：加倍对手的阻击叫可以有多种含义，需根据具体情况和约定来确定。如果是在对手弱二开叫后加倍，通常表示有开叫实力或更强，且对未叫花色有较好的支持，希望同伴在有一定牌力时参与叫牌。例如，对手开叫2♠，你的手牌为♠A3♥KQJ10♦A43♣K65，此时加倍表示你有实力，且希望同伴根据手中的牌情做出合适的叫牌，可能是争叫红心，也可能是在有黑桃止张时叫无将；</p>
+</li>
+<li><p>扣叫：扣叫对手阻击叫的花色，表示有很强的牌力，扣叫一个三阶定约通常代表了有进局以上的牌力，优先探寻对手开叫花色是否有止张；扣叫一个四阶定约则通常代表了满贯兴趣，例如，对手开叫3♦，你的手牌为♠AKQJ♥A4♦K3♣A1098，此时扣叫4♦表示你有足够的牌力，且希望与同伴探讨满贯定约，让同伴根据自己的牌情进一步描述手牌，如是否有方块控制、其他花色的长度和强度等；</p>
+</li>
+<li><p>自然叫牌：根据自己手牌的实际情况，进行自然叫牌。如果持有一个好的长套且有足够的牌力，可以直接叫出自己的花色。例如，对手开叫3♠，你的手牌为♠3♥AKQJ10♦KQ4♣A3，此时直接叫4♥，表示你有一个坚固的红心长套和较强的牌力，不惧怕对手的阻击叫，希望同伴根据对♥的支持情况和整体牌力来决定后续叫牌；</p>
+</li>
+<li><p>约定叫：使用一些特定的约定叫来应对阻击叫。比如，在对手弱二开叫后，使用莱本索尔约定叫、高阶迈克尔扣叫等，可以更准确地表达自己的牌型；</p>
+</li>
+<li><p>避免冲动叫牌：不要因为对手的阻击叫而盲目地抬高叫牌定约阶数或叫出不合理的定约。要根据己方的实际牌力和配合情况，谨慎地制定叫牌策略。有时候，尽管你和同伴有一定牌力，如果没有足够的赢墩来源和配合，不要轻易争叫高阶定约，避免陷入困境。</p>
+</li>
+</ol>
+<p>与同伴保持良好的沟通和协作，通过叫牌和信号传递准确的信息。在应对对手的阻击叫时，同伴之间的默契配合非常重要，此时应该相信同伴的叫牌决策，并根据同伴的叫牌来调整自己的策略。</p>
+<h1 id="拓展阅读：田忌赛马"><a href="#拓展阅读：田忌赛马" class="headerlink" title="拓展阅读：田忌赛马"></a>拓展阅读：田忌赛马</h1><p>阻击叫是桥牌中「以弱胜强」的经典战术，很像一则中国古代著名的战略博弈故事《田忌赛马》。即用己方的劣势牌去对付对手的优势牌并让己方损失最小化的一种策略，这就类似于齐国名将田忌在孙膑的谋略帮助下，通过调整赛马出场顺序，用下等马去对付齐威王的上等马从而战胜齐威王的典故。</p>
+<p>在战术思想上，二者均体现了「以弱胜强」的博弈精髓，但前者通过量化规则和系统化叫牌体系实现战术目标，后者则依赖心理博弈和顺序重构。两者的核心共性在于：通过非对称资源配置打破对称竞争，以局部牺牲换取全局优势。这种智慧不仅适用于牌桌和赛马场，更可延伸至商业竞争、军事战略等领域，成为跨时空的通用策略范式。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/Game/" rel="tag"># Game</a>
+          
+            <a href="/tags/Poker/" rel="tag"># Poker</a>
+          
+            <a href="/tags/Bridge-Card/" rel="tag"># Bridge Card</a>
+          
+            <a href="/tags/%E6%A1%A5%E7%89%8C/" rel="tag"># 桥牌</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2025/10/17/2025-10-17--Partial-Integration-Method-For-Binary-Functions/" rel="next" title="数术杂编（七）：二元函数的分部积分法">
+                <i class="fa fa-chevron-left"></i> 数术杂编（七）：二元函数的分部积分法
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">OnceBeta</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/%20%7C%7C%20archive">
+                
+                    <span class="site-state-item-count">51</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">14</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">43</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/oncebeta" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:oncebeta@hotmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%80%E4%BB%8B"><span class="nav-number">1.</span> <span class="nav-text">简介</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%B1%E4%BA%8C%E5%BC%80%E5%8F%AB"><span class="nav-number">2.</span> <span class="nav-text">弱二开叫</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%B8%89%E9%98%B6%E6%9C%89%E5%B0%86%E5%AE%9A%E7%BA%A6%E9%98%BB%E5%87%BB%E5%8F%AB"><span class="nav-number">3.</span> <span class="nav-text">三阶有将定约阻击叫</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%9B%9B%E9%98%B6%E6%9C%89%E5%B0%86%E5%AE%9A%E7%BA%A6%E9%98%BB%E5%87%BB%E5%8F%AB"><span class="nav-number">4.</span> <span class="nav-text">四阶有将定约阻击叫</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%B1%B3%E5%88%87%E5%B0%94%E9%98%BB%E5%87%BB%E5%8F%AB"><span class="nav-number">5.</span> <span class="nav-text">米切尔阻击叫</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%8C%E4%BE%8B%E5%88%86%E6%9E%90"><span class="nav-number">6.</span> <span class="nav-text">牌例分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%88%86%E6%9E%90"><span class="nav-number">7.</span> <span class="nav-text">分析</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E4%BA%8C%E4%B8%89%E6%B3%95%E5%88%99"><span class="nav-number">8.</span> <span class="nav-text">二三法则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BA%94%E5%AF%B9%E6%96%B9%E5%BC%8F"><span class="nav-number">9.</span> <span class="nav-text">应对方式</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%87%86%E7%A1%AE%E5%88%A4%E6%96%AD%E7%89%8C%E6%83%85"><span class="nav-number">9.1.</span> <span class="nav-text">准确判断牌情</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%90%88%E7%90%86%E5%BA%94%E7%94%A8%E5%8F%AB%E7%89%8C%E6%8A%80%E5%B7%A7"><span class="nav-number">9.2.</span> <span class="nav-text">合理应用叫牌技巧</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8B%93%E5%B1%95%E9%98%85%E8%AF%BB%EF%BC%9A%E7%94%B0%E5%BF%8C%E8%B5%9B%E9%A9%AC"><span class="nav-number">10.</span> <span class="nav-text">拓展阅读：田忌赛马</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2025</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">OnceBeta</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">121k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">1:50</span>
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v6.3.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a> v6.5.0</div>
+
+
+
+  <div class="footer-custom">Hosted by <a target="_blank" rel="external nofollow" href="https://github.com"><b>Github Pages</b></a></div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span>323</span><span class="busuanzi-value" id="busuanzi_value_site_uv" style="position: relative; top: 0px; left: -5px"></span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.5.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'A0LxPIblZQraE1pE3wgja77R-gzGzoHsz',
+        appKey: 'FEfFb3db4snjoaypNLO03CBL',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+  
+  
+  <!-- <script src="/lib/needsharebutton/needsharebutton.js"></script> -->
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "default";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "topCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
