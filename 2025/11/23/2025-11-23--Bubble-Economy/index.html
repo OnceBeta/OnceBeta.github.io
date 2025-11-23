@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+  <!-- <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css">
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon-32x32.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon-16x16.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Gemini',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+
+  <meta name="description" content="引子理论上说，人自发地进行生产消费等经济活动，市场就会像有一双看不见的手，自动平衡好供需关系。然而，如果仔细看看这个世界，一边是空置的高楼，一边却是流离无所的人；一边是堆积如山的商品，另一边却是空空如也的口袋，这显然是完全悖于常识的。 在传统的经济学理论中，市场被认为具有强大的自我调节机制，供需关系在暗处通过影响价格来实现市场的自我调控，从而优化资源配置，从而引导经济向着好的方向发展。可即便如此，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="一个基于供需缺口的弹簧振子经济模型：泡沫经济是如何毁掉市场经济的">
+<meta property="og:url" content="http://once4623.site/2025/11/23/2025-11-23--Bubble-Economy/index.html">
+<meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="引子理论上说，人自发地进行生产消费等经济活动，市场就会像有一双看不见的手，自动平衡好供需关系。然而，如果仔细看看这个世界，一边是空置的高楼，一边却是流离无所的人；一边是堆积如山的商品，另一边却是空空如也的口袋，这显然是完全悖于常识的。 在传统的经济学理论中，市场被认为具有强大的自我调节机制，供需关系在暗处通过影响价格来实现市场的自我调控，从而优化资源配置，从而引导经济向着好的方向发展。可即便如此，">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://once4623.site/images/2025-11-23--Bubble-Economy/1.png">
+<meta property="og:image" content="http://once4623.site/images/2025-11-23--Bubble-Economy/2.png">
+<meta property="og:image" content="http://once4623.site/images/2025-11-23--Bubble-Economy/3.png">
+<meta property="article:published_time" content="2025-11-23T05:39:26.000Z">
+<meta property="article:modified_time" content="2025-11-23T06:17:59.104Z">
+<meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="醉仙阁杂谈">
+<meta property="article:tag" content="Economics">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://once4623.site/images/2025-11-23--Bubble-Economy/1.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="醉仙阁" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://once4623.site/2025/11/23/2025-11-23--Bubble-Economy/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>一个基于供需缺口的弹簧振子经济模型：泡沫经济是如何毁掉市场经济的 | 醉仙阁</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">醉仙阁</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">孤亭一座，美酒一盏；故人一梦，笙歌一曲。</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-notes">
+    <a href="/notes/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />札记</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script language="javascript" src="/plugin/clicking.js"></script>
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2025/11/23/2025-11-23--Bubble-Economy/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">一个基于供需缺口的弹簧振子经济模型：泡沫经济是如何毁掉市场经济的
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2025-11-23 13:39:26" itemprop="dateCreated datePublished" datetime="2025-11-23T13:39:26+08:00">2025-11-23</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Economics/" itemprop="url" rel="index"><span itemprop="name">Economics</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2025/11/23/2025-11-23--Bubble-Economy/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2025/11/23/2025-11-23--Bubble-Economy/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">4.4k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">4 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>理论上说，人自发地进行生产消费等经济活动，市场就会像有一双看不见的手，自动平衡好供需关系。然而，如果仔细看看这个世界，一边是空置的高楼，一边却是流离无所的人；一边是堆积如山的商品，另一边却是空空如也的口袋，这显然是完全悖于常识的。</p>
+<p>在传统的经济学理论中，市场被认为具有强大的自我调节机制，供需关系在暗处通过影响价格来实现市场的自我调控，从而优化资源配置，从而引导经济向着好的方向发展。可即便如此，我们却眼见经济无法一直增长，每隔一段时间总会周期性地爆发经济危机，企业破产、大量失业、市场萎缩的现象周而复始，像个逃不出的轮回，绑架着所有人的命运。</p>
+<p>那么，供需平衡是如何被打破的，经济危机又是如何发生的呢？<span id="more"></span></p>
+<h1 id="简谐振动：简单供需模型与卡尔·马克思的价值规律"><a href="#简谐振动：简单供需模型与卡尔·马克思的价值规律" class="headerlink" title="简谐振动：简单供需模型与卡尔·马克思的价值规律"></a>简谐振动：简单供需模型与卡尔·马克思的价值规律</h1><p>卡尔·马克思在《资本论》第一卷中系统地阐述价值规律，价值规律的一种重要表现形式便是商品的价格围绕价值上下波动。事实上，市场在一开始便不是处于绝对的价值平衡的，基于供需关系，商品的价格正比于当前需求量，反比于当前供给量，一旦市场的供给和需求存在差值，就会导致可观的利润空间，驱使着所有生产者饿虎扑食般地投入其中。</p>
+<p>具体地说，当一类商品在市场上的需求大于供给时，将会使得商品价格提高，进而刺激生产积极性，提高商品供给速度。这在数学上就像一个弹簧，商品供给量的二阶变化率，应当正比于市场需求量减去供给量，供给量总是围绕着需求量上下波动。</p>
+<p>设想这样一个物理场景，一个重物在弹簧的作用下悬挂于重力场中，稍加拨动，基于牛顿第二定律，设弹簧的伸长量为$x$，则它的动力学微分方程具有如下形式：</p>
+<script type="math/tex; mode=display">\frac{d^2 x}{dt^2} = \frac{k}{m}\left(\frac{G}{k}-x\right)</script><p>设商品的需求量和供给量分别为$D, S$，则上面的论断等价于下面的微分方程：</p>
+<script type="math/tex; mode=display">\frac{d^2 S}{dt^2} = w^2 (D - S)</script><p>将两个方程稍作整理，便可以发现它们的形式是一致的，理想情况下，市场供给量可以直接和弹簧的伸长量类比，而市场的供需平衡，对应的就是弹力与重力平衡的情况，即$D - S = 0$。</p>
+<p><img src="/images/2025-11-23--Bubble-Economy/1.png" alt="1"></p>
+<h1 id="阻尼振动：收敛的价值规律"><a href="#阻尼振动：收敛的价值规律" class="headerlink" title="阻尼振动：收敛的价值规律"></a>阻尼振动：收敛的价值规律</h1><p>可是，倘若没有外部因素影响市场，供需关系将在波动的过程中最终趋于平衡，这个物理模型的解却不会收敛。这便是将经济模型类比到物理中的意义，在物理层面，我们很容易给出供需关系找到平衡条件，即$\displaystyle \frac{G}{k} – x = 0$。</p>
+<p>而在物理学中又该如何让弹簧振子慢慢停止振动呢？这很简单，只需要给场景添加上空气阻力，或者说，在原方程里添加一项阻尼项，就能很好地模拟供需关系在演化中达到平衡。</p>
+<script type="math/tex; mode=display">\frac{d^2 x}{dt^2} + w_f\frac{dx}{dt} = \frac{k}{m}\left(\frac{G}{k}-x\right)</script><script type="math/tex; mode=display">\frac{d^2 S}{dt^2} + w_f\frac{dS}{dt} = w^2 (D - S)</script><p>阻尼项类比空气阻力，以一阶导数的形式参与进方程里，将会帮助市场控制波动幅度，逐渐建立平衡，这便是市场经验的反馈作用，群体对市场由模糊到清晰的认知，将使得市场对需求这个概念逐步具体化和精确化，这个物理方程里的每一个参数对描述市场经济运动具有指导意义。</p>
+<p>其中，影响波动频率的惯性质量$m$，对应到供需关系里就是生产惯性，一个商品的生产规模越庞大，生产周期越长，那么它应对市场供需关系变化的灵敏度就越低，换言之，$w$的值越小。比如说看起来像刚需的房地产，在五年前的生产势头最为亢奋，然而过不了多久，当市场供给量远大于需求量时，由于生产周期长，房地产也就没办法随着当下的供给量而发生及时的变化，除非它烂尾。</p>
+<p><img src="/images/2025-11-23--Bubble-Economy/2.png" alt="2"></p>
+<h1 id="受迫振动：泡沫经济演化的最终模式"><a href="#受迫振动：泡沫经济演化的最终模式" class="headerlink" title="受迫振动：泡沫经济演化的最终模式"></a>受迫振动：泡沫经济演化的最终模式</h1><p>那又该如何类比商品的需求量呢——用重力来类比需求量是最为恰当的，正是对商品的需求带动了市场的供给，然而在该模型里对应的需求项却是重力比上一个劲度系数，这似乎无法从常识中得到解释。然而事实恰恰相反，这个系数才真正刻画了真实的经济现象，人们在当下所需求的事物，往往并不是它真正的需求，换言之，基础的需求被加上了杠杆，裹挟着整趟列车和车上的人在铁轨上不受控制地前行。</p>
+<p>从远古时期开始，物种为了扩张基因而争夺繁衍权，需要不断进化力量、速度等捕食能力，只为了一口温饱，那时的人类奉行多子多福的繁衍策略，因为在恶劣的生存环境下，后代数量的增加可以提升基因延续的概率。</p>
+<p>随着人类文明的进步，如今的社会生产力已经足够维持全人类的基本需求，可这个种族却反而陷入了不敢繁衍的怪圈里。他们的需求也从食物变成了钢筋混凝土的混合物，或者一张花十余年时光换来的盖有红章的文凭，孔雀只需要开屏就能赢得青睐，他们却被胁迫着付出高昂的价格去换一坨不知名状的物体。</p>
+<p>而之所以对生存而言本无价值的事物能不断供给流入市场，就是因为基础需求被加了杠杆。只有把某个特定商品的需求夸张化，才能创造出巨大的利润空间。随着虚假的需求被不断放大，市场供给量不断提升，这就使得泡沫经济在前中期呈现出欣欣向荣的景象，吸引众人纷纷跟投，所有人都沉浸在美好愿景中。然而不断抬高的供给量则越发需要市场需求的扩张来消化，如此循环便把这个泡泡越吹越大，而它最大的时刻就是它破碎前的那一刹那。</p>
+<p>在泡沫经济进入晚期时，被夸大的需求将商品价格抬高到远不属于它的位置时，就有越来越多的人因无法承担高额的代价而被迫放弃需求。对于一个企业，断臂求生是此时唯一的出路。但如果这种商品绑架的是一个国家甚至整个种族的经济命脉，一切报应便无法避免了。就好比一开始提到的那根弹簧，倘若通过某种方式在拉伸的过程中不断加杠杆让劲度系数$k$缩小，确保整根弹簧不会因此而断裂，看似需求量不断被放大，带动了生产力，创造了生产总值，然而这在最终将会成为一把悬在所有人头上的达摩克里斯之剑。当消费者的收入不能再支撑需求杠杆时，弹簧将迅速变回原来的强度，而先前创造出的价值将迅速沦为一滩泡沫。所以需求泡沫就像癌细胞，一旦扩张并且蔓延到经济动脉，只能选择报应是马上兑现还是晚点兑现。</p>
+<script type="math/tex; mode=display">\frac{d^2 S}{dt^2} + w_f\frac{dS}{dt} = w^2 (\frac{D}{t^{-\alpha}} - S)</script><p><img src="/images/2025-11-23--Bubble-Economy/3.png" alt="3"></p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>历史的经验告诉我们，绝大多数人都会选择后者。如果一个无法承受的坏结果已经不可避免，人们通常的选择是让它尽量晚点发生。</p>
+<p>看起来收入已经无法负担需求了，一切就结束了吗——人们都买不起了，需求就该断了，供给也该停了。事实远非如此，只有当各种信贷广告层出不穷，超前消费渗透进日常生活的每个毛孔时，经济才会走向泡沫破灭前最后的疯狂，像病入膏肓行将就木时的回光返照。1927年的美国，农户们已经连买点玉米来喂不起牲口都无法承受，彼时华尔街拐角的股票交易大厅里却依然人声鼎沸。2006年的佛罗里达，餐馆服务员都在贷款买第三套房子，明明月薪只够付两套房贷的利息。人们的常识会以为收入负担不起只是终点，事实上这只是开始。银行家会说「没关系，利息可以先欠着，等房价上涨了大家都会赚得盆满钵满」，政客会说「我们能担保贷款不会出问题」。</p>
+<p>这样的做法并不能改变结局，甚至只会摔得更惨。但是对当局者来说，拖下去意味着能让一部分人先逃，银行家会想方设法地在泡沫破前把手里的烂账打包卖给别人，政客会在危机来前让自己的亲友提前抛售资产。就像火场里的人，明知门快塌了，还是要把别人推在后面，只为多抢一秒逃生的时间。而那些普通工人、小商贩，他们看不到账本里的猫腻，只看到被美化过的繁荣所营造出的虚假表象，他们看到房价还在涨、股票还在涨，就天真地以为自己赶上了最后一班车，还会暗自庆幸自己把身家性命都押注在了令人欣慰的地方，结果车开到一半，铁轨早就被人拆了。</p>
+<p>在资本市场的历史上，这种趋势已经发生了无数次，它可以被预见，却无法被缓和。一根被拉满的弹簧，付出些许代价仍能恢复，然而历史一次又一次地告诉我们，在经济游戏的诡异循环里，大多数人选择的并不是直面真相，而是如何想方设法地让别人留在游戏里，替自己接住最后一棒。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%86%89%E4%BB%99%E9%98%81%E6%9D%82%E8%B0%88/" rel="tag"># 醉仙阁杂谈</a>
+          
+            <a href="/tags/Economics/" rel="tag"># Economics</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2025/11/18/2025-11-18--The-Beginning-And-End-Of-The-American-Economic-Collapse-In-1837/" rel="next" title="早期资本市场发展纪实（一）：1837年美国经济崩溃始末">
+                <i class="fa fa-chevron-left"></i> 早期资本市场发展纪实（一）：1837年美国经济崩溃始末
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">OnceBeta</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/%20%7C%7C%20archive">
+                
+                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">15</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">45</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/oncebeta" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:oncebeta@hotmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%AE%80%E8%B0%90%E6%8C%AF%E5%8A%A8%EF%BC%9A%E7%AE%80%E5%8D%95%E4%BE%9B%E9%9C%80%E6%A8%A1%E5%9E%8B%E4%B8%8E%E5%8D%A1%E5%B0%94%C2%B7%E9%A9%AC%E5%85%8B%E6%80%9D%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%84%E5%BE%8B"><span class="nav-number">2.</span> <span class="nav-text">简谐振动：简单供需模型与卡尔·马克思的价值规律</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E9%98%BB%E5%B0%BC%E6%8C%AF%E5%8A%A8%EF%BC%9A%E6%94%B6%E6%95%9B%E7%9A%84%E4%BB%B7%E5%80%BC%E8%A7%84%E5%BE%8B"><span class="nav-number">3.</span> <span class="nav-text">阻尼振动：收敛的价值规律</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%97%E8%BF%AB%E6%8C%AF%E5%8A%A8%EF%BC%9A%E6%B3%A1%E6%B2%AB%E7%BB%8F%E6%B5%8E%E6%BC%94%E5%8C%96%E7%9A%84%E6%9C%80%E7%BB%88%E6%A8%A1%E5%BC%8F"><span class="nav-number">4.</span> <span class="nav-text">受迫振动：泡沫经济演化的最终模式</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%80%BB%E7%BB%93"><span class="nav-number">5.</span> <span class="nav-text">总结</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2025</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">OnceBeta</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">128k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">1:56</span>
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v6.3.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a> v6.5.0</div>
+
+
+
+  <div class="footer-custom">Hosted by <a target="_blank" rel="external nofollow" href="https://github.com"><b>Github Pages</b></a></div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span>328</span><span class="busuanzi-value" id="busuanzi_value_site_uv" style="position: relative; top: 0px; left: -5px"></span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.5.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'A0LxPIblZQraE1pE3wgja77R-gzGzoHsz',
+        appKey: 'FEfFb3db4snjoaypNLO03CBL',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+  
+
+
+  
+  
+  
+  <!-- <script src="/lib/needsharebutton/needsharebutton.js"></script> -->
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "default";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "topCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
