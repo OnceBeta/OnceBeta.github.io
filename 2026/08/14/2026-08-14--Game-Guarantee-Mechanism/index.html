@@ -122,7 +122,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://once4623.site/images/2026-08-14--Game-Guarantee-Mechanism/1.png">
 <meta property="article:published_time" content="2026-08-14T15:24:16.000Z">
-<meta property="article:modified_time" content="2026-08-15T07:15:21.817Z">
+<meta property="article:modified_time" content="2026-08-17T14:31:54.785Z">
 <meta property="article:author" content="OnceBeta">
 <meta property="article:tag" content="醉仙阁杂谈">
 <meta property="article:tag" content="Math">
@@ -505,10 +505,11 @@
 <p>但在现实中，人们往往感觉这一概率明显比理论值要低得多，这主要是由于人类对小概率事件的主观感受和经验更侧重于累计出现概率。换言之，概率只是人类抽象出的一个数学概念，人类直觉并不关心事件发生的概率，而是关心「事件在何种条件下大概率会发生」，这是两个截然不同的角度。</p>
 <p>在掷骰子游戏中，掷三颗骰子出现豹子的概率确实是$1/36$，倘若告诉你这一答案，你在接收这一答案的第一时间会产生的直觉是「数学期望是36次，那我在多掷几次应该就能见到了」。此时，你脑海里的实际问题变成了「我要掷几次骰子，才大概率能见到一次豹子？」，这就是「累计出现概率」，而非「单次发生概率」。</p>
 <h1 id="分析"><a href="#分析" class="headerlink" title="分析"></a>分析</h1><p>在概率论中，有一种离散型概率分布被专门用于研究累计出现概率——几何分布(Geometric Distribution)，它是独立伯努利试验中首次成功所需试验次数的离散型概率分布。</p>
-<p>假设单次试验成功的概率为$p$，重复进行$n$次试验，则$n$次都失败的概率为$(1-p)^n$，故至少成功一次的概率为</p>
-<script type="math/tex; mode=display">P(n) = 1 - (1-p)^n</script><p>这便是几何分布的分布列。反之，倘若我们问「要以概率$q$至少取得一次成功，需要进行多少次试验？」，所需的试验次数$n$即为下述不等式的解</p>
+<p>假设单次试验成功的概率为$p$，重复进行$n$次试验，则前$n-1$次都失败的概率为$(1-p)^n$，故第$n$次首次成功的概率为：</p>
+<script type="math/tex; mode=display">p(n) = p(1-p)^(n-1)</script><p>对应的累积分布函数为：</p>
+<script type="math/tex; mode=display">F(n) = 1 - (1-p)^n</script><p>这便是几何分布的分布列。反之，倘若我们问「要以概率$q$至少取得一次成功，需要进行多少次试验？」，所需的试验次数$n$即为下述不等式的解</p>
 <script type="math/tex; mode=display">1 – (1-p)^n \geq q</script><p>即</p>
-<script type="math/tex; mode=display">n \geq \frac{\log (1-q)}{\log (1-p)}</script><p>对于掷骰子游戏，只要把$p = \sfrac{1}{36}$代入到几何分布的分布列中便能得到</p>
+<script type="math/tex; mode=display">n \geq \frac{\log (1-q)}{\log (1-p)}</script><p>对于掷骰子游戏，只要把$p = 1/36$代入到几何分布的分布列中便能得到</p>
 <p><img src="/images/2026-08-14--Game-Guarantee-Mechanism/1.png" alt="1"></p>
 <p>由上图可知，尽管见到一次豹子数学期望是掷36次骰子，但掷36次骰子至少出现一次豹子的概率仅为$64%$，这意味着还有$36%$的概率，掷36次骰子一次豹子也见不到。</p>
 <p>期望</p>
