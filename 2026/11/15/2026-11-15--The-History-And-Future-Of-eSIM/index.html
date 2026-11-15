@@ -1,0 +1,1523 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+  <!-- <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css">
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon-32x32.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon-16x16.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Gemini',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+<meta name="baidu-site-verification" content="codeva-aFHa6yIe9q" />
+
+
+  <meta name="description" content="引子eSIM，即嵌入式SIM卡(Embedded SIM)，是一种直接焊接在设备主板上的可编程SIM芯片，由全球移动通信系统协会(GSMA)制定技术标准。与传统可插拔的实体SIM卡不同，eSIM没有独立的卡体和卡槽，而是将SIM功能集成到终端硬件中，通过OTA(空中下载)技术远程下载、安装、激活和管理运营商配置文件，从而实现「无卡开通」和号码配置的远程调度。这一设计不仅节省了设备内部空间、提升了防">
+<meta property="og:type" content="article">
+<meta property="og:title" content="无卡之路——eSIM技术的发展历程与未来展望">
+<meta property="og:url" content="http://once4623.site/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/index.html">
+<meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="引子eSIM，即嵌入式SIM卡(Embedded SIM)，是一种直接焊接在设备主板上的可编程SIM芯片，由全球移动通信系统协会(GSMA)制定技术标准。与传统可插拔的实体SIM卡不同，eSIM没有独立的卡体和卡槽，而是将SIM功能集成到终端硬件中，通过OTA(空中下载)技术远程下载、安装、激活和管理运营商配置文件，从而实现「无卡开通」和号码配置的远程调度。这一设计不仅节省了设备内部空间、提升了防">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://once4623.site/images/2026-11-15--The-History-And-Future-Of-eSIM/1.png">
+<meta property="article:published_time" content="2026-11-15T13:17:49.000Z">
+<meta property="article:modified_time" content="2026-11-15T13:41:46.108Z">
+<meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="醉仙阁杂谈">
+<meta property="article:tag" content="通信技术">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://once4623.site/images/2026-11-15--The-History-And-Future-Of-eSIM/1.png">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="醉仙阁" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://once4623.site/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>无卡之路——eSIM技术的发展历程与未来展望 | 醉仙阁</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">醉仙阁</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">孤亭一座，美酒一盏；故人一梦，笙歌一曲。</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-notes">
+    <a href="/notes/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />札记</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script language="javascript" src="/plugin/clicking.js"></script>
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">无卡之路——eSIM技术的发展历程与未来展望
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2026-11-15 21:17:49" itemprop="dateCreated datePublished" datetime="2026-11-15T21:17:49+08:00">2026-11-15</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Science/" itemprop="url" rel="index"><span itemprop="name">Science</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">5.5k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">5 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>eSIM，即嵌入式SIM卡(Embedded SIM)，是一种直接焊接在设备主板上的可编程SIM芯片，由全球移动通信系统协会(GSMA)制定技术标准。与传统可插拔的实体SIM卡不同，eSIM没有独立的卡体和卡槽，而是将SIM功能集成到终端硬件中，通过OTA(空中下载)技术远程下载、安装、激活和管理运营商配置文件，从而实现「无卡开通」和号码配置的远程调度。这一设计不仅节省了设备内部空间、提升了防水防尘能力，也让用户在换机、出国或切换运营商时摆脱了反复插拔实体卡的麻烦。正因如此，eSIM从智能手表等可穿戴设备起步，逐步向手机、平板、电脑及物联网终端延伸，成为连接方式从「一张塑料卡」走向「可编程数据文件」的关键技术节点。回顾其十余年的发展历程，可以清晰看到一条从专利构想、标准统一到产业落地的演进轨迹，也能看到不同市场在安全、监管与便利之间做出的不同选择。<span id="more"></span></p>
+<h1 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h1><p>有关eSIM的起源最早可以追溯至十五年前。2011年，苹果公司向美国专利和商标局申请虚拟SIM卡专利，用户无需使用SIM卡即可直接访问运营商无线网络服务，成为eSIM技术起点。2014年，苹果在发布iPad Air 2时首次将eSIM卡概念（又称「Apple SIM」）带入实际产品。2015年，三星发布Gear S2，成为全球第一款支持eSIM技术的智能手表；同年7月，苹果和三星与GSMA等电信行业各方展开谈判，推动生产用于消费者设备的标准嵌入式SIM卡，预计支持该计划的运营商包括AT&amp;T、德国电信、阿联酋电信、和记黄埔、Orange、西班牙电信和沃达丰等。2016年6月，GSMA发布面向消费设备的eSIM规范，统一远程配置、安全加密等核心技术标准，获得全球超过30家运营商、芯片商及智能手机厂家支持，eSIM进入标准化时代。2019年1月底，美国、欧洲、中东和亚太地区多家运营商支持具有eSIM功能的手机。2020年底，全球可商用的eSIM消费类设备类型达110种，包括智能手机（40%）、智能手表、电脑和平板电脑；全球至少有175家运营商在69个国家推出面向智能手机的eSIM商用。2022年4月，谷歌Android 13系统将全力推动eSIM技术发展，或支持一颗芯片原生开通多张eSIM虚拟手机卡；同年，苹果iPhone 14系列在美国地区正式取消实体SIM卡，全面采用eSIM技术；10月，GSMA RSP eSIM技术规范SGP.22 v3.0正式发布，进一步拓展使用场景并完善eSIM卡生命周期管理。2023年中，GSMA发布新的eSIM物联网规范SGP.32。2025年6月，2025 MWC上海eSIM峰会期间传出信号，预计2026年全球eSIM智能手机连接量将达10亿；8月，GSMA预测到2025年底全球将有10亿台eSIM智能手机投入使用；同年，小米在海外市场推出首款eSIM机型小米12T Pro国际版，可在部分欧洲国家使用。</p>
+<p>在中国，eSIM技术的起步则要稍晚一些。2015年7月，中国联通在南京和广州新建物联网专用核心网元，覆盖全国31个省、360个地市、56.5万个基站，并开通10646专用机器号码，为物联网业务发展作准备；中国电信在定调2016年规划时首次将物联网单独提为发展关键词，计划2016年全年销售1000万台以上物联网终端。2017年，中国联通在上海推出支持eSIM的华为Watch 2 Pro试用业务，并在华为Watch 2 Pro和苹果Watch Series 3上支持eSIM，成为首家支持该功能的中国运营商，其中苹果手表实现「一号双终端」。2018年，中国联通获得eSIM一号双终端业务试点批复并扩大试点；中国移动推出支持eSIM的智能手表及跨供应商eSIM物联网方案，中移物联发布首款eSIM芯片；中国电信开始为苹果手表提供有限eSIM服务。2019年，中国移动启用eSIM一号双终端试点，中国联通将eSIM可穿戴设备独立号码业务推广至全国。2020年，中国联通将一号双终端业务扩展至全国，工信部同意中国电信、中国移动、中国联通开展物联网等领域eSIM技术应用服务。2021年，工信部《「十四五」信息通信行业发展规划》提到推动eSIM等新兴技术应用。2022年，工信部表示正研究推进eSIM在平板电脑、便携式计算机及智能手机上的应用。2023年，三大运营商曾以业务维护升级为由暂停受理eSIM一号双终端及独立eSIM卡申请，年底中国电信恢复eSIM业务办理。2025年下半年，eSIM业务重启；中国联通发布5G AI终端白皮书并率先在多地恢复eSIM功能，随后三大运营商陆续获得工信部eSIM手机商用试验批复，中国电信eSIM手机业务在31个省区市上市销售，中国联通为苹果iPhone Air提供eSIM支持，eSIM正式从物联网、智能穿戴延伸至手机端。2025年11月，中国电信恢复Apple Watch一号双终端eSIM业务。2026年，eSIM手机新品加速上市，荣耀首款eSIM手机首销，中国联通上线eSIM查询功能；华为公布手机eSIM使用指南，支持一机四号双待、网络智能切换、全球主流eSIM服务及跨设备通信共享；中国联通发布eSIM尝鲜季升级方案，推动多品牌机型和线下体验；苹果iPhone 18 Pro系列国行版本支持双实体SIM卡+双eSIM。</p>
+<h1 id="技术原理"><a href="#技术原理" class="headerlink" title="技术原理"></a>技术原理</h1><p>eSIM是一个可编程的数据文件，无需插入实体卡，直接嵌入设备芯片或主板，将实体SIM卡功能直接集成到电子产品的硬件中。其核心是通过OTA（空中下载）技术实现运营商配置文件的远程下载、安装、激活、去激活及删除。配置文件包含IMSI、鉴权密钥及运营商网络参数，由GSMA定义的SM-DP+服务器安全管理并下发至设备。</p>
+<p><img src="/images/2026-11-15--The-History-And-Future-Of-eSIM/1.png" alt="1"></p>
+<h1 id="实际使用"><a href="#实际使用" class="headerlink" title="实际使用"></a>实际使用</h1><p>eSIM技术的初衷之一是为了环保和更为便捷地切换不同运营商的SIM卡。对于经常跨国出差的商务人士，每到一个国家，他们都必须在机场购买一张SIM卡以便在没有WiFi时还有基础的通信能力。倘若你在深夜或非营业时间抵达一个陌生的国家，那将遭遇失联的窘境。即便你有幸在商店购买到了SIM卡，你也必须在人来人往的机场兵荒马乱地更换SIM卡，同时还要提防不会有人偷走你的行李。</p>
+<p>而在这时，倘若你的手机支持eSIM功能，或者你已经插好了一张支持eSIM功能的SIM卡，这一流程就会简单很多。你只需要在eSIM App内提前购买好数据套餐，然后通过空中下载技术(OTA)将配置文件下载到你的手机上，抵达后再启用这张eSIM，就有了在本地进行移动通信的能力。</p>
+<p>但是，对于身处国内没有跨境需求的一般人士，这项技术就略显鸡肋了。首先，设备型号和版本必须是国内运营商的数据库中提及的支持的版本，只有受支持的设备，才有安装和使用国内运营商eSIM的资格。其次，设备的EID号段也必须在国内运营商的数据库中。</p>
+<p>也就是说，一个人要在中国境内申请和使用eSIM必须同时满足下列条件：</p>
+<ol>
+<li>他的一证五户没有满；</li>
+<li>他的设备内置的eSIM芯片有国内运营商的CI；</li>
+<li>他的设备的EID号段在国内运营商的数据库中；</li>
+<li>他的设备中的eSIM数量符合要求。</li>
+</ol>
+<p>然而，在满足了上述近乎苛刻的条件之外，申请和使用eSIM并不会给在国内带来多少便利，因为除了给智能手表装上国内eSIM可以不必随身携带手机之外，其他操作和使用体验与实体SIM卡几乎别无二致，毕竟在国内使用手机基本上不会遇到需要频繁更换SIM卡的情况。</p>
+<h1 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h1><p>eSIM技术的另一类重要用途是在物联网设备(IoT)，这一用途在国内似乎更为广泛。对于部分户外终端和智能家居设备，搭载eSIM可以便于设备在购买后一键激活联网，无卡槽设计则降低了设备进水损坏的风险。</p>
+<p>然而，eSIM技术在物联网中的价值远不止「免插卡」，而在于让连接本身变成可远程调度的资源。2026年，这一方向正在获得标准层面的支撑。</p>
+<p>GSMA的eSIM标准经历了三代演进：SGP.02面向M2M，SGP.22面向消费电子，而SGP.32则是首个为物联网大规模部署原生设计的标准，专门针对无用户界面、网络受限的设备。SGP.32引入了两个关键组件——eIM (eUICC物联网管理器)和IPA(物联网配置助手)，使得没有屏幕可点的传感器、表计、车载模组也能通过远程平台完成配置文件的下载、切换与生命周期管理。2026年4月，Telenor IoT已交付全球首批SGP.32 SIM卡，实现「单一SKU全球部署、远程切换运营商、零接触配置」；业界预期商业应用在2026年启动，2027年真正加速。</p>
+<p>标准就绪直接推动了场景扩散。截至2026年第一季度，国内eSIM累计连接数突破2.3亿，其中物联网贡献超过1.8亿，占国内总量的78%。智能表计和车联网是两大主力：全国27个省份已部署超过7200万台eSIM智能水表与燃气表，远程抄表成功率从82%提升至99.7%；前装车联网车型的eSIM渗透率达到68%，比亚迪、理想、蔚来等主流新能源车型已将其作为标配。车载场景的特殊之处在于，eSIM让车主可以自主切换运营商套餐，而不是被车企锁定在一张实体卡对应的单一网络上，这把eSIM从「硬件配置」变成了「服务入口」。</p>
+<h1 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h1><p>再往前看，两个交叉方向正在浮现。其一是AI终端：2026年MWC上，中国联通联合GSMA发布「AI+eSIM」云智终端方案，eSIM被定位为AI设备（AR眼镜、AI录音耳机、AI算力主机）的默认连接基座，因为这些设备同样没有卡槽空间，却需要随时在线。其二是卫星物联网：eSIM的远程配置能力与低功耗卫星连接结合，使海洋浮标、跨境集装箱、极地追踪器等蜂窝网络永远无法覆盖的资产，也能以可调度的方式接入统一的管理平台。当连接不再依赖「到某地买一张卡」，物联网的真正边界才可能被重新划定。</p>
+<p>中国eSIM技术的发展现状，关键已不在于技术本身，而在于一套以安全为优先的监管框架如何塑造了技术的可用形态。eSIM在中国的故事，不能简单解读为「新技术遭遇保守管制」，而更接近一场关于连接控制权的重新分配：运营商在安全框架内重新定义交付方式，终端厂商在卡槽消失后重新设计产品，而标准组织则在消费电子与物联网之间搭起不同的技术轨道。手机端的「无卡化」或许仍会以审慎的节奏推进，但物联网和新型终端侧的eSIM，已经在以自身的逻辑加速铺开。</p>
+<p>监管的核心担忧集中在两个点上：远程写卡规避了实体卡交付环节的「人证合一」核验，可能被用于电信网络诈骗；跨境写卡则涉及数据主权与合规风险。作为回应，2025年重启后的国内eSIM方案被嵌入了几项硬性技术约束。中国联通的白皮书明确了「双向机卡锁定」与「禁用跨境写卡」：eSIM配置文件与手机主板严格绑定，换机需办理「补换卡」而非「拔插即走」；设备识别到在中国大陆境内时，禁止下载境外运营商及港澳台地区的eSIM配置文件。中国移动2026年版白皮书进一步要求每台终端仅允许一颗不可拆卸的eSIM芯片，并具备机卡锁定能力。</p>
+<p>这些限制的直接后果是：eSIM理论上最诱人的「无感切换」和「自由携转」，在国内被有意收窄了。用户仍需线下营业厅办理、人脸识别、二次实名，换机流程甚至比实体卡更繁琐。从产业角度看，这并非技术倒退，而是一个在安全底线与便利性之间刻意选择的中间态。C114的一篇年度盘点将eSIM的处境概括为「不平衡三角」——用户要便捷、监管要安全、技术要牵引万物互联，三者在2026年仍处于反复拉扯之中。真正的破局点可能不在放松管制，而在用技术风控替代流程卡控：通过AI实时身份核验与行为分析，在云端完成比线下更精准的风险拦截，从而逐步把用户从线下流程中解放出来。这将是eSIM在国内从「可用」走向「好用」的关键一跃。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%86%89%E4%BB%99%E9%98%81%E6%9D%82%E8%B0%88/" rel="tag"># 醉仙阁杂谈</a>
+          
+            <a href="/tags/%E9%80%9A%E4%BF%A1%E6%8A%80%E6%9C%AF/" rel="tag"># 通信技术</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2026/10/31/2026-10-31--Farewell-My-Concubine/" rel="next" title="「霸王别姬」之历史真相阐微">
+                <i class="fa fa-chevron-left"></i> 「霸王别姬」之历史真相阐微
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">OnceBeta</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/%20%7C%7C%20archive">
+                
+                    <span class="site-state-item-count">65</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">19</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">53</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/oncebeta" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:oncebeta@hotmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B"><span class="nav-number">2.</span> <span class="nav-text">发展历程</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%8A%80%E6%9C%AF%E5%8E%9F%E7%90%86"><span class="nav-number">3.</span> <span class="nav-text">技术原理</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%AE%9E%E9%99%85%E4%BD%BF%E7%94%A8"><span class="nav-number">4.</span> <span class="nav-text">实际使用</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%89%A9%E8%81%94%E7%BD%91"><span class="nav-number">5.</span> <span class="nav-text">物联网</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%9C%AA%E6%9D%A5%E5%B1%95%E6%9C%9B"><span class="nav-number">6.</span> <span class="nav-text">未来展望</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2026</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">OnceBeta</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">175k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">2:39</span>
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v6.3.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a> v6.5.0</div>
+
+
+
+  <div class="footer-custom">Hosted by <a target="_blank" rel="external nofollow" href="https://github.com"><b>Github Pages</b></a></div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span>328</span><span class="busuanzi-value" id="busuanzi_value_site_uv" style="position: relative; top: 0px; left: -5px"></span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.5.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'A0LxPIblZQraE1pE3wgja77R-gzGzoHsz',
+        appKey: 'FEfFb3db4snjoaypNLO03CBL',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+
+
+  
+  
+  
+  <!-- <script src="/lib/needsharebutton/needsharebutton.js"></script> -->
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "default";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "topCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>
