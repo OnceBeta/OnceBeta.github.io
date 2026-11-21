@@ -1,0 +1,1639 @@
+<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<html class="theme-next gemini use-motion" lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2"/>
+<meta name="theme-color" content="#222">
+
+
+
+  
+  
+  <!-- <link rel="stylesheet" href="/lib/needsharebutton/needsharebutton.css"> -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.css">
+
+
+
+
+
+
+
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link href="/lib/font-awesome/css/font-awesome.min.css?v=4.6.2" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=6.5.0" rel="stylesheet" type="text/css" />
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/icon/icon-32x32.png?v=6.5.0">
+
+
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/icon/icon-16x16.png?v=6.5.0">
+
+
+  <link rel="mask-icon" href="/images/logo.svg?v=6.5.0" color="#222">
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" id="hexo.configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '',
+    scheme: 'Gemini',
+    version: '6.5.0',
+    sidebar: {"position":"left","display":"post","offset":12,"b2t":false,"scrollpercent":false,"onmobile":false},
+    fancybox: false,
+    fastclick: false,
+    lazyload: false,
+    tabs: true,
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    algolia: {
+      applicationID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    }
+  };
+</script>
+
+
+  
+
+
+
+<meta name="baidu-site-verification" content="codeva-aFHa6yIe9q" />
+
+
+  <meta name="description" content="引子假设我们坐在一张棋盘前，手里握着一叠钞票，面前是待售的地皮。游戏规则十分简单：掷骰子，走格子，买地，盖房，向路过的人收租，直到其他玩家全部破产。绝大多数人在童年时代都玩过这样的游戏，并且几乎不假思索地把它归为「消遣」一类——一块印着彩色格子的纸板，几枚迷你酒店，加上一点掷骰子的运气，仅此而已。 但事实上，这是一款被严重低估的游戏。如果我们把它当作一台被压缩到极小尺度上的经济机器来观察，就会发现">
+<meta property="og:type" content="article">
+<meta property="og:title" content="用《大富翁》的游戏逻辑理解现实世界">
+<meta property="og:url" content="http://once4623.site/2026/11/22/2026-11-22--Monopoly/index.html">
+<meta property="og:site_name" content="醉仙阁">
+<meta property="og:description" content="引子假设我们坐在一张棋盘前，手里握着一叠钞票，面前是待售的地皮。游戏规则十分简单：掷骰子，走格子，买地，盖房，向路过的人收租，直到其他玩家全部破产。绝大多数人在童年时代都玩过这样的游戏，并且几乎不假思索地把它归为「消遣」一类——一块印着彩色格子的纸板，几枚迷你酒店，加上一点掷骰子的运气，仅此而已。 但事实上，这是一款被严重低估的游戏。如果我们把它当作一台被压缩到极小尺度上的经济机器来观察，就会发现">
+<meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2026-11-21T20:25:30.000Z">
+<meta property="article:modified_time" content="2026-11-21T20:38:38.412Z">
+<meta property="article:author" content="OnceBeta">
+<meta property="article:tag" content="醉仙阁杂谈">
+<meta property="article:tag" content="Economics">
+<meta property="article:tag" content="游戏与现实">
+<meta name="twitter:card" content="summary">
+
+
+
+  <link rel="alternate" href="/atom.xml" title="醉仙阁" type="application/atom+xml" />
+
+
+
+
+  <link rel="canonical" href="http://once4623.site/2026/11/22/2026-11-22--Monopoly/"/>
+
+
+
+<script type="text/javascript" id="page.configurations">
+  CONFIG.page = {
+    sidebar: "",
+  };
+</script>
+
+  <title>用《大富翁》的游戏逻辑理解现实世界 | 醉仙阁</title>
+  
+
+
+
+
+
+
+
+
+
+
+
+  <noscript>
+  <style type="text/css">
+    .use-motion .motion-element,
+    .use-motion .brand,
+    .use-motion .menu-item,
+    .sidebar-inner,
+    .use-motion .post-block,
+    .use-motion .pagination,
+    .use-motion .comments,
+    .use-motion .post-header,
+    .use-motion .post-body,
+    .use-motion .collection-title { opacity: initial; }
+
+    .use-motion .logo,
+    .use-motion .site-title,
+    .use-motion .site-subtitle {
+      opacity: initial;
+      top: initial;
+    }
+
+    .use-motion {
+      .logo-line-before i { left: initial; }
+      .logo-line-after i { right: initial; }
+    }
+  </style>
+</noscript>
+
+<!-- hexo injector head_end start -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/hexo-math@4.0.0/dist/style.css">
+<!-- hexo injector head_end end --><meta name="generator" content="Hexo 6.3.0"></head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-CN">
+
+  
+  
+    
+  
+
+  <div class="container sidebar-position-left page-post-detail">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta ">
+    
+
+    <div class="custom-logo-site-title">
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">醉仙阁</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+    
+      
+        <p class="site-subtitle">孤亭一座，美酒一盏；故人一梦，笙歌一曲。</p>
+      
+    
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="切换导航栏">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+
+<nav class="site-nav">
+  
+    <ul id="menu" class="menu">
+      
+        
+        
+        
+          
+          <li class="menu-item menu-item-home">
+    <a href="/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-home"></i> <br />首页</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-about">
+    <a href="/about/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-user"></i> <br />关于</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-tags">
+    <a href="/tags/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />标签</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-categories">
+    <a href="/categories/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-th"></i> <br />分类</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-archives">
+    <a href="/archives/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />归档</a>
+  </li>
+        
+        
+        
+          
+          <li class="menu-item menu-item-notes">
+    <a href="/notes/" rel="section">
+      <i class="menu-item-icon fa fa-fw fa-edit"></i> <br />札记</a>
+  </li>
+
+      
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="javascript:;" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />搜索</a>
+        </li>
+      
+    </ul>
+  
+
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup search-popup local-search-popup">
+  <div class="local-search-header clearfix">
+    <span class="search-icon">
+      <i class="fa fa-search"></i>
+    </span>
+    <span class="popup-btn-close">
+      <i class="fa fa-times-circle"></i>
+    </span>
+    <div class="local-search-input-wrapper">
+      <input autocomplete="off"
+             placeholder="搜索..." spellcheck="false"
+             type="text" id="local-search-input">
+    </div>
+  </div>
+  <div id="local-search-result"></div>
+</div>
+
+
+
+    </div>
+  
+</nav>
+
+
+
+  
+
+<script src="//cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+
+<script language="javascript" src="/plugin/clicking.js"></script>
+
+</div>
+    </header>
+
+    
+
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+            
+
+          
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+
+  
+  
+  
+
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://once4623.site/2026/11/22/2026-11-22--Monopoly/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="OnceBeta">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="醉仙阁">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">用《大富翁》的游戏逻辑理解现实世界
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+
+            
+            
+            
+
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+
+              
+                
+              
+
+              <time title="创建时间：2026-11-22 04:25:30" itemprop="dateCreated datePublished" datetime="2026-11-22T04:25:30+08:00">2026-11-22</time>
+            
+
+            
+          </span>
+
+          
+            <span class="post-category" >
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/Economics/" itemprop="url" rel="index"><span itemprop="name">Economics</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2026/11/22/2026-11-22--Monopoly/#comments" itemprop="discussionUrl">
+                  <span class="post-meta-item-text">评论数：</span> <span class="post-comments-count valine-comment-count" data-xid="/2026/11/22/2026-11-22--Monopoly/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+            <div class="post-symbolscount">
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">本文字数：</span>
+                
+                <span title="本文字数">9.1k</span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">8 分钟</span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>假设我们坐在一张棋盘前，手里握着一叠钞票，面前是待售的地皮。游戏规则十分简单：掷骰子，走格子，买地，盖房，向路过的人收租，直到其他玩家全部破产。绝大多数人在童年时代都玩过这样的游戏，并且几乎不假思索地把它归为「消遣」一类——一块印着彩色格子的纸板，几枚迷你酒店，加上一点掷骰子的运气，仅此而已。</p>
+<p>但事实上，这是一款被严重低估的游戏。如果我们把它当作一台被压缩到极小尺度上的经济机器来观察，就会发现其中运行着与现实经济惊人一致的机制：资产的积累、租金的抽取、信贷的扩张、泡沫的膨胀与破裂、财富向少数人的集中，乃至「赢家通吃」的终局。更耐人寻味的是，这款游戏最初被设计出来的目的，恰恰不是为了让人体验发财的快感，而是为了揭露土地垄断的危害。它诞生时的那层批判色彩，在一百多年的流传中被一层层剥去，最终只剩下纯粹的竞争与掠夺。</p>
+<p>这就引出了本文想要讨论的问题：一款棋盘游戏，凭什么能够解释现实世界的经济运行？它究竟抓住了哪些本质，又在哪些地方失真了？当我们把棋盘上的规则逐条映射到现实的经济与资本市场时，那些原本晦涩的概念——债务周期、资本收益率、基尼系数、数字垄断便会因此变得一目了然了。<span id="more"></span></p>
+<h1 id="历史沿革"><a href="#历史沿革" class="headerlink" title="历史沿革"></a>历史沿革</h1><p>要理解这款游戏，必须先讲清楚它的身世，因为这段身世本身就是一个关于资本如何改写规则的绝佳注脚。</p>
+<p>游戏的发明者是美国人伊丽莎白·玛吉(<em>Elizabeth Magie</em>)。早在1903年，她便设计了一款名为《地主的游戏》(<em>The Landlord’s Game</em>)的棋类游戏，并在次年获得了专利。玛吉设计这款游戏的动机并非娱乐，而是控诉——彼时美国正处于土地投机与垄断资本迅速膨胀的年代，她希望通过游戏直观地展示土地私有制如何导致财富向少数人集中。为此，她为游戏设定了两套截然不同的规则。</p>
+<p>其一是「繁荣模式」(Prosperity)：土地归全体玩家共有，任何一方收取的租金都要回馈给所有人；当最贫穷的玩家资产翻倍时，全体玩家共同获胜。其二是「垄断模式」(Monopolist)：土地完全私有，玩家通过收取高额租金令对手破产，最后剩下的唯一赢家即为胜利者。</p>
+<p>显而易见，玛吉真正想推广的是前者。她是一位土地价值税(Land Value Tax)理念的拥护者，认为土地等自然资源所产生的价值应当由社会共享，而非被少数持有者无偿占有。在她看来，「繁荣模式」能够向玩家演示一种合作共赢的社会形态是可能的。</p>
+<p>然而故事的走向却与她的初衷背道而驰。1935年前后，美国正处于经济大萧条的余波之中，一位名叫查尔斯·达洛(<em>Charles Darrow</em>)的失业者接触到了这款游戏。他敏锐地意识到其中的商业价值，于是做了一件在今天看来颇有些刺眼的事情：他删去了「繁荣模式」，只保留了赢家通吃的垄断规则，将游戏改名为《垄断》(<em>Monopoly</em>)，然后卖给了帕克兄弟公司(Parker Brothers)。</p>
+<p>接下来的发展几乎是一出标准的「资本改写历史」的戏码。这款被阉割后的游戏迅速风靡全球，达洛因此成为百万富翁，而真正的设计者玛吉仅仅拿到了500美元的买断费，她的名字被从游戏的历史中抹去。更有甚者，帕克兄弟公司一度召回并销毁了含有双模式的原版游戏，理由竟然是「过于政治化」。</p>
+<p>这段历史读来颇有几分荒诞，但它恰恰揭示了一个反复出现的规律：一种制度或规则被大众接受与否，往往并不取决于它是否更公正，而取决于它是否符合资本扩张的方向。合作共赢的规则被系统性边缘化，而竞争与掠夺的规则被推向了全世界——这既是这款游戏的命运，也是此后一百年现实世界的某种缩影。</p>
+<h1 id="游戏规则"><a href="#游戏规则" class="headerlink" title="游戏规则"></a>游戏规则</h1><p>在把游戏规则映射到现实之前，有必要先把这台「机器」的构造说清楚。</p>
+<p>标准的《大富翁》棋盘由四十个格子组成，其中二十八块为可购买的地产，分布在八个色组内。玩家从起点出发，依次掷骰、行进、落地。落在无主地产上可以选择购买，落在他人地产上则需按规则支付租金；当某一色组的地产被同一玩家全部持有时，可以在其上盖房、盖酒店，租金随之成倍上涨。除了地产之外，棋盘上还有铁路、公用事业、税收格、机会卡与命运卡等要素。玩家手里的现金是有限的，当现金不足以支付租金或税款时，就须抵押地产换取现金；一旦资不抵债，便宣告破产。</p>
+<p>简单地说，这款游戏只做了一件事：让「资产」与「现金」这两种资源在玩家之间不断流动，并通过租金这一机制实现财富的转移。</p>
+<p>值得注意的是，游戏中最精妙的设计并不在于「买地收租」本身，而在于前期与后期之间的策略反转。游戏初期，玩家手握大量现金而地产稀少，此时把现金换成地产是极为划算的；随着游戏推进，棋盘上的地产逐渐被瓜分完毕，玩家停在他人地产上时所需支付的租金越来越高，现金的重要性开始压倒资产——游戏从「房地产为王」转向了「现金为王」。擅长这款游戏的人，其真正的能力就在于把握这两者之间的转换时机。</p>
+<p>此时我们不妨做一个思想实验：假设银行可以提供贷款、接收存款，玩家可以借钱购买地产，也可以把闲置资金存入银行赚取利息，那么游戏会发生怎样的变化？</p>
+<p>答案是，这个游戏几乎在一瞬间就变成了现实经济的精确模型。举债购买酒店的资金会迅速膨胀为现有现金的数倍；而在未来某个时刻，持有这些酒店的债务人将同时面临支付租金与偿还本息的双重压力。银行也会陷入困境——存款人因需要支付租金而集中提现，债务人却越来越难以按时还款。如果没有人出面干预，银行与债务人将同时破产，整个游戏的经济随之萎缩。</p>
+<p>一段时间之后，扩张与萎缩会交替出现，循环往复。而这，正是现实生活中债务周期的雏形。</p>
+<h1 id="棋盘上的经济学"><a href="#棋盘上的经济学" class="headerlink" title="棋盘上的经济学"></a>棋盘上的经济学</h1><p>如果说棋盘上的机制还只是现实的简化投影，那么接下来要讨论的，就是这台机器在真实世界中的完整形态。</p>
+<h2 id="价值循环与资本的自增强"><a href="#价值循环与资本的自增强" class="headerlink" title="价值循环与资本的自增强"></a>价值循环与资本的自增强</h2><p>近现代资本主义的经济活动，本质上是一个以货币流动为基础的价值循环。居民在要素市场上出售劳动力，在产品市场上购买商品与服务；企业在产品市场上出售商品与服务，在要素市场上购买劳动力与其他生产要素。在循环的每一个环节，交易都以价值的增殖为前提——居民购买商品，是因为商品带来的效用高于付出的货币；企业购买生产要素，是因为产出能够带来更多的货币。一旦增殖无法实现，循环便告中断。</p>
+<p>问题在于，这个循环并不对称。资本一旦进入循环，就具有一种自我强化的倾向：拥有资本的人可以用资本获取更多的资本，而没有资本的人只能依靠出售劳动力维持生计。法国经济学家托马斯·皮凯蒂(<em>Thomas Piketty</em>)在《21世纪资本论》中给出了一条冷酷的公式：</p>
+<script type="math/tex; mode=display">r > g</script><p>其中$r$为资本收益率(Rate of Return on Capital)，$g$为经济增长率(Economic Growth Rate)。皮凯蒂指出，在过去三个世纪里，全球资本的年均收益率稳定在4%至5%之间，而经济年均增长率仅为1%至2%。这意味着，当资本收益率长期高于经济增长率时，继承自父辈的财富，其增长速度必然超过劳动收入的增长速度——只要拥有足够的初始资本，即使不做任何事情，财富也会自动膨胀。</p>
+<p>这恰恰是《大富翁》中最令人不安的部分：那些在游戏早期购得地产的玩家，后期几乎不需要再做任何决策，只需坐在原地等待对手踩中自己的地盘。财富向少数人集中，不是某个玩家道德败坏的结果，而是规则本身运行到一定阶段的必然产物。</p>
+<p>有统计显示，中国居民财产基尼系数(Gini Coefficient)从1995年的0.45升至2012年的0.73；另据相关统计，2022年中国居民收入基尼系数为0.474，连续多年超过0.4这一国际警戒线。在美国，据2023年的数据，最富有的1%人群掌握了约32.3%的财富，而底层50%的人口仅拥有约2.6%。这些数字的具体口径或有争议，但趋势是一致的：资本的自增强机制在现实中从未停止运转。</p>
+<h2 id="债务周期：自我强化的上升与下降"><a href="#债务周期：自我强化的上升与下降" class="headerlink" title="债务周期：自我强化的上升与下降"></a>债务周期：自我强化的上升与下降</h2><p>如果说$r&gt;g$解释了财富为何集中，那么债务周期则解释了这种集中为何总是以危机的形式爆发。</p>
+<p>桥水基金创始人达里奥(<em>Ray Dalio</em>)在其关于债务周期(Debt Cycle)的研究中，对这一过程有过极为清晰的刻画。在正常情况下，贷款会引发一个自我强化的上升运动：贷款支撑支出与投资，支出与投资推动收入增加和资产价格上涨，而收入的增加与资产的涨价又进一步提高了借款人的抵押能力和借贷意愿，于是更多的贷款被创造出来。支出和收入由此被推高到超出经济生产力稳步增长所能支撑的水平。</p>
+<p>接近周期的顶峰时，人们普遍预期以贷款维持的繁荣会永远持续下去，资产价格只会上涨不会下跌。这当然是不可能的——收入终将降至贷款成本之下。</p>
+<p>一旦资金和信贷增长被遏制，或者贷款标准有所提高，信贷与支出的增速便会放缓，偿债问题随之加速涌现。此时，若中央银行察觉到信贷增长过快并开始收紧货币政策，债务周期的下滑就会进一步加速。当偿债成本——即还本付息的成本——超过维持支出所需的新增借款时，上升周期便彻底逆转为下降周期：借款人开始抛售资产以偿还债务，资产价格下跌，抵押物贬值，进一步收紧信贷，形成自我强化的恶性循环。</p>
+<p>这一过程在那些严重依赖借债进行固定资产投资、房地产和基础设施建设的经济体中表现得尤为剧烈。设想一座办公大楼的建设：在建设期间，每年可能产生上千万美元的支出，用于雇用工人、购买钢筋和混凝土；大楼竣工之后，这笔年度支出便骤然降为零。债务融资的基建与房地产拉动经济强劲增长，而当建设需求随着项目完工而放缓时，债务的挑战便开始浮现。这类周期在新兴经济体中尤为常见，因为那里存在着大量待填补的建设需求。日本在过去数十年中所经历的经济周期，就是这一机制的典型注脚。</p>
+<p>在泡沫阶段，不计后果的贷款与不切实际的预期共同制造了大量无法偿还的债务。泡沫的一个典型表征是：越来越多的新增借款被用来偿还旧债，而非投入新的生产活动。当借款人无法履行对贷款人的偿债义务时，贷款人也就无法履行对其债权人的义务，风险沿着信贷链条层层传导——从银行扩散到保险公司、非银行信托、经纪自营商，乃至特殊目的公司。决策者必须首先解决贷款人的问题，因为高杠杆的贷款人一旦倒塌，将给整个经济和信誉良好的借款人带来连锁反应。</p>
+<p>这样的债务周期最终会留下两类问题：其一是因借款人无法按期还本付息而产生的实际损失，其形式可以是定期还款金额的下降，也可以是债务价值的减记；其二是贷款及贷款所支撑的支出水平永久性下降——即便债务危机得到解决，过分举债的实体也难以恢复到危机前的支出水平。后者的影响往往更为深远，却也更易被忽视。</p>
+<h1 id="用棋盘逻辑理解现实：一张对照表"><a href="#用棋盘逻辑理解现实：一张对照表" class="headerlink" title="用棋盘逻辑理解现实：一张对照表"></a>用棋盘逻辑理解现实：一张对照表</h1><p>有了前面的铺垫，现在可以把棋盘与现实逐条对应起来。这张对照表或许不够严谨，但它足以充当一副理解复杂经济的眼镜。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>《大富翁》中的要素</th>
+<th>现实世界中的对应物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>起始现金</td>
+<td>原始资本积累，家庭财富的「起跑线」</td>
+</tr>
+<tr>
+<td>购买地产</td>
+<td>购置房产、土地与固定资产</td>
+</tr>
+<tr>
+<td>盖房盖酒店</td>
+<td>追加投资，提高资产的现金流回报</td>
+</tr>
+<tr>
+<td>收取过路费</td>
+<td>租金、利息、股息，以及数字时代的平台抽成</td>
+</tr>
+<tr>
+<td>银行贷款</td>
+<td>信贷体系，中央银行与商业银行</td>
+</tr>
+<tr>
+<td>抵押与破产</td>
+<td>资产抛售、债务违约与资不抵债</td>
+</tr>
+<tr>
+<td>机会卡与命运卡</td>
+<td>外生冲击：政策变化、技术革命、疫情与战争</td>
+</tr>
+<tr>
+<td>垄断模式的胜利条件</td>
+<td>赢家通吃的财富集中</td>
+</tr>
+<tr>
+<td>被删去的繁荣模式</td>
+<td>税收调节、社会保障与共同富裕机制</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="起跑线与资产的复利"><a href="#起跑线与资产的复利" class="headerlink" title="起跑线与资产的复利"></a>起跑线与资产的复利</h2><p>对照表的第一行就足以说明很多问题。游戏中，所有玩家的起始现金相同，因此胜负似乎只取决于掷骰子的运气。但现实中的「起始现金」从来不均匀——有人继承房产与股权，有人背负教育贷款。皮凯蒂所说的$r&gt;g$，正是这种初始差异被不断放大的机制。</p>
+<p>房产是这一机制在现实中最直观的体现。过去二十年里，一线城市的房价经历了大幅上涨，早期购房者资产随之膨胀，而后入场者不仅需要支付更高的价格，还要以未来的收入承担房贷。这与《大富翁》中「早期占据稀缺资源者坐收过路费，后来者不断失血」的局面如出一辙。</p>
+<h2 id="从土地到数据的棋盘扩张"><a href="#从土地到数据的棋盘扩张" class="headerlink" title="从土地到数据的棋盘扩张"></a>从土地到数据的棋盘扩张</h2><p>如果说传统《大富翁》的棋盘是土地，那么今日的棋盘已经升级为数字平台。超级巨头通过算法控制流量分配，通过数据的私有化构建起新的「数字领地」，而普通用户则在不知不觉中沦为「数字佃农」。</p>
+<p>电商平台借助消费数据实现精准定价，将用户的购买力尽可能充分地榨取；社交媒体则通过所谓的注意力经济，把用户的时间转化为广告收入。这种新型垄断比传统地主更为隐蔽，也更具压迫性：传统地主尚需承担自然灾害、收成波动等真实风险，而数字领主依靠近乎零边际成本的复制，就能实现财富的指数级增长。</p>
+<p>这与《大富翁》的终局何其相似：少数玩家掌握了棋盘上最核心的资产，其余玩家则在一次次「数字过路费」中持续失血。</p>
+<h2 id="银行入场之后：债务周期的完整演绎"><a href="#银行入场之后：债务周期的完整演绎" class="headerlink" title="银行入场之后：债务周期的完整演绎"></a>银行入场之后：债务周期的完整演绎</h2><p>回到那个思想实验——当游戏中引入了银行与信贷，局面会如何恶化？</p>
+<p>现实给出的答案我们已经在上文讨论过：举债购地使得资产价格在上升期被进一步推高，而到了下降期，债务人同时承受租金与本息的双重挤压，银行则因存款人集中提现和借款人违约而陷入流动性危机。经济复苏因此常常呈现「K型」轨迹——向上的分支是持有资产的人群，股市与楼市的繁荣令其财富激增；向下的分支是依靠工资生活的人群，通货膨胀推高了食品与能源价格，而工资增长停滞。</p>
+<p>值得注意的是，这种分化不仅体现在收入上，更深植于机会的不平等。富裕家庭能够通过教育与房产等优势，让后代持续占据优质资源，这与《大富翁》中初始资金充裕的玩家更容易收购优质地块的情形，在逻辑上并无二致。</p>
+<h2 id="垄断的终极形态：规则制定权"><a href="#垄断的终极形态：规则制定权" class="headerlink" title="垄断的终极形态：规则制定权"></a>垄断的终极形态：规则制定权</h2><p>在游戏的语境里，最令玩家绝望的并非对手的地租，而是规则的倾斜。设想某些玩家无需掷骰子便可购买关键地块，甚至享受免税特权，那么这场游戏也就失去了意义。</p>
+<p>现实中，这种情形以「权力寻租」的形式反复出现：通过行政审批、特许经营等手段，部分资本集团得以低价获取稀缺资源，形成非竞争性的壁垒，而民间资本则被排除在外。历史学者指出，20世纪中期西方贫富差距的短暂缓和，并非市场自发调节的结果，而是战争破坏、高额遗产税与反垄断法等外力干预的产物。一旦这些外力消退，财富集中的趋势便迅速反弹。</p>
+<p>这也提醒我们，那些看似「自然」的市场结果，背后往往有制度设计的作用。玛吉当年被删去的「繁荣模式」，正是对这种制度设计的一种提示——只是这一提示在商业化的过程中被彻底抹除了。</p>
+<h1 id="如何评价这个类比"><a href="#如何评价这个类比" class="headerlink" title="如何评价这个类比"></a>如何评价这个类比</h1><p>任何类比都有它的边界，因此有必要在结论之前，对「用《大富翁》理解现实」这一思路做一番客观的评价。</p>
+<h2 id="贡献"><a href="#贡献" class="headerlink" title="贡献"></a>贡献</h2><p>这个类比最可取之处，在于它把几个抽象的机制变得可以直觉把握。</p>
+<ul>
+<li>它揭示了资产与现金之间的动态关系，以及「房地产为王」向「现金为王」的策略反转，这正是债务周期在微观层面的体现；</li>
+<li>它以极简的方式演示了信贷如何放大繁荣与崩溃，使「自我强化的上升与下降」不再是空洞的术语；</li>
+<li>它直观地展示了财富集中的内生性——赢家通吃并非偶然，而是规则运行到一定阶段的必然；</li>
+<li>它通过「繁荣模式被删去」这段历史，提醒我们制度设计并非中性，规则本身可以被修改，也可以被夺回。</li>
+</ul>
+<h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>但类比终究只是类比，它至少在以下几个方面失真。</p>
+<ul>
+<li>游戏中的财富总量近似恒定，一方的所得即另一方的所失；现实经济却可以通过技术进步与生产力提升创造新的价值，并非严格的零和博弈；</li>
+<li>游戏不存在真正的生产活动，租金是纯粹的转移支付；而现实中的资本回报有相当一部分对应着真实的投资与风险承担；</li>
+<li>游戏中所有玩家面对同一套规则且信息透明，现实中的信息不对称、制度差异与权力结构要复杂得多；</li>
+<li>游戏可以破产出局，现实经济中的「大而不倒」却使得失败者往往能够被救助，代价则被转嫁给社会；</li>
+<li>最关键的一点在于，游戏可以重开，现实却无法重置。</li>
+</ul>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>至此，我们大致可以回答开篇提出的问题了。</p>
+<p>《大富翁》之所以能够解释现实世界，并非因为它是现实的精确模型，而是因为它把现实经济中最本质的几组关系——资产与现金、租金与劳动、信贷与债务、垄断与竞争——以极度简化的方式呈现了出来。当这些关系被压缩到一个棋盘上时，那些在宏观尺度上难以察觉的机制便变得清晰可见：资本的自增强、债务的自我强化、财富向少数人的集中，以及规则被资本改写的全过程。</p>
+<p>但这个类比同时也告诉我们另一件事。玛吉在一百多年前就清楚地知道，同一套棋盘可以有两种玩法：一种是赢家通吃的垄断，一种是人人受益的繁荣。她把两种规则都写进了游戏，却眼看着其中一种被删去，另一种风靡全球。这个过程，与现实中合作共赢的制度安排被系统性边缘化的过程，几乎是同一个故事。</p>
+<p>游戏至少可以重开，现实却无法重置。当财富集中到极限时，社会流动性便会枯竭，穷人不得不为基本生存资源支付高昂的成本——医疗、教育等公共产品一旦过度商品化，低收入群体就会被排除在保障体系之外。这并非危言耸听，而是「繁荣模式」被删去之后，规则自行运转的结果。</p>
+<p>不过，理解规则本身，或许就是改变的起点。玛吉当年推广土地价值税的尝试在其有生之年并未成功，但她留下的那两套规则，至少让我们知道：赢家通吃并不是唯一可能的玩法。棋盘上的规则是人写的，现实世界的规则同样如此。看清这一点，我们才算真正读懂了这款游戏，也读懂了它所映照的那个世界。</p>
+
+      
+    </div>
+
+    
+
+    
+    
+    
+
+    
+
+    
+      <div>
+        <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+  <div></div>
+  <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+    <span>打赏</span>
+  </button>
+  <div id="QR" style="display: none;">
+
+    
+      <div id="wechat" style="display: inline-block">
+        <img id="wechat_qr" src="/images/rewards/wechatpay.jpg" alt="OnceBeta 微信支付"/>
+        <p>微信支付</p>
+      </div>
+    
+
+    
+      <div id="alipay" style="display: inline-block">
+        <img id="alipay_qr" src="/images/rewards/alipay.jpg" alt="OnceBeta 支付宝"/>
+        <p>支付宝</p>
+      </div>
+    
+
+    
+
+  </div>
+</div>
+
+      </div>
+    
+
+    
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/%E9%86%89%E4%BB%99%E9%98%81%E6%9D%82%E8%B0%88/" rel="tag"># 醉仙阁杂谈</a>
+          
+            <a href="/tags/Economics/" rel="tag"># Economics</a>
+          
+            <a href="/tags/%E6%B8%B8%E6%88%8F%E4%B8%8E%E7%8E%B0%E5%AE%9E/" rel="tag"># 游戏与现实</a>
+          
+        </div>
+      
+
+      
+      
+        <div class="post-widgets">
+        
+
+        
+
+        
+          
+          <div class="social_share">
+            
+            
+               <div id="needsharebutton-postbottom">
+                 <span class="btn">
+                    <i class="fa fa-share-alt" aria-hidden="true"></i>
+                 </span>
+               </div>
+            
+          </div>
+        
+        </div>
+      
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2026/11/17/2026-11-17--AGI-Economics/" rel="next" title="当增长由算力驱动——Pascual Restrepo的AGI经济学">
+                <i class="fa fa-chevron-left"></i> 当增长由算力驱动——Pascual Restrepo的AGI经济学
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+  </div>
+
+
+          </div>
+          
+
+  
+    <div class="comments" id="comments">
+    </div>
+  
+
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+            
+              <p class="site-author-name" itemprop="name">OnceBeta</p>
+              <p class="site-description motion-element" itemprop="description"></p>
+          </div>
+
+          
+            <nav class="site-state motion-element">
+              
+                <div class="site-state-item site-state-posts">
+                
+                  <a href="/archives/%20%7C%7C%20archive">
+                
+                    <span class="site-state-item-count">67</span>
+                    <span class="site-state-item-name">日志</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-categories">
+                  <a href="/categories/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">19</span>
+                    <span class="site-state-item-name">分类</span>
+                  </a>
+                </div>
+              
+
+              
+                
+                
+                <div class="site-state-item site-state-tags">
+                  <a href="/tags/index.html">
+                    
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                      
+                    
+                    <span class="site-state-item-count">55</span>
+                    <span class="site-state-item-name">标签</span>
+                  </a>
+                </div>
+              
+            </nav>
+          
+
+          
+            <div class="feed-link motion-element">
+              <a href="/atom.xml" rel="alternate">
+                <i class="fa fa-rss"></i>
+                RSS
+              </a>
+            </div>
+          
+
+          
+            <div class="links-of-author motion-element">
+              
+                <span class="links-of-author-item">
+                  <a href="https://github.com/oncebeta" target="_blank" title="GitHub"><i class="fa fa-fw fa-github"></i>GitHub</a>
+                  
+                </span>
+              
+                <span class="links-of-author-item">
+                  <a href="mailto:oncebeta@hotmail.com" target="_blank" title="E-Mail"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+                  
+                </span>
+              
+            </div>
+          
+
+          
+          
+
+          
+          
+
+          
+            
+          
+          
+
+        </div>
+      </section>
+
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%BC%95%E5%AD%90"><span class="nav-number">1.</span> <span class="nav-text">引子</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%8E%86%E5%8F%B2%E6%B2%BF%E9%9D%A9"><span class="nav-number">2.</span> <span class="nav-text">历史沿革</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%B8%B8%E6%88%8F%E8%A7%84%E5%88%99"><span class="nav-number">3.</span> <span class="nav-text">游戏规则</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E6%A3%8B%E7%9B%98%E4%B8%8A%E7%9A%84%E7%BB%8F%E6%B5%8E%E5%AD%A6"><span class="nav-number">4.</span> <span class="nav-text">棋盘上的经济学</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%B7%E5%80%BC%E5%BE%AA%E7%8E%AF%E4%B8%8E%E8%B5%84%E6%9C%AC%E7%9A%84%E8%87%AA%E5%A2%9E%E5%BC%BA"><span class="nav-number">4.1.</span> <span class="nav-text">价值循环与资本的自增强</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%80%BA%E5%8A%A1%E5%91%A8%E6%9C%9F%EF%BC%9A%E8%87%AA%E6%88%91%E5%BC%BA%E5%8C%96%E7%9A%84%E4%B8%8A%E5%8D%87%E4%B8%8E%E4%B8%8B%E9%99%8D"><span class="nav-number">4.2.</span> <span class="nav-text">债务周期：自我强化的上升与下降</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%94%A8%E6%A3%8B%E7%9B%98%E9%80%BB%E8%BE%91%E7%90%86%E8%A7%A3%E7%8E%B0%E5%AE%9E%EF%BC%9A%E4%B8%80%E5%BC%A0%E5%AF%B9%E7%85%A7%E8%A1%A8"><span class="nav-number">5.</span> <span class="nav-text">用棋盘逻辑理解现实：一张对照表</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B5%B7%E8%B7%91%E7%BA%BF%E4%B8%8E%E8%B5%84%E4%BA%A7%E7%9A%84%E5%A4%8D%E5%88%A9"><span class="nav-number">5.1.</span> <span class="nav-text">起跑线与资产的复利</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E4%BB%8E%E5%9C%9F%E5%9C%B0%E5%88%B0%E6%95%B0%E6%8D%AE%E7%9A%84%E6%A3%8B%E7%9B%98%E6%89%A9%E5%BC%A0"><span class="nav-number">5.2.</span> <span class="nav-text">从土地到数据的棋盘扩张</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E9%93%B6%E8%A1%8C%E5%85%A5%E5%9C%BA%E4%B9%8B%E5%90%8E%EF%BC%9A%E5%80%BA%E5%8A%A1%E5%91%A8%E6%9C%9F%E7%9A%84%E5%AE%8C%E6%95%B4%E6%BC%94%E7%BB%8E"><span class="nav-number">5.3.</span> <span class="nav-text">银行入场之后：债务周期的完整演绎</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%9E%84%E6%96%AD%E7%9A%84%E7%BB%88%E6%9E%81%E5%BD%A2%E6%80%81%EF%BC%9A%E8%A7%84%E5%88%99%E5%88%B6%E5%AE%9A%E6%9D%83"><span class="nav-number">5.4.</span> <span class="nav-text">垄断的终极形态：规则制定权</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E5%A6%82%E4%BD%95%E8%AF%84%E4%BB%B7%E8%BF%99%E4%B8%AA%E7%B1%BB%E6%AF%94"><span class="nav-number">6.</span> <span class="nav-text">如何评价这个类比</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E8%B4%A1%E7%8C%AE"><span class="nav-number">6.1.</span> <span class="nav-text">贡献</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%B1%80%E9%99%90"><span class="nav-number">6.2.</span> <span class="nav-text">局限</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#%E7%BB%93%E8%AE%BA"><span class="nav-number">7.</span> <span class="nav-text">结论</span></a></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
+      
+
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright"> &copy; 2017 – <span itemprop="copyrightYear">2026</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">OnceBeta</span>
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+    
+    <span title="站点总字数">187k</span>
+  
+
+  
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+    
+    <span title="站点阅读时长">2:50</span>
+  
+</div>
+
+
+
+
+  <div class="powered-by">由 <a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a> 强力驱动 v6.3.0</div>
+
+
+
+  <span class="post-meta-divider">|</span>
+
+
+
+  <div class="theme-info">主题 – <a class="theme-link" target="_blank" href="https://theme-next.org">NexT.Gemini</a> v6.5.0</div>
+
+
+
+  <div class="footer-custom">Hosted by <a target="_blank" rel="external nofollow" href="https://github.com"><b>Github Pages</b></a></div>
+
+
+        
+<div class="busuanzi-count">
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+  
+    <span class="site-uv" title="总访客量">
+      <i class="fa fa-user"></i>
+      <span>328</span><span class="busuanzi-value" id="busuanzi_value_site_uv" style="position: relative; top: 0px; left: -5px"></span>
+    </span>
+  
+
+  
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+      <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+        
+      </div>
+    
+
+    
+	
+    
+
+    
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    <script type="text/javascript" src="/lib/jquery/index.js?v=2.1.3"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  
+
+  
+  
+    <script type="text/javascript" src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+  
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=6.5.0"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=6.5.0"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=6.5.0"></script>
+
+
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=6.5.0"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=6.5.0"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=6.5.0"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  
+  
+  <script src="//unpkg.com/valine/dist/Valine.min.js"></script>
+  
+  <script type="text/javascript">
+    var GUEST = ['nick','mail','link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(function (item) {
+      return GUEST.indexOf(item)>-1;
+    });
+    new Valine({
+        el: '#comments' ,
+        verify: false,
+        notify: false,
+        appId: 'A0LxPIblZQraE1pE3wgja77R-gzGzoHsz',
+        appKey: 'FEfFb3db4snjoaypNLO03CBL',
+        placeholder: 'Just go go',
+        avatar:'mm',
+        meta:guest,
+        pageSize:'10' || 10,
+        visitor: false
+    });
+  </script>
+
+
+
+  
+
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    var isXml = true;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length === 0) {
+      search_path = "search.xml";
+    } else if (/json$/i.test(search_path)) {
+      isXml = false;
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    var onPopupClose = function (e) {
+      $('.popup').hide();
+      $('#local-search-input').val('');
+      $('.search-result-list').remove();
+      $('#no-result').remove();
+      $(".local-search-pop-overlay").remove();
+      $('body').css('overflow', '');
+    }
+
+    function proceedsearch() {
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay"></div>')
+        .css('overflow', 'hidden');
+      $('.search-popup-overlay').click(onPopupClose);
+      $('.popup').toggle();
+      var $localSearchInput = $('#local-search-input');
+      $localSearchInput.attr("autocapitalize", "none");
+      $localSearchInput.attr("autocorrect", "off");
+      $localSearchInput.focus();
+    }
+
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+      'use strict';
+
+      // start loading animation
+      $("body")
+        .append('<div class="search-popup-overlay local-search-pop-overlay">' +
+          '<div id="search-loading-icon">' +
+          '<i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>' +
+          '</div>' +
+          '</div>')
+        .css('overflow', 'hidden');
+      $("#search-loading-icon").css('margin', '20% auto 0 auto').css('text-align', 'center');
+
+      
+
+      $.ajax({
+        url: path,
+        dataType: isXml ? "xml" : "json",
+        async: true,
+        success: function(res) {
+          // get the contents from search data
+          isfetched = true;
+          $('.popup').detach().appendTo('.header-inner');
+          var datas = isXml ? $("entry", res).map(function() {
+            return {
+              title: $("title", this).text(),
+              content: $("content",this).text(),
+              url: $("url" , this).text()
+            };
+          }).get() : res;
+          var input = document.getElementById(search_id);
+          var resultContent = document.getElementById(content_id);
+          var inputEventFunction = function() {
+            var searchText = input.value.trim().toLowerCase();
+            var keywords = searchText.split(/[\s\-]+/);
+            if (keywords.length > 1) {
+              keywords.push(searchText);
+            }
+            var resultItems = [];
+            if (searchText.length > 0) {
+              // perform local searching
+              datas.forEach(function(data) {
+                var isMatch = false;
+                var hitCount = 0;
+                var searchTextCount = 0;
+                var title = data.title.trim();
+                var titleInLowerCase = title.toLowerCase();
+                var content = data.content.trim().replace(/<[^>]+>/g,"");
+                
+                var contentInLowerCase = content.toLowerCase();
+                var articleUrl = decodeURIComponent(data.url);
+                var indexOfTitle = [];
+                var indexOfContent = [];
+                // only match articles with not empty titles
+                if(title != '') {
+                  keywords.forEach(function(keyword) {
+                    function getIndexByWord(word, text, caseSensitive) {
+                      var wordLen = word.length;
+                      if (wordLen === 0) {
+                        return [];
+                      }
+                      var startPosition = 0, position = [], index = [];
+                      if (!caseSensitive) {
+                        text = text.toLowerCase();
+                        word = word.toLowerCase();
+                      }
+                      while ((position = text.indexOf(word, startPosition)) > -1) {
+                        index.push({position: position, word: word});
+                        startPosition = position + wordLen;
+                      }
+                      return index;
+                    }
+
+                    indexOfTitle = indexOfTitle.concat(getIndexByWord(keyword, titleInLowerCase, false));
+                    indexOfContent = indexOfContent.concat(getIndexByWord(keyword, contentInLowerCase, false));
+                  });
+                  if (indexOfTitle.length > 0 || indexOfContent.length > 0) {
+                    isMatch = true;
+                    hitCount = indexOfTitle.length + indexOfContent.length;
+                  }
+                }
+
+                // show search results
+
+                if (isMatch) {
+                  // sort index by position of keyword
+
+                  [indexOfTitle, indexOfContent].forEach(function (index) {
+                    index.sort(function (itemLeft, itemRight) {
+                      if (itemRight.position !== itemLeft.position) {
+                        return itemRight.position - itemLeft.position;
+                      } else {
+                        return itemLeft.word.length - itemRight.word.length;
+                      }
+                    });
+                  });
+
+                  // merge hits into slices
+
+                  function mergeIntoSlice(text, start, end, index) {
+                    var item = index[index.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    var hits = [];
+                    var searchTextCountInSlice = 0;
+                    while (position + word.length <= end && index.length != 0) {
+                      if (word === searchText) {
+                        searchTextCountInSlice++;
+                      }
+                      hits.push({position: position, length: word.length});
+                      var wordEnd = position + word.length;
+
+                      // move to next position of hit
+
+                      index.pop();
+                      while (index.length != 0) {
+                        item = index[index.length - 1];
+                        position = item.position;
+                        word = item.word;
+                        if (wordEnd > position) {
+                          index.pop();
+                        } else {
+                          break;
+                        }
+                      }
+                    }
+                    searchTextCount += searchTextCountInSlice;
+                    return {
+                      hits: hits,
+                      start: start,
+                      end: end,
+                      searchTextCount: searchTextCountInSlice
+                    };
+                  }
+
+                  var slicesOfTitle = [];
+                  if (indexOfTitle.length != 0) {
+                    slicesOfTitle.push(mergeIntoSlice(title, 0, title.length, indexOfTitle));
+                  }
+
+                  var slicesOfContent = [];
+                  while (indexOfContent.length != 0) {
+                    var item = indexOfContent[indexOfContent.length - 1];
+                    var position = item.position;
+                    var word = item.word;
+                    // cut out 100 characters
+                    var start = position - 20;
+                    var end = position + 80;
+                    if(start < 0){
+                      start = 0;
+                    }
+                    if (end < position + word.length) {
+                      end = position + word.length;
+                    }
+                    if(end > content.length){
+                      end = content.length;
+                    }
+                    slicesOfContent.push(mergeIntoSlice(content, start, end, indexOfContent));
+                  }
+
+                  // sort slices in content by search text's count and hits' count
+
+                  slicesOfContent.sort(function (sliceLeft, sliceRight) {
+                    if (sliceLeft.searchTextCount !== sliceRight.searchTextCount) {
+                      return sliceRight.searchTextCount - sliceLeft.searchTextCount;
+                    } else if (sliceLeft.hits.length !== sliceRight.hits.length) {
+                      return sliceRight.hits.length - sliceLeft.hits.length;
+                    } else {
+                      return sliceLeft.start - sliceRight.start;
+                    }
+                  });
+
+                  // select top N slices in content
+
+                  var upperBound = parseInt('1');
+                  if (upperBound >= 0) {
+                    slicesOfContent = slicesOfContent.slice(0, upperBound);
+                  }
+
+                  // highlight title and content
+
+                  function highlightKeyword(text, slice) {
+                    var result = '';
+                    var prevEnd = slice.start;
+                    slice.hits.forEach(function (hit) {
+                      result += text.substring(prevEnd, hit.position);
+                      var end = hit.position + hit.length;
+                      result += '<b class="search-keyword">' + text.substring(hit.position, end) + '</b>';
+                      prevEnd = end;
+                    });
+                    result += text.substring(prevEnd, slice.end);
+                    return result;
+                  }
+
+                  var resultItem = '';
+
+                  if (slicesOfTitle.length != 0) {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + highlightKeyword(title, slicesOfTitle[0]) + "</a>";
+                  } else {
+                    resultItem += "<li><a href='" + articleUrl + "' class='search-result-title'>" + title + "</a>";
+                  }
+
+                  slicesOfContent.forEach(function (slice) {
+                    resultItem += "<a href='" + articleUrl + "'>" +
+                      "<p class=\"search-result\">" + highlightKeyword(content, slice) +
+                      "...</p>" + "</a>";
+                  });
+
+                  resultItem += "</li>";
+                  resultItems.push({
+                    item: resultItem,
+                    searchTextCount: searchTextCount,
+                    hitCount: hitCount,
+                    id: resultItems.length
+                  });
+                }
+              })
+            };
+            if (keywords.length === 1 && keywords[0] === "") {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>'
+            } else if (resultItems.length === 0) {
+              resultContent.innerHTML = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>'
+            } else {
+              resultItems.sort(function (resultLeft, resultRight) {
+                if (resultLeft.searchTextCount !== resultRight.searchTextCount) {
+                  return resultRight.searchTextCount - resultLeft.searchTextCount;
+                } else if (resultLeft.hitCount !== resultRight.hitCount) {
+                  return resultRight.hitCount - resultLeft.hitCount;
+                } else {
+                  return resultRight.id - resultLeft.id;
+                }
+              });
+              var searchResultList = '<ul class=\"search-result-list\">';
+              resultItems.forEach(function (result) {
+                searchResultList += result.item;
+              })
+              searchResultList += "</ul>";
+              resultContent.innerHTML = searchResultList;
+            }
+          }
+
+          if ('auto' === 'auto') {
+            input.addEventListener('input', inputEventFunction);
+          } else {
+            $('.search-icon').click(inputEventFunction);
+            input.addEventListener('keypress', function (event) {
+              if (event.keyCode === 13) {
+                inputEventFunction();
+              }
+            });
+          }
+
+          // remove loading animation
+          $(".local-search-pop-overlay").remove();
+          $('body').css('overflow', '');
+
+          proceedsearch();
+        }
+      });
+    }
+
+    // handle and trigger popup window;
+    $('.popup-trigger').click(function(e) {
+      e.stopPropagation();
+      if (isfetched === false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+    });
+
+    $('.popup-btn-close').click(onPopupClose);
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+    $(document).on('keyup', function (event) {
+      var shouldDismissSearchPopup = event.which === 27 &&
+        $('.search-popup').is(':visible');
+      if (shouldDismissSearchPopup) {
+        onPopupClose();
+      }
+    });
+  </script>
+
+
+
+
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+    
+      <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {
+        inlineMath: [ ['$','$'], ["\\(","\\)"]  ],
+        processEscapes: true,
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code']
+      },
+      TeX: {equationNumbers: { autoNumber: "AMS" }}
+    });
+</script>
+
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Queue(function() {
+      var all = MathJax.Hub.getAllJax(), i;
+        for (i=0; i < all.length; i += 1) {
+          all[i].SourceElement().parentNode.className += ' has-jax';
+        }
+    });
+</script>
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
+    
+  
+
+
+  
+  
+  
+  <!-- <script src="/lib/needsharebutton/needsharebutton.js"></script> -->
+  <script src="//cdn.jsdelivr.net/gh/theme-next/theme-next-needmoreshare2@1/needsharebutton.min.js"></script>
+
+  <script>
+    
+      pbOptions = {};
+      
+          pbOptions.iconStyle = "default";
+      
+          pbOptions.boxForm = "horizontal";
+      
+          pbOptions.position = "topCenter";
+      
+          pbOptions.networks = "Weibo,Wechat,Douban,QQZone,Twitter,Facebook";
+      
+      new needShareButton('#needsharebutton-postbottom', pbOptions);
+    
+    
+  </script>
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</body>
+</html>

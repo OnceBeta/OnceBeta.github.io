@@ -1,67 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>英语语法歧义现象(一):牛津逗号(Oxford Comma)</title>
-    <url>/2017/07/16/2017-07-16--Oxford-Comma/</url>
-    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>牛津逗号是英语中逗号的一类特殊用法，通常情况下它是指在枚举事物时，出现在and或or等并列连词之前的逗号，如：</p>
-<blockquote>
-<p><em>The group consists of two engineers, Jack, and John.</em><br><em>这个小组由两位工程师、杰克和约翰组成。</em></p>
-</blockquote>
-<p>在上句中，出现在and之前的那个逗号便是牛津逗号，因牛津大学对其用途和必要性的规范化而得名，由于哈佛大学也曾对其有过类似的规定，故也可称其为「哈佛逗号」，当然这两个名称都并不是它真正的名字，在语言学中它的正式名称是「<strong>序列逗号(Serial Comma)</strong>」。任何事物都有其存在的理由，牛津逗号的存在也是合理的，下面就通过一些简单的小例子来介绍它的使用方式。<span id="more"></span></p>
-<h1 id="合理使用消除歧义"><a href="#合理使用消除歧义" class="headerlink" title="合理使用消除歧义"></a>合理使用消除歧义</h1><p>直接用文章开头举的例子进行分析吧：</p>
-<ol>
-<li>无牛津逗号：</li>
-</ol>
-<blockquote>
-<p><em>The group consists of two engineers, Jack and John.</em><br><em>这个小组由两位工程师：杰克和约翰组成。</em></p>
-</blockquote>
-<ol>
-<li>有牛津逗号：</li>
-</ol>
-<blockquote>
-<p><em>The group consists of two engineers, Jack, and John.</em><br><em>这个小组由两位工程师、杰克和约翰组成。</em></p>
-</blockquote>
-<p>两个句子几乎一模一样，仔细一看才发现是Jack和and John之间相差了一个「牛津逗号」，但两个句子的语义却截然不同，在没有添加牛津逗号的第一个句子中，由于并列连词and的优先级高于逗号，因此「Jack and John」就中二者的并列关系就应该在考虑逗号之前被优先考虑，这样「Jack and John」就成了「two engineers」的同位语，二者是修饰与被修饰的从属关系；而在添加牛津逗号的第一个句子中，由于「Jack」和并列连词and之间被牛津逗号隔开了，因此并不存在需要优先考虑的并列关系，这样句子就顺次枚举了「two engineers」「Jack」「John」，三者是彼此独立而以并列关系存在的。前句无牛津逗号，连词and前后的事物是应被作为一个整体考虑的；后句有牛津逗号，牛津逗号和连词and前后的事物是并列关系而彼此独立的。由此可以看到，添加或删去句子中的牛津逗号，是可以起到改变句意的作用的，这样也就达到了合理使用牛津逗号消除歧义的目的。</p>
-<h1 id="错误使用产生歧义"><a href="#错误使用产生歧义" class="headerlink" title="错误使用产生歧义"></a>错误使用产生歧义</h1><p>下面我们分析另外两句话：</p>
-<blockquote>
-<p><em>To my parents, Mary and John.</em><br><em>To my parents, Mary, and John.</em></p>
-</blockquote>
-<p>事实上，第一句话有两种理解：</p>
-<ol>
-<li><em>献给我的父母、玛丽以及约翰。</em>(共四人，玛丽和约翰不是我的父母)</li>
-<li><em>献给我的父母：玛丽和约翰。 </em>(共二人，玛丽和约翰是我的父母)</li>
-</ol>
-<p>而第二句话就只有(2)一种理解。</p>
-<p>而对于下面这一组：</p>
-<blockquote>
-<p><em>To my mother, Mary and John.</em><br><em>To my mother, Mary, and John.</em></p>
-</blockquote>
-<p>此时，第二句话就有两种理解：</p>
-<ol>
-<li><em>献给我的母亲、玛丽以及约翰。</em>(共三人，玛丽不是我的母亲)</li>
-<li><em>献给我的母亲(玛丽)以及约翰。</em>(共二人，玛丽是我的母亲)</li>
-</ol>
-<p>而对于第一句话，就只有第一种理解，因为并列连词and优先将其前后的事物结合为一个整体，而如果将这个整体(两个人)作为mother之后的插入语，就矛盾了一个人只有一个母亲的事实。在第一组句子中，前句因为缺少牛津逗号而导致歧义，后句中添加的牛津逗号则消除了歧义；而在第二组句子中则恰恰相反，多出的牛津逗号反而导致了歧义。</p>
-<h1 id="问题的出现与分析"><a href="#问题的出现与分析" class="headerlink" title="问题的出现与分析"></a>问题的出现与分析</h1><p>上面举例说明了英语中牛津逗号的作用及在其使用过程中可能出现的问题，那么我们不禁要思考，为什么会出现这样的问题？在这里就不得不谈及英文中逗号的主要用途了：<br><em><FONT face="Kaiti">各分句间表停顿、主句与从句间表停顿、两个或两个以上结构间表并列、句子独立成分前后表停顿。</FONT></em></p>
-<p>总而言之，英语中逗号的两个用途就是表示停顿和并列。而在中文，我们未曾听闻类似于英文中牛津逗号的尴尬用法。我们来看看，在正规中文中，表示并列这一用途被顿号和分号取而代之了，顿号表示句子内部两个词语的并列，分号表示复句内部两个分句的并列。因此，牛津逗号的尴尬处境，根本上来自于英语中逗号功能的多样性和混杂性，也正因如此，几乎逗号的任何用法都处于一种「低不成，高不就」的定位：逗号可以表示并列，但意味并不如专用的并列连词强烈；它可以连接插入语，但使用不当又会造成插入语和被修饰部分的概念不匹配。</p>
-<h1 id="趣闻"><a href="#趣闻" class="headerlink" title="趣闻"></a>趣闻</h1><p>值得一提的是，<em>Oxford Comma</em>一词在美国俚语中常被用来比喻鸡毛蒜皮或不值一提的小事，但历史上也确有因一个牛津逗号而引发的「大事」。如下面这篇短文：</p>
-<blockquote>
-<p><em>The canning, processing, preserving, freezing, drying, marketing, storing, <strong>packing for shipment or distribution</strong> of:<br>(1)Agricultural produce;<br>(2)Meat and fish products; and<br>(3)Perishable foods.</em></p>
-</blockquote>
-<p>这篇短文的内容事实上是是美国缅因州某奶制品公司关于司机加班费的规定，也是一起劳务纠纷案件的争端，它规定以上工作内容都是司机在职责范围内的本职工作，不能获得加班费。乍一看还没有发现什么问题，但我们看到第一句话中用加粗字体强调的部分文字，这起争端事件的起因就是细心的司机们发现「packing for shipment」(打包)与「distribution」(分拣)间缺少了一个牛津逗号，导致两项工作内容由公司认定的并列关系变为选择关系，也就是说，司机们如果把打包和分拣两项工作都完成了，他们就应该获得加班费，对此公司保留解释，而司机们则把公司告上了法庭，基于劳动法中保护劳动者的原则，在公司规定语焉不详的情况下，法官作出了有利于劳动者的判决，这起官司最终以司机胜诉告终。</p>
-<p>在英文正式文献中，类似的乌龙事件还有很多，上文所举的例子和种种事件都揭示了，牛津逗号在为书面英语使用者带来方便的同时，也会在不经意间带来许多麻烦，因此，对于是否需要添加牛津逗号，还需仔细分析and连接的内容是否可以作为插入语或与前面的内容是以何种关系存在。对此，结合上文第三版块的分析，给出一般性的分析方法：</p>
-<ol>
-<li>若并列连词and连接的部分作为插入语出现，那么在and前面要添加牛津逗号；</li>
-<li>若并列连词and连接的部分作为同位语修饰整个结构前的其他部分，那么在and前面不要添加牛津逗号。</li>
-</ol>
-<p>以上是对并列连词and前是否添加牛津逗号的简单分析，其他并列连词前的牛津逗号也可以类似进行分析，即<strong>作为插入语还是作为同位语</strong>。</p>
+    <title>在Hexo中使用LaTeX语法输入数学公式</title>
+    <url>/2017/10/03/2017-10-04--Use-MathJax-In-Hexo-Next/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>作为一款以简洁为宗旨的标记语言，HTML的扩展性并不强，其自身也不具有满足一些特殊需求的功能，要使用HTML渲染出漂亮的数学公式可以说并非轻而易举，因此大多数人使用截图上传的方式实现在网页上展示数学公式。<br>但前阵子浏览<a href="https://en.wikipedia.org">Wikipedia</a>，便偶然想到一个问题此多的数学公式，如果都使用截图上传的方式来展现，岂不是太费力气了。这显然是不现实的。<br>原来，对于在网页上展示数学公式这个问题，早已经有前辈开发了具有对应功能的插件来解决了，这便是MathJax。<span id="more"></span></p>
+<p>MathJax是一款用以支持在网页中插入数学公式的开源JavaScript插件。支持LaTeX、MathML等多种语言。它负责将网页上指定标签内用这些标记语言的语法输入的数学公式渲染成HTML和CSS代码，使这些漂亮的数学公式不需要复杂的代码便可以在网页中被渲染出来。<br>在此之前，我在书写博文时也采用传统的截图上传的方式来展示数学公式，这样的方式带来的几个问题便是操作量大、整齐性不佳、加载速度慢。因此在前不久重新开始打理博客时，便产生了使用MathJax的想法。于是着手进行了一番尝试。</p>
+<h1 id="在Hexo中启用MathJax"><a href="#在Hexo中启用MathJax" class="headerlink" title="在Hexo中启用MathJax"></a>在Hexo中启用MathJax</h1><p>Hexo原生兼容MathJax，且大多数主流主题如醉仙阁所采用的<a href="https://github.com/iissnan/hexo-theme-next">Next</a>都内置了MathJax，此处即以其为例，在Next中启用MathJax只需要一步。在<code>主题目录</code>下找到<code>_config.yml</code>。用文本编辑器找到如下部分：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: false</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure><br>将第二行修改为<code>enable: true</code>即可。</p>
+<p>如此以来就在Next主题中启用了MathJax支持，但事实上还存在着不少问题：</p>
+<ul>
+<li>部分数学公式直接显示为代码的形式</li>
+<li>部分数学公式的下标、角标等显示异常</li>
+<li>希腊字母字体显示异常</li>
+</ul>
+<h1 id="更换渲染引擎"><a href="#更换渲染引擎" class="headerlink" title="更换渲染引擎"></a>更换渲染引擎</h1><p>Hexo默认使用<code>hexo-renderer-marked</code>引擎进行网页渲染，其中对许多字符诸如划线、下划线、中括号等定义了转义。因此，在进行网页渲染时，数学公式中的这些字符先通过<code>hexo-renderer-marked</code>进行转义，就发生了歧义，而再通过MathJax渲染出来的数学公式，自然就显示不正常了。<br>在知道了原因以后，问题也就迎刃而解了，解决方法就是更换Hexo默认的<code>hexo-renderer-marked</code>渲染引擎。<code>hexo-renderer-kramed</code>就是一个不错的选择，它在<code>hexo-renderer-marked</code>的基础上修复了一些Bug，其中就包括取消大部分多余的转义。<br>安装<code>hexo-renderer-kramed</code>非常简单，只需在Hexo根目录下执行以下命令：<br><figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><br>这样就完成了<code>hexo-renderer-kramed</code>的安装，但还有一个容易被忽略的问题是，安装<code>hexo-renderer-kramed</code>的同时并不会自动对<code>hexo-renderer-marked</code>进行停用，数学公式仍要经过<code>hexo-renderer-marked</code>的转义，这样显然没有完全解决问题，故我们还需手动对<code>hexo-renderer-marked</code>进行停用。<br>在Hexo的<code>根目录</code>下找到<code>package.json</code>文件，用文本编辑器打开它，删除字符串<code>hexo-renderer-marked</code>所在的一行并保存。之所以不直接卸载<code>hexo-renderer-marked</code>，是因为其他重要包极有可能在卸载该包的同时被删除。</p>
+<h1 id="修复行内公式的转义字符"><a href="#修复行内公式的转义字符" class="headerlink" title="修复行内公式的转义字符"></a>修复行内公式的转义字符</h1><p>在做完工作上面的工作后，行间公式就可以被正确渲染了，但行内公式却还存在着部分问题，这是因为对行间定义的转义字符和对行内定义的转义字符并不相同，还有部分已定义的行间转义字符会与数学公式中可能用到的字符发生冲突，用到这些字符的数学公式在渲染前仍被进行了转义。<br>修复这一问题的方法是，在根目录下依次打开<code>node_modules\kramed\lib\rules</code>，并找到<code>inline.js</code>文件。<br>用文本编辑器编辑文件的第11行和第20行：<br><figure class="highlight plaintext"><figcaption><span>js inline.js</span></figcaption><table><tr><td class="code"><pre><span class="line">line 11,</span><br><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">-&gt;  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br><span class="line"></span><br><span class="line">line 20,</span><br><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">-&gt;  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure><br>保存文件。如此一来，所有对数学公式中字符的不合理转义就都被取消了，数学公式的渲染和显示也就正常了。</p>
+<h1 id="确保所有公式都被渲染"><a href="#确保所有公式都被渲染" class="headerlink" title="确保所有公式都被渲染"></a>确保所有公式都被渲染</h1><p>在条件支持的情况下，MathJax会对页面上的所有位置的标签内都进行渲染；但在条件不允许时，MathJax对数学公式的渲染可能止于页面上的某个位置，其后的数学公式都将不被渲染而直接显示为代码的形式。<br>这时，就需要在文章的开头font-matter中手动打开MathJax的开关，如下图：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure><br>如上，在使用了数学公式的页面上增加一行<code>mathjax: true</code>，这样就能确保页面上所有数学公式都被正确渲染了。</p>
+<hr>
+<p>参考资料：</p>
+<ul>
+<li><a href="http://theme-next.iissnan.com/third-party-services.html">http://theme-next.iissnan.com/third-party-services.html</a></li>
+<li><a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
+<li><a href="http://www.jianshu.com/p/7ab21c7f0674">http://www.jianshu.com/p/7ab21c7f0674</a></li>
+<li><a href="http://www.jianshu.com/p/6c1196f12302">http://www.jianshu.com/p/6c1196f12302</a></li>
+</ul>
 ]]></content>
       <categories>
-        <category>English</category>
+        <category>Computer Skill</category>
       </categories>
       <tags>
-        <tag>English</tag>
-        <tag>Grammar</tag>
+        <tag>Javascript</tag>
+        <tag>Node.js</tag>
+        <tag>醉仙阁杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -143,36 +112,67 @@
       </tags>
   </entry>
   <entry>
-    <title>在Hexo中使用LaTeX语法输入数学公式</title>
-    <url>/2017/10/03/2017-10-04--Use-MathJax-In-Hexo-Next/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>作为一款以简洁为宗旨的标记语言，HTML的扩展性并不强，其自身也不具有满足一些特殊需求的功能，要使用HTML渲染出漂亮的数学公式可以说并非轻而易举，因此大多数人使用截图上传的方式实现在网页上展示数学公式。<br>但前阵子浏览<a href="https://en.wikipedia.org">Wikipedia</a>，便偶然想到一个问题此多的数学公式，如果都使用截图上传的方式来展现，岂不是太费力气了。这显然是不现实的。<br>原来，对于在网页上展示数学公式这个问题，早已经有前辈开发了具有对应功能的插件来解决了，这便是MathJax。<span id="more"></span></p>
-<p>MathJax是一款用以支持在网页中插入数学公式的开源JavaScript插件。支持LaTeX、MathML等多种语言。它负责将网页上指定标签内用这些标记语言的语法输入的数学公式渲染成HTML和CSS代码，使这些漂亮的数学公式不需要复杂的代码便可以在网页中被渲染出来。<br>在此之前，我在书写博文时也采用传统的截图上传的方式来展示数学公式，这样的方式带来的几个问题便是操作量大、整齐性不佳、加载速度慢。因此在前不久重新开始打理博客时，便产生了使用MathJax的想法。于是着手进行了一番尝试。</p>
-<h1 id="在Hexo中启用MathJax"><a href="#在Hexo中启用MathJax" class="headerlink" title="在Hexo中启用MathJax"></a>在Hexo中启用MathJax</h1><p>Hexo原生兼容MathJax，且大多数主流主题如醉仙阁所采用的<a href="https://github.com/iissnan/hexo-theme-next">Next</a>都内置了MathJax，此处即以其为例，在Next中启用MathJax只需要一步。在<code>主题目录</code>下找到<code>_config.yml</code>。用文本编辑器找到如下部分：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line"># MathJax Support</span><br><span class="line">mathjax:</span><br><span class="line">  enable: false</span><br><span class="line">  per_page: true</span><br><span class="line">  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML</span><br></pre></td></tr></table></figure><br>将第二行修改为<code>enable: true</code>即可。</p>
-<p>如此以来就在Next主题中启用了MathJax支持，但事实上还存在着不少问题：</p>
-<ul>
-<li>部分数学公式直接显示为代码的形式</li>
-<li>部分数学公式的下标、角标等显示异常</li>
-<li>希腊字母字体显示异常</li>
-</ul>
-<h1 id="更换渲染引擎"><a href="#更换渲染引擎" class="headerlink" title="更换渲染引擎"></a>更换渲染引擎</h1><p>Hexo默认使用<code>hexo-renderer-marked</code>引擎进行网页渲染，其中对许多字符诸如划线、下划线、中括号等定义了转义。因此，在进行网页渲染时，数学公式中的这些字符先通过<code>hexo-renderer-marked</code>进行转义，就发生了歧义，而再通过MathJax渲染出来的数学公式，自然就显示不正常了。<br>在知道了原因以后，问题也就迎刃而解了，解决方法就是更换Hexo默认的<code>hexo-renderer-marked</code>渲染引擎。<code>hexo-renderer-kramed</code>就是一个不错的选择，它在<code>hexo-renderer-marked</code>的基础上修复了一些Bug，其中就包括取消大部分多余的转义。<br>安装<code>hexo-renderer-kramed</code>非常简单，只需在Hexo根目录下执行以下命令：<br><figure class="highlight plaintext"><figcaption><span>git</span></figcaption><table><tr><td class="code"><pre><span class="line">npm install hexo-renderer-kramed --save</span><br></pre></td></tr></table></figure><br>这样就完成了<code>hexo-renderer-kramed</code>的安装，但还有一个容易被忽略的问题是，安装<code>hexo-renderer-kramed</code>的同时并不会自动对<code>hexo-renderer-marked</code>进行停用，数学公式仍要经过<code>hexo-renderer-marked</code>的转义，这样显然没有完全解决问题，故我们还需手动对<code>hexo-renderer-marked</code>进行停用。<br>在Hexo的<code>根目录</code>下找到<code>package.json</code>文件，用文本编辑器打开它，删除字符串<code>hexo-renderer-marked</code>所在的一行并保存。之所以不直接卸载<code>hexo-renderer-marked</code>，是因为其他重要包极有可能在卸载该包的同时被删除。</p>
-<h1 id="修复行内公式的转义字符"><a href="#修复行内公式的转义字符" class="headerlink" title="修复行内公式的转义字符"></a>修复行内公式的转义字符</h1><p>在做完工作上面的工作后，行间公式就可以被正确渲染了，但行内公式却还存在着部分问题，这是因为对行间定义的转义字符和对行内定义的转义字符并不相同，还有部分已定义的行间转义字符会与数学公式中可能用到的字符发生冲突，用到这些字符的数学公式在渲染前仍被进行了转义。<br>修复这一问题的方法是，在根目录下依次打开<code>node_modules\kramed\lib\rules</code>，并找到<code>inline.js</code>文件。<br>用文本编辑器编辑文件的第11行和第20行：<br><figure class="highlight plaintext"><figcaption><span>js inline.js</span></figcaption><table><tr><td class="code"><pre><span class="line">line 11,</span><br><span class="line">//  escape: /^\\([\\`*&#123;&#125;\[\]()#$+\-.!_&gt;])/,</span><br><span class="line">-&gt;  escape: /^\\([`*\[\]()#$+\-.!_&gt;])/</span><br><span class="line"></span><br><span class="line">line 20,</span><br><span class="line">//  em: /^\b_((?:__|[\s\S])+?)_\b|^\*((?:\*\*|[\s\S])+?)\*(?!\*)/,</span><br><span class="line">-&gt;  em: /^\*((?:\*\*|[\s\S])+?)\*(?!\*)/</span><br></pre></td></tr></table></figure><br>保存文件。如此一来，所有对数学公式中字符的不合理转义就都被取消了，数学公式的渲染和显示也就正常了。</p>
-<h1 id="确保所有公式都被渲染"><a href="#确保所有公式都被渲染" class="headerlink" title="确保所有公式都被渲染"></a>确保所有公式都被渲染</h1><p>在条件支持的情况下，MathJax会对页面上的所有位置的标签内都进行渲染；但在条件不允许时，MathJax对数学公式的渲染可能止于页面上的某个位置，其后的数学公式都将不被渲染而直接显示为代码的形式。<br>这时，就需要在文章的开头font-matter中手动打开MathJax的开关，如下图：<br><figure class="highlight plaintext"><figcaption><span>plain _config.yml</span></figcaption><table><tr><td class="code"><pre><span class="line">---</span><br><span class="line">title: index.html</span><br><span class="line">date: 2016-12-28 21:01:30</span><br><span class="line">tags:</span><br><span class="line">mathjax: true</span><br><span class="line">---</span><br></pre></td></tr></table></figure><br>如上，在使用了数学公式的页面上增加一行<code>mathjax: true</code>，这样就能确保页面上所有数学公式都被正确渲染了。</p>
-<hr>
-<p>参考资料：</p>
-<ul>
-<li><a href="http://theme-next.iissnan.com/third-party-services.html">http://theme-next.iissnan.com/third-party-services.html</a></li>
-<li><a href="https://www.mathjax.org/">https://www.mathjax.org/</a></li>
-<li><a href="http://www.jianshu.com/p/7ab21c7f0674">http://www.jianshu.com/p/7ab21c7f0674</a></li>
-<li><a href="http://www.jianshu.com/p/6c1196f12302">http://www.jianshu.com/p/6c1196f12302</a></li>
-</ul>
+    <title>英语语法歧义现象(一):牛津逗号(Oxford Comma)</title>
+    <url>/2017/07/16/2017-07-16--Oxford-Comma/</url>
+    <content><![CDATA[<h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><p>牛津逗号是英语中逗号的一类特殊用法，通常情况下它是指在枚举事物时，出现在and或or等并列连词之前的逗号，如：</p>
+<blockquote>
+<p><em>The group consists of two engineers, Jack, and John.</em><br><em>这个小组由两位工程师、杰克和约翰组成。</em></p>
+</blockquote>
+<p>在上句中，出现在and之前的那个逗号便是牛津逗号，因牛津大学对其用途和必要性的规范化而得名，由于哈佛大学也曾对其有过类似的规定，故也可称其为「哈佛逗号」，当然这两个名称都并不是它真正的名字，在语言学中它的正式名称是「<strong>序列逗号(Serial Comma)</strong>」。任何事物都有其存在的理由，牛津逗号的存在也是合理的，下面就通过一些简单的小例子来介绍它的使用方式。<span id="more"></span></p>
+<h1 id="合理使用消除歧义"><a href="#合理使用消除歧义" class="headerlink" title="合理使用消除歧义"></a>合理使用消除歧义</h1><p>直接用文章开头举的例子进行分析吧：</p>
+<ol>
+<li>无牛津逗号：</li>
+</ol>
+<blockquote>
+<p><em>The group consists of two engineers, Jack and John.</em><br><em>这个小组由两位工程师：杰克和约翰组成。</em></p>
+</blockquote>
+<ol>
+<li>有牛津逗号：</li>
+</ol>
+<blockquote>
+<p><em>The group consists of two engineers, Jack, and John.</em><br><em>这个小组由两位工程师、杰克和约翰组成。</em></p>
+</blockquote>
+<p>两个句子几乎一模一样，仔细一看才发现是Jack和and John之间相差了一个「牛津逗号」，但两个句子的语义却截然不同，在没有添加牛津逗号的第一个句子中，由于并列连词and的优先级高于逗号，因此「Jack and John」就中二者的并列关系就应该在考虑逗号之前被优先考虑，这样「Jack and John」就成了「two engineers」的同位语，二者是修饰与被修饰的从属关系；而在添加牛津逗号的第一个句子中，由于「Jack」和并列连词and之间被牛津逗号隔开了，因此并不存在需要优先考虑的并列关系，这样句子就顺次枚举了「two engineers」「Jack」「John」，三者是彼此独立而以并列关系存在的。前句无牛津逗号，连词and前后的事物是应被作为一个整体考虑的；后句有牛津逗号，牛津逗号和连词and前后的事物是并列关系而彼此独立的。由此可以看到，添加或删去句子中的牛津逗号，是可以起到改变句意的作用的，这样也就达到了合理使用牛津逗号消除歧义的目的。</p>
+<h1 id="错误使用产生歧义"><a href="#错误使用产生歧义" class="headerlink" title="错误使用产生歧义"></a>错误使用产生歧义</h1><p>下面我们分析另外两句话：</p>
+<blockquote>
+<p><em>To my parents, Mary and John.</em><br><em>To my parents, Mary, and John.</em></p>
+</blockquote>
+<p>事实上，第一句话有两种理解：</p>
+<ol>
+<li><em>献给我的父母、玛丽以及约翰。</em>(共四人，玛丽和约翰不是我的父母)</li>
+<li><em>献给我的父母：玛丽和约翰。 </em>(共二人，玛丽和约翰是我的父母)</li>
+</ol>
+<p>而第二句话就只有(2)一种理解。</p>
+<p>而对于下面这一组：</p>
+<blockquote>
+<p><em>To my mother, Mary and John.</em><br><em>To my mother, Mary, and John.</em></p>
+</blockquote>
+<p>此时，第二句话就有两种理解：</p>
+<ol>
+<li><em>献给我的母亲、玛丽以及约翰。</em>(共三人，玛丽不是我的母亲)</li>
+<li><em>献给我的母亲(玛丽)以及约翰。</em>(共二人，玛丽是我的母亲)</li>
+</ol>
+<p>而对于第一句话，就只有第一种理解，因为并列连词and优先将其前后的事物结合为一个整体，而如果将这个整体(两个人)作为mother之后的插入语，就矛盾了一个人只有一个母亲的事实。在第一组句子中，前句因为缺少牛津逗号而导致歧义，后句中添加的牛津逗号则消除了歧义；而在第二组句子中则恰恰相反，多出的牛津逗号反而导致了歧义。</p>
+<h1 id="问题的出现与分析"><a href="#问题的出现与分析" class="headerlink" title="问题的出现与分析"></a>问题的出现与分析</h1><p>上面举例说明了英语中牛津逗号的作用及在其使用过程中可能出现的问题，那么我们不禁要思考，为什么会出现这样的问题？在这里就不得不谈及英文中逗号的主要用途了：<br><em><FONT face="Kaiti">各分句间表停顿、主句与从句间表停顿、两个或两个以上结构间表并列、句子独立成分前后表停顿。</FONT></em></p>
+<p>总而言之，英语中逗号的两个用途就是表示停顿和并列。而在中文，我们未曾听闻类似于英文中牛津逗号的尴尬用法。我们来看看，在正规中文中，表示并列这一用途被顿号和分号取而代之了，顿号表示句子内部两个词语的并列，分号表示复句内部两个分句的并列。因此，牛津逗号的尴尬处境，根本上来自于英语中逗号功能的多样性和混杂性，也正因如此，几乎逗号的任何用法都处于一种「低不成，高不就」的定位：逗号可以表示并列，但意味并不如专用的并列连词强烈；它可以连接插入语，但使用不当又会造成插入语和被修饰部分的概念不匹配。</p>
+<h1 id="趣闻"><a href="#趣闻" class="headerlink" title="趣闻"></a>趣闻</h1><p>值得一提的是，<em>Oxford Comma</em>一词在美国俚语中常被用来比喻鸡毛蒜皮或不值一提的小事，但历史上也确有因一个牛津逗号而引发的「大事」。如下面这篇短文：</p>
+<blockquote>
+<p><em>The canning, processing, preserving, freezing, drying, marketing, storing, <strong>packing for shipment or distribution</strong> of:<br>(1)Agricultural produce;<br>(2)Meat and fish products; and<br>(3)Perishable foods.</em></p>
+</blockquote>
+<p>这篇短文的内容事实上是是美国缅因州某奶制品公司关于司机加班费的规定，也是一起劳务纠纷案件的争端，它规定以上工作内容都是司机在职责范围内的本职工作，不能获得加班费。乍一看还没有发现什么问题，但我们看到第一句话中用加粗字体强调的部分文字，这起争端事件的起因就是细心的司机们发现「packing for shipment」(打包)与「distribution」(分拣)间缺少了一个牛津逗号，导致两项工作内容由公司认定的并列关系变为选择关系，也就是说，司机们如果把打包和分拣两项工作都完成了，他们就应该获得加班费，对此公司保留解释，而司机们则把公司告上了法庭，基于劳动法中保护劳动者的原则，在公司规定语焉不详的情况下，法官作出了有利于劳动者的判决，这起官司最终以司机胜诉告终。</p>
+<p>在英文正式文献中，类似的乌龙事件还有很多，上文所举的例子和种种事件都揭示了，牛津逗号在为书面英语使用者带来方便的同时，也会在不经意间带来许多麻烦，因此，对于是否需要添加牛津逗号，还需仔细分析and连接的内容是否可以作为插入语或与前面的内容是以何种关系存在。对此，结合上文第三版块的分析，给出一般性的分析方法：</p>
+<ol>
+<li>若并列连词and连接的部分作为插入语出现，那么在and前面要添加牛津逗号；</li>
+<li>若并列连词and连接的部分作为同位语修饰整个结构前的其他部分，那么在and前面不要添加牛津逗号。</li>
+</ol>
+<p>以上是对并列连词and前是否添加牛津逗号的简单分析，其他并列连词前的牛津逗号也可以类似进行分析，即<strong>作为插入语还是作为同位语</strong>。</p>
 ]]></content>
       <categories>
-        <category>Computer Skill</category>
+        <category>English</category>
       </categories>
       <tags>
-        <tag>Javascript</tag>
-        <tag>Node.js</tag>
-        <tag>醉仙阁杂谈</tag>
+        <tag>English</tag>
+        <tag>Grammar</tag>
       </tags>
   </entry>
   <entry>
@@ -202,9 +202,79 @@
         <category>中文</category>
       </categories>
       <tags>
-        <tag>Grammar</tag>
         <tag>醉仙阁杂谈</tag>
+        <tag>Grammar</tag>
         <tag>中文语法词义混淆现象</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>英语语法歧义现象(二)：悬垂(Dangling)与误置(Misplaced)</title>
+    <url>/2017/10/30/2017-10-30--Dangling-Modifier/</url>
+    <content><![CDATA[<h1 id="独立主格"><a href="#独立主格" class="headerlink" title="独立主格"></a>独立主格</h1><p>在讲到这两种歧义现象之前，有必要先介绍一下独立主格，因为这两种歧义现象都源于独立主格。<br>独立主格是英语语法中一种常见的独立结构，在一个句子中的功能类似于一个从句。</p>
+<p>例：<br>    &emsp;&emsp;<em>The meeting over, we all went home.</em><br>    &emsp;&emsp;<em>会议结束后，我们都回家了。</em><br>    &emsp;&emsp;<em>There being no salt, we had to go to buy some.</em><br>    &emsp;&emsp;<em>由于没有盐了，我们只好去买一些。</em><br>    &emsp;&emsp;<em>There being no taxis, we had to walk.</em><br>    &emsp;&emsp;<em>All man came in time, John being the first.</em><br>    &emsp;&emsp;<em>所有人都按时到了，而约翰则是第一个。</em><br>    &emsp;&emsp;<em>Dad and mom dressed formally, one to attend the party, one to go to work.</em><br>    &emsp;&emsp;<em>父亲和母亲都换上了正装，一个去赴宴，一个去工作。</em><br>    &emsp;&emsp;<em>Threet representatives moderate the meeting， the youngest John Smith in age of 24.</em><br>    &emsp;&emsp;<em>主持会议的三位代表，最年轻的是24岁的约翰·史密斯。</em><span id="more"></span></p>
+<p>独立主格有别于从句的特点正是没有连接词、没有完整的主谓结构。从以上列举的一些例句可以看出，独立主格大致上是由名词或代词充当的逻辑主语和动词的分词形式充当的谓语动词构成的，逻辑主语和动词分词构成形式的主谓关系。<br>事实上，独立主格也有“时态”的相关定义，而且是相似的，只不过没有严格意义上的谓语动词，常见的独立主格的时态有四种，分别由进行时doing、过去时done、完成时having done、完成进行时having been doing和它们的不定式构成，且都有对应的被动语态。独立主格不能使用情态动词因而没有虚拟语气。<br>独立主格“时态”的选择也是由逻辑主语与动作的关系决定的。<br>还有一些习惯上的规律可循，如前置的独立主格一般表示原因、条件或结果，相当于对应功能的状语从句；而后置的独立主格一般表示补充说明伴随状况，相当于并列句或伴随状语从句；还有一种是以插入语的形式出现的，相当于方式状语从句。</p>
+<h2 id="逻辑介词引导的独立主格"><a href="#逻辑介词引导的独立主格" class="headerlink" title="逻辑介词引导的独立主格"></a>逻辑介词引导的独立主格</h2><p>当单独的独立主格不能表达独立主格和主句的某种逻辑关系或表达逻辑关系不够强烈时，就需要用逻辑介词引导独立主格。常用来引导独立主格的逻辑介词有with和without等。</p>
+<p>例：<br>    &emsp;&emsp;<em>The original manuscript has been hidden, without anyone knowing where it was.</em><br>    &emsp;&emsp;<em>原稿被藏起来了，没有人知道它在哪里。</em><br>    &emsp;&emsp;<em>He picked up the papers scattered on the ground, without a word more spoken.</em><br>    &emsp;&emsp;<em>他捡起散落在地上的文件，没有多说一句话。</em><br>    &emsp;&emsp;<em>The manager was so excited with many staffs to join the team.</em><br>    &emsp;&emsp;<em>有这么多的应聘者将要加入项目组，经理很高兴。</em><br>    &emsp;&emsp;<em>He stood before the door, with a computer in his hand. = He stood before the door, computer in hand.</em><br>    &emsp;&emsp;<em>他伫立在门前，手里拿着一部电脑。</em><br>    &emsp;&emsp;<em>With his son so sympathetic, the woman felt gratified.</em><br>    &emsp;&emsp;<em>女人为她的儿子如此有同情心而感到欣慰。</em></p>
+<h2 id="独立主格中的省略"><a href="#独立主格中的省略" class="headerlink" title="独立主格中的省略"></a>独立主格中的省略</h2><p>独立主格本身作为一个用以代替状语从句和并列句的结构，简略是其一大特点。因而在独立主格中，一些删去后不影响句子意思的词常被省略。</p>
+<h3 id="逻辑介词的省略与be的省略"><a href="#逻辑介词的省略与be的省略" class="headerlink" title="逻辑介词的省略与be的省略"></a>逻辑介词的省略与be的省略</h3><p>上文提到的with，在独立主格前置作状语时，就常常被省略，甚至在一些情况下(如逻辑主语是形式主语时)句首不能出现with。<br>be在独立主格中一般也会被省略，甚至包括be后的一些特殊的介词结构中的介词，变为“逻辑主语+形容词/副词”或“逻辑主语+宾语/介词宾语”的结构。</p>
+<p>例：<br>    &emsp;&emsp;<em>(<del>with</del>) There being no further business to discuss, we all went home.</em><br>    &emsp;&emsp;<em>没有别的事可讨论，我们都回家了。</em><br>    &emsp;&emsp;<em>With his son (been) so disappointing, the old man felt unhappy.</em><br>    &emsp;&emsp;<em>儿子如此令人失望，老人感到很伤心。</em><br>    &emsp;&emsp;<em>His first shot (been) (in) a failure, he fired again.</em><br>    &emsp;&emsp;<em>他的第一枪未命中，又打了一枪。</em></p>
+<p>但需要注意的是，与with类似的without不能省略，因为删去后句意将改变。</p>
+<p>关于独立主格中的省略，还有一些特殊规定，如独立主格中有结构介词in时，省略in前的be，前后的名词或代词均使用单数且不带任何成分，例：<br>    &emsp;&emsp;<em>The manager is standing in front of Amy, seriousness in face.</em><br>    &emsp;&emsp;<em>经理一脸严肃地站在艾米面前，</em><br>    &emsp;&emsp;<em>The sniper stood behind a wall without any movement, rifle in hand.</em><br>    &emsp;&emsp;<em>狙击手一动不动地站在一面墙后，手里拿着来福枪。</em></p>
+<h3 id="不完整的独立主格"><a href="#不完整的独立主格" class="headerlink" title="不完整的独立主格"></a>不完整的独立主格</h3><p>独立主格的省略还有一类特殊情况，它们是一种更像副词或介词的独立结构，通常是约定俗成的习惯用法。</p>
+<p>例：<br>    &emsp;&emsp;<em>generally speaking: 总的说来</em><br>    &emsp;&emsp;<em>frankly speaking: 坦白地说</em><br>    &emsp;&emsp;<em>judging from: 据…判断</em><br>    &emsp;&emsp;<em>according to: 据…说</em><br>    &emsp;&emsp;<em>considering (that): 考虑到…</em></p>
+<p>还有一类以不定式为特征的独立主格，它们常用作插入语。</p>
+<p>例：<br>    &emsp;&emsp;<em>to be honest: 实话实说</em><br>    &emsp;&emsp;<em>to be sure: 诚然</em><br>    &emsp;&emsp;<em>to tell the truth: 讲真的</em><br>    &emsp;&emsp;<em>to cut a long story short: 长话短说；简而言之</em></p>
+<h2 id="特殊情况"><a href="#特殊情况" class="headerlink" title="特殊情况"></a>特殊情况</h2><h3 id="独立主格作定语"><a href="#独立主格作定语" class="headerlink" title="独立主格作定语"></a>独立主格作定语</h3><p>独立主格在句中一般是作状语的，但这是一种由口语进入书面语的表达方式，也便有了一些例外情况，如作为以定语，但限于表达习惯，这种情况是极其少见的。</p>
+<p>例：<br>    &emsp;&emsp;<em>He is the person with a lot of debts to be repaid. = He is the person who has a lot of debts to be repaid.</em><br>    &emsp;&emsp;<em>他就是那个债务繁多的人。</em><br>    &emsp;&emsp;<em>The boy sitting here with nothing to do is Jim.</em><br>    &emsp;&emsp;<em>那个坐着无所事事的男孩就是吉姆。</em></p>
+<h1 id="悬垂-Dangling"><a href="#悬垂-Dangling" class="headerlink" title="悬垂(Dangling)"></a>悬垂(Dangling)</h1><p>悬垂是英语口语中的一种常见现象，本质上是一种由独立主格的主语省略带来的一种与独立结构对应的被修饰成分不明而产生的歧义现象。在不发生歧义的前提下，适当的悬垂能使表达更加简略，但在一些情况下则可能导致误会。</p>
+<h2 id="悬垂修饰语-Dangling-Modifier"><a href="#悬垂修饰语-Dangling-Modifier" class="headerlink" title="悬垂修饰语(Dangling Modifier)"></a>悬垂修饰语(Dangling Modifier)</h2><p>从这一名词的字面意思便可看出，悬垂修饰语是指悬垂的对主句起修饰作用的独立结构，但通常不包括分词短语。</p>
+<p>例：<br>    &emsp;&emsp;<em>At the age of eight, my family finally bought a dog.</em><br>    &emsp;&emsp;<em>在我八岁时，我家终于买了狗。</em><br>    &emsp;&emsp;<em>(分析：At the age of eight悬垂，它不依附于主句的主语my family finally，而正确的被修饰成分应该是说话者本人，但在句中并未出现)</em></p>
+<h2 id="悬垂分词-Dangling-Participle"><a href="#悬垂分词-Dangling-Participle" class="headerlink" title="悬垂分词(Dangling Participle)"></a>悬垂分词(Dangling Participle)</h2><p>悬垂分词与悬垂修饰语是类似的，只不过这种情况下作为独立结构的是分词短语。分词短语一般放在句首或句末，当被省略的逻辑主语与主句主语不一致或主句缺失时，分词短语就发生悬垂，这种情况就称为悬垂分词。</p>
+<p>例：<br>    &emsp;&emsp;<em>Walking down Main Street, the trees were beautiful.</em><br>    &emsp;&emsp;<em>走在大街上，树木很美。</em><br>    &emsp;&emsp;<em>(分析：Walking down Main Street悬垂，它不依附于主句的主语the trees，而正确的被修饰成分应该是说话者本人，这显然是一个只有人才能进行的动作，但说话者本人并未在句中出现)</em></p>
+<h1 id="误置-Misplaced"><a href="#误置-Misplaced" class="headerlink" title="误置(Misplaced)"></a>误置(Misplaced)</h1><p>误置是另一种歧义现象，这种现象在写作中较为少见，但在口语中却尤其常见于话语的即兴补充部分。误置的特征是主句和独立结构本身不存在问题，但因主句和独立结构的位置关系错误而发生歧义。</p>
+<p>例：<br>    &emsp;&emsp;<em>I saw the trailer peeking through the window.</em><br>    &emsp;&emsp;<em>我从窗口望见了卡车。</em><br>    &emsp;&emsp;<em>(分析：peeking through the window误置，被修饰成分本应是说话者本人，但在句中被修饰成分却似the trailer，原因是独立结构的错误后置)</em></p>
+<h1 id="结论与分析"><a href="#结论与分析" class="headerlink" title="结论与分析"></a>结论与分析</h1><p>就如开头所言，悬垂和误置都是英语语法中常见的歧义现象，它们在本质上都源于独立主格的简略性与随意性。<br>但英语作为一种语言，从其长久发展来看，这种情况的出现是正常且必然的。相比歧义现象带来的不便与误会，适当的简略性与随意性给表达带来的极大方便也是不容忽视的。我们不应该严厉杜绝这种导致歧义现象的简略性与随意性，而如何在接收到带有这种歧义现象的信息时正确理解才是更加值得考虑的问题。笔者认为，在接收到带有悬垂或误置结构的句子信息时，首先将主结构与悬垂结构分别解读，再判断主结构与悬垂结构的逻辑关系，最后对整个句子的句意作诠释，在绝大多数情况下，不会产生曲解和误会。<br>此外，悬垂和误置本身作为一种主观性和随意性较强的争议性结构，多出现在日常对话等非正式场合，是英语文法主观能动性的一种体现，但在书面语或正式场合中，发言者应尽量避免该类结构的出现，确保语言的逻辑性和严谨性。</p>
+]]></content>
+      <categories>
+        <category>English</category>
+      </categories>
+      <tags>
+        <tag>英语语法歧义现象</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>社会科学学习笔记(一)：利用模因论分析亚文化的过程一般化</title>
+    <url>/2018/03/13/2018-03-13--Interpretation-of-Subculture-by-Memetics/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>网络亚文化的不断涌现和迅速发展是时代信息化发展的趋势与表现之一，模因论(Memetics)就是一个伴随着这一背景而迅速发展的学科，这一理论主张用类似于生物学“基因(Gene)”的概念“模因(Meme)”来解释人类文化的各种现象，认为文化的某些行为(如发展与传播等)与基因的行为具有较高的相似性，在这些方面二者是可以类比的。<br>我在近期阅读了十数篇这一方面的论文，对其中某些观点表示认同，亦对这一学科的某些方面存有不少疑问。本文旨在总结用利用模因论解释亚文化现象的一套方法。<span id="more"></span></p>
+<h1 id="模因论-Memetics"><a href="#模因论-Memetics" class="headerlink" title="模因论(Memetics)"></a>模因论(Memetics)</h1><h2 id="模因论的起源和基本观点"><a href="#模因论的起源和基本观点" class="headerlink" title="模因论的起源和基本观点"></a>模因论的起源和基本观点</h2><p>模因(Meme)的概念最早是在1976年由英国行为学家理查德·道金斯(Richard Dawkins)在其《自私的基因(The Selfish Gene)》中提出的。他认为，基因(Gene)是生物进化的基本单位，其本质是具有复制行为的复制因子，它们通过不断复制、相互竞争而不断进化。在讨论过后，他猜想，在文化的发展过程中也存在行为类似于基因的复制因子，并将之称为模因，是文化传播的基本单位。这是公认的模因论的起源。</p>
+<h2 id="模因论的发展"><a href="#模因论的发展" class="headerlink" title="模因论的发展"></a>模因论的发展</h2><p>模因论是一门以文化为研究对象的行为科学，它显然不属于一般的生物学或博物学，尽管模因是一个类比于基因的概念。事实上模因论后来被划归到传播学，因为文化的发展本就是一个与传播密切相关的过程。<br>随着其他行为科学学科的发展，模因论已经被逐渐应用到了研究各种信息传播的过程，模因的概念也得到了扩展，后来认为通过各种媒介传播的信息都是模因，只要它们有进行个体间复制行为(Replication Behavior between Individuals)的能力。</p>
+<h1 id="亚文化-Subculture"><a href="#亚文化-Subculture" class="headerlink" title="亚文化(Subculture)"></a>亚文化(Subculture)</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>在文化学中，亚文化是指与主流文化(Culture，下文“文化”一般指“主流文化”，在特定语境下可作为“主流文化”和“亚文化”二者的统称)相对应的、又在某些方面与主流文化有一定相似性的特定价值系统。<br>然而不可否认的是，亚文化对文化群体中个体的重要程度并不一定亚于文化，甚至也在其所主导的行为习惯或价值理念的某些方面也起着主要的影响作用。</p>
+<h2 id="亚文化与文化的差异"><a href="#亚文化与文化的差异" class="headerlink" title="亚文化与文化的差异"></a>亚文化与文化的差异</h2><p>主流观点认为，一个体系完善的主流文化主要包括物质文化(Material Culture)、行为文化(Behavior Culture)和精神文化(Spirit Culture)，表现为一个完整的社会价值系统的总和，不同文化间的差异本质上源于其所表现的不同时代或地域的哲学思想的差异。正是这些原因，决定了文化的广泛性，及一段较长时期、一个较大地域内的绝大多数个体。<br>而亚文化则一般仅仅包括物质文化、制度文化、精神文化三者中的一者，或主要内容集中分布在其中一者，因此亚文化所表现对应的价值系统是不完整的，不同亚文化间的差异主要体现在某些特定行为习惯与价值理念间的差异，因此亚文化的文化群体一般较小，且结构较松散，广泛性较差。</p>
+<p>古代社会具有主流文化本身并未高度发展、文明并未高度发达等特点，排斥作用在不同文化间较为显著，甚至在文化内也存在，并不利于亚文化的产生与发展，因此一般意义上的亚文化主要产生于主流文化较为发达的近现代，并不具有较长的历史。<br>受现代信息技术较发达的影响，大多数亚文化的一个显著特点就是以网络为载体，这显著降低了地域对亚文化的局限性，因此亚文化又具有文化群体在地域上分散的特点；但由于亚文化对主流文化的依赖性，一般亚文化的地域分布仍受局限于其主流文化的地域分布。<br>另一方面，分析亚文化的目的也往往与主流文化不同，分析主流文化往往是为了完善文化史或行政史，分析亚文化的目的则一般是以获得社会统计学资料为目的的。<br>正是由于亚文化和主流文化的种种差异，我们在分析亚文化时并不能拘泥于对文化的分析方法，而应当制定一套更为科学的分析方法来。</p>
+<h1 id="模因论研究亚文化的一般步骤"><a href="#模因论研究亚文化的一般步骤" class="headerlink" title="模因论研究亚文化的一般步骤"></a>模因论研究亚文化的一般步骤</h1><p>但亚文化与主流文化在发展规律等方面也有着一定的相似性，因此它们的分析方法也应当有一定的可类比性，藉此，我们将以二者的相似性为主，差异性为辅，来制定亚文化的一般分析方法。</p>
+<h2 id="步骤一：分析起源"><a href="#步骤一：分析起源" class="headerlink" title="步骤一：分析起源"></a>步骤一：分析起源</h2><p>文化起源的时期和地域对文化有着极其重要的影响，甚至在某些方面可以说是决定性的，这点亚文化也是如此。故分析文化或亚文化的起源及其背景，是进一步分析其各个方面的前提。<br>另外还应该注意到亚文化在时间尺度较短，在时间上对亚文化的定位应比文化更加精确。</p>
+<h2 id="步骤二：建立模因体系并确定其结构"><a href="#步骤二：建立模因体系并确定其结构" class="headerlink" title="步骤二：建立模因体系并确定其结构"></a>步骤二：建立模因体系并确定其结构</h2><p>模因论认为，模因和基因具有类似的行为，文化是在模因的复制和变异中发展的，模因复制和变异的过程也是以优胜劣汰为原则的，优秀的文化具有优秀的模因，以至于在发展的过程中得以保存，那些不再适宜的文化则会被淘汰。<br>因此，建立模因体系和结构就好比对基因进行建模时将基因划分为若干个区段再逐一拆解，是进行进一步分析的前提。<br>但必须要注意到模因和基因也有着显著的差异：基因的主体DNA或RNA是一维的双螺旋或单一的链状结构，而一种文化的模因体系结构却常常是多元化的；基因的传播过程是简单的复制行为，而模因的传播过程则是基于模仿的复制行为。因此建立模因体系的过程并不能像基因建模那样直接，我们通常不像分析基因那样注重于对单一模因的进行分析，而主要注意模因间的相互关系。<br>对此，建立模因体系的方法一般是找出根本模因和节点模因，再根据根本模因和节点模因建立树状结构。通常选取一种文化起源之初时期的几个模因中对文化较具代表性的一个作为根本模因；选取模因变异前后的一个或几个模因作为节点模因，它们对一种文化的模因体系结构化具有重要意义。</p>
+<h2 id="步骤三：确定其类型及特征"><a href="#步骤三：确定其类型及特征" class="headerlink" title="步骤三：确定其类型及特征"></a>步骤三：确定其类型及特征</h2><p>这里必须强调的是，主流文化在时间跨度、空间跨度、群体跨度上都有广泛性；而亚文化则集中分布于某一有特定行为习惯或价值理念的群体，在时间和空间亦有显著不同于文化的分布，所以在分析亚文化时，因此在分析时要确认其具体类型而不可将其与文化同等对待。<br>确定一个亚文化的类型的方法一般是对其进行分类，分类依据可以是其时间分布特征、空间分布特征、文化群体特征等，进行这样的分类可以帮助我们更好地定位一个亚文化。<br>这一步还有一个目的就是初步完善一些统计学数据，借此可以估算亚文化的影响等。</p>
+<h2 id="步骤三：分析根本模因及产生背景"><a href="#步骤三：分析根本模因及产生背景" class="headerlink" title="步骤三：分析根本模因及产生背景"></a>步骤三：分析根本模因及产生背景</h2><p>根本模因通常由另一个文化或亚文化的模因发生变异而产生，也可以产生于迷思(Myth)。迷思也是传播学的一个概念，模因论主张将其类比于基因的“突变(Mutation)”，可简单地将其释义为模因不明机制的突然变异行为。<br>结合根本模因和起源背景，可以较系统地阐述出文化的产生较早期的发展过程。最好可以结合文化的起源背景对其根本模因的变异或迷思原因做出合理的阐述。</p>
+<h2 id="步骤四：分析模因的复制与变异过程"><a href="#步骤四：分析模因的复制与变异过程" class="headerlink" title="步骤四：分析模因的复制与变异过程"></a>步骤四：分析模因的复制与变异过程</h2><p>模因的复制是文化传播的主要方式，模因的变异则是文化发展的主要方式。在建立起模因体系的结构后，可以对关联较大的模因的关系进行分析，再了解模因发生变异的原因，这对进一步完善模因体系的结构亦是不可或缺的。</p>
+<h3 id="模因的复制：主要分析传播载体和传播效应-Effect"><a href="#模因的复制：主要分析传播载体和传播效应-Effect" class="headerlink" title="模因的复制：主要分析传播载体和传播效应(Effect)"></a>模因的复制：主要分析传播载体和传播效应(Effect)</h3><p>需注意模因的复制行为和基因的复制行为有着根本性差异，模因的复制行为不是取决于它自身的，而是取决于个体对其接受与否。研究模因的复制可以大致等同于研究文化群体，借此可以大致分析出文化的发展方向。</p>
+<h3 id="模因的变异"><a href="#模因的变异" class="headerlink" title="模因的变异"></a>模因的变异</h3><p>模因的变异主要是通过以下两种方式来完成的：</p>
+<ol>
+<li>分化(Differentiation)：一个模因在复制后可以被不同的个体进行迷思，迷思的内容自然可以是不尽相同的，当一个模因发生了不同的迷思后，产生的多个不同的模因又各自进行复制，我们就说这个模因发生了分化。</li>
+<li>进化(Evolution)：一个模因在不断地复制后，逐渐与初始模因不同，这一过程我们就说这个模因发生了进化。</li>
+</ol>
+<p>进化与分化是两种截然不同的变异方式，分化通常具有突发性，而进化则具有进程性；分化使模因的含义丰富化，而进化则主要改变模因的单一含义。<br>模因的变异行为也与基因的变异行为有着不同的机制，基因的变异是完全随机的，而模因的变异确是有选择性的，它依赖于人的思维模式和价值理念。</p>
+<h3 id="符号系统-Semiotic-System"><a href="#符号系统-Semiotic-System" class="headerlink" title="符号系统(Semiotic System)"></a>符号系统(Semiotic System)</h3><p>相比主流文化，符号在亚文化中拥有更重要的地位，大多数亚文化都是以其寄生的主流文化的语言文字形成符号的，而且是一些特定的语言文字，它们通常是发生了变异或迷思的具有新的特征的模因，构成该亚文化群体间特有的符号系统，即“黑话(Argot)”。这些符号不仅具有模因的特征，能进行复制或变异；还具有高度公式化等符号的特征。这些特征也决定了符号模因与隐性模因相比，具有复制、变异速度快的特点，因此在分析时对它们要尤其注意，甚至对符号系统庞大的亚文化，还可以对其符号系统建立单一结构。<br>对符号系统的分析则主要是依靠符号语言学来完成的，这一过程一般由无限符号过程理论来完成，通过模拟符号模因的变异过程，可以把握整个符号系统的演化规律，进而得到整个亚文化的演化规律。</p>
+<h2 id="步骤五：分析亚文化群体的行为习惯与价值理念"><a href="#步骤五：分析亚文化群体的行为习惯与价值理念" class="headerlink" title="步骤五：分析亚文化群体的行为习惯与价值理念"></a>步骤五：分析亚文化群体的行为习惯与价值理念</h2><p>分析模因体系有利于较准确地确定亚文化的定位及其发展过程，研究亚文化对其文化群体的作用往往才是目的所在。而特定的行为习惯与价值理念是亚文化群体较为主要的两个共同特征，亦是亚文化对其文化群体所产生影响较为主要的两个方面。<br>对此，我们主要是通过分析模因所确定的文化群体间的相互作用来完成的，而这涉及了一部分社会心理学和行为心理学的统计和分析。<br>这一分析有助于明确亚文化对其文化群体的反作用，从而提出有利于亚文化健康发展的导向。</p>
+<h1 id="模因论的批判"><a href="#模因论的批判" class="headerlink" title="模因论的批判"></a>模因论的批判</h1><p>模因论的中心思想是将文化领域的传播现象同生物基因的复制与变异进行类比，但仔细分析便会发现二者在许多方面的表现都颇有不同：</p>
+<ol>
+<li>基因突变在局部是随机无向的，而文化演变通常具有比较明显的趋势或方向；</li>
+<li>生物演化的过程主要是颗粒性遗传，即孟德尔的分离和自由组合定律，而文化演变过程通常伴随着融合；</li>
+</ol>
+<p>综上所述，模因和基因虽然都作为一种抽象于具体领域的产物，二者在某些方面亦有一定相似性，但本质上仍是两种截然不同的事物，倘若生搬硬套地采用模因论视角来分析文化现象，而忽略了文化演变过程中的多样性与复杂性，其结果将是徒劳无益的。</p>
+]]></content>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -295,76 +365,6 @@
       <tags>
         <tag>Mathematics</tag>
         <tag>Probability</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>英语语法歧义现象(二)：悬垂(Dangling)与误置(Misplaced)</title>
-    <url>/2017/10/30/2017-10-30--Dangling-Modifier/</url>
-    <content><![CDATA[<h1 id="独立主格"><a href="#独立主格" class="headerlink" title="独立主格"></a>独立主格</h1><p>在讲到这两种歧义现象之前，有必要先介绍一下独立主格，因为这两种歧义现象都源于独立主格。<br>独立主格是英语语法中一种常见的独立结构，在一个句子中的功能类似于一个从句。</p>
-<p>例：<br>    &emsp;&emsp;<em>The meeting over, we all went home.</em><br>    &emsp;&emsp;<em>会议结束后，我们都回家了。</em><br>    &emsp;&emsp;<em>There being no salt, we had to go to buy some.</em><br>    &emsp;&emsp;<em>由于没有盐了，我们只好去买一些。</em><br>    &emsp;&emsp;<em>There being no taxis, we had to walk.</em><br>    &emsp;&emsp;<em>All man came in time, John being the first.</em><br>    &emsp;&emsp;<em>所有人都按时到了，而约翰则是第一个。</em><br>    &emsp;&emsp;<em>Dad and mom dressed formally, one to attend the party, one to go to work.</em><br>    &emsp;&emsp;<em>父亲和母亲都换上了正装，一个去赴宴，一个去工作。</em><br>    &emsp;&emsp;<em>Threet representatives moderate the meeting， the youngest John Smith in age of 24.</em><br>    &emsp;&emsp;<em>主持会议的三位代表，最年轻的是24岁的约翰·史密斯。</em><span id="more"></span></p>
-<p>独立主格有别于从句的特点正是没有连接词、没有完整的主谓结构。从以上列举的一些例句可以看出，独立主格大致上是由名词或代词充当的逻辑主语和动词的分词形式充当的谓语动词构成的，逻辑主语和动词分词构成形式的主谓关系。<br>事实上，独立主格也有“时态”的相关定义，而且是相似的，只不过没有严格意义上的谓语动词，常见的独立主格的时态有四种，分别由进行时doing、过去时done、完成时having done、完成进行时having been doing和它们的不定式构成，且都有对应的被动语态。独立主格不能使用情态动词因而没有虚拟语气。<br>独立主格“时态”的选择也是由逻辑主语与动作的关系决定的。<br>还有一些习惯上的规律可循，如前置的独立主格一般表示原因、条件或结果，相当于对应功能的状语从句；而后置的独立主格一般表示补充说明伴随状况，相当于并列句或伴随状语从句；还有一种是以插入语的形式出现的，相当于方式状语从句。</p>
-<h2 id="逻辑介词引导的独立主格"><a href="#逻辑介词引导的独立主格" class="headerlink" title="逻辑介词引导的独立主格"></a>逻辑介词引导的独立主格</h2><p>当单独的独立主格不能表达独立主格和主句的某种逻辑关系或表达逻辑关系不够强烈时，就需要用逻辑介词引导独立主格。常用来引导独立主格的逻辑介词有with和without等。</p>
-<p>例：<br>    &emsp;&emsp;<em>The original manuscript has been hidden, without anyone knowing where it was.</em><br>    &emsp;&emsp;<em>原稿被藏起来了，没有人知道它在哪里。</em><br>    &emsp;&emsp;<em>He picked up the papers scattered on the ground, without a word more spoken.</em><br>    &emsp;&emsp;<em>他捡起散落在地上的文件，没有多说一句话。</em><br>    &emsp;&emsp;<em>The manager was so excited with many staffs to join the team.</em><br>    &emsp;&emsp;<em>有这么多的应聘者将要加入项目组，经理很高兴。</em><br>    &emsp;&emsp;<em>He stood before the door, with a computer in his hand. = He stood before the door, computer in hand.</em><br>    &emsp;&emsp;<em>他伫立在门前，手里拿着一部电脑。</em><br>    &emsp;&emsp;<em>With his son so sympathetic, the woman felt gratified.</em><br>    &emsp;&emsp;<em>女人为她的儿子如此有同情心而感到欣慰。</em></p>
-<h2 id="独立主格中的省略"><a href="#独立主格中的省略" class="headerlink" title="独立主格中的省略"></a>独立主格中的省略</h2><p>独立主格本身作为一个用以代替状语从句和并列句的结构，简略是其一大特点。因而在独立主格中，一些删去后不影响句子意思的词常被省略。</p>
-<h3 id="逻辑介词的省略与be的省略"><a href="#逻辑介词的省略与be的省略" class="headerlink" title="逻辑介词的省略与be的省略"></a>逻辑介词的省略与be的省略</h3><p>上文提到的with，在独立主格前置作状语时，就常常被省略，甚至在一些情况下(如逻辑主语是形式主语时)句首不能出现with。<br>be在独立主格中一般也会被省略，甚至包括be后的一些特殊的介词结构中的介词，变为“逻辑主语+形容词/副词”或“逻辑主语+宾语/介词宾语”的结构。</p>
-<p>例：<br>    &emsp;&emsp;<em>(<del>with</del>) There being no further business to discuss, we all went home.</em><br>    &emsp;&emsp;<em>没有别的事可讨论，我们都回家了。</em><br>    &emsp;&emsp;<em>With his son (been) so disappointing, the old man felt unhappy.</em><br>    &emsp;&emsp;<em>儿子如此令人失望，老人感到很伤心。</em><br>    &emsp;&emsp;<em>His first shot (been) (in) a failure, he fired again.</em><br>    &emsp;&emsp;<em>他的第一枪未命中，又打了一枪。</em></p>
-<p>但需要注意的是，与with类似的without不能省略，因为删去后句意将改变。</p>
-<p>关于独立主格中的省略，还有一些特殊规定，如独立主格中有结构介词in时，省略in前的be，前后的名词或代词均使用单数且不带任何成分，例：<br>    &emsp;&emsp;<em>The manager is standing in front of Amy, seriousness in face.</em><br>    &emsp;&emsp;<em>经理一脸严肃地站在艾米面前，</em><br>    &emsp;&emsp;<em>The sniper stood behind a wall without any movement, rifle in hand.</em><br>    &emsp;&emsp;<em>狙击手一动不动地站在一面墙后，手里拿着来福枪。</em></p>
-<h3 id="不完整的独立主格"><a href="#不完整的独立主格" class="headerlink" title="不完整的独立主格"></a>不完整的独立主格</h3><p>独立主格的省略还有一类特殊情况，它们是一种更像副词或介词的独立结构，通常是约定俗成的习惯用法。</p>
-<p>例：<br>    &emsp;&emsp;<em>generally speaking: 总的说来</em><br>    &emsp;&emsp;<em>frankly speaking: 坦白地说</em><br>    &emsp;&emsp;<em>judging from: 据…判断</em><br>    &emsp;&emsp;<em>according to: 据…说</em><br>    &emsp;&emsp;<em>considering (that): 考虑到…</em></p>
-<p>还有一类以不定式为特征的独立主格，它们常用作插入语。</p>
-<p>例：<br>    &emsp;&emsp;<em>to be honest: 实话实说</em><br>    &emsp;&emsp;<em>to be sure: 诚然</em><br>    &emsp;&emsp;<em>to tell the truth: 讲真的</em><br>    &emsp;&emsp;<em>to cut a long story short: 长话短说；简而言之</em></p>
-<h2 id="特殊情况"><a href="#特殊情况" class="headerlink" title="特殊情况"></a>特殊情况</h2><h3 id="独立主格作定语"><a href="#独立主格作定语" class="headerlink" title="独立主格作定语"></a>独立主格作定语</h3><p>独立主格在句中一般是作状语的，但这是一种由口语进入书面语的表达方式，也便有了一些例外情况，如作为以定语，但限于表达习惯，这种情况是极其少见的。</p>
-<p>例：<br>    &emsp;&emsp;<em>He is the person with a lot of debts to be repaid. = He is the person who has a lot of debts to be repaid.</em><br>    &emsp;&emsp;<em>他就是那个债务繁多的人。</em><br>    &emsp;&emsp;<em>The boy sitting here with nothing to do is Jim.</em><br>    &emsp;&emsp;<em>那个坐着无所事事的男孩就是吉姆。</em></p>
-<h1 id="悬垂-Dangling"><a href="#悬垂-Dangling" class="headerlink" title="悬垂(Dangling)"></a>悬垂(Dangling)</h1><p>悬垂是英语口语中的一种常见现象，本质上是一种由独立主格的主语省略带来的一种与独立结构对应的被修饰成分不明而产生的歧义现象。在不发生歧义的前提下，适当的悬垂能使表达更加简略，但在一些情况下则可能导致误会。</p>
-<h2 id="悬垂修饰语-Dangling-Modifier"><a href="#悬垂修饰语-Dangling-Modifier" class="headerlink" title="悬垂修饰语(Dangling Modifier)"></a>悬垂修饰语(Dangling Modifier)</h2><p>从这一名词的字面意思便可看出，悬垂修饰语是指悬垂的对主句起修饰作用的独立结构，但通常不包括分词短语。</p>
-<p>例：<br>    &emsp;&emsp;<em>At the age of eight, my family finally bought a dog.</em><br>    &emsp;&emsp;<em>在我八岁时，我家终于买了狗。</em><br>    &emsp;&emsp;<em>(分析：At the age of eight悬垂，它不依附于主句的主语my family finally，而正确的被修饰成分应该是说话者本人，但在句中并未出现)</em></p>
-<h2 id="悬垂分词-Dangling-Participle"><a href="#悬垂分词-Dangling-Participle" class="headerlink" title="悬垂分词(Dangling Participle)"></a>悬垂分词(Dangling Participle)</h2><p>悬垂分词与悬垂修饰语是类似的，只不过这种情况下作为独立结构的是分词短语。分词短语一般放在句首或句末，当被省略的逻辑主语与主句主语不一致或主句缺失时，分词短语就发生悬垂，这种情况就称为悬垂分词。</p>
-<p>例：<br>    &emsp;&emsp;<em>Walking down Main Street, the trees were beautiful.</em><br>    &emsp;&emsp;<em>走在大街上，树木很美。</em><br>    &emsp;&emsp;<em>(分析：Walking down Main Street悬垂，它不依附于主句的主语the trees，而正确的被修饰成分应该是说话者本人，这显然是一个只有人才能进行的动作，但说话者本人并未在句中出现)</em></p>
-<h1 id="误置-Misplaced"><a href="#误置-Misplaced" class="headerlink" title="误置(Misplaced)"></a>误置(Misplaced)</h1><p>误置是另一种歧义现象，这种现象在写作中较为少见，但在口语中却尤其常见于话语的即兴补充部分。误置的特征是主句和独立结构本身不存在问题，但因主句和独立结构的位置关系错误而发生歧义。</p>
-<p>例：<br>    &emsp;&emsp;<em>I saw the trailer peeking through the window.</em><br>    &emsp;&emsp;<em>我从窗口望见了卡车。</em><br>    &emsp;&emsp;<em>(分析：peeking through the window误置，被修饰成分本应是说话者本人，但在句中被修饰成分却似the trailer，原因是独立结构的错误后置)</em></p>
-<h1 id="结论与分析"><a href="#结论与分析" class="headerlink" title="结论与分析"></a>结论与分析</h1><p>就如开头所言，悬垂和误置都是英语语法中常见的歧义现象，它们在本质上都源于独立主格的简略性与随意性。<br>但英语作为一种语言，从其长久发展来看，这种情况的出现是正常且必然的。相比歧义现象带来的不便与误会，适当的简略性与随意性给表达带来的极大方便也是不容忽视的。我们不应该严厉杜绝这种导致歧义现象的简略性与随意性，而如何在接收到带有这种歧义现象的信息时正确理解才是更加值得考虑的问题。笔者认为，在接收到带有悬垂或误置结构的句子信息时，首先将主结构与悬垂结构分别解读，再判断主结构与悬垂结构的逻辑关系，最后对整个句子的句意作诠释，在绝大多数情况下，不会产生曲解和误会。<br>此外，悬垂和误置本身作为一种主观性和随意性较强的争议性结构，多出现在日常对话等非正式场合，是英语文法主观能动性的一种体现，但在书面语或正式场合中，发言者应尽量避免该类结构的出现，确保语言的逻辑性和严谨性。</p>
-]]></content>
-      <categories>
-        <category>English</category>
-      </categories>
-      <tags>
-        <tag>英语语法歧义现象</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>社会科学学习笔记(一)：利用模因论分析亚文化的过程一般化</title>
-    <url>/2018/03/13/2018-03-13--Interpretation-of-Subculture-by-Memetics/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>网络亚文化的不断涌现和迅速发展是时代信息化发展的趋势与表现之一，模因论(Memetics)就是一个伴随着这一背景而迅速发展的学科，这一理论主张用类似于生物学“基因(Gene)”的概念“模因(Meme)”来解释人类文化的各种现象，认为文化的某些行为(如发展与传播等)与基因的行为具有较高的相似性，在这些方面二者是可以类比的。<br>我在近期阅读了十数篇这一方面的论文，对其中某些观点表示认同，亦对这一学科的某些方面存有不少疑问。本文旨在总结用利用模因论解释亚文化现象的一套方法。<span id="more"></span></p>
-<h1 id="模因论-Memetics"><a href="#模因论-Memetics" class="headerlink" title="模因论(Memetics)"></a>模因论(Memetics)</h1><h2 id="模因论的起源和基本观点"><a href="#模因论的起源和基本观点" class="headerlink" title="模因论的起源和基本观点"></a>模因论的起源和基本观点</h2><p>模因(Meme)的概念最早是在1976年由英国行为学家理查德·道金斯(Richard Dawkins)在其《自私的基因(The Selfish Gene)》中提出的。他认为，基因(Gene)是生物进化的基本单位，其本质是具有复制行为的复制因子，它们通过不断复制、相互竞争而不断进化。在讨论过后，他猜想，在文化的发展过程中也存在行为类似于基因的复制因子，并将之称为模因，是文化传播的基本单位。这是公认的模因论的起源。</p>
-<h2 id="模因论的发展"><a href="#模因论的发展" class="headerlink" title="模因论的发展"></a>模因论的发展</h2><p>模因论是一门以文化为研究对象的行为科学，它显然不属于一般的生物学或博物学，尽管模因是一个类比于基因的概念。事实上模因论后来被划归到传播学，因为文化的发展本就是一个与传播密切相关的过程。<br>随着其他行为科学学科的发展，模因论已经被逐渐应用到了研究各种信息传播的过程，模因的概念也得到了扩展，后来认为通过各种媒介传播的信息都是模因，只要它们有进行个体间复制行为(Replication Behavior between Individuals)的能力。</p>
-<h1 id="亚文化-Subculture"><a href="#亚文化-Subculture" class="headerlink" title="亚文化(Subculture)"></a>亚文化(Subculture)</h1><h2 id="定义"><a href="#定义" class="headerlink" title="定义"></a>定义</h2><p>在文化学中，亚文化是指与主流文化(Culture，下文“文化”一般指“主流文化”，在特定语境下可作为“主流文化”和“亚文化”二者的统称)相对应的、又在某些方面与主流文化有一定相似性的特定价值系统。<br>然而不可否认的是，亚文化对文化群体中个体的重要程度并不一定亚于文化，甚至也在其所主导的行为习惯或价值理念的某些方面也起着主要的影响作用。</p>
-<h2 id="亚文化与文化的差异"><a href="#亚文化与文化的差异" class="headerlink" title="亚文化与文化的差异"></a>亚文化与文化的差异</h2><p>主流观点认为，一个体系完善的主流文化主要包括物质文化(Material Culture)、行为文化(Behavior Culture)和精神文化(Spirit Culture)，表现为一个完整的社会价值系统的总和，不同文化间的差异本质上源于其所表现的不同时代或地域的哲学思想的差异。正是这些原因，决定了文化的广泛性，及一段较长时期、一个较大地域内的绝大多数个体。<br>而亚文化则一般仅仅包括物质文化、制度文化、精神文化三者中的一者，或主要内容集中分布在其中一者，因此亚文化所表现对应的价值系统是不完整的，不同亚文化间的差异主要体现在某些特定行为习惯与价值理念间的差异，因此亚文化的文化群体一般较小，且结构较松散，广泛性较差。</p>
-<p>古代社会具有主流文化本身并未高度发展、文明并未高度发达等特点，排斥作用在不同文化间较为显著，甚至在文化内也存在，并不利于亚文化的产生与发展，因此一般意义上的亚文化主要产生于主流文化较为发达的近现代，并不具有较长的历史。<br>受现代信息技术较发达的影响，大多数亚文化的一个显著特点就是以网络为载体，这显著降低了地域对亚文化的局限性，因此亚文化又具有文化群体在地域上分散的特点；但由于亚文化对主流文化的依赖性，一般亚文化的地域分布仍受局限于其主流文化的地域分布。<br>另一方面，分析亚文化的目的也往往与主流文化不同，分析主流文化往往是为了完善文化史或行政史，分析亚文化的目的则一般是以获得社会统计学资料为目的的。<br>正是由于亚文化和主流文化的种种差异，我们在分析亚文化时并不能拘泥于对文化的分析方法，而应当制定一套更为科学的分析方法来。</p>
-<h1 id="模因论研究亚文化的一般步骤"><a href="#模因论研究亚文化的一般步骤" class="headerlink" title="模因论研究亚文化的一般步骤"></a>模因论研究亚文化的一般步骤</h1><p>但亚文化与主流文化在发展规律等方面也有着一定的相似性，因此它们的分析方法也应当有一定的可类比性，藉此，我们将以二者的相似性为主，差异性为辅，来制定亚文化的一般分析方法。</p>
-<h2 id="步骤一：分析起源"><a href="#步骤一：分析起源" class="headerlink" title="步骤一：分析起源"></a>步骤一：分析起源</h2><p>文化起源的时期和地域对文化有着极其重要的影响，甚至在某些方面可以说是决定性的，这点亚文化也是如此。故分析文化或亚文化的起源及其背景，是进一步分析其各个方面的前提。<br>另外还应该注意到亚文化在时间尺度较短，在时间上对亚文化的定位应比文化更加精确。</p>
-<h2 id="步骤二：建立模因体系并确定其结构"><a href="#步骤二：建立模因体系并确定其结构" class="headerlink" title="步骤二：建立模因体系并确定其结构"></a>步骤二：建立模因体系并确定其结构</h2><p>模因论认为，模因和基因具有类似的行为，文化是在模因的复制和变异中发展的，模因复制和变异的过程也是以优胜劣汰为原则的，优秀的文化具有优秀的模因，以至于在发展的过程中得以保存，那些不再适宜的文化则会被淘汰。<br>因此，建立模因体系和结构就好比对基因进行建模时将基因划分为若干个区段再逐一拆解，是进行进一步分析的前提。<br>但必须要注意到模因和基因也有着显著的差异：基因的主体DNA或RNA是一维的双螺旋或单一的链状结构，而一种文化的模因体系结构却常常是多元化的；基因的传播过程是简单的复制行为，而模因的传播过程则是基于模仿的复制行为。因此建立模因体系的过程并不能像基因建模那样直接，我们通常不像分析基因那样注重于对单一模因的进行分析，而主要注意模因间的相互关系。<br>对此，建立模因体系的方法一般是找出根本模因和节点模因，再根据根本模因和节点模因建立树状结构。通常选取一种文化起源之初时期的几个模因中对文化较具代表性的一个作为根本模因；选取模因变异前后的一个或几个模因作为节点模因，它们对一种文化的模因体系结构化具有重要意义。</p>
-<h2 id="步骤三：确定其类型及特征"><a href="#步骤三：确定其类型及特征" class="headerlink" title="步骤三：确定其类型及特征"></a>步骤三：确定其类型及特征</h2><p>这里必须强调的是，主流文化在时间跨度、空间跨度、群体跨度上都有广泛性；而亚文化则集中分布于某一有特定行为习惯或价值理念的群体，在时间和空间亦有显著不同于文化的分布，所以在分析亚文化时，因此在分析时要确认其具体类型而不可将其与文化同等对待。<br>确定一个亚文化的类型的方法一般是对其进行分类，分类依据可以是其时间分布特征、空间分布特征、文化群体特征等，进行这样的分类可以帮助我们更好地定位一个亚文化。<br>这一步还有一个目的就是初步完善一些统计学数据，借此可以估算亚文化的影响等。</p>
-<h2 id="步骤三：分析根本模因及产生背景"><a href="#步骤三：分析根本模因及产生背景" class="headerlink" title="步骤三：分析根本模因及产生背景"></a>步骤三：分析根本模因及产生背景</h2><p>根本模因通常由另一个文化或亚文化的模因发生变异而产生，也可以产生于迷思(Myth)。迷思也是传播学的一个概念，模因论主张将其类比于基因的“突变(Mutation)”，可简单地将其释义为模因不明机制的突然变异行为。<br>结合根本模因和起源背景，可以较系统地阐述出文化的产生较早期的发展过程。最好可以结合文化的起源背景对其根本模因的变异或迷思原因做出合理的阐述。</p>
-<h2 id="步骤四：分析模因的复制与变异过程"><a href="#步骤四：分析模因的复制与变异过程" class="headerlink" title="步骤四：分析模因的复制与变异过程"></a>步骤四：分析模因的复制与变异过程</h2><p>模因的复制是文化传播的主要方式，模因的变异则是文化发展的主要方式。在建立起模因体系的结构后，可以对关联较大的模因的关系进行分析，再了解模因发生变异的原因，这对进一步完善模因体系的结构亦是不可或缺的。</p>
-<h3 id="模因的复制：主要分析传播载体和传播效应-Effect"><a href="#模因的复制：主要分析传播载体和传播效应-Effect" class="headerlink" title="模因的复制：主要分析传播载体和传播效应(Effect)"></a>模因的复制：主要分析传播载体和传播效应(Effect)</h3><p>需注意模因的复制行为和基因的复制行为有着根本性差异，模因的复制行为不是取决于它自身的，而是取决于个体对其接受与否。研究模因的复制可以大致等同于研究文化群体，借此可以大致分析出文化的发展方向。</p>
-<h3 id="模因的变异"><a href="#模因的变异" class="headerlink" title="模因的变异"></a>模因的变异</h3><p>模因的变异主要是通过以下两种方式来完成的：</p>
-<ol>
-<li>分化(Differentiation)：一个模因在复制后可以被不同的个体进行迷思，迷思的内容自然可以是不尽相同的，当一个模因发生了不同的迷思后，产生的多个不同的模因又各自进行复制，我们就说这个模因发生了分化。</li>
-<li>进化(Evolution)：一个模因在不断地复制后，逐渐与初始模因不同，这一过程我们就说这个模因发生了进化。</li>
-</ol>
-<p>进化与分化是两种截然不同的变异方式，分化通常具有突发性，而进化则具有进程性；分化使模因的含义丰富化，而进化则主要改变模因的单一含义。<br>模因的变异行为也与基因的变异行为有着不同的机制，基因的变异是完全随机的，而模因的变异确是有选择性的，它依赖于人的思维模式和价值理念。</p>
-<h3 id="符号系统-Semiotic-System"><a href="#符号系统-Semiotic-System" class="headerlink" title="符号系统(Semiotic System)"></a>符号系统(Semiotic System)</h3><p>相比主流文化，符号在亚文化中拥有更重要的地位，大多数亚文化都是以其寄生的主流文化的语言文字形成符号的，而且是一些特定的语言文字，它们通常是发生了变异或迷思的具有新的特征的模因，构成该亚文化群体间特有的符号系统，即“黑话(Argot)”。这些符号不仅具有模因的特征，能进行复制或变异；还具有高度公式化等符号的特征。这些特征也决定了符号模因与隐性模因相比，具有复制、变异速度快的特点，因此在分析时对它们要尤其注意，甚至对符号系统庞大的亚文化，还可以对其符号系统建立单一结构。<br>对符号系统的分析则主要是依靠符号语言学来完成的，这一过程一般由无限符号过程理论来完成，通过模拟符号模因的变异过程，可以把握整个符号系统的演化规律，进而得到整个亚文化的演化规律。</p>
-<h2 id="步骤五：分析亚文化群体的行为习惯与价值理念"><a href="#步骤五：分析亚文化群体的行为习惯与价值理念" class="headerlink" title="步骤五：分析亚文化群体的行为习惯与价值理念"></a>步骤五：分析亚文化群体的行为习惯与价值理念</h2><p>分析模因体系有利于较准确地确定亚文化的定位及其发展过程，研究亚文化对其文化群体的作用往往才是目的所在。而特定的行为习惯与价值理念是亚文化群体较为主要的两个共同特征，亦是亚文化对其文化群体所产生影响较为主要的两个方面。<br>对此，我们主要是通过分析模因所确定的文化群体间的相互作用来完成的，而这涉及了一部分社会心理学和行为心理学的统计和分析。<br>这一分析有助于明确亚文化对其文化群体的反作用，从而提出有利于亚文化健康发展的导向。</p>
-<h1 id="模因论的批判"><a href="#模因论的批判" class="headerlink" title="模因论的批判"></a>模因论的批判</h1><p>模因论的中心思想是将文化领域的传播现象同生物基因的复制与变异进行类比，但仔细分析便会发现二者在许多方面的表现都颇有不同：</p>
-<ol>
-<li>基因突变在局部是随机无向的，而文化演变通常具有比较明显的趋势或方向；</li>
-<li>生物演化的过程主要是颗粒性遗传，即孟德尔的分离和自由组合定律，而文化演变过程通常伴随着融合；</li>
-</ol>
-<p>综上所述，模因和基因虽然都作为一种抽象于具体领域的产物，二者在某些方面亦有一定相似性，但本质上仍是两种截然不同的事物，倘若生搬硬套地采用模因论视角来分析文化现象，而忽略了文化演变过程中的多样性与复杂性，其结果将是徒劳无益的。</p>
-]]></content>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
       </tags>
   </entry>
   <entry>
@@ -473,26 +473,6 @@
       </tags>
   </entry>
   <entry>
-    <title>也来谈谈学历贬值问题：高校扩招与教育产业化</title>
-    <url>/2023/10/03/2023-10-03--Enrollment-Expansion/</url>
-    <content><![CDATA[<p>改革开放后的90年代前夕，春风吹遍了中华大地的每一个角落，街头巷尾随处可见麻将馆，处于核心的陆家嘴和深圳夜总会和赌场林立，当时的中国经济呈现出一片繁荣的过热景象。数据上，人民币货币的通货膨胀率飙升至20%以上，并于1994年创下24.1%的高点。<span id="more"></span></p>
-<p>对此，时任国务院中共中央政治局常委、国务院副总理兼生产办公室主任、兼任中国人民银行行长的朱镕基主导开展了一系列的经济改革，对过热的国民经济进行降温，实施了历史上著名的软着陆，在三年时间内把通胀率降低至10%以内。从结果来看，改革的目的是成功的，但同时，一系列紧缩的经济政策也导致经济增速大幅放缓，国内经济出现了内需不足、国民消费疲软等问题，伴随着2000年前后各国的互联网泡沫相继破裂导致的互联网泡沫破裂酿成的全球金融危机，导致了中国千禧年前夕的国企工人下岗潮。</p>
-<p>时任亚洲开发银行北京代表处首席经济学家的汤敏只身一人上书中央，递交了一份著名的建议书《关于启动中国经济有效途径——扩大招生量一倍》拉开了高校扩招的序幕，他在后来曾说：“高校扩招的目的既不是为了提升教育质量，也不是为了提高学生收入，而是发展经济和稳定社会秩序的需要。”事实也确实是如此。</p>
-<p>他在建议书中抛出了一个至关重要的观点，认为教育是老百姓最大的需求，扩招可以拉动内需，激励经济增长，很快获得了当局的高度认可。建议书一经采纳，中央便很快制定了以“拉动内需、刺激消费、促进经济增长、缓解就业压力”为目标的高校扩招计划。</p>
-<p>当时，高层的这一决策这十分明确地表明了高校扩招的目的，是把人民储蓄转化为消费，拉动经济增长；延长教育时间，避免大量的无业青年成为社会的不稳定因素。</p>
-<p><img src="/images/2023-10-03--Enrollment-Expansion/image.png" alt="高校扩招政策实施后高校报考及录取人数变化" title="高校扩招政策实施后高校报考及录取人数变化"></p>
-<p>高校扩招成功实现了这两个目的。在高校扩招的第一批学生毕业前，大学生还是社会上的稀缺群体，因此，高校扩招在最初几年间取得了积极的社会反响，许多原来上不了大学的孩子，都凭借着扩招进入了大学，而学历贬值的问题在当时也并不存在，许多人甚至还相信高校扩招能直接拉动中国科技的发展，成为改革开放之后促进中国经济高速发展的新动力。</p>
-<p>在当时，供一个大学生完成学业的成本并不低，光是学费就要几千块钱。而当时城镇家庭可支配收入的平均值才三万左右，从这个角度来说，高校扩招政策确实成功地把老百姓存在银行的钱转化为消费了。另一方面，面临失业率居高不下、社会治安状况堪忧的社情，高校扩招政策成功地缓解了就业压力，把一部分将要流入社会竞争工作岗位的青年聚集到大学校园，在很大程度上缓和了当时的社会形势。</p>
-<p>事实上，高校扩招政策并非一项失败的举措，就其在当时所取得的社会效果而言，甚至是十分有效且成功的。笔者所要指出的是，高校扩招政策是以调控社会经济为鹄的并出台的，因此，其无法兼顾到学生的个人能力和社会科技的发展便是理所当然的，这一问题也在多年后的今天逐渐暴露出来。集体利益与个人利益在许多时候本就是无法兼顾的，有时甚至是对立的，恰如在研究出台高校扩招政策时，高层所寄予的期望只是维持经济发展和社会秩序，而老百姓翘首以盼的学成归来大展宏图，当然会落空了。</p>
-]]></content>
-      <categories>
-        <category>Social</category>
-      </categories>
-      <tags>
-        <tag>Social Science</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>英文经典短篇翻译(一)：奥斯维辛没有新闻</title>
     <url>/2023/08/31/2023-08-31--Translation-No-News-from-Auschwitz/</url>
     <content><![CDATA[<h1 id="背景"><a href="#背景" class="headerlink" title="背景"></a>背景</h1><p><em>No News from Auschwitz</em> ，《奥斯维辛没有新闻》是一篇著名的新闻稿，于1958年8月31日刊登于《纽约时报》。作者亚伯拉罕·迈克尔·罗森塔尔(<em>A. M. Rosenthal</em>)在此后曾任《纽约时报》的执行主编和专栏作者，也是美国历史上最著名的新闻编辑之一。</p>
@@ -512,6 +492,26 @@
       <tags>
         <tag>Social Science</tag>
         <tag>英文经典短篇翻译</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>也来谈谈学历贬值问题：高校扩招与教育产业化</title>
+    <url>/2023/10/03/2023-10-03--Enrollment-Expansion/</url>
+    <content><![CDATA[<p>改革开放后的90年代前夕，春风吹遍了中华大地的每一个角落，街头巷尾随处可见麻将馆，处于核心的陆家嘴和深圳夜总会和赌场林立，当时的中国经济呈现出一片繁荣的过热景象。数据上，人民币货币的通货膨胀率飙升至20%以上，并于1994年创下24.1%的高点。<span id="more"></span></p>
+<p>对此，时任国务院中共中央政治局常委、国务院副总理兼生产办公室主任、兼任中国人民银行行长的朱镕基主导开展了一系列的经济改革，对过热的国民经济进行降温，实施了历史上著名的软着陆，在三年时间内把通胀率降低至10%以内。从结果来看，改革的目的是成功的，但同时，一系列紧缩的经济政策也导致经济增速大幅放缓，国内经济出现了内需不足、国民消费疲软等问题，伴随着2000年前后各国的互联网泡沫相继破裂导致的互联网泡沫破裂酿成的全球金融危机，导致了中国千禧年前夕的国企工人下岗潮。</p>
+<p>时任亚洲开发银行北京代表处首席经济学家的汤敏只身一人上书中央，递交了一份著名的建议书《关于启动中国经济有效途径——扩大招生量一倍》拉开了高校扩招的序幕，他在后来曾说：“高校扩招的目的既不是为了提升教育质量，也不是为了提高学生收入，而是发展经济和稳定社会秩序的需要。”事实也确实是如此。</p>
+<p>他在建议书中抛出了一个至关重要的观点，认为教育是老百姓最大的需求，扩招可以拉动内需，激励经济增长，很快获得了当局的高度认可。建议书一经采纳，中央便很快制定了以“拉动内需、刺激消费、促进经济增长、缓解就业压力”为目标的高校扩招计划。</p>
+<p>当时，高层的这一决策这十分明确地表明了高校扩招的目的，是把人民储蓄转化为消费，拉动经济增长；延长教育时间，避免大量的无业青年成为社会的不稳定因素。</p>
+<p><img src="/images/2023-10-03--Enrollment-Expansion/image.png" alt="高校扩招政策实施后高校报考及录取人数变化" title="高校扩招政策实施后高校报考及录取人数变化"></p>
+<p>高校扩招成功实现了这两个目的。在高校扩招的第一批学生毕业前，大学生还是社会上的稀缺群体，因此，高校扩招在最初几年间取得了积极的社会反响，许多原来上不了大学的孩子，都凭借着扩招进入了大学，而学历贬值的问题在当时也并不存在，许多人甚至还相信高校扩招能直接拉动中国科技的发展，成为改革开放之后促进中国经济高速发展的新动力。</p>
+<p>在当时，供一个大学生完成学业的成本并不低，光是学费就要几千块钱。而当时城镇家庭可支配收入的平均值才三万左右，从这个角度来说，高校扩招政策确实成功地把老百姓存在银行的钱转化为消费了。另一方面，面临失业率居高不下、社会治安状况堪忧的社情，高校扩招政策成功地缓解了就业压力，把一部分将要流入社会竞争工作岗位的青年聚集到大学校园，在很大程度上缓和了当时的社会形势。</p>
+<p>事实上，高校扩招政策并非一项失败的举措，就其在当时所取得的社会效果而言，甚至是十分有效且成功的。笔者所要指出的是，高校扩招政策是以调控社会经济为鹄的并出台的，因此，其无法兼顾到学生的个人能力和社会科技的发展便是理所当然的，这一问题也在多年后的今天逐渐暴露出来。集体利益与个人利益在许多时候本就是无法兼顾的，有时甚至是对立的，恰如在研究出台高校扩招政策时，高层所寄予的期望只是维持经济发展和社会秩序，而老百姓翘首以盼的学成归来大展宏图，当然会落空了。</p>
+]]></content>
+      <categories>
+        <category>Social</category>
+      </categories>
+      <tags>
+        <tag>Social Science</tag>
       </tags>
   </entry>
   <entry>
@@ -605,6 +605,20 @@
       </categories>
       <tags>
         <tag>Music</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>纯粹数学科普系列(四)：特殊函数(四)</title>
+    <url>/2024/09/27/2024-09-27--Hypergeometric/</url>
+    <content><![CDATA[<p>这是本系列文章的第四篇，内容主要为超几何函数，主要内容以数学分析和复变函数论为主。</p>
+<p>这里先给自己挖了个坑，第三篇的内容主要为贝塞尔函数。</p>
+<p><a href="/files/hypergeometric.pdf">特殊函数(四)</a></p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>Math</tag>
       </tags>
   </entry>
   <entry>
@@ -727,20 +741,6 @@
       </tags>
   </entry>
   <entry>
-    <title>纯粹数学科普系列(四)：特殊函数(四)</title>
-    <url>/2024/09/27/2024-09-27--Hypergeometric/</url>
-    <content><![CDATA[<p>这是本系列文章的第四篇，内容主要为超几何函数，主要内容以数学分析和复变函数论为主。</p>
-<p>这里先给自己挖了个坑，第三篇的内容主要为贝塞尔函数。</p>
-<p><a href="/files/hypergeometric.pdf">特殊函数(四)</a></p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>在LaTeX中输出平行四边形符号</title>
     <url>/2024/10/07/2024-10-07--Parallelogram-In-LaTeX/</url>
     <content><![CDATA[<p>在LaTeX中，我们能快速地运用其强大的排版功能对各类数学公式进行排版，但在LaTeX宏集中预定义的只有国际标准符号，而平行四边形符号并不在其中，故我们无法直接通过LaTeX或<code>amsmath</code>等数学宏包中的预定义命令输出这一符号。对此，一种比较通俗的做法是使用Unicode字符▱，但在大多数输入法中该字符较难输入。因此，如需在一个文档中大量使用该符号，利用如<code>TikZ</code>等绘图宏包自定义一个命令是较为方便的，例如：<span id="more"></span></p>
@@ -757,6 +757,38 @@
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
         <tag>LaTeX</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>资本论学习笔记（二）：资本市场与股份制企业</title>
+    <url>/2024/10/19/2024-10-19--Das-Kapital-2/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>以货币信贷业务为基石的资本市场，是当代资本主义社会运转的重要部分。资本市场依托于实体经济，却在整个社会生产中发挥着类似于「神经系统」的重要作用。</p>
+<p>事实上，早在19世纪，银行业和金融业尚未发达的时期，马克思就对这一领域进行过哲学上的探索与研究，他在这方面的许多成果，主要体现在《资本论》第三卷第23章中，其中的许多表述，即使放在今天，也能令它的阅读者受益匪浅。<span id="more"></span></p>
+<h1 id="利息"><a href="#利息" class="headerlink" title="利息"></a>利息</h1><p>在第23章中，马克思主要讨论了两个问题，一是资本所有权本身是否能产生利润，二是资本家是否也劳动。围绕着这两个问题，马克思对近现代经济学当中几组非常重要的对立的范畴展开讨论，虚拟经济和实体经济、货币资本家和产业资本家、利息和企业主收入。</p>
+<p>利息，在《资本论》的原文中，马克思引用托·图克《价格史》中的定义「在一年内或任何一个或长或短的期间内使用一定数额的货币资本而经贷出者同意接受、并经借入者同意支付的比例金额」。</p>
+<p>因此，要对利息这一范畴进行深入的讨论，首先要对资本(Capital)的定义进行明确，Capital一词源于拉丁文Capitalis，原意为一笔债务的本金部分，这一意义本身就暗含着借钱生利，即这个本金是一笔货币，它在被偿还的时候带来了额外的部分，称为利息。所以利息这一范畴在被赋予定义时，被看作是这种被借出的货币自身能够增加的部分。带着这一定义回到资本论的范畴中，利息跟产业资本的运动是无关的，即贷出者总是要对借出的货币收取一定量的利息，而不管借入者如何支配这些货币。</p>
+<p>然而，必须看到的一点是，利息的来源，还是产业资本家利用借入的资本从事生产时，所产生的剩余价值。即在宏观上看，产业资本家和货币资本的结合，是以资本的增殖即剩余价值的生产为前提的，这一前提为利息这一范畴提供了基础，对产业资本家用借入的货币资本所取得的利润的分割。</p>
+<p>马克思接下来讨论的问题是，如果产业家使用自己的资本从事经营活动，利润就会全部归他自己所有，因而不会产生这种分割。但是，在有了利息这一范畴之后，产业家会把他的产业所产生的剩余价值自己在心中区分为两个部分，扣除投入的资本本来应该有的利息，才算利润。如果投入产业的资本产生的剩余价值小于他在资本市场上贷出资本可以获得利息的话，他自然就会放弃产业而选择后者了。</p>
+<p>这两个无论是发生在货币贷出者和借入者之间、或是在使用自有资本从事经营的产业资本家自己心中所产生的两个互相对立的范畴，被马克思称为货币资本家和产业资本家，货币资本家获取利息部分，而产业资本家获取扣除利息所剩余的利润部分。</p>
+<p>利息与利润质的分割在这里随之发生了，即在客观上存在着一个资本本身的市场，它是独立于产业平台之外的资本生利的平台，即资本本省拥有着产生利润的能力，由资本本身产生的利润称为利息，跟产业资本的运动无关。</p>
+<p>另一个可见的事实是利息率的确定，利息率是由市场决定的，即货币资本家同产业资本家在资本市场上竞争产生的，它与货币的供应量具有正相关关系，而与实体经济中产业资本的利润率无关。</p>
+<p>对于这种利息与利润、货币资本家与产业资本家相互对立、彼此竞争的现象的出现，马克思在《资本论》原文中将之描述为「两部分的硬化与独立化」。但在事实上，我们仍应将利息看作是生产过程的副产物，受到价值规律和剩余价值规律的制约。如果所有资本家都不从事生产经营，而在资本市场上把钱贷出，那么利息率将越来越低，最终迫使一部分资本家重新回到生产过程当中，这规律与商品市场上的供求关系与价格波动完全相同。因此，利息与利润、货币资本家与产业资本家的对立关系，是范畴上的对立，而非事实上的对立，它们同属于生产过程，支配剩余价值的两个部分。</p>
+<h1 id="股份制企业与职业经理人"><a href="#股份制企业与职业经理人" class="headerlink" title="股份制企业与职业经理人"></a>股份制企业与职业经理人</h1><p>股份制企业是当前社会生产的一种重要形式，资本家通过股份占有公司利润的一部分，并支配公司管理的一部分权限。但在本质上，这种经营方式所体现的是资本主义生产中出现的企业所有权与管理权剥离的现象。</p>
+<p>资本主义生产的一个重要特点是它完全建立在劳动者与生产资料所有者之间相互对立的生产方式上，这时就会出现所谓的监督劳动，而且这种对立越显著，监督劳动就显得越重要。这在奴隶制社会的生产当中是如此，在资本主义生产中也一样。</p>
+<p>针对这样一种生产方式，我们可以为此找到一个形象的比喻，试把拥有企业的股东比作乐队中乐器的所有者，而把经理或管理者比作乐队的指挥，工人比作乐器的演奏者。在这样一种运行模式下，产业资本家可以完全不出现在生产过程中，而指挥和演奏者就可以在乐器上演奏动听的音乐。</p>
+<p>在这里股东所代表的角色一定是一个资本家，因为他要从企业的生产过程中剥削一部分的剩余价值作为利润。而经理则不一定，他同工人一样，只是赚取工资而履行监督劳动的职责。因此，我们完成了企业所有权同管理权的剥离。</p>
+<p>在这种剥离的基础上，企业主收入也同监督工资剥离开来。对于股东来说，经理也是劳动者，而他所进行的劳动是「监督劳动」，即作为资本家对工人劳动的剥削者的劳动者。企业支付给他的工资同支付给工人的工资没什么两样，只不过他的工资必须是从实际上从事生产的工人的一部分劳动果实中分割出来，从这个意义上，他占有了一部分别人的劳动果实。因此，经理的工资实际上与他所要付出的劳动或努力无关，而取决于他对其他工人劳动的剥削程度，这在管理学中叫做「运营能力」或「管理水平」。</p>
+<p>更进一步地说，对于把资本借给产业资本家从事经营的货币资本家来说，产业资本家也是劳动者，只不过是作为资本家的劳动者。产业资本家在一方面通过剥削工人的劳动，赚取剩余价值的一部分作为利润，一方面把剩余价值的另一部分以利息的方式支付给货币资本家，而这两个部分的分割取决于二者之间的竞争，这在本质上与经理同企业股东谈工资没有什么两样。</p>
+<p>简单地说，企业经理实际上是在剥削工人的劳动，而他剥削的果实将分为两个部分，一个部分作为他自己本人的工资，另一个部分作为股东的企业主收入。用同样的说法来说，产业资本家用借入的资本从事经营，他剥削的果实分为他自己所有的利润，另一个部分作为支付给货币资本家的利息。</p>
+<p>而在资本主义生产的基础上，一种关于管理工资的新的欺诈勾当在股份企业中发展起来，在实际的经理之外并在他们之上，出现了一批董事和监事。对这些董事和监事来说，管理和监督实际上不过是掠夺股东、发财致富的一个借口而已。</p>
+]]></content>
+      <categories>
+        <category>Social</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Social Science</tag>
+        <tag>资本论学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -790,38 +822,6 @@
       </categories>
       <tags>
         <tag>Math</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>资本论学习笔记（二）：资本市场与股份制企业</title>
-    <url>/2024/10/19/2024-10-19--Das-Kapital-2/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>以货币信贷业务为基石的资本市场，是当代资本主义社会运转的重要部分。资本市场依托于实体经济，却在整个社会生产中发挥着类似于「神经系统」的重要作用。</p>
-<p>事实上，早在19世纪，银行业和金融业尚未发达的时期，马克思就对这一领域进行过哲学上的探索与研究，他在这方面的许多成果，主要体现在《资本论》第三卷第23章中，其中的许多表述，即使放在今天，也能令它的阅读者受益匪浅。<span id="more"></span></p>
-<h1 id="利息"><a href="#利息" class="headerlink" title="利息"></a>利息</h1><p>在第23章中，马克思主要讨论了两个问题，一是资本所有权本身是否能产生利润，二是资本家是否也劳动。围绕着这两个问题，马克思对近现代经济学当中几组非常重要的对立的范畴展开讨论，虚拟经济和实体经济、货币资本家和产业资本家、利息和企业主收入。</p>
-<p>利息，在《资本论》的原文中，马克思引用托·图克《价格史》中的定义「在一年内或任何一个或长或短的期间内使用一定数额的货币资本而经贷出者同意接受、并经借入者同意支付的比例金额」。</p>
-<p>因此，要对利息这一范畴进行深入的讨论，首先要对资本(Capital)的定义进行明确，Capital一词源于拉丁文Capitalis，原意为一笔债务的本金部分，这一意义本身就暗含着借钱生利，即这个本金是一笔货币，它在被偿还的时候带来了额外的部分，称为利息。所以利息这一范畴在被赋予定义时，被看作是这种被借出的货币自身能够增加的部分。带着这一定义回到资本论的范畴中，利息跟产业资本的运动是无关的，即贷出者总是要对借出的货币收取一定量的利息，而不管借入者如何支配这些货币。</p>
-<p>然而，必须看到的一点是，利息的来源，还是产业资本家利用借入的资本从事生产时，所产生的剩余价值。即在宏观上看，产业资本家和货币资本的结合，是以资本的增殖即剩余价值的生产为前提的，这一前提为利息这一范畴提供了基础，对产业资本家用借入的货币资本所取得的利润的分割。</p>
-<p>马克思接下来讨论的问题是，如果产业家使用自己的资本从事经营活动，利润就会全部归他自己所有，因而不会产生这种分割。但是，在有了利息这一范畴之后，产业家会把他的产业所产生的剩余价值自己在心中区分为两个部分，扣除投入的资本本来应该有的利息，才算利润。如果投入产业的资本产生的剩余价值小于他在资本市场上贷出资本可以获得利息的话，他自然就会放弃产业而选择后者了。</p>
-<p>这两个无论是发生在货币贷出者和借入者之间、或是在使用自有资本从事经营的产业资本家自己心中所产生的两个互相对立的范畴，被马克思称为货币资本家和产业资本家，货币资本家获取利息部分，而产业资本家获取扣除利息所剩余的利润部分。</p>
-<p>利息与利润质的分割在这里随之发生了，即在客观上存在着一个资本本身的市场，它是独立于产业平台之外的资本生利的平台，即资本本省拥有着产生利润的能力，由资本本身产生的利润称为利息，跟产业资本的运动无关。</p>
-<p>另一个可见的事实是利息率的确定，利息率是由市场决定的，即货币资本家同产业资本家在资本市场上竞争产生的，它与货币的供应量具有正相关关系，而与实体经济中产业资本的利润率无关。</p>
-<p>对于这种利息与利润、货币资本家与产业资本家相互对立、彼此竞争的现象的出现，马克思在《资本论》原文中将之描述为「两部分的硬化与独立化」。但在事实上，我们仍应将利息看作是生产过程的副产物，受到价值规律和剩余价值规律的制约。如果所有资本家都不从事生产经营，而在资本市场上把钱贷出，那么利息率将越来越低，最终迫使一部分资本家重新回到生产过程当中，这规律与商品市场上的供求关系与价格波动完全相同。因此，利息与利润、货币资本家与产业资本家的对立关系，是范畴上的对立，而非事实上的对立，它们同属于生产过程，支配剩余价值的两个部分。</p>
-<h1 id="股份制企业与职业经理人"><a href="#股份制企业与职业经理人" class="headerlink" title="股份制企业与职业经理人"></a>股份制企业与职业经理人</h1><p>股份制企业是当前社会生产的一种重要形式，资本家通过股份占有公司利润的一部分，并支配公司管理的一部分权限。但在本质上，这种经营方式所体现的是资本主义生产中出现的企业所有权与管理权剥离的现象。</p>
-<p>资本主义生产的一个重要特点是它完全建立在劳动者与生产资料所有者之间相互对立的生产方式上，这时就会出现所谓的监督劳动，而且这种对立越显著，监督劳动就显得越重要。这在奴隶制社会的生产当中是如此，在资本主义生产中也一样。</p>
-<p>针对这样一种生产方式，我们可以为此找到一个形象的比喻，试把拥有企业的股东比作乐队中乐器的所有者，而把经理或管理者比作乐队的指挥，工人比作乐器的演奏者。在这样一种运行模式下，产业资本家可以完全不出现在生产过程中，而指挥和演奏者就可以在乐器上演奏动听的音乐。</p>
-<p>在这里股东所代表的角色一定是一个资本家，因为他要从企业的生产过程中剥削一部分的剩余价值作为利润。而经理则不一定，他同工人一样，只是赚取工资而履行监督劳动的职责。因此，我们完成了企业所有权同管理权的剥离。</p>
-<p>在这种剥离的基础上，企业主收入也同监督工资剥离开来。对于股东来说，经理也是劳动者，而他所进行的劳动是「监督劳动」，即作为资本家对工人劳动的剥削者的劳动者。企业支付给他的工资同支付给工人的工资没什么两样，只不过他的工资必须是从实际上从事生产的工人的一部分劳动果实中分割出来，从这个意义上，他占有了一部分别人的劳动果实。因此，经理的工资实际上与他所要付出的劳动或努力无关，而取决于他对其他工人劳动的剥削程度，这在管理学中叫做「运营能力」或「管理水平」。</p>
-<p>更进一步地说，对于把资本借给产业资本家从事经营的货币资本家来说，产业资本家也是劳动者，只不过是作为资本家的劳动者。产业资本家在一方面通过剥削工人的劳动，赚取剩余价值的一部分作为利润，一方面把剩余价值的另一部分以利息的方式支付给货币资本家，而这两个部分的分割取决于二者之间的竞争，这在本质上与经理同企业股东谈工资没有什么两样。</p>
-<p>简单地说，企业经理实际上是在剥削工人的劳动，而他剥削的果实将分为两个部分，一个部分作为他自己本人的工资，另一个部分作为股东的企业主收入。用同样的说法来说，产业资本家用借入的资本从事经营，他剥削的果实分为他自己所有的利润，另一个部分作为支付给货币资本家的利息。</p>
-<p>而在资本主义生产的基础上，一种关于管理工资的新的欺诈勾当在股份企业中发展起来，在实际的经理之外并在他们之上，出现了一批董事和监事。对这些董事和监事来说，管理和监督实际上不过是掠夺股东、发财致富的一个借口而已。</p>
-]]></content>
-      <categories>
-        <category>Social</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Social Science</tag>
-        <tag>资本论学习笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -992,6 +992,60 @@
       </tags>
   </entry>
   <entry>
+    <title>德州扑克(四)：德州扑克打法与理论的发展历程</title>
+    <url>/2024/12/31/2024-12-31--Taxes-Holdem-4/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>德州扑克自20世纪初起源以来，一直在美国本土保持着低密度流行的状态。一直以来，德州扑克主要流行于美国的上流社会，而且是一些较为聪明的商人才擅长的博弈游戏，这部分的群体主要是一些贸易商和投机交易商，当然也包括那些常年混迹于金融市场的交易员。<span id="more"></span></p>
+<h1 id="古典紧凶派：《超级系统》"><a href="#古典紧凶派：《超级系统》" class="headerlink" title="古典紧凶派：《超级系统》"></a>古典紧凶派：《超级系统》</h1><p>标志着德州扑克打法向着理论化的方向发展的一个重要的里程碑是Brunson的《超级系统》。Brunson在该书中提出的两个德州扑克的重要观点是：</p>
+<ol>
+<li>读人。扑克是关于人的游戏，长期盈利的关键在于对人的解读。</li>
+<li>凶。下注是赢下底池的重要手段。</li>
+</ol>
+<p>在《超级系统》，Brunson提出了一种德州扑克游戏的策略框架，该策略提倡根据位置的先后顺序（即在位置优势时游戏较宽的范围，在位置劣势时游戏较窄的范围）使用大约10-16%的起手牌范围进行游戏（即22+/A2s+/ATo+/KJo+/K9s+/Q9s+/QJo/JTs），并且常常在翻牌前和翻牌后利用在范围上的优势通过较大的下注频率和下注大小对对手进行攻击，成为早期紧凶打法的雏形。同一时期采用类似打法的著名玩家还有Ungar。</p>
+<h1 id="古典松凶派LAG"><a href="#古典松凶派LAG" class="headerlink" title="古典松凶派LAG"></a>古典松凶派LAG</h1><p>在稍后一些的一段时间里，有一些德州扑克玩家发现了一种截然不同的策略，这种策略的特点是在翻牌前用极宽的手牌范围平跟入池，翻牌后混合采用巨大比例的超池下注。该策略的另一个显著的特点是对位置并不是特别重视，对C-bet和Donk并没有特别清晰的概念。</p>
+<p>在那一段时期里，德州扑克被认为是艺术而非科学，这种打法也被称为古典松凶派，其大开大合的高波动性吸引了大量玩家的探索欲望。</p>
+<h1 id="爆发期"><a href="#爆发期" class="headerlink" title="爆发期"></a>爆发期</h1><p>德州扑克发展历史上的一个爆发期是21世纪初，具体地说，在那段时间里，随着PartyPoker和Pokrstars等Online Poker的兴起和各种视频赛事的出现，德州扑克的发展呈现出一种席卷全球的全民化态势。在这一时期里，德州扑克理论也得到了极大的开拓和发展，出现了许多不同策略和派别，呈现出一种百家争鸣的繁荣景象。</p>
+<h2 id="小球派"><a href="#小球派" class="headerlink" title="小球派"></a>小球派</h2><p>代表玩家：Negreanu</p>
+<p>翻牌前范围较宽，多用同花或连张、隔张等投机牌入池，采用大比例的最小下注和最小加注，翻牌后使用小额下注进行攻击，注意控制底池。</p>
+<h2 id="现代松凶派"><a href="#现代松凶派" class="headerlink" title="现代松凶派"></a>现代松凶派</h2><p>代表玩家：GusHansen和Tom Dwan</p>
+<p>翻牌前采用大比例的3bet挤压，边缘牌跟注入池，翻牌后持续三条街的重注，大量的超池下注。</p>
+<h2 id="紧凶派TAG"><a href="#紧凶派TAG" class="headerlink" title="紧凶派TAG"></a>紧凶派TAG</h2><p>翻牌前用较强的手牌范围入池，翻牌后用下注掌握游戏主动权</p>
+<h2 id="紧弱派"><a href="#紧弱派" class="headerlink" title="紧弱派"></a>紧弱派</h2><p>NIT：</p>
+<ol>
+<li>翻牌前只玩超强牌，且3-Bet频率极低；</li>
+<li>翻牌后大多数时候只是跟注，只有拿到Nuts时才会加注；</li>
+<li>从不诈唬对手，也不在意被对手诈唬。</li>
+</ol>
+<p>Rock：</p>
+<ol>
+<li>翻牌前只玩超强牌；</li>
+<li>翻牌后不轻易放弃自己的手牌。</li>
+</ol>
+<p>ABC：</p>
+<ol>
+<li>只使用99+的口袋对和AJ+的两高张入池；</li>
+<li>在翻牌后只有击中或安全牌面才会持续下注或继续游戏。</li>
+</ol>
+<p>这三种紧弱派打法的手牌范围大小按由宽到紧的顺序依次为NIT&gt;ABC&gt;Rock。</p>
+<h2 id="混合策略派LAGTAG"><a href="#混合策略派LAGTAG" class="headerlink" title="混合策略派LAGTAG"></a>混合策略派LAGTAG</h2><p>这种打法可以说回到了Brunson最初的准则，扑克是关于人的游戏。采用这种策略的玩家通过在不同牌桌形象之间切换的策略，平衡自己的行动和手牌范围，即”时松、时紧、时凶、时弱”。</p>
+<p>例如，混合策略派的玩家在面对NIT玩家时会选择采用LAG的形象进行游戏，而在面对Rock玩家时会选择采用TAG的形象进行游戏，这也是剥削策略的早期雏形。</p>
+<p>可以用《孙子兵法》中的一句话很好地形容这种策略，即”其疾如风，其徐如林，侵略如火，不动如山，难知如阴，动如雷霆”。这种打法是当时最接近GTO的策略，也为后来纳什均衡打法的出现奠定了基础。</p>
+<h1 id="纳什均衡"><a href="#纳什均衡" class="headerlink" title="纳什均衡"></a>纳什均衡</h1><p>在2010年后，所有德州扑克的不同打法迎来了统一，这主要得益于当时计算机和人工智能等技术在扑克领域的应用，GTO理论和剥削策略随之出现，至今已然成为扑克游戏的宗旨和圭臬。</p>
+<p>GTO是基于当前牌桌动态所得出的最优策略，以频率和范围的平衡为基础。GTO会根据双方在当前牌桌动态下可能的手牌范围，计算对应的策略和频率，再按照权益曲线分配给每一手牌。按照GTO得出的策略进行游戏，可以在任何时候都保持平衡的手牌范围和行动线，让其他对手无法找到剥削漏洞。但是，GTO是完全平衡的游戏策略，其本身也无法剥削任何对手的价值，即如果一张牌卓上的所有玩家都采用GTO策略进行游戏，那么长期来看所有玩家的期望收益都是0。</p>
+<p>因此，有人在GTO的基础上提出了剥削策略。所谓剥削策略，是指以GTO为基础，根据玩家池的倾向和对手的形象，在GTO的基础上进行有一定程度的调整与偏离，这种偏离的目的是根据对手的漏洞在他身上剥削价值。</p>
+<p>例如，一个紧手玩家只用JJ+和AK这种强牌在翻牌前进行3bet或跟注别人的3bet，那么我们在面对他时就可以在GTO建议的3bet范围上增加一定的诈唬频率，并缩紧自己跟注3bet的手牌范围，这就是我们针对该玩家的形象所制定的剥削策略。</p>
+<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>至今，德州扑克打法与理论的发展可以说已经达到了尾声，我们可以在数学上证明，GTO就是进行德州扑克游戏的最优策略，因为它会使对手无法通过任何漏洞进行攻击。那些以后的职业牌手们所要做的，就是一步一步地使自己的打法与GTO无限接近，从而降低自己在牌桌上被剥削的可能性。而那些在德州扑克漫长的发展历史中所涌现的昙花一现的各种打法，在GTO的视角看来都有着或大或小的漏洞，却也永远不会黯然失色——它们终会成为德州扑克发展历程中的一块块丰碑，不断被后人学习和敬仰。</p>
+<p><img src="/images/2024-12-31--Taxes-Holdem-4/1.jpg" alt="1"></p>
+]]></content>
+      <categories>
+        <category>Poker</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Game</tag>
+        <tag>Poker</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>德州扑克(三)：德州扑克游戏中一些常用的重要概率</title>
     <url>/2024/12/14/2024-12-14--Taxes-Holdem-3/</url>
     <content><![CDATA[<p>概率是德州扑克游戏过程中最重要的概念之一，也是在进行决策时考虑的首要因素。对于新手而言，这些概率将大大有助于其感受德州扑克的数学本质。</p>
@@ -1075,94 +1129,6 @@
 <script type="math/tex; mode=display">f'(x) = \sum_{n=0}^{\infty} (-1)^n x^{an+b-1} = \frac{x^{b-1}}{1+x^a}</script><p>因此：</p>
 <script type="math/tex; mode=display">f(x) = \int_{0}^{x} \frac{t^{b-1}}{1+t^a} dt</script><p>则所求级数即为：</p>
 <script type="math/tex; mode=display">\sum_{n=0}^{\infty} \frac{(-1)^n}{an+b} = f(1) = \int_{0}^{1} \frac{t^{b-1}}{1+t^a} dt</script><p>通过这样的方法，我们可以把该类莱布尼茨级数化为定积分的形式，再通过对定积分的计算即可得到对应莱布尼茨级数的值。</p>
-]]></content>
-      <categories>
-        <category>Math</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>数术杂编</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>德州扑克(四)：德州扑克打法与理论的发展历程</title>
-    <url>/2024/12/31/2024-12-31--Taxes-Holdem-4/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>德州扑克自20世纪初起源以来，一直在美国本土保持着低密度流行的状态。一直以来，德州扑克主要流行于美国的上流社会，而且是一些较为聪明的商人才擅长的博弈游戏，这部分的群体主要是一些贸易商和投机交易商，当然也包括那些常年混迹于金融市场的交易员。<span id="more"></span></p>
-<h1 id="古典紧凶派：《超级系统》"><a href="#古典紧凶派：《超级系统》" class="headerlink" title="古典紧凶派：《超级系统》"></a>古典紧凶派：《超级系统》</h1><p>标志着德州扑克打法向着理论化的方向发展的一个重要的里程碑是Brunson的《超级系统》。Brunson在该书中提出的两个德州扑克的重要观点是：</p>
-<ol>
-<li>读人。扑克是关于人的游戏，长期盈利的关键在于对人的解读。</li>
-<li>凶。下注是赢下底池的重要手段。</li>
-</ol>
-<p>在《超级系统》，Brunson提出了一种德州扑克游戏的策略框架，该策略提倡根据位置的先后顺序（即在位置优势时游戏较宽的范围，在位置劣势时游戏较窄的范围）使用大约10-16%的起手牌范围进行游戏（即22+/A2s+/ATo+/KJo+/K9s+/Q9s+/QJo/JTs），并且常常在翻牌前和翻牌后利用在范围上的优势通过较大的下注频率和下注大小对对手进行攻击，成为早期紧凶打法的雏形。同一时期采用类似打法的著名玩家还有Ungar。</p>
-<h1 id="古典松凶派LAG"><a href="#古典松凶派LAG" class="headerlink" title="古典松凶派LAG"></a>古典松凶派LAG</h1><p>在稍后一些的一段时间里，有一些德州扑克玩家发现了一种截然不同的策略，这种策略的特点是在翻牌前用极宽的手牌范围平跟入池，翻牌后混合采用巨大比例的超池下注。该策略的另一个显著的特点是对位置并不是特别重视，对C-bet和Donk并没有特别清晰的概念。</p>
-<p>在那一段时期里，德州扑克被认为是艺术而非科学，这种打法也被称为古典松凶派，其大开大合的高波动性吸引了大量玩家的探索欲望。</p>
-<h1 id="爆发期"><a href="#爆发期" class="headerlink" title="爆发期"></a>爆发期</h1><p>德州扑克发展历史上的一个爆发期是21世纪初，具体地说，在那段时间里，随着PartyPoker和Pokrstars等Online Poker的兴起和各种视频赛事的出现，德州扑克的发展呈现出一种席卷全球的全民化态势。在这一时期里，德州扑克理论也得到了极大的开拓和发展，出现了许多不同策略和派别，呈现出一种百家争鸣的繁荣景象。</p>
-<h2 id="小球派"><a href="#小球派" class="headerlink" title="小球派"></a>小球派</h2><p>代表玩家：Negreanu</p>
-<p>翻牌前范围较宽，多用同花或连张、隔张等投机牌入池，采用大比例的最小下注和最小加注，翻牌后使用小额下注进行攻击，注意控制底池。</p>
-<h2 id="现代松凶派"><a href="#现代松凶派" class="headerlink" title="现代松凶派"></a>现代松凶派</h2><p>代表玩家：GusHansen和Tom Dwan</p>
-<p>翻牌前采用大比例的3bet挤压，边缘牌跟注入池，翻牌后持续三条街的重注，大量的超池下注。</p>
-<h2 id="紧凶派TAG"><a href="#紧凶派TAG" class="headerlink" title="紧凶派TAG"></a>紧凶派TAG</h2><p>翻牌前用较强的手牌范围入池，翻牌后用下注掌握游戏主动权</p>
-<h2 id="紧弱派"><a href="#紧弱派" class="headerlink" title="紧弱派"></a>紧弱派</h2><p>NIT：</p>
-<ol>
-<li>翻牌前只玩超强牌，且3-Bet频率极低；</li>
-<li>翻牌后大多数时候只是跟注，只有拿到Nuts时才会加注；</li>
-<li>从不诈唬对手，也不在意被对手诈唬。</li>
-</ol>
-<p>Rock：</p>
-<ol>
-<li>翻牌前只玩超强牌；</li>
-<li>翻牌后不轻易放弃自己的手牌。</li>
-</ol>
-<p>ABC：</p>
-<ol>
-<li>只使用99+的口袋对和AJ+的两高张入池；</li>
-<li>在翻牌后只有击中或安全牌面才会持续下注或继续游戏。</li>
-</ol>
-<p>这三种紧弱派打法的手牌范围大小按由宽到紧的顺序依次为NIT&gt;ABC&gt;Rock。</p>
-<h2 id="混合策略派LAGTAG"><a href="#混合策略派LAGTAG" class="headerlink" title="混合策略派LAGTAG"></a>混合策略派LAGTAG</h2><p>这种打法可以说回到了Brunson最初的准则，扑克是关于人的游戏。采用这种策略的玩家通过在不同牌桌形象之间切换的策略，平衡自己的行动和手牌范围，即”时松、时紧、时凶、时弱”。</p>
-<p>例如，混合策略派的玩家在面对NIT玩家时会选择采用LAG的形象进行游戏，而在面对Rock玩家时会选择采用TAG的形象进行游戏，这也是剥削策略的早期雏形。</p>
-<p>可以用《孙子兵法》中的一句话很好地形容这种策略，即”其疾如风，其徐如林，侵略如火，不动如山，难知如阴，动如雷霆”。这种打法是当时最接近GTO的策略，也为后来纳什均衡打法的出现奠定了基础。</p>
-<h1 id="纳什均衡"><a href="#纳什均衡" class="headerlink" title="纳什均衡"></a>纳什均衡</h1><p>在2010年后，所有德州扑克的不同打法迎来了统一，这主要得益于当时计算机和人工智能等技术在扑克领域的应用，GTO理论和剥削策略随之出现，至今已然成为扑克游戏的宗旨和圭臬。</p>
-<p>GTO是基于当前牌桌动态所得出的最优策略，以频率和范围的平衡为基础。GTO会根据双方在当前牌桌动态下可能的手牌范围，计算对应的策略和频率，再按照权益曲线分配给每一手牌。按照GTO得出的策略进行游戏，可以在任何时候都保持平衡的手牌范围和行动线，让其他对手无法找到剥削漏洞。但是，GTO是完全平衡的游戏策略，其本身也无法剥削任何对手的价值，即如果一张牌卓上的所有玩家都采用GTO策略进行游戏，那么长期来看所有玩家的期望收益都是0。</p>
-<p>因此，有人在GTO的基础上提出了剥削策略。所谓剥削策略，是指以GTO为基础，根据玩家池的倾向和对手的形象，在GTO的基础上进行有一定程度的调整与偏离，这种偏离的目的是根据对手的漏洞在他身上剥削价值。</p>
-<p>例如，一个紧手玩家只用JJ+和AK这种强牌在翻牌前进行3bet或跟注别人的3bet，那么我们在面对他时就可以在GTO建议的3bet范围上增加一定的诈唬频率，并缩紧自己跟注3bet的手牌范围，这就是我们针对该玩家的形象所制定的剥削策略。</p>
-<h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>至今，德州扑克打法与理论的发展可以说已经达到了尾声，我们可以在数学上证明，GTO就是进行德州扑克游戏的最优策略，因为它会使对手无法通过任何漏洞进行攻击。那些以后的职业牌手们所要做的，就是一步一步地使自己的打法与GTO无限接近，从而降低自己在牌桌上被剥削的可能性。而那些在德州扑克漫长的发展历史中所涌现的昙花一现的各种打法，在GTO的视角看来都有着或大或小的漏洞，却也永远不会黯然失色——它们终会成为德州扑克发展历程中的一块块丰碑，不断被后人学习和敬仰。</p>
-<p><img src="/images/2024-12-31--Taxes-Holdem-4/1.jpg" alt="1"></p>
-]]></content>
-      <categories>
-        <category>Poker</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Game</tag>
-        <tag>Poker</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例</title>
-    <url>/2025/01/23/2025-01-23--Example-Of-Calculating-Improper-Integral-Of-Rational-Function-By-Residue-Theorem/</url>
-    <content><![CDATA[<p>本文基于以下两个例子，讨论一种利用留数定理计算有理函数反常积分的方法：</p>
-<script type="math/tex; mode=display">I_1 = \int_{-\infty}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><script type="math/tex; mode=display">I_2 = \int_{0}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><p>容易证明上面两个积分都是良定义且收敛的，下面我将利用留数定理计算它们。<span id="more"></span></p>
-<p>对于$I_1$，其解法是直接讨论被积函数本身，令：</p>
-<script type="math/tex; mode=display">f(z) = \frac{1}{z^4 + z^3 + z^2 + z + 1} = \frac{z-1}{z^5-1}</script><p>则：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I_1 & = 2\pi i \Res_{z = e^{2\pi i / 5}} f(z) + 2\pi i \Res_{z = e^{4\pi i / 5}} f(z) \\
-& = 2\pi i \left( \frac{e^{2\pi i / 5} - 1}{5e^{8\pi i / 5}} + \frac{e^{4\pi i / 5} - 1}{5e^{16\pi i / 5}} \right) \\
-& = \frac{2\pi i}{5}\left( e^{4\pi i / 5} - e^{2\pi i / 5} + e^{-2\pi i / 5} - e^{4\pi i / 5}\right) \\
-& = \frac{4\pi}{5}\sin\left(\frac{2\pi}{5}\right) \\
-& = \frac{\sqrt{10+2\sqrt{5}}}{5}\pi
-\end{align*}</script><p>$I_2$与$I_1$的区别在于积分区间缩小为正半轴，且被积函数是非奇非偶的，因此无法直接通过$I_1$的值算得。对于此类积分，其计算方法通常是令$g(z) = f(z)\log z$，沿正实轴割开平面，并简单地约定在支割线上方有$\arg z = 0$，则：</p>
-<script type="math/tex; mode=display">
-\begin{align*}
-I_2 & = 2\pi i\sum_{k=1}^{4} \Res_{z = e^{2k\pi i/5}} g(z) \\
-& = -\sum_{k=1}^{4} \frac{2k\pi i}{5}\frac{e^{2k\pi i/5}}{5e^{8k\pi i/5}} \\
-& = -\frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{2\pi i/5}\right) -\frac{4\pi i}{25}\left(e^{-2\pi i/5} - e^{4\pi i/5}\right) -\frac{6\pi i}{25}\left(e^{2\pi i/5} - e^{-4\pi i/5}\right) -\frac{8\pi i}{25}\left(e^{-4\pi i/5} - e^{-2\pi i/5}\right) \\
-& = \frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{-4\pi i/5}\right) - \frac{4\pi i}{25}\left(e^{2\pi i/5} - e^{-2\pi i/5}\right) \\
-& = \frac{4\pi}{25}\left[2\sin\left(\frac{2\pi}{5}\right) - \sin\left(\frac{4\pi}{5}\right)\right] \\
-& = \frac{\sqrt{50-10\sqrt{5}}}{25}\pi
-\end{align*}</script><p>注：上述第二个积分在复平面上的积分路径为从$\infty$出发沿正实轴上沿，再沿一个半径任意小的圆逆时针绕过原点，最后沿正实轴上沿回到$\infty$。由于正实轴上下沿上的辐角相差$2\pi i$，因此，所求积分事实上是$2\pi i I_2$，故在应用留数定理时直接约去了等式两边的$2\pi i$。 </p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -1260,6 +1226,24 @@ I_2 & = 2\pi i\sum_{k=1}^{4} \Res_{z = e^{2k\pi i/5}} g(z) \\
       </tags>
   </entry>
   <entry>
+    <title>数术杂编(五)：几个椭圆积分奇异值的初等计算方法</title>
+    <url>/2025/02/18/2025-02-18--Calculation-Of-Singular-Values-Of-Elliptical-Integral/</url>
+    <content><![CDATA[<p>椭圆积分是数论和代数几何中一个十分重要的范畴，近代的模形式理论更是涉及了许多对椭圆积分的性质的研究。在研究过程中，一些学者注意到，椭圆积分在某些特殊点处的函数值可以通过Gamma函数解析地表达出来，这些值统称为椭圆积分奇异值(Singular Values of Elliptical Integral)，是代数数论的一个重要课题。</p>
+<p>而在狭义上，椭圆积分奇异值则是指满足下式的值$K(k_n)$和$K’(k_n)$：</p>
+<script type="math/tex; mode=display">K(k_n) = \sqrt{n}K'(k_n), n\in\mathbb{Z}^+</script><p>在本文中，我将采用初等方法计算前几个椭圆积分奇异值，这主要是通过利用积分换元法将椭圆积分变成Beta函数来实现的。<span id="more"></span></p>
+<p><a href="/files/EISV.pdf">几个椭圆积分奇异值的初等计算方法</a> </p>
+]]></content>
+      <categories>
+        <category>Math</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Math</tag>
+        <tag>数术杂编</tag>
+        <tag>Number Theory</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>数术杂编(四)：费曼积分法(Feynman&#39;s Trick)</title>
     <url>/2025/02/07/2025-02-07--Feynmans-Trick/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>对于一般的单变量定积分，常用的求解方法是利用换元积分法和分部积分法找到被积函数的原函数，然后再按照牛顿-莱布尼茨公式计算定积分的值。然而，对于一些特殊的定积分，被积函数的原函数并不一定是初等的，此时牛顿-莱布尼茨公式就不再奏效了，若要计算这类定积分的值，我们就需要借助一些其他的技巧，费曼积分法(Feynman’s Trick)就是一个十分重要的解法。</p>
@@ -1354,12 +1338,29 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       </tags>
   </entry>
   <entry>
-    <title>数术杂编(五)：几个椭圆积分奇异值的初等计算方法</title>
-    <url>/2025/02/18/2025-02-18--Calculation-Of-Singular-Values-Of-Elliptical-Integral/</url>
-    <content><![CDATA[<p>椭圆积分是数论和代数几何中一个十分重要的范畴，近代的模形式理论更是涉及了许多对椭圆积分的性质的研究。在研究过程中，一些学者注意到，椭圆积分在某些特殊点处的函数值可以通过Gamma函数解析地表达出来，这些值统称为椭圆积分奇异值(Singular Values of Elliptical Integral)，是代数数论的一个重要课题。</p>
-<p>而在狭义上，椭圆积分奇异值则是指满足下式的值$K(k_n)$和$K’(k_n)$：</p>
-<script type="math/tex; mode=display">K(k_n) = \sqrt{n}K'(k_n), n\in\mathbb{Z}^+</script><p>在本文中，我将采用初等方法计算前几个椭圆积分奇异值，这主要是通过利用积分换元法将椭圆积分变成Beta函数来实现的。<span id="more"></span></p>
-<p><a href="/files/EISV.pdf">几个椭圆积分奇异值的初等计算方法</a> </p>
+    <title>数术杂编(三)：一个利用留数定理计算有理函数反常积分的范例</title>
+    <url>/2025/01/23/2025-01-23--Example-Of-Calculating-Improper-Integral-Of-Rational-Function-By-Residue-Theorem/</url>
+    <content><![CDATA[<p>本文基于以下两个例子，讨论一种利用留数定理计算有理函数反常积分的方法：</p>
+<script type="math/tex; mode=display">I_1 = \int_{-\infty}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><script type="math/tex; mode=display">I_2 = \int_{0}^{\infty} \frac{1}{x^4 + x^3 + x^2 + x + 1} dx</script><p>容易证明上面两个积分都是良定义且收敛的，下面我将利用留数定理计算它们。<span id="more"></span></p>
+<p>对于$I_1$，其解法是直接讨论被积函数本身，令：</p>
+<script type="math/tex; mode=display">f(z) = \frac{1}{z^4 + z^3 + z^2 + z + 1} = \frac{z-1}{z^5-1}</script><p>则：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I_1 & = 2\pi i \Res_{z = e^{2\pi i / 5}} f(z) + 2\pi i \Res_{z = e^{4\pi i / 5}} f(z) \\
+& = 2\pi i \left( \frac{e^{2\pi i / 5} - 1}{5e^{8\pi i / 5}} + \frac{e^{4\pi i / 5} - 1}{5e^{16\pi i / 5}} \right) \\
+& = \frac{2\pi i}{5}\left( e^{4\pi i / 5} - e^{2\pi i / 5} + e^{-2\pi i / 5} - e^{4\pi i / 5}\right) \\
+& = \frac{4\pi}{5}\sin\left(\frac{2\pi}{5}\right) \\
+& = \frac{\sqrt{10+2\sqrt{5}}}{5}\pi
+\end{align*}</script><p>$I_2$与$I_1$的区别在于积分区间缩小为正半轴，且被积函数是非奇非偶的，因此无法直接通过$I_1$的值算得。对于此类积分，其计算方法通常是令$g(z) = f(z)\log z$，沿正实轴割开平面，并简单地约定在支割线上方有$\arg z = 0$，则：</p>
+<script type="math/tex; mode=display">
+\begin{align*}
+I_2 & = 2\pi i\sum_{k=1}^{4} \Res_{z = e^{2k\pi i/5}} g(z) \\
+& = -\sum_{k=1}^{4} \frac{2k\pi i}{5}\frac{e^{2k\pi i/5}}{5e^{8k\pi i/5}} \\
+& = -\frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{2\pi i/5}\right) -\frac{4\pi i}{25}\left(e^{-2\pi i/5} - e^{4\pi i/5}\right) -\frac{6\pi i}{25}\left(e^{2\pi i/5} - e^{-4\pi i/5}\right) -\frac{8\pi i}{25}\left(e^{-4\pi i/5} - e^{-2\pi i/5}\right) \\
+& = \frac{2\pi i}{25}\left(e^{4\pi i/5} - e^{-4\pi i/5}\right) - \frac{4\pi i}{25}\left(e^{2\pi i/5} - e^{-2\pi i/5}\right) \\
+& = \frac{4\pi}{25}\left[2\sin\left(\frac{2\pi}{5}\right) - \sin\left(\frac{4\pi}{5}\right)\right] \\
+& = \frac{\sqrt{50-10\sqrt{5}}}{25}\pi
+\end{align*}</script><p>注：上述第二个积分在复平面上的积分路径为从$\infty$出发沿正实轴上沿，再沿一个半径任意小的圆逆时针绕过原点，最后沿正实轴上沿回到$\infty$。由于正实轴上下沿上的辐角相差$2\pi i$，因此，所求积分事实上是$2\pi i I_2$，故在应用留数定理时直接约去了等式两边的$2\pi i$。 </p>
 ]]></content>
       <categories>
         <category>Math</category>
@@ -1368,7 +1369,6 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
         <tag>数术杂编</tag>
-        <tag>Number Theory</tag>
       </tags>
   </entry>
   <entry>
@@ -1421,48 +1421,6 @@ I'(a) & = \frac{d}{da} \int_{0}^{\infty} \frac{e^{-x^2} \sin (ax^2)}{x^2} dx \\
       </tags>
   </entry>
   <entry>
-    <title>中国古代命理学通俗演义(一)：命理学的历史渊源</title>
-    <url>/2025/05/01/2025-05-01--Expedition-To-The-Chinese-Ancient-Numerology-1/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>自古以来，山、医、命、相、卜合称五术，是中国传统文化的重要组成部分之一，在《庄子·杂篇·天下》中，被认为是「无所不在」‌。命理学即为五术中的「命」‌，指通过数理推衍的方式来测算命运，趋吉避凶的一类道术。在中华文明漫长的发展历程中，曾涌现过多种算命术，其中又以八字算命术和紫微斗数最广为人知。在本系列文章中，笔者将以历史渊源、核心原理、排盘方式、案例分析等方式，系统地梳理此二者的诸多方面，供自己和他人查阅方便。由于笔者才识尚浅，行文过程中难免有所疏漏，如能得到心读者的拨冗斧正，笔者将不胜感激。<span id="more"></span></p>
-<h1 id="干支纪年法"><a href="#干支纪年法" class="headerlink" title="干支纪年法"></a>干支纪年法</h1><p>中国古代诸多算命术的推衍过程都是基于人的生辰（出生的年、月、日、时）进行的，而记载生辰的重要方式便是通过日历，因此，历法是命理学重要的基础工具。</p>
-<p>干支纪年法是中国传统历法中独特的纪年体系，其主要内容为十天干与十二地支两两组合而成的循环，并以其表示年、月、日、时的更迭。干支纪年法的出现最早可追溯至先秦时期，历经数千年发展演变，至今仍被广泛应用，是中华文明的重要符号。</p>
-<p>十天干与十二地支最早起源于先民对天象的观测与符号化表达。天干（甲、乙、丙、丁、戊、己、庚、辛、壬、癸）与地支（子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥）的起源可追溯至新石器时代。早在氏族部落时期，陶器的刻符中已出现类似形似天干地支的抽象符号组合。这些符号最初用于标记时间、方位或自然现象。《尚书·尧典》中亦有记载：「乃命羲和，钦若昊天，历象日月星辰，敬授人时。」‌这体现了先民通过观测天体运行划分时间周期，并用天干地支作为符号记录的实践。</p>
-<p>直到商周时期，干支体系逐渐系统化。在甲骨文中便有了大量以干支纪日的记录，《甲骨文合集》中记载道：「癸卯卜，今日雨。」‌表明干支已用于占卜和时间记录。同时，干支与五行、方位、音律等理论的结合，为其赋予了哲学内涵，如《左传》曰：「天有十日，日有十辰。」‌这体现了天干与空间、方位的关联。</p>
-<p>真正标志着干支纪年法确立的制度始于秦汉时期。汉武帝太初元年（即公元前104年）颁布的《太初历》中，首次出现了将天干地支与二十四节气结合，形成岁星纪年法与干支纪年法两套历法并行的历法体系。后来，古人们又发现岁星（木星）运行周期与观测到的天象之间存在偏差，干支纪年法在稳定性上具有绝对的优势，逐渐被推上历史舞台，成为主流。</p>
-<p>史至魏晋，东晋虞喜最早发现并提出「岁差」‌的概念（即地球自转轴进动引起春分点沿轨道黄道面向西移动，导致回归年短于恒星年的天文学现象），这一发现推动历法进一步精确化，促使官方最终决定摒弃岁星纪年法而采用干支纪年法取而代之。此时，干支不仅用于纪年，还与生肖、五行结合，初步形成完整的文化体系，直到南朝，《五行大义》中已经出现了完整的阐述干支与五行的对应关系的知识体系。</p>
-<p>后来，历经唐宋元三朝的完善与发展，干支纪年法完全进入标准化阶段。这一时期的官方文书，如《大衍历》《授时历》中均对干支纪年法的准则作出了明确界定，「六十甲子」‌成为纪年的标准模式。在这一时期，干支纪年法已经被广泛应用于官方文书、史书编撰和民间生活。司马光的史学著作《资治通鉴》就是以干支纪年为时间轴的，敦煌遗书中亦有大量以干支纪年法表示日期的契约、账簿等被考古学家所发现。</p>
-<p>直到明清时期，干支纪年法已经成为与皇权、礼制深度融合的文化符号体系。明代《大统历》、清代《时宪历》均以干支纪年为核心，用皇帝年号与干支并举的方式表示年份。在同一时期，各类记载历法和占卜的文献逐渐深入民间，成为民俗文化的重要组成部分。</p>
-<p>近现代以来，受到西方思潮的影响，公元纪年法逐渐取代干支纪年法成为主流历法，但干支纪年法在文化传承中仍保持着其强大的生命力，仍被百姓广泛应用于农历新年、传统节庆，且大量的历史事件，如「甲午战争」‌「辛亥革命」‌等均以干支命名。1912年中华民国成立后，官方推行公元纪年法与民国纪年并行的历法体系，但流行于民间的主流历法仍是干支纪年法。</p>
-<p>时至今日，干支纪年法已经成为中华文化的重要符号之一，联合国教科文组织将二十四节气列入非遗名录，而干支纪年法作为其核心要素之一，引发国际社会对天干地支这一重要文化符号的关注。海外华人社区仍有不少居民至今延用着干支纪年法，日本、韩国、越南等受中华文化影响的国家仍保留着这一重要的文化习俗。</p>
-<h1 id="阴阳五行学说"><a href="#阴阳五行学说" class="headerlink" title="阴阳五行学说"></a>阴阳五行学说</h1><p>阴阳五行学说是中国古代哲学中一套独特的理论体系，其起源可追溯至远古时期，发展历程贯穿了中国古代历史，对中华文化的诸多方面产生了深远影响。</p>
-<p>早期，古人们基于对昼夜交替、寒来暑往等自然现象的观察，抽象出了「阴阳」‌这一对范畴，用来解释天地、日夜、男女、动静等相互对立又彼此依存的关系。在这一过程中，中国古人逐步确立了道家思想的基本框架。</p>
-<p>直至西周时期，文王姬昌创立《周易》学说，标志着阴阳思想的学术化与系统化，将万物变易过程中的诸多自然现象，以八卦和六十四卦的形式，用阴阳对立统一、相互转化的哲学思想加以解释。</p>
-<p>同一时期诞生的「五材说」‌，被认为是五行的历史渊源，这在《尚书·洪范》中便有所记载：「五行：一曰水，二曰火，三曰木，四曰金，五曰土。」‌并在春秋战国时期，发展出五行相生相克的理论体系。</p>
-<p>战国中后期，由于二者都具有对立统一、相生相克这一相同的哲学基础，阴阳与五行两大学说逐渐走向融合，邹衍等思想家将二者联系起来，构建了更为完整的宇宙观和哲学体系，至此，八字推命的哲学基础基本确立。</p>
-<h1 id="星宿学说"><a href="#星宿学说" class="headerlink" title="星宿学说"></a>星宿学说</h1><p>中国命理学中的另一大体系，即紫微斗数，则与天文星宿学说密切相关。天文学在中国的历史沿革最早可追溯至新石器时代远古先民对天象的原始观测，历经商周萌芽、战国成型、两汉成体、唐宋完善、明清传承，并形成集天文、历法、哲学、民俗于一体的独特文化传统。</p>
-<p>早在仰韶文化时期（距今约6000年），中国先民就已经发现了通过观测日月星辰方位划分季节知道农耕的方法。在火历中，「大火星」‌（心宿二）的昏见被视为春耕信号。</p>
-<p>时间来到战国时期，甘德、石申等天文学家，通过观测星象、编制星表、记录恒星的位置和亮度，他们的成果形成著名的《甘石星经》，奠定了以青龙、白虎、朱雀、玄武为首的「四象二十八宿」‌体系。这在《吕氏春秋》和《礼记·月令》中又和四季、物候相互对应，形成「月令」‌体系，那一时期的农耕、祭祀、册封等大小事务，均是以这一体系为主要参照和指引进行的。</p>
-<p>两汉时期，司马迁在《史记·天官书》中首次系统地阐述了二十八宿与三桓的划分方法，并将星宿与人间的某些重大事件进行对应，为星象赋予了政治寓意。同一时期，董仲舒提出「天人感应」‌的理论也认为星象异常预示着人间变革。至此，星宿成为帝王德行与国家兴衰的象征。</p>
-<h1 id="生辰八字"><a href="#生辰八字" class="headerlink" title="生辰八字"></a>生辰八字</h1><p>命理学的发展较之阴阳五行学说的发展和星宿学说的发展是稍后一些的，但整体而言，二者是基本同步的，这是因为后者奠定了前者的哲学基础。</p>
-<p>有关命理学的最早论述，可以追溯至东汉时期王充在《论衡·命义》中提出的气禀论：「人禀气而生，含气而长，得贵则贵，得贱则贱。」‌这一论调后来被认为是命理学重要的基本思想。</p>
-<p>而完整的生辰八字的起源则可以追溯至唐朝时期的李虚中，他在其著作《命书》中，首次提出了以年、月、日三柱配以天干地支，结合阴阳五行的生克关系论吉凶祸福的理论体系，并在书中提出了「年为本，日为主」‌的推算模式，确立了以日干为核心的理论体系和分析框架。李虚中本人，则在后来被尊为生辰八字的开山鼻祖。</p>
-<p>直到北宋时期，徐子平在李虚中三柱推命的基础上，增加了时柱（即以时辰配干支），这是八字算命术的第一次也是迄今为止唯一一次重要改良，建立了今天「年、月、日、时」‌四柱八字的基本体系。徐子平还在其书《渊海子平》中，系统地阐述了十神关系、用神选取等八字算命术的核心理论，标志着命理学从经验总结升华为系统理论。四柱体系的建立，使命运推演精度提升至时辰级别。</p>
-<h1 id="紫微斗数"><a href="#紫微斗数" class="headerlink" title="紫微斗数"></a>紫微斗数</h1><p>尽管紫微斗数和八字算命术并称命理学的两大显学，但二者的发展历史是截然不同的。八字算命术自诞生之后，便在民间广为流传，并得到了极大的发展与应用。而紫微斗数则不同，它在封建帝制瓦解前的很长一段时间里，都被尊为「帝王之术」‌，仅在高墙之内的皇室及钦点之人之间流传和承袭，有关资料在民间很难接触到。迄今为止，紫微斗数的研究深度也远不及八字算命术。</p>
-<p>紫微斗数的起源，最早也可以追溯至隋唐时期。印度占星术在这一时期传入中国，并与本土星象学融合，形成了以北斗和南斗两大星系为核心的琴堂五星术，该理论主张以日、月、金、木、水、火、土七政与紫炁、月孛、罗睺、计都四余为核心，采用节气排盘的方法，为紫微斗数的排盘奠定了基本的框架。</p>
-<p>五代末期至北宋初年的陈抟，在琴堂五星术的基础之上，结合道家思想，创立了以紫微星为主、北斗正曜和科、权、禄、忌四化星为辅的十四主星体系，并提出了以十二宫对应人生不同领域，通过星曜落宫及三方四正关系推演命运，这便是紫微斗数的基本框架。</p>
-<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>与强调主观能动性、运用工具改造世界的西方哲学思想截然不同的是，东方哲学在一开始便选择了强调「天人合一」‌「人与自然和谐共生」‌的道路，并在数千年时间内不断发展，最终形成了独树一帜的哲学思想和文化体系。</p>
-<p>在这一哲学系统中，人被认为是自然界的一部分，受到自然规律的影响和制约，人应当顺应这些规律，在通晓这些规律的基础之上趋吉避凶，构成了命理学的基本思想。</p>
-]]></content>
-      <categories>
-        <category>Numerology</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>命理学</tag>
-        <tag>中国古代命理学通俗演义</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>数术杂编(六)：费曼积分法两例</title>
     <url>/2025/08/16/2025-08-16--Two-Exmaples-Of-Feynmans-Trick/</url>
     <content><![CDATA[<script type="math/tex; mode=display">
@@ -1496,6 +1454,36 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
         <tag>数术杂编</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>todesk软件日志分析</title>
+    <url>/2025/08/26/2025-08-26--The-Log-Of-Todesk/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>todesk、向日葵、anydesk等是大家在日常办公过程中常用的远程软件，在方便大家远程协作办公的同时，也带来一定的安全隐患。利用软件漏洞或泄露密码，攻击者可以直接使用这类绕过操作系统和安全软件的防护，达到直接远程软件直接操作目标主机的目的。</p>
+<p>若这类情况发生在主机无人值守期间，使用者往往可能对已经发生的入侵行为浑然不知，造成更严重的后果和损失。为此，分析远程软件运行日志是避免和挽回损失的关键。</p>
+<p>本文以todesk为例，通过查找关键语句分析todesk的软件运行日志，使用者可以简单明了地了解到当前设备的控制和被控记录。<span id="more"></span></p>
+<h1 id="日志位置"><a href="#日志位置" class="headerlink" title="日志位置"></a>日志位置</h1><p>在默认情况下，todesk的软件运行日志保存在安装目录同级目录的Logs文件夹中，目录下有以service开头的日志文件和以client开头的日志文件。</p>
+<p>以service开头的日志文件所保存的是该机器被别人远程控制的日志。</p>
+<p>以client开头的日志文件所保存的是该机器远程控制别人的日志。</p>
+<h1 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a>日志分析</h1><h2 id="被别人远程控制的日志"><a href="#被别人远程控制的日志" class="headerlink" title="被别人远程控制的日志"></a>被别人远程控制的日志</h2><p>在以service开头的日志文件中，使用者可以看到该机器被别人远程控制的日志。具体地说，匹配关键词<em>tcp begin connect</em>，带有该关键词的日志表示一次其他机器远程连接本机的记录。</p>
+<p>注意：<em>port=443</em>的端口是todesk官方服务器所产生的记录，在软件运行过程中每隔一段时间就会产生一条，可忽略。</p>
+<p>与之相对的，带有关键词<em>host connection sendCloseEvent</em>的日志则表示一次远程控制中止的记录。</p>
+<p>通过对日志文件的分析，使用者可以看到该机器每次被控的开始时间和结束时间，从而判断有没有异常连接记录。</p>
+<h2 id="远程控制别人的日志"><a href="#远程控制别人的日志" class="headerlink" title="远程控制别人的日志"></a>远程控制别人的日志</h2><p>在以client开头的日志文件中，使用者可以看到该机器远程控制别人的日志。具体地说，匹配关键词<em>Room createMuxRoom server</em>，带有该关键词的日志表示一次该机器远程控制别人的记录。</p>
+<p>与之相对的，带有关键词<em>Upnp stop</em>的日志则表示一次远程控制中止的记录。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一款实用的办公软件，todesk所提供的远程控制功能极大地方便了用户进行高效率的远程协作办公，但也给一些网络攻击创造了机会。因此，用户在使用该类远程软件的同时，也应当注意做好安全防护。以下是笔者的几点防护建议：</p>
+<ol>
+<li>在不需要使用远程控制功能时将该类软件及时关闭；</li>
+<li>密码一次一改，仅使用临时密码，缩短临时密码的有效期；</li>
+<li>在有必要的情况下，将所有终端的远程软件运行日志归档至一处进行集中管理，实行监控策略，对异常连接行为进行预警。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Computer</category>
+      </categories>
+      <tags>
+        <tag>Computer</tag>
+        <tag>Todesk</tag>
       </tags>
   </entry>
   <entry>
@@ -1538,81 +1526,45 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       </tags>
   </entry>
   <entry>
-    <title>todesk软件日志分析</title>
-    <url>/2025/08/26/2025-08-26--The-Log-Of-Todesk/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>todesk、向日葵、anydesk等是大家在日常办公过程中常用的远程软件，在方便大家远程协作办公的同时，也带来一定的安全隐患。利用软件漏洞或泄露密码，攻击者可以直接使用这类绕过操作系统和安全软件的防护，达到直接远程软件直接操作目标主机的目的。</p>
-<p>若这类情况发生在主机无人值守期间，使用者往往可能对已经发生的入侵行为浑然不知，造成更严重的后果和损失。为此，分析远程软件运行日志是避免和挽回损失的关键。</p>
-<p>本文以todesk为例，通过查找关键语句分析todesk的软件运行日志，使用者可以简单明了地了解到当前设备的控制和被控记录。<span id="more"></span></p>
-<h1 id="日志位置"><a href="#日志位置" class="headerlink" title="日志位置"></a>日志位置</h1><p>在默认情况下，todesk的软件运行日志保存在安装目录同级目录的Logs文件夹中，目录下有以service开头的日志文件和以client开头的日志文件。</p>
-<p>以service开头的日志文件所保存的是该机器被别人远程控制的日志。</p>
-<p>以client开头的日志文件所保存的是该机器远程控制别人的日志。</p>
-<h1 id="日志分析"><a href="#日志分析" class="headerlink" title="日志分析"></a>日志分析</h1><h2 id="被别人远程控制的日志"><a href="#被别人远程控制的日志" class="headerlink" title="被别人远程控制的日志"></a>被别人远程控制的日志</h2><p>在以service开头的日志文件中，使用者可以看到该机器被别人远程控制的日志。具体地说，匹配关键词<em>tcp begin connect</em>，带有该关键词的日志表示一次其他机器远程连接本机的记录。</p>
-<p>注意：<em>port=443</em>的端口是todesk官方服务器所产生的记录，在软件运行过程中每隔一段时间就会产生一条，可忽略。</p>
-<p>与之相对的，带有关键词<em>host connection sendCloseEvent</em>的日志则表示一次远程控制中止的记录。</p>
-<p>通过对日志文件的分析，使用者可以看到该机器每次被控的开始时间和结束时间，从而判断有没有异常连接记录。</p>
-<h2 id="远程控制别人的日志"><a href="#远程控制别人的日志" class="headerlink" title="远程控制别人的日志"></a>远程控制别人的日志</h2><p>在以client开头的日志文件中，使用者可以看到该机器远程控制别人的日志。具体地说，匹配关键词<em>Room createMuxRoom server</em>，带有该关键词的日志表示一次该机器远程控制别人的记录。</p>
-<p>与之相对的，带有关键词<em>Upnp stop</em>的日志则表示一次远程控制中止的记录。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一款实用的办公软件，todesk所提供的远程控制功能极大地方便了用户进行高效率的远程协作办公，但也给一些网络攻击创造了机会。因此，用户在使用该类远程软件的同时，也应当注意做好安全防护。以下是笔者的几点防护建议：</p>
-<ol>
-<li>在不需要使用远程控制功能时将该类软件及时关闭；</li>
-<li>密码一次一改，仅使用临时密码，缩短临时密码的有效期；</li>
-<li>在有必要的情况下，将所有终端的远程软件运行日志归档至一处进行集中管理，实行监控策略，对异常连接行为进行预警。</li>
-</ol>
+    <title>中国古代命理学通俗演义(一)：命理学的历史渊源</title>
+    <url>/2025/05/01/2025-05-01--Expedition-To-The-Chinese-Ancient-Numerology-1/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>自古以来，山、医、命、相、卜合称五术，是中国传统文化的重要组成部分之一，在《庄子·杂篇·天下》中，被认为是「无所不在」‌。命理学即为五术中的「命」‌，指通过数理推衍的方式来测算命运，趋吉避凶的一类道术。在中华文明漫长的发展历程中，曾涌现过多种算命术，其中又以八字算命术和紫微斗数最广为人知。在本系列文章中，笔者将以历史渊源、核心原理、排盘方式、案例分析等方式，系统地梳理此二者的诸多方面，供自己和他人查阅方便。由于笔者才识尚浅，行文过程中难免有所疏漏，如能得到心读者的拨冗斧正，笔者将不胜感激。<span id="more"></span></p>
+<h1 id="干支纪年法"><a href="#干支纪年法" class="headerlink" title="干支纪年法"></a>干支纪年法</h1><p>中国古代诸多算命术的推衍过程都是基于人的生辰（出生的年、月、日、时）进行的，而记载生辰的重要方式便是通过日历，因此，历法是命理学重要的基础工具。</p>
+<p>干支纪年法是中国传统历法中独特的纪年体系，其主要内容为十天干与十二地支两两组合而成的循环，并以其表示年、月、日、时的更迭。干支纪年法的出现最早可追溯至先秦时期，历经数千年发展演变，至今仍被广泛应用，是中华文明的重要符号。</p>
+<p>十天干与十二地支最早起源于先民对天象的观测与符号化表达。天干（甲、乙、丙、丁、戊、己、庚、辛、壬、癸）与地支（子、丑、寅、卯、辰、巳、午、未、申、酉、戌、亥）的起源可追溯至新石器时代。早在氏族部落时期，陶器的刻符中已出现类似形似天干地支的抽象符号组合。这些符号最初用于标记时间、方位或自然现象。《尚书·尧典》中亦有记载：「乃命羲和，钦若昊天，历象日月星辰，敬授人时。」‌这体现了先民通过观测天体运行划分时间周期，并用天干地支作为符号记录的实践。</p>
+<p>直到商周时期，干支体系逐渐系统化。在甲骨文中便有了大量以干支纪日的记录，《甲骨文合集》中记载道：「癸卯卜，今日雨。」‌表明干支已用于占卜和时间记录。同时，干支与五行、方位、音律等理论的结合，为其赋予了哲学内涵，如《左传》曰：「天有十日，日有十辰。」‌这体现了天干与空间、方位的关联。</p>
+<p>真正标志着干支纪年法确立的制度始于秦汉时期。汉武帝太初元年（即公元前104年）颁布的《太初历》中，首次出现了将天干地支与二十四节气结合，形成岁星纪年法与干支纪年法两套历法并行的历法体系。后来，古人们又发现岁星（木星）运行周期与观测到的天象之间存在偏差，干支纪年法在稳定性上具有绝对的优势，逐渐被推上历史舞台，成为主流。</p>
+<p>史至魏晋，东晋虞喜最早发现并提出「岁差」‌的概念（即地球自转轴进动引起春分点沿轨道黄道面向西移动，导致回归年短于恒星年的天文学现象），这一发现推动历法进一步精确化，促使官方最终决定摒弃岁星纪年法而采用干支纪年法取而代之。此时，干支不仅用于纪年，还与生肖、五行结合，初步形成完整的文化体系，直到南朝，《五行大义》中已经出现了完整的阐述干支与五行的对应关系的知识体系。</p>
+<p>后来，历经唐宋元三朝的完善与发展，干支纪年法完全进入标准化阶段。这一时期的官方文书，如《大衍历》《授时历》中均对干支纪年法的准则作出了明确界定，「六十甲子」‌成为纪年的标准模式。在这一时期，干支纪年法已经被广泛应用于官方文书、史书编撰和民间生活。司马光的史学著作《资治通鉴》就是以干支纪年为时间轴的，敦煌遗书中亦有大量以干支纪年法表示日期的契约、账簿等被考古学家所发现。</p>
+<p>直到明清时期，干支纪年法已经成为与皇权、礼制深度融合的文化符号体系。明代《大统历》、清代《时宪历》均以干支纪年为核心，用皇帝年号与干支并举的方式表示年份。在同一时期，各类记载历法和占卜的文献逐渐深入民间，成为民俗文化的重要组成部分。</p>
+<p>近现代以来，受到西方思潮的影响，公元纪年法逐渐取代干支纪年法成为主流历法，但干支纪年法在文化传承中仍保持着其强大的生命力，仍被百姓广泛应用于农历新年、传统节庆，且大量的历史事件，如「甲午战争」‌「辛亥革命」‌等均以干支命名。1912年中华民国成立后，官方推行公元纪年法与民国纪年并行的历法体系，但流行于民间的主流历法仍是干支纪年法。</p>
+<p>时至今日，干支纪年法已经成为中华文化的重要符号之一，联合国教科文组织将二十四节气列入非遗名录，而干支纪年法作为其核心要素之一，引发国际社会对天干地支这一重要文化符号的关注。海外华人社区仍有不少居民至今延用着干支纪年法，日本、韩国、越南等受中华文化影响的国家仍保留着这一重要的文化习俗。</p>
+<h1 id="阴阳五行学说"><a href="#阴阳五行学说" class="headerlink" title="阴阳五行学说"></a>阴阳五行学说</h1><p>阴阳五行学说是中国古代哲学中一套独特的理论体系，其起源可追溯至远古时期，发展历程贯穿了中国古代历史，对中华文化的诸多方面产生了深远影响。</p>
+<p>早期，古人们基于对昼夜交替、寒来暑往等自然现象的观察，抽象出了「阴阳」‌这一对范畴，用来解释天地、日夜、男女、动静等相互对立又彼此依存的关系。在这一过程中，中国古人逐步确立了道家思想的基本框架。</p>
+<p>直至西周时期，文王姬昌创立《周易》学说，标志着阴阳思想的学术化与系统化，将万物变易过程中的诸多自然现象，以八卦和六十四卦的形式，用阴阳对立统一、相互转化的哲学思想加以解释。</p>
+<p>同一时期诞生的「五材说」‌，被认为是五行的历史渊源，这在《尚书·洪范》中便有所记载：「五行：一曰水，二曰火，三曰木，四曰金，五曰土。」‌并在春秋战国时期，发展出五行相生相克的理论体系。</p>
+<p>战国中后期，由于二者都具有对立统一、相生相克这一相同的哲学基础，阴阳与五行两大学说逐渐走向融合，邹衍等思想家将二者联系起来，构建了更为完整的宇宙观和哲学体系，至此，八字推命的哲学基础基本确立。</p>
+<h1 id="星宿学说"><a href="#星宿学说" class="headerlink" title="星宿学说"></a>星宿学说</h1><p>中国命理学中的另一大体系，即紫微斗数，则与天文星宿学说密切相关。天文学在中国的历史沿革最早可追溯至新石器时代远古先民对天象的原始观测，历经商周萌芽、战国成型、两汉成体、唐宋完善、明清传承，并形成集天文、历法、哲学、民俗于一体的独特文化传统。</p>
+<p>早在仰韶文化时期（距今约6000年），中国先民就已经发现了通过观测日月星辰方位划分季节知道农耕的方法。在火历中，「大火星」‌（心宿二）的昏见被视为春耕信号。</p>
+<p>时间来到战国时期，甘德、石申等天文学家，通过观测星象、编制星表、记录恒星的位置和亮度，他们的成果形成著名的《甘石星经》，奠定了以青龙、白虎、朱雀、玄武为首的「四象二十八宿」‌体系。这在《吕氏春秋》和《礼记·月令》中又和四季、物候相互对应，形成「月令」‌体系，那一时期的农耕、祭祀、册封等大小事务，均是以这一体系为主要参照和指引进行的。</p>
+<p>两汉时期，司马迁在《史记·天官书》中首次系统地阐述了二十八宿与三桓的划分方法，并将星宿与人间的某些重大事件进行对应，为星象赋予了政治寓意。同一时期，董仲舒提出「天人感应」‌的理论也认为星象异常预示着人间变革。至此，星宿成为帝王德行与国家兴衰的象征。</p>
+<h1 id="生辰八字"><a href="#生辰八字" class="headerlink" title="生辰八字"></a>生辰八字</h1><p>命理学的发展较之阴阳五行学说的发展和星宿学说的发展是稍后一些的，但整体而言，二者是基本同步的，这是因为后者奠定了前者的哲学基础。</p>
+<p>有关命理学的最早论述，可以追溯至东汉时期王充在《论衡·命义》中提出的气禀论：「人禀气而生，含气而长，得贵则贵，得贱则贱。」‌这一论调后来被认为是命理学重要的基本思想。</p>
+<p>而完整的生辰八字的起源则可以追溯至唐朝时期的李虚中，他在其著作《命书》中，首次提出了以年、月、日三柱配以天干地支，结合阴阳五行的生克关系论吉凶祸福的理论体系，并在书中提出了「年为本，日为主」‌的推算模式，确立了以日干为核心的理论体系和分析框架。李虚中本人，则在后来被尊为生辰八字的开山鼻祖。</p>
+<p>直到北宋时期，徐子平在李虚中三柱推命的基础上，增加了时柱（即以时辰配干支），这是八字算命术的第一次也是迄今为止唯一一次重要改良，建立了今天「年、月、日、时」‌四柱八字的基本体系。徐子平还在其书《渊海子平》中，系统地阐述了十神关系、用神选取等八字算命术的核心理论，标志着命理学从经验总结升华为系统理论。四柱体系的建立，使命运推演精度提升至时辰级别。</p>
+<h1 id="紫微斗数"><a href="#紫微斗数" class="headerlink" title="紫微斗数"></a>紫微斗数</h1><p>尽管紫微斗数和八字算命术并称命理学的两大显学，但二者的发展历史是截然不同的。八字算命术自诞生之后，便在民间广为流传，并得到了极大的发展与应用。而紫微斗数则不同，它在封建帝制瓦解前的很长一段时间里，都被尊为「帝王之术」‌，仅在高墙之内的皇室及钦点之人之间流传和承袭，有关资料在民间很难接触到。迄今为止，紫微斗数的研究深度也远不及八字算命术。</p>
+<p>紫微斗数的起源，最早也可以追溯至隋唐时期。印度占星术在这一时期传入中国，并与本土星象学融合，形成了以北斗和南斗两大星系为核心的琴堂五星术，该理论主张以日、月、金、木、水、火、土七政与紫炁、月孛、罗睺、计都四余为核心，采用节气排盘的方法，为紫微斗数的排盘奠定了基本的框架。</p>
+<p>五代末期至北宋初年的陈抟，在琴堂五星术的基础之上，结合道家思想，创立了以紫微星为主、北斗正曜和科、权、禄、忌四化星为辅的十四主星体系，并提出了以十二宫对应人生不同领域，通过星曜落宫及三方四正关系推演命运，这便是紫微斗数的基本框架。</p>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>与强调主观能动性、运用工具改造世界的西方哲学思想截然不同的是，东方哲学在一开始便选择了强调「天人合一」‌「人与自然和谐共生」‌的道路，并在数千年时间内不断发展，最终形成了独树一帜的哲学思想和文化体系。</p>
+<p>在这一哲学系统中，人被认为是自然界的一部分，受到自然规律的影响和制约，人应当顺应这些规律，在通晓这些规律的基础之上趋吉避凶，构成了命理学的基本思想。</p>
 ]]></content>
       <categories>
-        <category>Computer</category>
+        <category>Numerology</category>
       </categories>
       <tags>
-        <tag>Computer</tag>
-        <tag>Todesk</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>金融工程（一）：引论</title>
-    <url>/2025/08/30/2025-08-30--Financial-Engineering-1/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本系列文章记录我在金融工程(Financial Engineering)的学习心得，内容涵盖远期合约、期权等金融衍生品的定价模型。本文为该系列的引论，将简单介绍现代金融学中利息的计算方式、资产定价的基本原理、远期合约和期权的合约形式，并推导期权平价公式。<span id="more"></span></p>
-<h1 id="利率与折现"><a href="#利率与折现" class="headerlink" title="利率与折现"></a>利率与折现</h1><p>货币具有时间价值，今天的一块钱比明天的一块钱更值钱，我们把这一比例称为市场的无风险利率(Risk-free Interest Rate)。值得注意的是，无风险利率与信贷利率并非相同，前者是完全刨去违约风险和资金成本等因素的纯粹的货币价值变化的度量。现实中并不存在真正意义上的无风险资产，但我们可以找到无限接近于无风险资产的标的，如银行存款或国债，并将它们的收益率作为无风险利率的参照值。</p>
-<p>假设市场的无风险利率为$r$，一年付息一次，那么对于现在的$S_0$，如果把它全部投资于无风险资产，一年后这笔钱会增加到$S_0 (1+r)$，但在假设下这笔钱的实际价值与现在的$S_0$完全相同。在金融学当中，为了明确这一概念，我们把现在的$S_0$元称为现值(Present Value, PV)，而把一年后的$S_0 (1+r)$称为未来价值(Future Value, FV)，它们在货币价值上完全等价。如果我们把这笔无风险投资持有两年，两年后它将增加到$S_0 (1+r)^2$，我们在计算第二年的利息时，要以第一年年末的$S_0 (1+r)$作为本金进行计算，这就是复利(Compound Interest)。</p>
-<p>如果无风险资产在一年内付息两次，一年无风险利率仍然为$r$，则半年利率为$r/2$，我们可以在年中付息的时候把取得的利息再投资于无风险资产，则一年后这笔钱会增加到$S_0 (1+r/2)^2$。这里，我们把$r$称为名义利率(Nominal Interest Rate)，而把$(1+r/2)^2$称为实际利率(Real Interest Rate)。</p>
-<p>类似地，如果无风险资产在一年内付息$n$次，那么对于无风险的名义利率$r$，实际利率为$(1+r/n)^n$，现在考虑它的极限情况，即每时每刻都结算上一刻的利息，即令$n\to\infty$，我们有：</p>
-<script type="math/tex; mode=display">\lim_{m\to\infty} (1+r/n)^n = e^r</script><p>这就是连续复利(Continuous Compound Interest)，在这种情况下，我们说名义利率为$r$等价于说实际利率为$e^r$。</p>
-<p>在连续复利的情形下，如果我们在$t$时刻把一笔货币资金$S_0$投资于无风险资产并持有直到$T, T&gt;t$时刻，等价于把这笔货币资金在$0$时刻投资于无风险资产并持有直到$T-t$时刻，则在到期之时，它将增加到$S_0 e^{(T-t)r}$，$e^{(T-t)r}$就是这段时间内的无风险收益率。</p>
-<p>反之，如果我们要衡量未来的一笔钱相当于现在的多少钱，就要把它除以实际利率，这也就是折现(Discount)。所以，折现率(Discount Rate)是利率的倒数。</p>
-<h1 id="无套利定价与一价定律"><a href="#无套利定价与一价定律" class="headerlink" title="无套利定价与一价定律"></a>无套利定价与一价定律</h1><p>在现代金融学中，我们不假思索地引用经济学理论中的理性人假设(The Hypothesis of Rational Man)，即追求自身利益最大化与风险最小化。此外，我们还假设理想的金融市场是无摩擦的(Frictionless)，即没有交易成本和其他阻碍交易的因素，这样一来市场的参与者可以毫无成本地在各种金融资产间交易。</p>
-<p>在这些前提下，套利(Arbitrage)指的是市场参与者在不投入任何自有资金、不面临任何损失风险的条件下，却仍能在现在或未来取得正的现金流的一种行为。显然，在理性人假设下，当一个套利机会出现时，市场的参与者便会马上参与到套利行为当中来，直到消灭该套利机会，市场价格重新达到平衡状态为止。</p>
-<p>于是，我们可以得出一价定律(The Law of One Price)：如果市场上不存在套利机会，那么对于两个完全提供相同现金流和终值的资产或组合，它们在任何时候都拥有相同的价格。</p>
-<p>除了无市场摩擦、无套利定价和一价定律的假设，在现代金融学中，我们通常还采用如下假设：</p>
-<ol>
-<li>允许卖空(Short Sell Allowed)；</li>
-<li>没有信用违约风险(No Default Risk)；</li>
-<li>市场参与者可以以无风险利率借入或贷出任意数量的货币资金(No Budget Constraint)。</li>
-</ol>
-<p>它们均为现代金融学所采用的基础假设。</p>
-<h1 id="远期合约"><a href="#远期合约" class="headerlink" title="远期合约"></a>远期合约</h1><p>一种最基础的金融衍生品是远期合约(Forward Contract)，它是买卖双方签订的在未来某一时间以约定的价格买入或卖出某种标的资产(Underlying Asset)的合同。</p>
-<p>对于远期合约，它的基本参数有：到期时间(Maturity Time)$T$和执行价格(Strike Price)$K$。</p>
-<p>倘若我们令$S_t$表示标的资产在$t$时刻的价格，则对于远期合约的买方，需要在到期日$T$以执行价格$K$买入标的资产，如果在买入后直接卖出标的资产，则可以获得$S_T - K$的现金流。</p>
-<p>因此，为了对这样一份远期合约进行无套利定价，我们需要在到期日$T$同时持有一单位的标的资产和$-K$的现金，则在$t$时刻，该组合的价值为：</p>
-<script type="math/tex; mode=display">V_t (T,K) = S_t - Ke^{-(T-t)r}</script><p>这就是以$S$为标的资产，到期日为$T$，执行价格为$K$的远期合约在$t$时刻的价值。</p>
-<p>远期合约的价格，是指签订合约时使远期合约价值为$0$的执行价格，一般记作$F_t (T)$，则有：</p>
-<script type="math/tex; mode=display">V_t (T, F_t (T)) = S_t - F_t (T) e^{-(T-t)r} = 0</script><p>解得$F_t (T) = S_t e^{(T-t)r}$。</p>
-<p>这一答案是十分直观的。在风险中性世界中，它恰好等于在$t$时刻以$S_t$的价格购入标的资产所需的货币资金，按无风险利率支付利息，在到期日$T$的未来价值。</p>
-<h1 id="分红"><a href="#分红" class="headerlink" title="分红"></a>分红</h1><p>如果标的资产$S$在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则在$t$时刻，该组合的价值为：</p>
-<script type="math/tex; mode=display">V_t (T;K) = S_t - \delta e^{-(\theta - t)r} - Ke^{-(T-t)r}</script><p>在直观角度来理解，如果标的资产在远期合约签订后分红，远期合约的价格会低于不分红的价格，这是因为远期合约的卖方，在签订合约后、执行合约前的分红日$\theta$会额外收到一笔$\delta$的分红，且该分红来自于标的资产本身。</p>
-<p>同样地，我们可以用</p>
-<script type="math/tex; mode=display">V_t (T; F_t (T)) = S_t - \delta e^{-(\theta - t)r} - F_t (T)e^{-(T-t)r} = 0</script><p>求解出远期合约的价格，为：</p>
-<script type="math/tex; mode=display">F_t (T) = S_t e^{(T-t)r} - \delta e^{(T-\theta)r}</script><h1 id="期权"><a href="#期权" class="headerlink" title="期权"></a>期权</h1><p>期权(Option)是与远期合约类似的另一种重要的金融衍生品，它是买方在未来某一时间以约定的价格向卖方买入或卖出某种标的资产的权利。</p>
-<p>期权与远期合约的一个重要区别是，远期合约的买卖双方地位平等，任何一方无权单方面终止合约；而期权买方有权利选择是否在到期日买入或卖出标的资产，卖方在买方行权时无权拒绝。</p>
-<p>对于看涨期权的买方，可以在到期日选择是否在到期日$T$以执行价格$K$买入标的资产，所以只有在到期日标的资产的价格$S_T &gt; K$时，买方才会选择行权。</p>
-<p>如果令$(X)^+ = \max (X,0)$，则看涨期权的到期收益为$(S_T - K)^+$，而看跌期权的收益则为$(K – S_T)^+$。作为一个投资组合，如果我们同时买入看涨期权并卖出看跌期权，那么无论如何，该组合的到期收益始终为$S_T - K$。</p>
-<p>要复制这一投资组合的现金流，我们需要在期权到期日同时持有一单位的标的资产$S_T$和$-K$的货币资金。因此，我们可以得到所谓的期权平价公式(Put-Call Parity)：</p>
-<script type="math/tex; mode=display">C(K,T) – P(K,T) = S_t – Ke^{-(T-t)r}</script><p>与远期合约类似的，若标的资产在到期前分红，例如在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则期权平价公式变为：</p>
-<script type="math/tex; mode=display">C(K,T) - P(K,T) = S_t - Ke^{-(T-t)r} - \delta e^{-(T-\delta)r}</script>]]></content>
-      <categories>
-        <category>Finance</category>
-      </categories>
-      <tags>
-        <tag>Finance</tag>
-        <tag>Financial Engineering</tag>
+        <tag>醉仙阁杂谈</tag>
+        <tag>命理学</tag>
+        <tag>中国古代命理学通俗演义</tag>
       </tags>
   </entry>
   <entry>
@@ -1822,35 +1774,51 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       </tags>
   </entry>
   <entry>
-    <title>为什么蔡琴老师的《渡口》是一首合格的测音神曲</title>
-    <url>/2025/10/12/2025-10-12--Sound-Tesing-By-Dukou/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>蔡琴老师的《渡口》是一首融合流行与民谣风格的经典之作，由席慕蓉作词、杨弦作曲、江建民编曲，最初被收录于蔡琴1986年的专辑《情锁》中。而《渡口》于1996年被重新编曲后又被收录于专辑《民歌蔡琴》中，这是该首歌曲当前最流行的版本。歌词上，席慕蓉以诗人独有的细腻笔触，将离别时的不舍与祝福娓娓道来，如「让我与你握别，再轻轻抽出我的手，知道思念从此生根」等句子，生动且富有画面感。杨弦的作曲赋予歌曲悠远绵长的旋律，与歌词相得益彰，江建民的编曲则采用不喧宾夺主的节拍设计，营造出最深的河流静静流淌般的听觉效果。</p>
-<p>在情感表达与意境营造方面，歌曲紧扣离别主题，通过「渡口旁找不到一朵相送的花，就把祝福别在襟上吧」等歌词，构建出既伤感又充满祝福的意境。蔡琴那沉稳如大提琴的嗓音，与歌曲风格完美契合，将离别时的惆怅、思念以及对未来的祝福等复杂情感，演绎得淋漓尽致，让听众仿佛置身于那个充满故事的渡口。</p>
-<p>凭借独特的嗓音和深情的演绎，蔡琴的《渡口》在华语乐坛占据经典地位，不仅在华语地区广为流传，还收获了国际音乐爱好者的喜爱。其旋律和歌词所具有的普世性，成功跨越语言和文化的界限，触动了无数人的心弦。</p>
-<p>而作为一首1996年的老歌，《渡口》为什么祇今仍蝉联在各个音乐软件的热播榜单呢？它的经典性和传唱度固然是一个不可忽略的原因。在另一方面，这也是由于《渡口》常年被音响设备爱好者作为测音神曲，因此人们常常在更换设备或测试设备时反复播放《渡口》进行测音或煲机。<span id="more"></span></p>
-<h1 id="低频"><a href="#低频" class="headerlink" title="低频"></a>低频</h1><p>首先，《渡口》的前奏特别考验音响设备的低频（30Hz - 150Hz）处理能力。在导入时,《渡口》采用约10s的鼓声和梆子声交替作为前奏。对于大部分轻便的移动设备和音响质量一般的汽车音响而言，开头的第一声鼓声就足以让它们产生共振，淘汰市面上大多数没有低频处理能力的音响设备。</p>
-<h1 id="声道"><a href="#声道" class="headerlink" title="声道"></a>声道</h1><p>此外，《渡口》前奏的皮鼓敲击声的声道特征十分明显，便又足以淘汰绝大部分单声道设备（如手机和一般的单体式蓝牙音响），一些高音声场处理能力不够好的低端电视音响也在这个行列。</p>
-<p>在《渡口》的前奏中，如果三连的梆子听起来没有明显的粘滞感，而是干脆有力、非常明亮，让你清脆地感受到梆子的敲打节奏，那说明设备在频谱上具有很好的低频弹性；如果鼓声听起来非常浑厚，那就说明设备具有卓越的低频下潜能力，可以给鼓声极大的发挥空间。</p>
-<h1 id="分频点"><a href="#分频点" class="headerlink" title="分频点"></a>分频点</h1><p>在前奏的后半段（约10s – 20s），吉他和贝斯开始进场。吉他和贝斯作为贯穿全曲的重要配器，其频谱细节十分考验音响设备的分频点，许多高频质量不好的设备在这里便会产生明显的失真，而低频达不到100Hz以下的设备又难以解析出贝斯的声音，许多市场价格数千的监听级设备都有一定概率折戟于此。</p>
-<p>对于中频（150Hz -5KHz）而言，吉他的金属感是考验设备音色还原度的一大难题，能否在响度足够的前提下，既保证吉他音色金属感，又避免声音过于刺耳，是一个值得我们关注的重点。</p>
-<p>至此，《渡口》在进入人声以前的前奏部分便已经淘汰掉市面上90%以上的音响设备。</p>
-<h1 id="相位"><a href="#相位" class="headerlink" title="相位"></a>相位</h1><p>在大约22s的前奏过后，我们终于进入了这首歌曲的人声部分。蔡琴老师在《渡口》中使用了极其丰富的美声技巧，比如一开场的「让我与你握别」便使用了气音的技法，而后的「热泪在心中，汇成河流」处又使用了大量的转音。</p>
-<p>蔡琴老师丰富的人声动态对音响设备的相位处理能力又是一大考验，人声解析力不够强大的音响设备对蔡琴老师人声的还原度会大打折扣，在听感上，我们可能会觉得人声不在中间，或在一些尾音和转音的细节部分发现人声失真、模糊或丧失连续性。</p>
-<p>在人声处理能力上，让我们有如身临其境一般聆听蔡琴老师的人声，真实感受到复杂的演唱技巧是我们对HIFI级设备的基本要求，至此，万元以下的音响设备几乎已经全军覆没。</p>
-<p>所以，《渡口》这首歌曲能让你在30s内评估一个万元级以下的音响设备的好坏，测音神曲的称誉在笔者看来是当之无愧的。</p>
-<h1 id="高频"><a href="#高频" class="headerlink" title="高频"></a>高频</h1><p>至于高频能力，由于泛音的存在，我们已经能在人声和吉他的细节中感受一二。如果要特别提及的话，那便是1:14和2:19处出现的提琴声。从整体上来看，《渡口》这首歌曲里的大部分声音都偏向于中低频段，但是此处的提琴伴奏偶尔会有几个高音出现，把音量调大，如果这几个高音没有出现明显的破音或失真，那说明设备的高频能力是合格的。</p>
-<h1 id="解析力"><a href="#解析力" class="headerlink" title="解析力"></a>解析力</h1><p>所谓音响设备的解析力，就是在用设备聆听一首曲子时，所能听到音乐内容的多少的一种度量。对同样音质的同一首曲子，采用解析力越强的设备所能听出的乐器数量就越多，音乐细节就越丰富。</p>
-<p>纵观全曲，《渡口》作为一首流行民谣，其中包括了鼓、梆子、吉他、贝斯、人声、小提琴等多种元素。对于HIFI级的音响设备来说，能够从《渡口》的任意一个音乐片段中准确地解析出这几种元素的声音是对设备的基本要求。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一首录制于1996年的老歌，《渡口》的录音质量即便放在今天也不逊色于除了电音以外的大多数录制音乐。无论是蔡琴老师的嗓音，还是各种乐器的声音，《渡口》基本做到了对每一处音乐细节的真实还原。在这个前提下，《渡口》用丰富的音乐内容、卓越的音乐品质给我们提供了良好的测音基础。</p>
-<p>而对于市面上超过95%的垃圾设备而言，蔡琴老师的《渡口》能在30s内按顺序排除大多数不足，笔者认为用它来对市面上几乎所有音响设备进行测评都是十分合适的。</p>
-]]></content>
+    <title>金融工程（一）：引论</title>
+    <url>/2025/08/30/2025-08-30--Financial-Engineering-1/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>本系列文章记录我在金融工程(Financial Engineering)的学习心得，内容涵盖远期合约、期权等金融衍生品的定价模型。本文为该系列的引论，将简单介绍现代金融学中利息的计算方式、资产定价的基本原理、远期合约和期权的合约形式，并推导期权平价公式。<span id="more"></span></p>
+<h1 id="利率与折现"><a href="#利率与折现" class="headerlink" title="利率与折现"></a>利率与折现</h1><p>货币具有时间价值，今天的一块钱比明天的一块钱更值钱，我们把这一比例称为市场的无风险利率(Risk-free Interest Rate)。值得注意的是，无风险利率与信贷利率并非相同，前者是完全刨去违约风险和资金成本等因素的纯粹的货币价值变化的度量。现实中并不存在真正意义上的无风险资产，但我们可以找到无限接近于无风险资产的标的，如银行存款或国债，并将它们的收益率作为无风险利率的参照值。</p>
+<p>假设市场的无风险利率为$r$，一年付息一次，那么对于现在的$S_0$，如果把它全部投资于无风险资产，一年后这笔钱会增加到$S_0 (1+r)$，但在假设下这笔钱的实际价值与现在的$S_0$完全相同。在金融学当中，为了明确这一概念，我们把现在的$S_0$元称为现值(Present Value, PV)，而把一年后的$S_0 (1+r)$称为未来价值(Future Value, FV)，它们在货币价值上完全等价。如果我们把这笔无风险投资持有两年，两年后它将增加到$S_0 (1+r)^2$，我们在计算第二年的利息时，要以第一年年末的$S_0 (1+r)$作为本金进行计算，这就是复利(Compound Interest)。</p>
+<p>如果无风险资产在一年内付息两次，一年无风险利率仍然为$r$，则半年利率为$r/2$，我们可以在年中付息的时候把取得的利息再投资于无风险资产，则一年后这笔钱会增加到$S_0 (1+r/2)^2$。这里，我们把$r$称为名义利率(Nominal Interest Rate)，而把$(1+r/2)^2$称为实际利率(Real Interest Rate)。</p>
+<p>类似地，如果无风险资产在一年内付息$n$次，那么对于无风险的名义利率$r$，实际利率为$(1+r/n)^n$，现在考虑它的极限情况，即每时每刻都结算上一刻的利息，即令$n\to\infty$，我们有：</p>
+<script type="math/tex; mode=display">\lim_{m\to\infty} (1+r/n)^n = e^r</script><p>这就是连续复利(Continuous Compound Interest)，在这种情况下，我们说名义利率为$r$等价于说实际利率为$e^r$。</p>
+<p>在连续复利的情形下，如果我们在$t$时刻把一笔货币资金$S_0$投资于无风险资产并持有直到$T, T&gt;t$时刻，等价于把这笔货币资金在$0$时刻投资于无风险资产并持有直到$T-t$时刻，则在到期之时，它将增加到$S_0 e^{(T-t)r}$，$e^{(T-t)r}$就是这段时间内的无风险收益率。</p>
+<p>反之，如果我们要衡量未来的一笔钱相当于现在的多少钱，就要把它除以实际利率，这也就是折现(Discount)。所以，折现率(Discount Rate)是利率的倒数。</p>
+<h1 id="无套利定价与一价定律"><a href="#无套利定价与一价定律" class="headerlink" title="无套利定价与一价定律"></a>无套利定价与一价定律</h1><p>在现代金融学中，我们不假思索地引用经济学理论中的理性人假设(The Hypothesis of Rational Man)，即追求自身利益最大化与风险最小化。此外，我们还假设理想的金融市场是无摩擦的(Frictionless)，即没有交易成本和其他阻碍交易的因素，这样一来市场的参与者可以毫无成本地在各种金融资产间交易。</p>
+<p>在这些前提下，套利(Arbitrage)指的是市场参与者在不投入任何自有资金、不面临任何损失风险的条件下，却仍能在现在或未来取得正的现金流的一种行为。显然，在理性人假设下，当一个套利机会出现时，市场的参与者便会马上参与到套利行为当中来，直到消灭该套利机会，市场价格重新达到平衡状态为止。</p>
+<p>于是，我们可以得出一价定律(The Law of One Price)：如果市场上不存在套利机会，那么对于两个完全提供相同现金流和终值的资产或组合，它们在任何时候都拥有相同的价格。</p>
+<p>除了无市场摩擦、无套利定价和一价定律的假设，在现代金融学中，我们通常还采用如下假设：</p>
+<ol>
+<li>允许卖空(Short Sell Allowed)；</li>
+<li>没有信用违约风险(No Default Risk)；</li>
+<li>市场参与者可以以无风险利率借入或贷出任意数量的货币资金(No Budget Constraint)。</li>
+</ol>
+<p>它们均为现代金融学所采用的基础假设。</p>
+<h1 id="远期合约"><a href="#远期合约" class="headerlink" title="远期合约"></a>远期合约</h1><p>一种最基础的金融衍生品是远期合约(Forward Contract)，它是买卖双方签订的在未来某一时间以约定的价格买入或卖出某种标的资产(Underlying Asset)的合同。</p>
+<p>对于远期合约，它的基本参数有：到期时间(Maturity Time)$T$和执行价格(Strike Price)$K$。</p>
+<p>倘若我们令$S_t$表示标的资产在$t$时刻的价格，则对于远期合约的买方，需要在到期日$T$以执行价格$K$买入标的资产，如果在买入后直接卖出标的资产，则可以获得$S_T - K$的现金流。</p>
+<p>因此，为了对这样一份远期合约进行无套利定价，我们需要在到期日$T$同时持有一单位的标的资产和$-K$的现金，则在$t$时刻，该组合的价值为：</p>
+<script type="math/tex; mode=display">V_t (T,K) = S_t - Ke^{-(T-t)r}</script><p>这就是以$S$为标的资产，到期日为$T$，执行价格为$K$的远期合约在$t$时刻的价值。</p>
+<p>远期合约的价格，是指签订合约时使远期合约价值为$0$的执行价格，一般记作$F_t (T)$，则有：</p>
+<script type="math/tex; mode=display">V_t (T, F_t (T)) = S_t - F_t (T) e^{-(T-t)r} = 0</script><p>解得$F_t (T) = S_t e^{(T-t)r}$。</p>
+<p>这一答案是十分直观的。在风险中性世界中，它恰好等于在$t$时刻以$S_t$的价格购入标的资产所需的货币资金，按无风险利率支付利息，在到期日$T$的未来价值。</p>
+<h1 id="分红"><a href="#分红" class="headerlink" title="分红"></a>分红</h1><p>如果标的资产$S$在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则在$t$时刻，该组合的价值为：</p>
+<script type="math/tex; mode=display">V_t (T;K) = S_t - \delta e^{-(\theta - t)r} - Ke^{-(T-t)r}</script><p>在直观角度来理解，如果标的资产在远期合约签订后分红，远期合约的价格会低于不分红的价格，这是因为远期合约的卖方，在签订合约后、执行合约前的分红日$\theta$会额外收到一笔$\delta$的分红，且该分红来自于标的资产本身。</p>
+<p>同样地，我们可以用</p>
+<script type="math/tex; mode=display">V_t (T; F_t (T)) = S_t - \delta e^{-(\theta - t)r} - F_t (T)e^{-(T-t)r} = 0</script><p>求解出远期合约的价格，为：</p>
+<script type="math/tex; mode=display">F_t (T) = S_t e^{(T-t)r} - \delta e^{(T-\theta)r}</script><h1 id="期权"><a href="#期权" class="headerlink" title="期权"></a>期权</h1><p>期权(Option)是与远期合约类似的另一种重要的金融衍生品，它是买方在未来某一时间以约定的价格向卖方买入或卖出某种标的资产的权利。</p>
+<p>期权与远期合约的一个重要区别是，远期合约的买卖双方地位平等，任何一方无权单方面终止合约；而期权买方有权利选择是否在到期日买入或卖出标的资产，卖方在买方行权时无权拒绝。</p>
+<p>对于看涨期权的买方，可以在到期日选择是否在到期日$T$以执行价格$K$买入标的资产，所以只有在到期日标的资产的价格$S_T &gt; K$时，买方才会选择行权。</p>
+<p>如果令$(X)^+ = \max (X,0)$，则看涨期权的到期收益为$(S_T - K)^+$，而看跌期权的收益则为$(K – S_T)^+$。作为一个投资组合，如果我们同时买入看涨期权并卖出看跌期权，那么无论如何，该组合的到期收益始终为$S_T - K$。</p>
+<p>要复制这一投资组合的现金流，我们需要在期权到期日同时持有一单位的标的资产$S_T$和$-K$的货币资金。因此，我们可以得到所谓的期权平价公式(Put-Call Parity)：</p>
+<script type="math/tex; mode=display">C(K,T) – P(K,T) = S_t – Ke^{-(T-t)r}</script><p>与远期合约类似的，若标的资产在到期前分红，例如在$\theta, t&lt;\theta &lt;T$时刻分红$\delta$，则期权平价公式变为：</p>
+<script type="math/tex; mode=display">C(K,T) - P(K,T) = S_t - Ke^{-(T-t)r} - \delta e^{-(T-\delta)r}</script>]]></content>
       <categories>
-        <category>Music</category>
+        <category>Finance</category>
       </categories>
       <tags>
-        <tag>Music</tag>
-        <tag>Sound Testing</tag>
-        <tag>Audio</tag>
+        <tag>Finance</tag>
+        <tag>Financial Engineering</tag>
       </tags>
   </entry>
   <entry>
@@ -1901,6 +1869,67 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
         <tag>醉仙阁杂谈</tag>
         <tag>Social Science</tag>
         <tag>资本论学习笔记</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么蔡琴老师的《渡口》是一首合格的测音神曲</title>
+    <url>/2025/10/12/2025-10-12--Sound-Tesing-By-Dukou/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>蔡琴老师的《渡口》是一首融合流行与民谣风格的经典之作，由席慕蓉作词、杨弦作曲、江建民编曲，最初被收录于蔡琴1986年的专辑《情锁》中。而《渡口》于1996年被重新编曲后又被收录于专辑《民歌蔡琴》中，这是该首歌曲当前最流行的版本。歌词上，席慕蓉以诗人独有的细腻笔触，将离别时的不舍与祝福娓娓道来，如「让我与你握别，再轻轻抽出我的手，知道思念从此生根」等句子，生动且富有画面感。杨弦的作曲赋予歌曲悠远绵长的旋律，与歌词相得益彰，江建民的编曲则采用不喧宾夺主的节拍设计，营造出最深的河流静静流淌般的听觉效果。</p>
+<p>在情感表达与意境营造方面，歌曲紧扣离别主题，通过「渡口旁找不到一朵相送的花，就把祝福别在襟上吧」等歌词，构建出既伤感又充满祝福的意境。蔡琴那沉稳如大提琴的嗓音，与歌曲风格完美契合，将离别时的惆怅、思念以及对未来的祝福等复杂情感，演绎得淋漓尽致，让听众仿佛置身于那个充满故事的渡口。</p>
+<p>凭借独特的嗓音和深情的演绎，蔡琴的《渡口》在华语乐坛占据经典地位，不仅在华语地区广为流传，还收获了国际音乐爱好者的喜爱。其旋律和歌词所具有的普世性，成功跨越语言和文化的界限，触动了无数人的心弦。</p>
+<p>而作为一首1996年的老歌，《渡口》为什么祇今仍蝉联在各个音乐软件的热播榜单呢？它的经典性和传唱度固然是一个不可忽略的原因。在另一方面，这也是由于《渡口》常年被音响设备爱好者作为测音神曲，因此人们常常在更换设备或测试设备时反复播放《渡口》进行测音或煲机。<span id="more"></span></p>
+<h1 id="低频"><a href="#低频" class="headerlink" title="低频"></a>低频</h1><p>首先，《渡口》的前奏特别考验音响设备的低频（30Hz - 150Hz）处理能力。在导入时,《渡口》采用约10s的鼓声和梆子声交替作为前奏。对于大部分轻便的移动设备和音响质量一般的汽车音响而言，开头的第一声鼓声就足以让它们产生共振，淘汰市面上大多数没有低频处理能力的音响设备。</p>
+<h1 id="声道"><a href="#声道" class="headerlink" title="声道"></a>声道</h1><p>此外，《渡口》前奏的皮鼓敲击声的声道特征十分明显，便又足以淘汰绝大部分单声道设备（如手机和一般的单体式蓝牙音响），一些高音声场处理能力不够好的低端电视音响也在这个行列。</p>
+<p>在《渡口》的前奏中，如果三连的梆子听起来没有明显的粘滞感，而是干脆有力、非常明亮，让你清脆地感受到梆子的敲打节奏，那说明设备在频谱上具有很好的低频弹性；如果鼓声听起来非常浑厚，那就说明设备具有卓越的低频下潜能力，可以给鼓声极大的发挥空间。</p>
+<h1 id="分频点"><a href="#分频点" class="headerlink" title="分频点"></a>分频点</h1><p>在前奏的后半段（约10s – 20s），吉他和贝斯开始进场。吉他和贝斯作为贯穿全曲的重要配器，其频谱细节十分考验音响设备的分频点，许多高频质量不好的设备在这里便会产生明显的失真，而低频达不到100Hz以下的设备又难以解析出贝斯的声音，许多市场价格数千的监听级设备都有一定概率折戟于此。</p>
+<p>对于中频（150Hz -5KHz）而言，吉他的金属感是考验设备音色还原度的一大难题，能否在响度足够的前提下，既保证吉他音色金属感，又避免声音过于刺耳，是一个值得我们关注的重点。</p>
+<p>至此，《渡口》在进入人声以前的前奏部分便已经淘汰掉市面上90%以上的音响设备。</p>
+<h1 id="相位"><a href="#相位" class="headerlink" title="相位"></a>相位</h1><p>在大约22s的前奏过后，我们终于进入了这首歌曲的人声部分。蔡琴老师在《渡口》中使用了极其丰富的美声技巧，比如一开场的「让我与你握别」便使用了气音的技法，而后的「热泪在心中，汇成河流」处又使用了大量的转音。</p>
+<p>蔡琴老师丰富的人声动态对音响设备的相位处理能力又是一大考验，人声解析力不够强大的音响设备对蔡琴老师人声的还原度会大打折扣，在听感上，我们可能会觉得人声不在中间，或在一些尾音和转音的细节部分发现人声失真、模糊或丧失连续性。</p>
+<p>在人声处理能力上，让我们有如身临其境一般聆听蔡琴老师的人声，真实感受到复杂的演唱技巧是我们对HIFI级设备的基本要求，至此，万元以下的音响设备几乎已经全军覆没。</p>
+<p>所以，《渡口》这首歌曲能让你在30s内评估一个万元级以下的音响设备的好坏，测音神曲的称誉在笔者看来是当之无愧的。</p>
+<h1 id="高频"><a href="#高频" class="headerlink" title="高频"></a>高频</h1><p>至于高频能力，由于泛音的存在，我们已经能在人声和吉他的细节中感受一二。如果要特别提及的话，那便是1:14和2:19处出现的提琴声。从整体上来看，《渡口》这首歌曲里的大部分声音都偏向于中低频段，但是此处的提琴伴奏偶尔会有几个高音出现，把音量调大，如果这几个高音没有出现明显的破音或失真，那说明设备的高频能力是合格的。</p>
+<h1 id="解析力"><a href="#解析力" class="headerlink" title="解析力"></a>解析力</h1><p>所谓音响设备的解析力，就是在用设备聆听一首曲子时，所能听到音乐内容的多少的一种度量。对同样音质的同一首曲子，采用解析力越强的设备所能听出的乐器数量就越多，音乐细节就越丰富。</p>
+<p>纵观全曲，《渡口》作为一首流行民谣，其中包括了鼓、梆子、吉他、贝斯、人声、小提琴等多种元素。对于HIFI级的音响设备来说，能够从《渡口》的任意一个音乐片段中准确地解析出这几种元素的声音是对设备的基本要求。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>作为一首录制于1996年的老歌，《渡口》的录音质量即便放在今天也不逊色于除了电音以外的大多数录制音乐。无论是蔡琴老师的嗓音，还是各种乐器的声音，《渡口》基本做到了对每一处音乐细节的真实还原。在这个前提下，《渡口》用丰富的音乐内容、卓越的音乐品质给我们提供了良好的测音基础。</p>
+<p>而对于市面上超过95%的垃圾设备而言，蔡琴老师的《渡口》能在30s内按顺序排除大多数不足，笔者认为用它来对市面上几乎所有音响设备进行测评都是十分合适的。</p>
+]]></content>
+      <categories>
+        <category>Music</category>
+      </categories>
+      <tags>
+        <tag>Music</tag>
+        <tag>Sound Testing</tag>
+        <tag>Audio</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>早期资本市场发展纪实（一）：1837年美国经济崩溃始末</title>
+    <url>/2025/11/18/2025-11-18--The-Beginning-And-End-Of-The-American-Economic-Collapse-In-1837/</url>
+    <content><![CDATA[<p>随着美国经济的日益繁荣，华尔街上的股票交易商也越来越多。在19世纪20年代末，纽约股票交易所的日交易量经常跌到每日100股以下。但到了30年代的中期，平均每日拍卖的股票数量就飙升到5000股以上，在1835年6月26日这一天，纽约股票交易所更是创下了7825股的单日交易量记录。值得一提的是，当时的股票交易并不是像今天这样的连续报价，而是一天仅有两次的拍卖，这就类似于今天的集合竞价，会员们坐在各自桌边的座位上——这也被称为交易商席位，等待交易所总裁或主持人举行每天两次的拍卖，总裁或主持人会依次叫出每一种证券的名字，由各个交易商进行竞价交易。1836年，在所有挂牌交易的股票中，包括38家银行、32家保险公司、4家铁路公司、4家运河公司以及3家天然气公司的股票——煤气灯当时正迅速普及到全美各地。</p>
+<p>大部分的股票交易还发生在场外，这是由于当时交易所理事会对会员的苛刻要求将许多人排斥在外，更多的人往往在投票时被刷掉。这些人都靠证券经纪过活，至少在行情好的时候是这样的。股票交易的节奏和价格几乎是由交易所理事会来决定，而街头交易多在下午，那时候，交易所的拍卖已经结束，价格已经决定。非会员证券经纪人通常挤在交易所门口，争取在第一时间获取到最新的价格行情和市场信息。<span id="more"></span></p>
+<p>1835年12月16日，在这一轮牛市势头正猛时，华尔街遭受了一次灾难，这一次不是金融灾难，而是一次自然灾难。那一天，纽约爆发了火灾，起火的原因至今尚不清楚。大火蔓延，无法控制，整整持续了两天。虽然连费城的消防队员都赶来了，但也无济于事。恶劣的天气和猛烈的大风使得消防队员无计可施，大火愈加猛烈，熊熊的火焰映红了费城、波基普西以及纽黑文的天空。由于纽约此时依然缺少充足的水供应，手工运作的消防车不得不离开现场到东河去取水，而且，由于当时正值严冬，消防人员还不得不砸冰取水。</p>
+<p>当火势最终得到控制时，纽约的商业中心已经是一片废墟了。大火毁掉了由华尔街、宽街、康提斯小街和东河包围的20个街区的700多座建筑。许多英国殖民时代的遗迹也在这场大火中化为灰烬。今天的曼哈顿，作为美国历史最悠久的大城市的中心，独立战争以前的建筑只有位于百老汇和富尔顿大街拐角处的圣保罗教堂还硕果仅存。</p>
+<p>因为这场大火，光是纽约的26家火灾保险公司中便有23家宣布破产，这使得许多股票的持有者和投保人也跟着破产了。这些被火灾毁坏的建筑也包括当时的纽约股票交易所，这是自1827年以来纽约股票交易委员会举行拍卖的场所。所幸交易所的一个英勇的员工芒特（J. R. Mout）在建筑崩塌之前设法将交易所的交易记录抢了出来，为此他得到了100美元的奖金。纽约股票交易委员会很快重整旗鼓，在一个临时的场所重新开业了。虽然纽约城区遭到了大火的严重破坏，但在这个美国经济蒸蒸日上的时期，纽约的证券行业很快便恢复过来。</p>
+<p>此时美国繁荣的经济中的亮点是西部的土地开发，这些项目是由当时美国的地方政府新批准建立的银行资助的。1829年，在全美仅有329家银行，这一数字在随后的短短8年时间内就增加到了788家。但是，当银行的数目翻了两倍多时，这些银行发行的票据的总值翻了3倍多，从原来的4820万增至1.492亿，发放的贷款也翻了将近4倍，从1.37亿增至5.25亿。许多州的银行立法很仓促，所以有许多新银行缺乏有效的风险管理机制——它们普遍资本金不足，监管不严，对未来过度乐观。</p>
+<p>合众国银行可以通过拒绝接受它认为经营不善的银行的票据来维护它的稳定，但随着它权力的减弱，它控制形势的能力也减弱了。而且，作为毁掉合众国银行的策略的一部分，杰克逊从该银行撤出了政府存款，转而存放在州立银行当中，这些银行因此迅速被杰克逊的政治对手们冠以「被宠幸的银行」的称号。因为增加了存款基础，这些银行可以发行更多的银行券，并以房地产作担保发放了更多的贷款，而房地产正是所有可交易资产中最缺乏流动性的一种。</p>
+<p>这样一来，最痛恨投机和纸币的杰克逊总统所实施的政策，意想不到地引发了美国首次由于纸币而引起的巨大投机泡沫。更具讽刺意义的是，在这次泡沫中，许多的土地都是联邦政府卖给居民或投机者的。政府的土地办公室(The General Land Office)在1832年的土地销售总额为250万美元，这一数字到1836年便翻了十倍达到了2500万美元，这一年的夏季销售额大约为每月将近500万美元。美国英语当中的一句俚语「Do a land-office business」就开始于这个狂热时期，意思是「非常兴隆的生意」。<br>杰克逊非常清楚地知道正在发生的事情，但已无力阻止，他后来写道：「土地的拥有证只是到银行去贷款的信用凭证，银行把它们的银行券贷给投机者，投机者再去购买土地，很快，银行券又回到了银行，接着又被贷出去，银行券在这个过程中仅仅是充当将宝贵的土地转移到投机者手里的工具。实际上，每一次投机都酝酿着更大的一次投机。」</p>
+<p>典型的杰克逊式做法便是将投机活动拦腰截断。他向他的内阁建议，土地办公室只接受铸币支付——金币或银币。但是，因为内阁的许多会员自身都深深地卷入到了这场投机中，所以总统的建议受到了坚决抵制。同样卷入很深的国会当然也不会同意，所以总统只有等到国会休会后的7月11日，将所谓的《铸币流通令》（Specie Circular）作为一个行政命令签署。它要求，除个别极其特别的情况外，8月15日以后购买土地都必须用金币或银币支付。</p>
+<p>杰克逊希望他的措施将会阻止全国的投机活动，但这些措施的效果远不止于此，它还对美国经济起了紧急刹车的作用。由于对铸币的需求激增，银行券的持有者开始要求用银行券换取金银铸币。银行为了筹集急需的钱，不得不尽快收回贷款。西部银行从东部银行吸收了大量的金银铸币，但一直很好地保存这些金银币，因为还有其他的政府项目需要资金。</p>
+<p>因为联邦政府有大量的财政盈余，但并没有负债，所以钱要么堆放在国库里没有被使用，要么存放在「被宠幸的银行」中。1836年，美国国会决定将大部分的盈余分给各个州政府使用——它下令财政部从1837年2月份开始，每个季度都从财政部在银行的存款中取出900万美元，并根据各州的人口按比例分配给各州。银行不得不作好准备，以应付存款基数的锐减。</p>
+<p>实力较弱的银行，黄金储备较少，但却发行了大量的银行券，所以纷纷开始破产。而那些需要银行贷款的商人也因此步履维艰，股市也因此开始一蹶不振，纽约前市长、《纽约日记》作者菲利普·霍恩在1836年6月百老汇的新宅奠基后去欧洲看望他的女儿，而当他10月份重新回到纽约时，发现金融界的氛围完全变了。他在11月12日的日记中写道：「这是个艰难的时代。」此外，他还在日记中列举了几只股票，这些股票在他去欧洲前价格都超过了100美元，但如今仅仅值60或70美元。《纽约先驱报》（New York Herald）在1837年2月2日（这一天，按照国会的决定，第一笔900万美元的钱从银行，其中大部分是东部银行，转给了各个州政府）报道：「资金市场的利率从年利7%骤然飙升到月利2%，甚至3%。」<br>与此同时，企业破产开始蔓延。英格兰银行提高利率，以避免黄金流出国门，这导致英国的棉花进口量下降，进一步影响了美国的经济。而且，因为英国国内的利率升高，所以英国的投资者不再愿意将钱投入到美国的证券上，这对华尔街证券市场无疑是雪上加霜。</p>
+<p>美国股市历史上的首次大牛市终于结束，而被首次大熊市所替代，但交易量仍然保持在高位运行。事实上，1837年3月，当布伦取代杰克逊入主白宫时，交易量已经达到每天上万股。杰克逊主政时无意种下的苦果的报应开始了，股票价格复仇似地开始下跌。莫里斯运河的股票价格在月初时为96美元，在月末仅仅为80美元（而到1841年，它变得几乎一文不值）。长岛铁路（Long Island Railroad）的股票也从78美元跌到64美元。当几个州的州政府试图为它们的债务进行再融资时，发现它们的债券在市场上几乎找不到合适的买家。</p>
+<p>到4月份，菲利普·霍恩自己也受到了波及，他在日记中写道：「在投机狂热的日子里我们曾听说过的那些巨大财富，在4月的阳光到来之前，就像冰雪一样融化得无影无踪。没有人可以逃出这场劫难，我们最终一无所有，而只有那些债务很少或根本没有债务的人才是真正的幸福者。」</p>
+<p>在5月底，全美的所有银行，至少是那些还没有破产的银行，都终止了金币兑付。政府的财政收入，虽然在1836年达到了惊人的5080万美元，在1837年却只剩下2490万美元了，杰克逊的联邦政府不欠债的美好愿景一去不复返了。到1837年初秋，全美90%的工厂关门，美国经济进入了历史上首次萧条时期（这仍然是迄今为止美国经济历时最长的萧条期）。就这次萧条影响的深度和广度而言，一个唯一令人感到庆幸的事实是：那时美国的绝大部分人是居住在乡下，也就是今天的经济学家所称的「货币经济」之外，感受不到经济崩溃带来的苦痛。他们能够自给自足，直到经济恢复过来。那些生活在「货币经济」的漩涡之中的人们，比如工厂的工人和老板、商人以及华尔街的经纪人，遭受的痛苦就要深重得多。</p>
+]]></content>
+      <categories>
+        <category>Economics</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Economics</tag>
+        <tag>History</tag>
+        <tag>早期资本市场发展纪实</tag>
       </tags>
   </entry>
   <entry>
@@ -2004,32 +2033,21 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       </tags>
   </entry>
   <entry>
-    <title>早期资本市场发展纪实（一）：1837年美国经济崩溃始末</title>
-    <url>/2025/11/18/2025-11-18--The-Beginning-And-End-Of-The-American-Economic-Collapse-In-1837/</url>
-    <content><![CDATA[<p>随着美国经济的日益繁荣，华尔街上的股票交易商也越来越多。在19世纪20年代末，纽约股票交易所的日交易量经常跌到每日100股以下。但到了30年代的中期，平均每日拍卖的股票数量就飙升到5000股以上，在1835年6月26日这一天，纽约股票交易所更是创下了7825股的单日交易量记录。值得一提的是，当时的股票交易并不是像今天这样的连续报价，而是一天仅有两次的拍卖，这就类似于今天的集合竞价，会员们坐在各自桌边的座位上——这也被称为交易商席位，等待交易所总裁或主持人举行每天两次的拍卖，总裁或主持人会依次叫出每一种证券的名字，由各个交易商进行竞价交易。1836年，在所有挂牌交易的股票中，包括38家银行、32家保险公司、4家铁路公司、4家运河公司以及3家天然气公司的股票——煤气灯当时正迅速普及到全美各地。</p>
-<p>大部分的股票交易还发生在场外，这是由于当时交易所理事会对会员的苛刻要求将许多人排斥在外，更多的人往往在投票时被刷掉。这些人都靠证券经纪过活，至少在行情好的时候是这样的。股票交易的节奏和价格几乎是由交易所理事会来决定，而街头交易多在下午，那时候，交易所的拍卖已经结束，价格已经决定。非会员证券经纪人通常挤在交易所门口，争取在第一时间获取到最新的价格行情和市场信息。<span id="more"></span></p>
-<p>1835年12月16日，在这一轮牛市势头正猛时，华尔街遭受了一次灾难，这一次不是金融灾难，而是一次自然灾难。那一天，纽约爆发了火灾，起火的原因至今尚不清楚。大火蔓延，无法控制，整整持续了两天。虽然连费城的消防队员都赶来了，但也无济于事。恶劣的天气和猛烈的大风使得消防队员无计可施，大火愈加猛烈，熊熊的火焰映红了费城、波基普西以及纽黑文的天空。由于纽约此时依然缺少充足的水供应，手工运作的消防车不得不离开现场到东河去取水，而且，由于当时正值严冬，消防人员还不得不砸冰取水。</p>
-<p>当火势最终得到控制时，纽约的商业中心已经是一片废墟了。大火毁掉了由华尔街、宽街、康提斯小街和东河包围的20个街区的700多座建筑。许多英国殖民时代的遗迹也在这场大火中化为灰烬。今天的曼哈顿，作为美国历史最悠久的大城市的中心，独立战争以前的建筑只有位于百老汇和富尔顿大街拐角处的圣保罗教堂还硕果仅存。</p>
-<p>因为这场大火，光是纽约的26家火灾保险公司中便有23家宣布破产，这使得许多股票的持有者和投保人也跟着破产了。这些被火灾毁坏的建筑也包括当时的纽约股票交易所，这是自1827年以来纽约股票交易委员会举行拍卖的场所。所幸交易所的一个英勇的员工芒特（J. R. Mout）在建筑崩塌之前设法将交易所的交易记录抢了出来，为此他得到了100美元的奖金。纽约股票交易委员会很快重整旗鼓，在一个临时的场所重新开业了。虽然纽约城区遭到了大火的严重破坏，但在这个美国经济蒸蒸日上的时期，纽约的证券行业很快便恢复过来。</p>
-<p>此时美国繁荣的经济中的亮点是西部的土地开发，这些项目是由当时美国的地方政府新批准建立的银行资助的。1829年，在全美仅有329家银行，这一数字在随后的短短8年时间内就增加到了788家。但是，当银行的数目翻了两倍多时，这些银行发行的票据的总值翻了3倍多，从原来的4820万增至1.492亿，发放的贷款也翻了将近4倍，从1.37亿增至5.25亿。许多州的银行立法很仓促，所以有许多新银行缺乏有效的风险管理机制——它们普遍资本金不足，监管不严，对未来过度乐观。</p>
-<p>合众国银行可以通过拒绝接受它认为经营不善的银行的票据来维护它的稳定，但随着它权力的减弱，它控制形势的能力也减弱了。而且，作为毁掉合众国银行的策略的一部分，杰克逊从该银行撤出了政府存款，转而存放在州立银行当中，这些银行因此迅速被杰克逊的政治对手们冠以「被宠幸的银行」的称号。因为增加了存款基础，这些银行可以发行更多的银行券，并以房地产作担保发放了更多的贷款，而房地产正是所有可交易资产中最缺乏流动性的一种。</p>
-<p>这样一来，最痛恨投机和纸币的杰克逊总统所实施的政策，意想不到地引发了美国首次由于纸币而引起的巨大投机泡沫。更具讽刺意义的是，在这次泡沫中，许多的土地都是联邦政府卖给居民或投机者的。政府的土地办公室(The General Land Office)在1832年的土地销售总额为250万美元，这一数字到1836年便翻了十倍达到了2500万美元，这一年的夏季销售额大约为每月将近500万美元。美国英语当中的一句俚语「Do a land-office business」就开始于这个狂热时期，意思是「非常兴隆的生意」。<br>杰克逊非常清楚地知道正在发生的事情，但已无力阻止，他后来写道：「土地的拥有证只是到银行去贷款的信用凭证，银行把它们的银行券贷给投机者，投机者再去购买土地，很快，银行券又回到了银行，接着又被贷出去，银行券在这个过程中仅仅是充当将宝贵的土地转移到投机者手里的工具。实际上，每一次投机都酝酿着更大的一次投机。」</p>
-<p>典型的杰克逊式做法便是将投机活动拦腰截断。他向他的内阁建议，土地办公室只接受铸币支付——金币或银币。但是，因为内阁的许多会员自身都深深地卷入到了这场投机中，所以总统的建议受到了坚决抵制。同样卷入很深的国会当然也不会同意，所以总统只有等到国会休会后的7月11日，将所谓的《铸币流通令》（Specie Circular）作为一个行政命令签署。它要求，除个别极其特别的情况外，8月15日以后购买土地都必须用金币或银币支付。</p>
-<p>杰克逊希望他的措施将会阻止全国的投机活动，但这些措施的效果远不止于此，它还对美国经济起了紧急刹车的作用。由于对铸币的需求激增，银行券的持有者开始要求用银行券换取金银铸币。银行为了筹集急需的钱，不得不尽快收回贷款。西部银行从东部银行吸收了大量的金银铸币，但一直很好地保存这些金银币，因为还有其他的政府项目需要资金。</p>
-<p>因为联邦政府有大量的财政盈余，但并没有负债，所以钱要么堆放在国库里没有被使用，要么存放在「被宠幸的银行」中。1836年，美国国会决定将大部分的盈余分给各个州政府使用——它下令财政部从1837年2月份开始，每个季度都从财政部在银行的存款中取出900万美元，并根据各州的人口按比例分配给各州。银行不得不作好准备，以应付存款基数的锐减。</p>
-<p>实力较弱的银行，黄金储备较少，但却发行了大量的银行券，所以纷纷开始破产。而那些需要银行贷款的商人也因此步履维艰，股市也因此开始一蹶不振，纽约前市长、《纽约日记》作者菲利普·霍恩在1836年6月百老汇的新宅奠基后去欧洲看望他的女儿，而当他10月份重新回到纽约时，发现金融界的氛围完全变了。他在11月12日的日记中写道：「这是个艰难的时代。」此外，他还在日记中列举了几只股票，这些股票在他去欧洲前价格都超过了100美元，但如今仅仅值60或70美元。《纽约先驱报》（New York Herald）在1837年2月2日（这一天，按照国会的决定，第一笔900万美元的钱从银行，其中大部分是东部银行，转给了各个州政府）报道：「资金市场的利率从年利7%骤然飙升到月利2%，甚至3%。」<br>与此同时，企业破产开始蔓延。英格兰银行提高利率，以避免黄金流出国门，这导致英国的棉花进口量下降，进一步影响了美国的经济。而且，因为英国国内的利率升高，所以英国的投资者不再愿意将钱投入到美国的证券上，这对华尔街证券市场无疑是雪上加霜。</p>
-<p>美国股市历史上的首次大牛市终于结束，而被首次大熊市所替代，但交易量仍然保持在高位运行。事实上，1837年3月，当布伦取代杰克逊入主白宫时，交易量已经达到每天上万股。杰克逊主政时无意种下的苦果的报应开始了，股票价格复仇似地开始下跌。莫里斯运河的股票价格在月初时为96美元，在月末仅仅为80美元（而到1841年，它变得几乎一文不值）。长岛铁路（Long Island Railroad）的股票也从78美元跌到64美元。当几个州的州政府试图为它们的债务进行再融资时，发现它们的债券在市场上几乎找不到合适的买家。</p>
-<p>到4月份，菲利普·霍恩自己也受到了波及，他在日记中写道：「在投机狂热的日子里我们曾听说过的那些巨大财富，在4月的阳光到来之前，就像冰雪一样融化得无影无踪。没有人可以逃出这场劫难，我们最终一无所有，而只有那些债务很少或根本没有债务的人才是真正的幸福者。」</p>
-<p>在5月底，全美的所有银行，至少是那些还没有破产的银行，都终止了金币兑付。政府的财政收入，虽然在1836年达到了惊人的5080万美元，在1837年却只剩下2490万美元了，杰克逊的联邦政府不欠债的美好愿景一去不复返了。到1837年初秋，全美90%的工厂关门，美国经济进入了历史上首次萧条时期（这仍然是迄今为止美国经济历时最长的萧条期）。就这次萧条影响的深度和广度而言，一个唯一令人感到庆幸的事实是：那时美国的绝大部分人是居住在乡下，也就是今天的经济学家所称的「货币经济」之外，感受不到经济崩溃带来的苦痛。他们能够自给自足，直到经济恢复过来。那些生活在「货币经济」的漩涡之中的人们，比如工厂的工人和老板、商人以及华尔街的经纪人，遭受的痛苦就要深重得多。</p>
+    <title>用Python模拟Black Scholes期权定价模型</title>
+    <url>/2026/08/05/2026-08-05--Simulation-Of-Black-Scholes-Model-By-Python/</url>
+    <content><![CDATA[<h1 id="理论模型"><a href="#理论模型" class="headerlink" title="理论模型"></a>理论模型</h1><script type="math/tex; mode=display">dS_t = \mu S_t dt + \sigma S_t dB_t</script><script type="math/tex; mode=display">S_t = S_0 \exp\left(\left(\mu - \frac{\sigma^2}{2}\right) t + \sigma B_t\right)</script><script type="math/tex; mode=display">d_1 = \frac{\log\left(\frac{S_t}{K}\right) + \left(r+\frac{\sigma^2}{2}\right)(T-t)}{\sigma\sqrt{T-t}}</script><script type="math/tex; mode=display">d_2 = d_1 - \sigma\sqrt{T-t}</script><script type="math/tex; mode=display">C(S,t) = S_t \Phi (d_1) – Ke^{-r(T-t)} \Phi (d_2)</script><script type="math/tex; mode=display">P(S,t) = Ke^{-r(T-t)} \Phi (-d_2) – S_t \Phi (-d_1)</script><span id="more"></span>
+<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Black-Scholes Put Option Price Simulation</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">from</span> scipy.stats <span class="keyword">import</span> norm</span><br><span class="line"></span><br><span class="line"><span class="comment"># 参数</span></span><br><span class="line">S0 = <span class="number">40</span></span><br><span class="line">mu = <span class="number">0.05</span></span><br><span class="line">sigma = <span class="number">0.25</span></span><br><span class="line">K = <span class="number">40</span></span><br><span class="line">T = <span class="number">1</span></span><br><span class="line">r = <span class="number">0.05</span>   <span class="comment"># 此处采用风险中性假设，即无风险利率 r = mu</span></span><br><span class="line"></span><br><span class="line">N = <span class="number">252</span> * <span class="number">10</span>  <span class="comment"># 一年交易日</span></span><br><span class="line">dt = T / N</span><br><span class="line"></span><br><span class="line"><span class="comment"># 时间轴</span></span><br><span class="line">t = np.linspace(<span class="number">0</span>, T, N)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 模拟股价路径</span></span><br><span class="line">np.random.seed(<span class="number">99</span>) <span class="comment"># 随机数种子使结果可复现</span></span><br><span class="line">Z = np.random.normal(<span class="number">0</span>, <span class="number">1</span>, N)</span><br><span class="line"></span><br><span class="line">S = np.zeros(N)</span><br><span class="line">S[<span class="number">0</span>] = S0</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, N):</span><br><span class="line">    S[i] = S[i-<span class="number">1</span>] * np.exp((mu - <span class="number">0.5</span> * sigma**<span class="number">2</span>) * dt + sigma * np.sqrt(dt) * Z[i])</span><br><span class="line"></span><br><span class="line"><span class="comment"># Black-Scholes 看跌期权</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">put_option_price</span>(<span class="params">S, K, T, t, r, sigma</span>):</span><br><span class="line">    tau = T - t</span><br><span class="line">    tau = np.maximum(tau, <span class="number">1e-8</span>)  <span class="comment"># 防止除零</span></span><br><span class="line">    </span><br><span class="line">    d1 = (np.log(S / K) + (r + <span class="number">0.5</span> * sigma**<span class="number">2</span>) * tau) / (sigma * np.sqrt(tau))</span><br><span class="line">    d2 = d1 - sigma * np.sqrt(tau)</span><br><span class="line">    </span><br><span class="line">    P = K * np.exp(-r * tau) * norm.cdf(-d2) - S * norm.cdf(-d1)</span><br><span class="line">    <span class="keyword">return</span> P</span><br><span class="line"></span><br><span class="line"><span class="comment"># 计算期权路径</span></span><br><span class="line">P = put_option_price(S, K, T, t, r, sigma)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘图</span></span><br><span class="line">fig, ax1 = plt.subplots(figsize=(<span class="number">10</span>,<span class="number">6</span>))</span><br><span class="line"></span><br><span class="line">ax1.plot(t, S, color=<span class="string">&#x27;blue&#x27;</span>, linewidth=<span class="number">2</span>, label=<span class="string">&#x27;Stock Price&#x27;</span>)</span><br><span class="line">ax1.set_xlabel(<span class="string">&#x27;Time&#x27;</span>)</span><br><span class="line">ax1.set_ylabel(<span class="string">&#x27;Stock Price S&#x27;</span>, color=<span class="string">&#x27;blue&#x27;</span>)</span><br><span class="line">ax1.tick_params(axis=<span class="string">&#x27;y&#x27;</span>, labelcolor=<span class="string">&#x27;blue&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax2 = ax1.twinx()</span><br><span class="line">ax2.plot(t, P, color=<span class="string">&#x27;red&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>, linewidth=<span class="number">2</span>,</span><br><span class="line">         label=<span class="string">&#x27;Put Option Price&#x27;</span>)</span><br><span class="line">ax2.set_ylabel(<span class="string">&#x27;Put Option Price P&#x27;</span>, color=<span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">ax2.tick_params(axis=<span class="string">&#x27;y&#x27;</span>, labelcolor=<span class="string">&#x27;red&#x27;</span>)</span><br><span class="line"></span><br><span class="line">lines1, labels1 = ax1.get_legend_handles_labels()</span><br><span class="line">lines2, labels2 = ax2.get_legend_handles_labels()</span><br><span class="line">ax1.legend(lines1 + lines2, labels1 + labels2, loc=<span class="string">&#x27;upper right&#x27;</span>)</span><br><span class="line"></span><br><span class="line">plt.title(<span class="string">&#x27;GBM Stock Price and Black-Scholes Put Option Price&#x27;</span>)</span><br><span class="line">plt.grid(<span class="literal">True</span>, alpha=<span class="number">0.3</span>)</span><br><span class="line">plt.tight_layout()</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
+<h1 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h1><p>上述代码的运行结果如下图所示：</p>
+<p><img src="/images/2026-08-05--Simulation-Of-Black-Scholes-Model-By-Python/output.png" alt="1"></p>
 ]]></content>
       <categories>
-        <category>Economics</category>
+        <category>Finance</category>
       </categories>
       <tags>
         <tag>醉仙阁杂谈</tag>
-        <tag>Economics</tag>
-        <tag>History</tag>
-        <tag>早期资本市场发展纪实</tag>
+        <tag>Math</tag>
+        <tag>Finance</tag>
+        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -2066,6 +2084,28 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       <tags>
         <tag>醉仙阁杂谈</tag>
         <tag>Economics</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>《家庭、私有制和国家的起源》读书笔记（一）：引子</title>
+    <url>/2026/08/07/2026-08-07--Der-Ursprung/</url>
+    <content><![CDATA[<p><img src="/images/2026-08-07--Der-Ursprung/Cover.jpg" alt="封面"></p>
+<p>最近读完了恩格斯先生的《家庭、私有制和国家的起源》（下文简称《起源》），此处要感谢<em>Mikey Peng</em>向我荐书。</p>
+<p>诚然，这是一本颇具深度的历史经典著作，在读书过程中，遇到了许多问题，便随手记录，并作思考，整理之，遂成此文。</p>
+<p>全书的正文部分大体围绕着几条主线展开：时代、家庭、社会制度。在本系列的文章中，将不严格按照原书的顺序，分几个部分对上述内容作逐一讨论。<span id="more"></span></p>
+<p>在撰写《起源》时，恩格斯对时代的划分大抵是和摩尔根一脉相承的。在彼时的19世纪，对史前史采用这样的分期方式，是受到学界的广泛认可的，尽管在今天看来，这样的分期方式存在着些许瑕疵，譬如在某些太平洋岛屿，社会的发展并不严格按照这一形式进行，而是随着资本主义洪流的冲击跳过了某些阶段。但必须指出的是，对于一个不受外部因素影响的族群来说，摩尔根的分期方式只在时间精确度等方面存在一些细节问题，并不影响我们对《起源》后续章节的阅读。</p>
+<p>摩尔根是历史上第一个从专业视角上尝试给人类文明史前史进行分期研究的学者，在《古代社会》中，他就将人类文明的历史划分为蒙昧时代、野蛮时代和文明时代三个阶段，他本人致力于对前两个时代（也就是史前史的研究，文明时代则对应于有成文史的历史阶段）和向文明时代的过渡阶段的研究。</p>
+<p>其中，根据生产资料和生活方式的发展和进步，又进一步将蒙昧时代和野蛮时代划分为低级、中级、高级三个阶段，这种划分在现代人类学的观点看来，是存在争议的，但其基本思想与马克思和恩格斯的唯物史观是如出一辙的——他在没有阅读历史资料的前提下，就已经把生产力作为划分历史阶段的重要依据，这与摩尔根以前的人类学家（如黑格尔）用宗教发展进行划分的方式形成了鲜明的对比。</p>
+<p>恩格斯在书中随后提到「家庭的发展是与此（指作为时代和阶段划分依据的生产力发展）并行的，不过，这一发展对于时期的划分没有提供这样显著的标志」，一种时代（即生产力和生产关系）就要大致对应一种家庭形式，这与后来马克思和恩格斯所提出的唯物史观自觉地站到了同一阵营。</p>
+<p>需要额外指出的是，这种时代和阶段的划分，与某个具体的时间点并不存在着严格的对应关系，而是完全按照生产力的发展来的，同一时间在不同地区也可能存在着两个完全处于不同时代和阶段的人类族群，这也是恩格斯在后文中要分章节讨论不同地区社会制度的发展过程而不是把它们放在一起讨论的原因之一。</p>
+]]></content>
+      <categories>
+        <category>Social</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Social Science</tag>
+        <tag>《家庭、私有制和国家的起源》读书笔记</tag>
       </tags>
   </entry>
   <entry>
@@ -2118,24 +2158,6 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
         <tag>醉仙阁杂谈</tag>
         <tag>Math</tag>
         <tag>Matlab</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>用Python模拟Black Scholes期权定价模型</title>
-    <url>/2026/08/05/2026-08-05--Simulation-Of-Black-Scholes-Model-By-Python/</url>
-    <content><![CDATA[<h1 id="理论模型"><a href="#理论模型" class="headerlink" title="理论模型"></a>理论模型</h1><script type="math/tex; mode=display">dS_t = \mu S_t dt + \sigma S_t dB_t</script><script type="math/tex; mode=display">S_t = S_0 \exp\left(\left(\mu - \frac{\sigma^2}{2}\right) t + \sigma B_t\right)</script><script type="math/tex; mode=display">d_1 = \frac{\log\left(\frac{S_t}{K}\right) + \left(r+\frac{\sigma^2}{2}\right)(T-t)}{\sigma\sqrt{T-t}}</script><script type="math/tex; mode=display">d_2 = d_1 - \sigma\sqrt{T-t}</script><script type="math/tex; mode=display">C(S,t) = S_t \Phi (d_1) – Ke^{-r(T-t)} \Phi (d_2)</script><script type="math/tex; mode=display">P(S,t) = Ke^{-r(T-t)} \Phi (-d_2) – S_t \Phi (-d_1)</script><span id="more"></span>
-<h1 id="代码"><a href="#代码" class="headerlink" title="代码"></a>代码</h1><figure class="highlight python"><table><tr><td class="code"><pre><span class="line"><span class="comment"># Black-Scholes Put Option Price Simulation</span></span><br><span class="line"><span class="keyword">import</span> numpy <span class="keyword">as</span> np</span><br><span class="line"><span class="keyword">import</span> matplotlib.pyplot <span class="keyword">as</span> plt</span><br><span class="line"><span class="keyword">from</span> scipy.stats <span class="keyword">import</span> norm</span><br><span class="line"></span><br><span class="line"><span class="comment"># 参数</span></span><br><span class="line">S0 = <span class="number">40</span></span><br><span class="line">mu = <span class="number">0.05</span></span><br><span class="line">sigma = <span class="number">0.25</span></span><br><span class="line">K = <span class="number">40</span></span><br><span class="line">T = <span class="number">1</span></span><br><span class="line">r = <span class="number">0.05</span>   <span class="comment"># 此处采用风险中性假设，即无风险利率 r = mu</span></span><br><span class="line"></span><br><span class="line">N = <span class="number">252</span> * <span class="number">10</span>  <span class="comment"># 一年交易日</span></span><br><span class="line">dt = T / N</span><br><span class="line"></span><br><span class="line"><span class="comment"># 时间轴</span></span><br><span class="line">t = np.linspace(<span class="number">0</span>, T, N)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 模拟股价路径</span></span><br><span class="line">np.random.seed(<span class="number">99</span>) <span class="comment"># 随机数种子使结果可复现</span></span><br><span class="line">Z = np.random.normal(<span class="number">0</span>, <span class="number">1</span>, N)</span><br><span class="line"></span><br><span class="line">S = np.zeros(N)</span><br><span class="line">S[<span class="number">0</span>] = S0</span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="built_in">range</span>(<span class="number">1</span>, N):</span><br><span class="line">    S[i] = S[i-<span class="number">1</span>] * np.exp((mu - <span class="number">0.5</span> * sigma**<span class="number">2</span>) * dt + sigma * np.sqrt(dt) * Z[i])</span><br><span class="line"></span><br><span class="line"><span class="comment"># Black-Scholes 看跌期权</span></span><br><span class="line"><span class="keyword">def</span> <span class="title function_">put_option_price</span>(<span class="params">S, K, T, t, r, sigma</span>):</span><br><span class="line">    tau = T - t</span><br><span class="line">    tau = np.maximum(tau, <span class="number">1e-8</span>)  <span class="comment"># 防止除零</span></span><br><span class="line">    </span><br><span class="line">    d1 = (np.log(S / K) + (r + <span class="number">0.5</span> * sigma**<span class="number">2</span>) * tau) / (sigma * np.sqrt(tau))</span><br><span class="line">    d2 = d1 - sigma * np.sqrt(tau)</span><br><span class="line">    </span><br><span class="line">    P = K * np.exp(-r * tau) * norm.cdf(-d2) - S * norm.cdf(-d1)</span><br><span class="line">    <span class="keyword">return</span> P</span><br><span class="line"></span><br><span class="line"><span class="comment"># 计算期权路径</span></span><br><span class="line">P = put_option_price(S, K, T, t, r, sigma)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 绘图</span></span><br><span class="line">fig, ax1 = plt.subplots(figsize=(<span class="number">10</span>,<span class="number">6</span>))</span><br><span class="line"></span><br><span class="line">ax1.plot(t, S, color=<span class="string">&#x27;blue&#x27;</span>, linewidth=<span class="number">2</span>, label=<span class="string">&#x27;Stock Price&#x27;</span>)</span><br><span class="line">ax1.set_xlabel(<span class="string">&#x27;Time&#x27;</span>)</span><br><span class="line">ax1.set_ylabel(<span class="string">&#x27;Stock Price S&#x27;</span>, color=<span class="string">&#x27;blue&#x27;</span>)</span><br><span class="line">ax1.tick_params(axis=<span class="string">&#x27;y&#x27;</span>, labelcolor=<span class="string">&#x27;blue&#x27;</span>)</span><br><span class="line"></span><br><span class="line">ax2 = ax1.twinx()</span><br><span class="line">ax2.plot(t, P, color=<span class="string">&#x27;red&#x27;</span>, linestyle=<span class="string">&#x27;--&#x27;</span>, linewidth=<span class="number">2</span>,</span><br><span class="line">         label=<span class="string">&#x27;Put Option Price&#x27;</span>)</span><br><span class="line">ax2.set_ylabel(<span class="string">&#x27;Put Option Price P&#x27;</span>, color=<span class="string">&#x27;red&#x27;</span>)</span><br><span class="line">ax2.tick_params(axis=<span class="string">&#x27;y&#x27;</span>, labelcolor=<span class="string">&#x27;red&#x27;</span>)</span><br><span class="line"></span><br><span class="line">lines1, labels1 = ax1.get_legend_handles_labels()</span><br><span class="line">lines2, labels2 = ax2.get_legend_handles_labels()</span><br><span class="line">ax1.legend(lines1 + lines2, labels1 + labels2, loc=<span class="string">&#x27;upper right&#x27;</span>)</span><br><span class="line"></span><br><span class="line">plt.title(<span class="string">&#x27;GBM Stock Price and Black-Scholes Put Option Price&#x27;</span>)</span><br><span class="line">plt.grid(<span class="literal">True</span>, alpha=<span class="number">0.3</span>)</span><br><span class="line">plt.tight_layout()</span><br><span class="line">plt.show()</span><br></pre></td></tr></table></figure>
-<h1 id="运行结果"><a href="#运行结果" class="headerlink" title="运行结果"></a>运行结果</h1><p>上述代码的运行结果如下图所示：</p>
-<p><img src="/images/2026-08-05--Simulation-Of-Black-Scholes-Model-By-Python/output.png" alt="1"></p>
-]]></content>
-      <categories>
-        <category>Finance</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Math</tag>
-        <tag>Finance</tag>
-        <tag>Python</tag>
       </tags>
   </entry>
   <entry>
@@ -2411,28 +2433,6 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       </tags>
   </entry>
   <entry>
-    <title>《家庭、私有制和国家的起源》读书笔记（一）：引子</title>
-    <url>/2026/08/07/2026-08-07--Der-Ursprung/</url>
-    <content><![CDATA[<p><img src="/images/2026-08-07--Der-Ursprung/Cover.jpg" alt="封面"></p>
-<p>最近读完了恩格斯先生的《家庭、私有制和国家的起源》（下文简称《起源》），此处要感谢<em>Mikey Peng</em>向我荐书。</p>
-<p>诚然，这是一本颇具深度的历史经典著作，在读书过程中，遇到了许多问题，便随手记录，并作思考，整理之，遂成此文。</p>
-<p>全书的正文部分大体围绕着几条主线展开：时代、家庭、社会制度。在本系列的文章中，将不严格按照原书的顺序，分几个部分对上述内容作逐一讨论。<span id="more"></span></p>
-<p>在撰写《起源》时，恩格斯对时代的划分大抵是和摩尔根一脉相承的。在彼时的19世纪，对史前史采用这样的分期方式，是受到学界的广泛认可的，尽管在今天看来，这样的分期方式存在着些许瑕疵，譬如在某些太平洋岛屿，社会的发展并不严格按照这一形式进行，而是随着资本主义洪流的冲击跳过了某些阶段。但必须指出的是，对于一个不受外部因素影响的族群来说，摩尔根的分期方式只在时间精确度等方面存在一些细节问题，并不影响我们对《起源》后续章节的阅读。</p>
-<p>摩尔根是历史上第一个从专业视角上尝试给人类文明史前史进行分期研究的学者，在《古代社会》中，他就将人类文明的历史划分为蒙昧时代、野蛮时代和文明时代三个阶段，他本人致力于对前两个时代（也就是史前史的研究，文明时代则对应于有成文史的历史阶段）和向文明时代的过渡阶段的研究。</p>
-<p>其中，根据生产资料和生活方式的发展和进步，又进一步将蒙昧时代和野蛮时代划分为低级、中级、高级三个阶段，这种划分在现代人类学的观点看来，是存在争议的，但其基本思想与马克思和恩格斯的唯物史观是如出一辙的——他在没有阅读历史资料的前提下，就已经把生产力作为划分历史阶段的重要依据，这与摩尔根以前的人类学家（如黑格尔）用宗教发展进行划分的方式形成了鲜明的对比。</p>
-<p>恩格斯在书中随后提到「家庭的发展是与此（指作为时代和阶段划分依据的生产力发展）并行的，不过，这一发展对于时期的划分没有提供这样显著的标志」，一种时代（即生产力和生产关系）就要大致对应一种家庭形式，这与后来马克思和恩格斯所提出的唯物史观自觉地站到了同一阵营。</p>
-<p>需要额外指出的是，这种时代和阶段的划分，与某个具体的时间点并不存在着严格的对应关系，而是完全按照生产力的发展来的，同一时间在不同地区也可能存在着两个完全处于不同时代和阶段的人类族群，这也是恩格斯在后文中要分章节讨论不同地区社会制度的发展过程而不是把它们放在一起讨论的原因之一。</p>
-]]></content>
-      <categories>
-        <category>Social</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>Social Science</tag>
-        <tag>《家庭、私有制和国家的起源》读书笔记</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>推恩令在现代企业管理中的应用</title>
     <url>/2026/09/06/2026-09-06--The-Policy-Of-Dividing-Fiefs-In-Management/</url>
     <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>汉武帝时期，诸侯国地盘大、兵多将广，一些比较大的诸侯国甚至有了和中央分庭抗礼的实力。这些诸侯王们在各自的王国里有着说一不二的话语权，朝廷忌惮这些诸侯国的实力，在汉文帝时期，贾谊就提出了众建诸侯而少其力的政治主张，在当时并未得到采纳；到了汉景帝时期，晁错更是主张直接削减诸侯国的封地，引发了著名的七国之乱；在汉景帝时期，主父偃提出实行推恩令，规定诸侯王死后，除嫡长子继承王位之外，其他子弟也可分割王国的一部份土地成为诸侯，而这些新封的侯国直接由中央设立的郡来进行管理，相当于中央直接从原来的诸侯国内部分走了部分土地和人口。</p>
@@ -2584,314 +2584,6 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
       <tags>
         <tag>English</tag>
         <tag>Grammar</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>「霸王别姬」之历史真相阐微</title>
-    <url>/2026/10/31/2026-10-31--Farewell-My-Concubine/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>「霸王别姬」是中国先秦时期一个著名的历史故事，讲的是秦末楚汉相争末期，西楚霸王项羽被汉军围困垓下，与宠姬虞姬生离死别的故事。这段故事自有记载以来，便被中国人代代相传，成为中国文学史上一段千古传唱的佳话。</p>
-<h1 id="正史记载"><a href="#正史记载" class="headerlink" title="正史记载"></a>正史记载</h1><p>史书中，有关「霸王别姬」的记载最早可见于司马迁所著的《史记·项羽本纪》：</p>
-<p>『项王军壁垓下，兵少食尽，汉军及诸侯兵围之数重。夜闻汉军四面皆楚歌，项王乃大惊曰：「汉皆已得楚乎？是何楚人之多也！」项王则夜起，饮帐中。有美人名虞，常幸从；骏马名骓，常骑之。于是项王乃悲歌忼慨，自为诗曰：「力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！」歌数阕，美人和之。项王泣数行下，左右皆泣，莫能仰视。』<span id="more"></span></p>
-<p>翻译成白话就是：</p>
-<p>『项王的部队在垓下修筑了营垒，这时他兵力少，粮食也没有了。汉军及诸侯兵把他团团包围了好几层。深夜里，听到汉军在四面唱着楚地的歌，项王听了后吃惊地说：「难道汉已经完全取得了楚地？怎么楚国人这么多呢？」项王披衣起来，在帐中饮酒。这时他身边有美人名字叫虞，一直受宠跟在项王身边；有骏马名骓，是项王冲锋陷阵一直骑乘的。这时候，项王不禁慷慨悲歌，自己作吟唱道：「力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！」项王唱了几遍，美人虞姬在一旁应和。项王眼泪一道道流下来，左右侍者也都跟着落泪，没有一个人能抬起头来看他。』</p>
-<p>在《史记·项羽本纪》的后续记载中，还交代了项羽后续率领骑兵突围，行至乌江边上，拒绝渡江偏安一隅而自刎的故事，史称「乌江自刎」。</p>
-<p>由《史记·项羽本纪》中的记载可知，最初在正史中并没有交代在项羽死后虞姬的下落，而只是提到了她在垓下帐中与项王和歌的故事。在笔者看来，恰恰是正史的留白，让后世文学和戏曲可以不断填补。正因为没有标准答案，虞姬自刎、和歌、剑舞等情节才能被反复创造，最终成为民族集体记忆。</p>
-<h1 id="后人伪托"><a href="#后人伪托" class="headerlink" title="后人伪托"></a>后人伪托</h1><p>除了《史记·项羽本纪》，另有汉初陆贾所撰的《楚汉春秋》，成书时间更早，但现在一般认为，南宋时此书已佚。相传，《楚汉春秋》中有记载，在项羽吟唱《垓下歌》之后，虞姬和歌：「汉兵已略地，四方楚歌声。大王意气尽，贱妾何聊生！」但与上面的《垓下歌》一作比较便可以发现，这种五言体诗不应产生于秦汉交替之时，而是后人的伪托。这首五言诗的内容也是后世虞美人词、曲、剧的主要创意来源。如此一来，「霸王别姬」之历史真伪性已是十分明了。</p>
-<h1 id="艺术加工"><a href="#艺术加工" class="headerlink" title="艺术加工"></a>艺术加工</h1><p>既然正史没写，为什么后世所有人都觉得虞姬是自刎的？答案其实很简单——文人写的、戏曲演的、老百姓传的。</p>
-<p>从唐朝开始，诗人们开始写虞姬。到了元明时期，杂剧和传奇里开始出现虞姬自刎的桥段。再后来，京剧《霸王别姬》诞生了，梅兰芳所扮演的虞姬拿着剑，眼含热泪，唱完最后一句，决绝地抹脖子——一个一路追随西楚霸王并在最终殉情而死的女子形象便栩栩如生了。</p>
-<p>从此，「虞姬自刎」就成了主流意识中不容置喙的事实——因为舞台上的虞姬，早已不是史书上模糊的「有美人名虞」了，而是所有人心目中的「乱世佳人」和「忠贞爱情」糅合在一起形成的全部想象。</p>
-<p>人们需要一个为爱赴死的女人，于是虞姬就死了。两千年以来，我们一直在给一个史书上一笔带过的女人安排结局。每一个时代都有每一个时代的虞姬——有人要她殉情，有人要她全节，有人要她成就霸王的悲壮。虞姬是可悲的，这不仅是因为她生于乱世，不知所终，更是因为在后人心目中，她从来没有为自己活过，甚至连死法都是别人替她选的。</p>
-<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>「霸王别姬」之所以能千古传唱，不是因为正史记载多，而恰恰是因为它把历史悲剧、英雄气节、生死爱情和艺术经典揉在了一起，成了一个超越时代的文化符号。它既是一个失败英雄的悲歌，也是一段生死爱情的绝唱，更被戏曲艺术锻造成了一个关于气节、尊严与离别的文化符号。人们传唱的，早已不只是项羽和虞姬，而是所有时代里那些「无可奈何」的告别与不肯低头的选择。</p>
-]]></content>
-      <categories>
-        <category>History</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>中国古代命理学通俗演义(四)：生辰八字实例分析</title>
-    <url>/2026/10/31/2026-10-31--Expedition-To-The-Chinese-Ancient-Numerology-4/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在本篇中，笔者将以一常规命造为实例，对生辰八字理论之实用作进一步剖析。<span id="more"></span></p>
-<p>1976年3月17日午时生男命。</p>
-<h1 id="查万年历排八字"><a href="#查万年历排八字" class="headerlink" title="查万年历排八字"></a>查万年历排八字</h1><p>乾造：<br>| 四柱 | 干支 |<br>| —- | —- |<br>| 年柱 | 丙（枭）辰【戊土（比）癸水（财）乙木（官）】 |<br>| 月柱 | 辛（伤）卯【乙木（官）】 |<br>| 日柱 | 戊辰【戊土（比）癸水（财）乙木（官）】 |<br>| 时柱 | 戊（比）午【丁火（印）己土（劫）】 |</p>
-<p>十神：<br>| 五阳干 | 五阴干 |<br>| —- | —- |<br>| 七煞甲木 | 正官乙木 |<br>| 枭神丙火 | 正印丁火 |<br>| 比肩戊土 | 劫财己土 |<br>| 食神庚金 | 伤官辛金 |<br>| 偏财壬水 | 正财癸水 |</p>
-<p>六甲空亡：戌亥</p>
-<h1 id="观看命局"><a href="#观看命局" class="headerlink" title="观看命局"></a>观看命局</h1><p>命主戊土，阳土之命，命中比肩较多，主旁支兴旺多兄弟，土略旺，忌神当为火土；用神方面当为金水木，金主食伤，水主财，木主官煞权柄。辰日见辰年，是华盖星，命主做事勤恳认真，却难免时常清高自负，与人合作稍有不适。地理方面不宜前往中部腹地或农村发展，职业忌餐饮、土木。平日亦不宜兴土木，投资不宜广置田产，够用即可。五行当中土主脾胃，土旺身体方面须注意心脑血管与肾脏。</p>
-<p>年柱上透出枭神与比肩，命主身旺不喜，故几无祖荫可受，与祖父缘分薄，祖父身寿亦不佳，但年支为财库，暗指稍有风水地理之荫可为命主谋财，主回乡娶妻或回乡发展事业；祖父母感情还好。</p>
-<p>月柱则为伤官与官星，月干和月支相克，父母感情不佳，对母亲不利，命主与母亲缘分薄，与父亲缘分较深，年少之时受父亲启发得慧识。年、月、日支上见辰卯六害，对母亲有损。</p>
-<p>日柱之上见比肩，辰中戊土藏癸水乙木，癸水乙木即妻女，戊土比肩透出则夫妻二人平日较为独立，各自发展事业，姻缘之深亦不明显。</p>
-<p>时柱之上见比肩正印劫财，皆为命主之忌神，晚年与子女缘分较为平淡，子女平日与妻子之缘分更深。</p>
-<p>戊辰日生人，六甲空亡戌亥，戌为火库，藏印，空亡之相意味命主得母亲帮助不多；亥藏壬水甲木，为偏财，七煞，寓意难得桃花，亦少旁门左路之财可得，其一生事业多为本人勤恳之所得。命主身强，戌之空亡还指命主数此流年不利之时逢凶化吉，虽乏贵人相助，命途也整体平坦。</p>
-<h1 id="排大运"><a href="#排大运" class="headerlink" title="排大运"></a>排大运</h1><p>本造为阳年生男命，大运顺排，于是找到命主出生后的下一个节气，即1976年4月4日清明，可知命主六岁起运，由月柱开始顺排大运如下表所示：</p>
-<div class="table-container">
-<table>
-<thead>
-<tr>
-<th>月柱</th>
-<th>辛卯</th>
-<th>寄生十二宫</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>6-15</td>
-<td>壬辰</td>
-<td>冠带</td>
-</tr>
-<tr>
-<td>16-25</td>
-<td>癸巳</td>
-<td>临官</td>
-</tr>
-<tr>
-<td>26-35</td>
-<td>甲午</td>
-<td>帝旺</td>
-</tr>
-<tr>
-<td>36-45</td>
-<td>乙未</td>
-<td>衰</td>
-</tr>
-<tr>
-<td>46-55</td>
-<td>丙申</td>
-<td>病</td>
-</tr>
-<tr>
-<td>56-65</td>
-<td>丁酉</td>
-<td>死</td>
-</tr>
-<tr>
-<td>66-75</td>
-<td>戊戌</td>
-<td>墓库</td>
-</tr>
-<tr>
-<td>76-85</td>
-<td>己亥</td>
-<td>胎</td>
-</tr>
-</tbody>
-</table>
-</div>
-<h1 id="批大运"><a href="#批大运" class="headerlink" title="批大运"></a>批大运</h1><p>第一大运，6-15虚岁，壬辰，冠带，命主出类拔萃，做事争强好胜，行至运支见土，此运后五年或稍有不顺；</p>
-<p>第二大运，16-25虚岁，癸巳，临官，能得禄，靠奋斗取得成就。运干癸水，此运能得正财及异性相助，前五年异性缘较好；运支庚金透出，行食神运，才气锋芒展露；</p>
-<p>第三大运，26-35虚岁，甲午，帝旺，事业稳步上升。运干甲木为命主七煞，身强用煞，前五年间能谋得权柄；运支为午，丁火透出为正印，官运在此终结，此运后五年间平平；</p>
-<p>第四大运，36-45虚岁，乙未，衰，一切平平。乙木正官坐未为官库，官上加官，此运十年间命主有些许受制于人，碰壁之相；</p>
-<p>第五大运，46-55虚岁，丙申，病，主做事常遇进退两难境地。运干丙火为枭，主刻苦，但命主身强，印为忌神，故此枭印主刻苦但所得甚微或并非所需，后五年行入运支见庚金食神有所好转，但此乃枭印夺食之相，虽财运好转但不利生养，需注意；</p>
-<p>第六大运，56-65虚岁，丁酉，死，万事不动；</p>
-<p>第七大运，66-75虚岁，戊戌，墓库，不佳。命主土旺，今逢迭土，十二宫又值墓库，此运凶相环生，所幸运支戌落空亡，如行过前五年可有所好转；</p>
-<p>第八大运，76-85虚岁，己亥，胎，孕生之相，平。运干己为劫财，运支亥落空亡，平稳。</p>
-<h1 id="批流年"><a href="#批流年" class="headerlink" title="批流年"></a>批流年</h1><p>1993，虚岁17壬申年，上半年见偏财，交桃花，壬水透出年支庚金，有利；</p>
-<p>1994，虚岁18癸酉年，癸水正财，辰酉六合，主婚缘信息；年支伤官，有考运，高考应中举；</p>
-<p>1995，虚岁19甲戌年，虚岁20己亥年，主要走官煞运，身强用煞，能掌权柄，此期间影响力不错，虚岁20下半年偏财落空亡，主爱慕女性求而不得或求财不得；</p>
-<p>1996，虚岁21丙子年，子藏癸水，年支主下半年，正财初现，读书人之财应非钱财，系夫人；</p>
-<p>1997，虚岁22丁丑年，逢印坐劫，流年不利，有刑伤；</p>
-<p>1998，虚岁23戊寅年，比肩帮身，但并非命主所需；</p>
-<p>1999，虚岁24己卯年，下半年得禄，初得领导赏识；</p>
-<p>2000，虚岁25庚辰年，逢财库，庚金透出辰中正财癸水，此年与妻子之间情感有所进展；</p>
-<p>2001，虚岁26辛巳年，运入帝旺，逢食伤大运，主慧识增长，食伤生财，此年财运不错，但官运暂歇；</p>
-<p>2002，虚岁27壬午年，上半年有偏财，下半年平平；</p>
-<p>2003，虚岁28癸未年，上半年正财透出，未为官库，财生官之相，逢升迁涨薪；</p>
-<p>2004，虚岁29甲申年，偏官坐食神之运，食神使偏官成正官，下半年逢升迁或得千金；</p>
-<p>2005，虚岁30乙酉年，年干正官，上半年逢升迁或得千金；</p>
-<p>2006，虚岁31丙戌年，枭印之运，年支逢比肩，皆是忌神，流年不利，同时大运行入运支午，官运到此为止，但运支戌落空亡，故此相不至于太差，平平；</p>
-<p>2007，虚岁32丁亥年，枭神坐偏官，流年主刻苦，兄弟或朋友间稍有妨碍，平平，下半年运支亥落空亡，本应得偏财但落空；</p>
-<p>2008，虚岁33戊子年，比肩坐正财，上半年平平，下半年稍有财运；</p>
-<p>2009，虚岁34己丑年，劫财坐食伤库，财运平平；</p>
-<p>2010，虚岁35庚寅年，食神坐七煞，平平；</p>
-<p>2011，虚岁36辛卯年，伤官见官，大运行入衰运，此年稍有不利，是命主一生的转折点，此年可能得罪了有权势的人或对子女不利；</p>
-<p>2012，虚岁37壬辰年，运干偏财，运支又逢财库，此年财运佳；</p>
-<p>2013，虚岁38癸巳年，癸水克丙火，妻子财运佳；</p>
-<p>2014，虚岁39甲午年，上半年见偏官，官印相生，上半年可得男丁或解一困境；</p>
-<p>2015，虚岁40乙未年，官星大运，此年开始新的事业或重要人事交际，如日中天，佳；</p>
-<p>2016，虚岁41丙申年，枭印夺食，困顿或有损财运，或二者兼有之，下半年心中多烦恼愁绪；</p>
-<p>2017，虚岁42丁酉年，印制伤官，可能对命主稍有不利，或与父母有关；</p>
-<p>2018，虚岁43戊戌年，节节逢土，流年不利，下半年年支戌空亡，困境有所好转；</p>
-<p>2019，虚岁44己亥年，劫财坐偏财，偏财落空亡，此二相皆主财运有损，稍有不佳；</p>
-<p>2020，虚岁45庚子年， 食神生财，此年财运有所好转，对妻子也稍有利；</p>
-<p>2021，虚岁46辛丑年，大运行入丙申，伤官坐劫财透出伤官，命主可能思维敏捷，有许多新想法，但一时难以抉择；</p>
-<p>2022，虚岁47壬寅年，偏财见偏官，不利财运，应为儿子多花钱；</p>
-<p>2023，虚岁48癸卯年，见正财坐正官，主妻女之相；</p>
-<p>2024，虚岁49甲辰年，逢财库，但年柱为正官，整体财运不明显，仍应为儿子花钱；</p>
-<p>2025，虚岁50乙巳年，正官运，官印相生之年，命主有计谋，但此印乃偏印，大打折扣或难以抉择；</p>
-<p>2026，虚岁51丙午年，枭印相争，不利，多烦恼；</p>
-<p>2027，虚岁52丁未年，印生劫财，财运不佳，对妻子稍有不利；</p>
-<p>2028，虚岁53戊申年，年干逢土，幸得年支透出庚金来泄，有所好转，主衣食丰禄；</p>
-<p>2029，虚岁54己酉年，劫财坐伤官，运干见劫财幸得伤官克泄，财运不至于不佳，下半年有所好转，总体平平；</p>
-<p>2030，虚岁55庚戌年，食神之运，但逢印库，有夺食之相，大打折扣，甚至对财运有损；</p>
-<p>此后十年行入丁酉死运，不动，平平，宜享福，另命带华盖星，晚年稍有烦恼，宜敛气，修心。运干丁为正印，命主戊土过旺，今又逢正印来生，须谨防脾胃火旺，伤及心肾。</p>
-<p>此后十年行入戊戌墓库运，土旺逢土，不吉，露凶相，须注意身体，运支落空亡，后五年有所好转，如安度此运，可延年益寿。虚岁73戊辰年须尤其注意。</p>
-]]></content>
-      <categories>
-        <category>Numerology</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>命理学</tag>
-        <tag>中国古代命理学通俗演义</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>为什么我国公文数字和西文使用Times New Roman字体？</title>
-    <url>/2026/09/21/2026-09-21--The-Font-For-Official-Document-Numbers/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>公文全称‌公务文书‌，是各级党政机关和社会组织在公务活动中形成的、具有‌法定效力‌和‌规范体式‌的文书，主要包括决议、决定、命令、公报、公告、通告、意见、通知、通报、报告、请示、批复、议案、函、纪要共15个文种，有关以上这些文体的现行核心依据是2012年施行的《党政机关公文处理工作条例》（下文简称《条例》）。</p>
-<p>公文格式所采用的现行标准是GB/T 9704-2012《党政机关公文格式》（下文简称《格式》），它制定于2012年，与《条例》同年生效，并在2025年被复审认定继续有效。在《格式》中，对公文的纸张、字体、排版、结构等都作出了详细的规定。<span id="more"></span></p>
-<h1 id="按图索骥"><a href="#按图索骥" class="headerlink" title="按图索骥"></a>按图索骥</h1><p>首先来看看标准文件中的有关规定。</p>
-<p>在《条例》中，全文并没有对数字字体作出强制性要求。</p>
-<p>在《标准》中，提到如无特殊说明，公文格式各要素一般用3号仿宋体字。特定情况可以作适当调整。而对于成文日期、发文字号、份号等一定会出现数字的场合，《标准》只规定了使用阿拉伯数字，并没有指定字体。但在页码部分，则规定了一般须采用四号半角宋体阿拉伯数字。</p>
-<p>另一份值得参考的标准文件是GB/T 15835-2011《出版物上数字用法》（下文称《用法》），在该标准的字体部分，规定出版物中的阿拉伯数字一般应使用正体二分字身，即占半个汉字位置。也就是说，出版物中的数字，在文章中应占汉字的1/2距离。此外，《用法》中也并未对具体字体作出规定或说明。</p>
-<p>所以，没有任何一个规定、条例、国标对公文数字和西文字体作出明确规定。</p>
-<h1 id="字体来源"><a href="#字体来源" class="headerlink" title="字体来源"></a>字体来源</h1><p>在Times New Roman这一字体名称中，Times是指英国的《泰晤士报》，New Roman是《泰晤士报》于1931年发行的一款新字体，取代了字型老旧、印刷模糊的Times Old Roman。</p>
-<p>相比之下，这款新字体具有以下几个显著特征</p>
-<ol>
-<li>有衬线：衬线是指在书法中和在凹版印刷术中，一个字母的一划上加的一条小横线或装饰线，表示这一笔划的完结。</li>
-<li>衬线体的另一个特征是竖笔粗、横笔细，视觉上有庄重感，看起来传统、优雅。</li>
-<li>易读性强，字距紧凑，与Times Old Roman相比，相同纸张采用Times New Roman进行印刷时可以容纳更多内容和信息。</li>
-<li>印刷适配性强，Times New Roman在印刷纸上油墨还原度较高，印刷后较清晰。</li>
-</ol>
-<p>基于上述原因，美国白宫于2004年启用Times New Roman作为公文字体，在主要官方文件中使用这一字体。所以，Times New Roman在西方国家中有很强的公文属性。</p>
-<p>下图中给出的是几组常见的中英文字体搭配对比。</p>
-<p><img src="/images/2026-09-21--The-Font-For-Official-Document-Numbers/1.png" alt="1"></p>
-<h1 id="前因后果"><a href="#前因后果" class="headerlink" title="前因后果"></a>前因后果</h1><p>综上所述，我国公文约定俗成地采用Times New Roman作为数字和西文字体的原因是多方面的，具体地说主要有以下几点：</p>
-<ol>
-<li>技术惯性：早期公文铅印排版和办公软件都默认使用Times New Roman作为西文字体，几乎所有办公电脑都默认安装，无需额外采购，很多单位没有修改默认设置，直接采用该字体对数字和西文进行排版。</li>
-<li>国际惯例：美国公文和国际期刊大量采用Times New Roman，这种惯例从学术圈传入中国，许多学生从大学毕业后进入机关工作，便将该习惯带入到公文写作当中，这一习惯经发展成为中国公文的行文惯例。</li>
-<li>示范效应：早期中央和省级公文使用Times New Roman作为阿拉伯数字和西文字体，层层传导，上行下效，形成惯例。</li>
-<li>视觉美观：作为一款经典的衬线字体，字形端正、笔画清晰，与仿宋、黑体等中文字体混排时观感协调、辨识度高，因而被大量公文起草者自发采用。</li>
-</ol>
-<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>虽然没有任何标准或文件对公文格式的数字和西文字体作出强制性规定，理论上讲，法无禁止即可为，在排版时使用其他字体也是可以的；但是在一般场合，使用Times New Roman作为数字和西文字体，仍是不容置疑的最优解，这主要是基于以下两点原因：</p>
-<ol>
-<li>本单位或上级单位发文规范过，很多地方都有文件明确要求，公文必须使用Times New Roman。</li>
-<li>公文格式首先是要稳妥，而非标新立异，在这种情况下，奉行上行下效的原则，采用Times New Roman撰写公文，可以从根本上杜绝出错的概率。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Other</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>排版</tag>
-        <tag>字体</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>当增长由算力驱动——Pascual Restrepo的AGI经济学</title>
-    <url>/2026/11/17/2026-11-17--AGI-Economics/</url>
-    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>关于通用人工智能(AGI)的讨论，常常滑向两个极端：一边是「奇点降临，人类彻底失业」的恐慌，另一边是「AI只是工具，人类永远不可替代」的安慰。两种说法都太省事，因为它们跳过了真正困难的问题：如果AGI真的能完成所有有经济价值的工作，经济运行的底层逻辑会发生什么变化？工资从哪里来？增长靠什么驱动？劳动收入占GDP的份额会怎样？个人又该如何自处？</p>
-<p>耶鲁大学经济学家<em>Pascual Restrepo</em>在2025年为NBER「变革性AI经济学」会议卷撰写的论文<a href="/files/AGI_v4.pdf"><em>We Won’t be Missed: Work and Growth in the AGI World</em></a>，提供了一套颇有理论深度的分析框架。它并不预测AGI何时到来，而是在两个明确前提下推演长期均衡：第一，AGI使所有有经济价值的工作原则上都能用算力完成；第二，算力有限但会持续无界增长。论文的结论不是「人类没用了」，而是AGI不会简单让工资归零，但会让人类劳动不再是增长的中心；工资被「复制人类工作的算力成本」锚定，劳动收入占GDP的比重趋于零，经济增长由算力扩张驱动，增值部分都流向算力所有者。</p>
-<p>本文将分两部分进行陈述，前半部分系统地解读论文的核心逻辑、主要命题和理论贡献；后半部分讨论如果现实真朝这个方向发展，对个人而言有哪些具体建议。需要强调的是，论文是长期理论推演，不是短期预测；它描述的是「如果前提成立，长期会怎样」，而不是「明天就会怎样」。但正因为它把逻辑推到了尽头，反而能帮我们看清方向。<span id="more"></span></p>
-<h1 id="AGI和算力的概念"><a href="#AGI和算力的概念" class="headerlink" title="AGI和算力的概念"></a>AGI和算力的概念</h1><p>Pascual Restrepo首先做了一个重要区分：AGI与算力不是一回事。AGI是「如何把原始算力转化为各类有用工作」的技术；算力$Q_t$是整个经济可用的计算资源总量，由数据中心、芯片、能源等决定。AGI意味着，对于所有有经济价值的工作$\omega$，复制人类完成这项工作所需的算力成本$\alpha_t (\omega)$最终会从无穷大变成有限值。换句话说，AGI让「用算力完成一切工作」在原则上可行，但不等于免费，也不等于划算。</p>
-<p>这个区分是全文的基石。很多讨论把AGI等同于「无限生产力」，但论文强调：AGI只是让人类工作变得可复制，而复制需要消耗稀缺算力。因此，工资不会因为AGI出现就归零，而是会被「复制该工作的算力成本」锚定。这既避免了乌托邦式的「物质极大丰富」简化，也避免了「人类劳动一夜清零」的恐慌。</p>
-<p>论文的两个前提可以概括为：</p>
-<ol>
-<li>AGI前提：对所有工作$\omega$，其算力复制成本最终达到有限终值$\alpha (\omega)$。物理工作可通过机器人完成，社会工作可通过大量算力补偿「人类触感」。</li>
-<li>算力增长前提：算力$Q_t$在每个时点有限，但随时间无界增长。</li>
-</ol>
-<p>在这两个前提下，论文要回答：长期中，工作如何在人力和算力之间分配？产出、工资、劳动份额如何变化？增长由什么驱动？</p>
-<h1 id="瓶颈工作与补充工作"><a href="#瓶颈工作与补充工作" class="headerlink" title="瓶颈工作与补充工作"></a>瓶颈工作与补充工作</h1><p>论文最重要的两个核心概念是瓶颈工作与补充工作。</p>
-<ol>
-<li>瓶颈工作：经济增长必需的工作。如果这类工作不扩张，产出就无法无限增长，或其边际价值会膨胀到极高。例子包括粮食、住房、能源、基础设施维护、科学、决策、物流、国家安全、治安等。</li>
-<li>补充工作：不是增长必需的工作。即使这类工作数量固定，经济仍可无限增长，价格也不会失控。例子包括艺术、文学、酒店服务、设计、客服、司法，甚至学术经济学。</li>
-</ol>
-<p>这个区分看似简单，却决定了整个AGI经济的组织方式。论文的核心命题是：所有瓶颈工作最终都会由AGI承担；部分补充工作可能继续由人类做。这样的假设是基于，如果AGI只做一部分工作、人类做另一部分，随着算力扩张，前者会不断扩张，后者固定不变，经济结构将会走向失衡。要持续增长，所有瓶颈工作必须同比例扩张。因此，让AGI包揽所有瓶颈工作才是长期最优；只有补充工作可以留给人类而不阻碍增长。</p>
-<p>这里有一个反直觉之处：按照Ricardo的比较优势原理(The Principle of Comparative Advantage)，人和AGI似乎应该分工，各自做相对更擅长的事。但论文认为，比较优势逻辑在这里失效，因为AGI的「生产能力」会随算力无限扩张，而人类供给固定。长期中，让人类固守某类瓶颈工作，会成为增长的瓶颈；只有补充工作不阻碍增长，才适合留给人类去做。</p>
-<h1 id="长期生产函数：从「乘法」到「加法」"><a href="#长期生产函数：从「乘法」到「加法」" class="headerlink" title="长期生产函数：从「乘法」到「加法」"></a>长期生产函数：从「乘法」到「加法」</h1><p>论文进一步刻画长期生产函数。它定义某技能的算力等价单位：</p>
-<script type="math/tex; mode=display">CEU (s) = \max_{\omega\in\Omega (s)} \alpha (\omega)</script><p>即复制该技能最复杂任务所需的算力。长期中，技能分两组：一组$\mathcal{A}$的工作被自动化，人类与AI竞争，工资为$A\cdot CEU(s)$；另一组$\mathcal{N}$从事未被自动化的补充工作，工资低于$A\cdot CEU(s)$，否则不如自动化。</p>
-<p>长期总产出收敛为：</p>
-<script type="math/tex; mode=display">Y_t=A(Q_t + \sum_{s\in\mathcal{A}} CEU(s)H(s))+N({H(s)}_{s∈N})</script><p>其中$N$有上限。这个式子背后的经济含义是：产出对算力是线性的，人类技能以「节省多少算力」的方式被核算进去。在AGI之前，算力和劳动可能是乘法关系，互相配合、互相制约；实现AGI之后，生产函数变成加法关系。算力扩张直接带来产出扩张，人类劳动则通过「节省算力」获得价值。</p>
-<p>这也解释了工资的形成：在瓶颈工作中，一个有技能的工人的工作相当于节省了$\alpha (\omega)$单位算力，也就相当于节省了$A \alpha (\omega)$单位产出。因此，工资被锚定在「复制该技能的算力成本」上。AGI没有让劳动变得无价值，而是让劳动的价值变得可计算、可复制、可封顶。</p>
-<h1 id="工资、增长与劳动份额"><a href="#工资、增长与劳动份额" class="headerlink" title="工资、增长与劳动份额"></a>工资、增长与劳动份额</h1><p>论文由此得到几个关键结论：</p>
-<ol>
-<li>产出增长率等于算力增长率。只要算力持续扩张，经济就能持续增长，不需要其他技术进步。</li>
-<li>算力的实际价格收敛到$A$；瓶颈技能工资收敛到$A\cdot CEU(s)$；补充工作工资低于$A\cdot CEU(s)$，被自动化成本封顶。</li>
-<li>劳动收入份额趋于零，算力份额趋于1。因为总算力$Q_t$远大于人类算力等价总量，且不断增长。</li>
-<li>总工资不一定下降，从AGI前过渡到AGI后，劳动者作为一个整体的总工资不低于AGI前。直觉是：可以设想一个「no-AGI zone」复制旧生产方式来保底；竞争均衡不会让重组提高产出，因此总工资不会低于旧世界。不过这个论证依赖算力和人类技能是主要稀缺资源；若土地、能源等其他资源受限，逻辑会弱化。</li>
-</ol>
-<p>这里最容易被误读的是「劳动份额趋零」。它不等于「劳动者集体变穷」。论文明确说，社会总产出会变大，总工资也可能高于AGI前；但劳动在总蛋糕中的比例会越来越小，大部分收入流向算力所有者。真正的问题从「有没有工作」转向「算力归谁所有、收入如何分配」。</p>
-<h1 id="转型路径"><a href="#转型路径" class="headerlink" title="转型路径"></a>转型路径</h1><p>论文区分两种极端转型：</p>
-<ol>
-<li>算力约束型转型：算力相对稀缺，任务只有在积累足够算力后才值得自动化。工资路径连续，某些任务自动化时工资暂时下降，工人逐步转移到更复杂任务；最后最复杂任务自动化后，工资等于$A\cdot CEU(s)$。</li>
-<li>算法约束型转型：算力充足，算法一突破就立即自动化。工资路径不连续，某些群体工资可能突然下降或上升；最后一个任务被自动化时，技能稀缺溢价消失，工资跳降到算力等价水平。</li>
-</ol>
-<p>这两种类型的转型工资变化路径图（节选自原文）均放在本节末尾。</p>
-<p>现实可能是两者混合。这个区分对个人很重要：如果转型是算法约束型，冲击会突然而集中；如果是算力约束型，冲击更平滑但持续。无论哪种，流动性和可迁移能力都很重要。</p>
-<p><img src="/images/2026-11-17--AGI-Economics/1.png" alt="1"><br><img src="/images/2026-11-17--AGI-Economics/2.png" alt="2"></p>
-<h1 id="扩展到科学"><a href="#扩展到科学" class="headerlink" title="扩展到科学"></a>扩展到科学</h1><p>论文第二部分把AGI用于科学工作。没有AGI科学时，技术进步受人口增长约束，这是半内生增长模型的核心逻辑。有了AGI，所有科学瓶颈工作自动化，技术进步率由算力增长率决定。结果是：即使人口收缩，也可能持续指数增长；但不会导致无限增长爆炸或奇点，因为增长仍受算力扩张速度约束。这个结论很重要：它既否定了「AGI必然带来瞬间奇点」的夸张，也否定了「人口下降导致增长停滞」的悲观。</p>
-<h1 id="如何评价"><a href="#如何评价" class="headerlink" title="如何评价"></a>如何评价</h1><p>这篇论文的贡献在于：</p>
-<ul>
-<li>把AGI与算力明确区分，避免「AGI=无限生产力」的简化；</li>
-<li>用任务模型给出「所有瓶颈最终自动化」的机制；</li>
-<li>解释为什么工资不归零但劳动份额趋零；</li>
-<li>把科学进步纳入框架，连接半内生增长文献；</li>
-<li>对「人类工作是否还有价值」给出精细答案：有价值，但价值被算力机会成本锚定。</li>
-</ul>
-<p>局限也很明显：</p>
-<ul>
-<li>假设所有工作最终都可用算力以有限成本复制，包括物理和社会工作；论文用「足够多算力可补偿人类触感」来辩护，但这是强假设；</li>
-<li>算力增长外生，未内生化投资、能源、芯片约束；</li>
-<li>竞争均衡和边际产品定价假设较强；</li>
-<li>总工资不降的命题依赖没有其他稀缺资源限制；</li>
-<li>政治经济与算力所有权分配未被充分模型化；</li>
-<li>「补充工作」的边界依赖未来偏好，难以实证界定。</li>
-</ul>
-<p>尽管如此，作为长期理论推演，它提供了难得的清晰框架。</p>
-<h1 id="对个人的建议"><a href="#对个人的建议" class="headerlink" title="对个人的建议"></a>对个人的建议</h1><p>如果现实真朝论文描述的方向走，对个人的核心建议可以概括为一句话：不要只把自己当成「出卖劳动时间的人」，要尽早让自己成为「算力的所有者、AGI的互补者、或高信任/高责任/高物理壁垒环节的参与者」；同时为转型的突变性准备流动性。</p>
-<ol>
-<li>财务：把劳动收入转化为生产性资产。论文最尖锐的结论不是「工资归零」，而是劳动收入占GDP的份额趋零，大部分收入流向算力所有者。长期来看，工资在总产出中的比例会越来越小。真正重要的是是否拥有生产性资产：算力基础设施、能源、芯片、数据中心、机器人、相关企业股权、基础设施资产等。对普通人而言，最可行的方法是广泛分散的股权或基金，而不是押注单一公司；如果风险承受力允许，可适度增加对算力、能源、自动化主题的长期配置，但要注意估值和波动。保留应急现金也很重要，因为算法约束型转型可能带来突然的工资跳降。</li>
-<li>职业：瓶颈、算力、责任。工资由CEU锚定，短期策略是提高CEU：做那些复制成本高、能节省算力的事。但长期看，所有瓶颈工作最终都会被自动化，所以更持久的位置是：AGI的构建与运维：AI系统、算力基础设施、数据中心、能源、芯片、机器人、网络安全；AGI的部署与治理：把AI接入组织、审计、验证、合规、风险管理、责任承担；物理世界与许可壁垒：医疗、能源、建筑、制造、物流、国防、治安等，物理复制成本高、监管壁垒高；高信任与高责任角色：需要签字、担责、谈判、关系、决策的岗位。</li>
-<li>补充工作：收入不随GDP增长。艺术、文学、酒店、设计、客服、司法、学术经济学等可能是补充工作，继续由人类完成，但工资被自动化成本封顶，不随经济增长而增长。如果你热爱这些工作，可以继续做，但最好有其它收入来源或资产；不要默认「只要人类有独特品味，收入就会水涨船高」。把补充工作与瓶颈技能、资产所有权、品牌、社区、关系结合，才有可能突破上限。</li>
-<li>技能：提高可迁移性，积累专有资产。论文的假设是「数量有质量」：足够多算力可以补偿人类触感。因此「不可替代」是程度问题，不是绝对。个人应建立T型能力：一个深领域加多个可迁移元技能（判断、沟通、销售、组织、写作、数据分析、AI工具）；持续更新技能，人力资本应该被当作折旧资产；保持跨行业流动能力；积累专有资产：客户、声誉、社区、数据、许可、资产、组织。这些不一定是「技能」，但更难被算力直接复制。</li>
-<li>集体制度：个人无法单独解决分配问题。论文的分配结论是劳动份额趋零、算力份额趋一。个人再努力，也无法独自改变宏观分配。因此应关注和支持算力红利、全民基金、主权财富基金等算力所有权社会化机制；社保、再分配、竞争政策、算力基础设施的公共投资；劳动转岗与再培训体系；防止算力所有权过度集中。在财务上自保，在制度上发声。</li>
-<li>策略：提前布局。论文是长期理论，不是短期预测。现实会有摩擦、监管、能源约束、政治反弹。但方向性含义清楚：短期学会用AI提高产出，靠近算力与瓶颈环节；中期把收入转化为广泛生产性资产，保持流动性；长期如果劳动份额真的趋零，你生活水平并不取决于你拥有不可替代的技能，而是取决于你拥有什么、控制什么、在什么制度下参与算力收益的分配。</li>
-</ol>
-]]></content>
-      <categories>
-        <category>Economics</category>
-      </categories>
-      <tags>
-        <tag>Economics</tag>
-        <tag>AI</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>无卡之路——eSIM技术的发展历程与未来展望</title>
-    <url>/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/</url>
-    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>eSIM，即嵌入式SIM卡(Embedded SIM)，是一种直接焊接在设备主板上的可编程SIM芯片，由全球移动通信系统协会(GSMA)制定技术标准。与传统可插拔的实体SIM卡不同，eSIM没有独立的卡体和卡槽，而是将SIM功能集成到终端硬件中，通过OTA(空中下载)技术远程下载、安装、激活和管理运营商配置文件，从而实现「无卡开通」和号码配置的远程调度。这一设计不仅节省了设备内部空间、提升了防水防尘能力，也让用户在换机、出国或切换运营商时摆脱了反复插拔实体卡的麻烦。正因如此，eSIM从智能手表等可穿戴设备起步，逐步向手机、平板、电脑及物联网终端延伸，成为连接方式从「一张塑料卡」走向「可编程数据文件」的关键技术节点。回顾其十余年的发展历程，可以清晰看到一条从专利构想、标准统一到产业落地的演进轨迹，也能看到不同市场在安全、监管与便利之间做出的不同选择。<span id="more"></span></p>
-<h1 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h1><p>有关eSIM的起源最早可以追溯至十五年前。2011年，苹果公司向美国专利和商标局申请虚拟SIM卡专利，用户无需使用SIM卡即可直接访问运营商无线网络服务，成为eSIM技术起点。2014年，苹果在发布iPad Air 2时首次将eSIM卡概念（又称「Apple SIM」）带入实际产品。2015年，三星发布Gear S2，成为全球第一款支持eSIM技术的智能手表；同年7月，苹果和三星与GSMA等电信行业各方展开谈判，推动生产用于消费者设备的标准嵌入式SIM卡，预计支持该计划的运营商包括AT&amp;T、德国电信、阿联酋电信、和记黄埔、Orange、西班牙电信和沃达丰等。2016年6月，GSMA发布面向消费设备的eSIM规范，统一远程配置、安全加密等核心技术标准，获得全球超过30家运营商、芯片商及智能手机厂家支持，eSIM进入标准化时代。2019年1月底，美国、欧洲、中东和亚太地区多家运营商支持具有eSIM功能的手机。2020年底，全球可商用的eSIM消费类设备类型达110种，包括智能手机（40%）、智能手表、电脑和平板电脑；全球至少有175家运营商在69个国家推出面向智能手机的eSIM商用。2022年4月，谷歌Android 13系统将全力推动eSIM技术发展，或支持一颗芯片原生开通多张eSIM虚拟手机卡；同年，苹果iPhone 14系列在美国地区正式取消实体SIM卡，全面采用eSIM技术；10月，GSMA RSP eSIM技术规范SGP.22 v3.0正式发布，进一步拓展使用场景并完善eSIM卡生命周期管理。2023年中，GSMA发布新的eSIM物联网规范SGP.32。2025年6月，2025 MWC上海eSIM峰会期间传出信号，预计2026年全球eSIM智能手机连接量将达10亿；8月，GSMA预测到2025年底全球将有10亿台eSIM智能手机投入使用；同年，小米在海外市场推出首款eSIM机型小米12T Pro国际版，可在部分欧洲国家使用。</p>
-<p>在中国，eSIM技术的起步则要稍晚一些。2015年7月，中国联通在南京和广州新建物联网专用核心网元，覆盖全国31个省、360个地市、56.5万个基站，并开通10646专用机器号码，为物联网业务发展作准备；中国电信在定调2016年规划时首次将物联网单独提为发展关键词，计划2016年全年销售1000万台以上物联网终端。2017年，中国联通在上海推出支持eSIM的华为Watch 2 Pro试用业务，并在华为Watch 2 Pro和苹果Watch Series 3上支持eSIM，成为首家支持该功能的中国运营商，其中苹果手表实现「一号双终端」。2018年，中国联通获得eSIM一号双终端业务试点批复并扩大试点；中国移动推出支持eSIM的智能手表及跨供应商eSIM物联网方案，中移物联发布首款eSIM芯片；中国电信开始为苹果手表提供有限eSIM服务。2019年，中国移动启用eSIM一号双终端试点，中国联通将eSIM可穿戴设备独立号码业务推广至全国。2020年，中国联通将一号双终端业务扩展至全国，工信部同意中国电信、中国移动、中国联通开展物联网等领域eSIM技术应用服务。2021年，工信部《「十四五」信息通信行业发展规划》提到推动eSIM等新兴技术应用。2022年，工信部表示正研究推进eSIM在平板电脑、便携式计算机及智能手机上的应用。2023年，三大运营商曾以业务维护升级为由暂停受理eSIM一号双终端及独立eSIM卡申请，年底中国电信恢复eSIM业务办理。2025年下半年，eSIM业务重启；中国联通发布5G AI终端白皮书并率先在多地恢复eSIM功能，随后三大运营商陆续获得工信部eSIM手机商用试验批复，中国电信eSIM手机业务在31个省区市上市销售，中国联通为苹果iPhone Air提供eSIM支持，eSIM正式从物联网、智能穿戴延伸至手机端。2025年11月，中国电信恢复Apple Watch一号双终端eSIM业务。2026年，eSIM手机新品加速上市，荣耀首款eSIM手机首销，中国联通上线eSIM查询功能；华为公布手机eSIM使用指南，支持一机四号双待、网络智能切换、全球主流eSIM服务及跨设备通信共享；中国联通发布eSIM尝鲜季升级方案，推动多品牌机型和线下体验；苹果iPhone 18 Pro系列国行版本支持双实体SIM卡+双eSIM。</p>
-<h1 id="技术原理"><a href="#技术原理" class="headerlink" title="技术原理"></a>技术原理</h1><p>eSIM是一个可编程的数据文件，无需插入实体卡，直接嵌入设备芯片或主板，将实体SIM卡功能直接集成到电子产品的硬件中。其核心是通过OTA（空中下载）技术实现运营商配置文件的远程下载、安装、激活、去激活及删除。配置文件包含IMSI、鉴权密钥及运营商网络参数，由GSMA定义的SM-DP+服务器安全管理并下发至设备。</p>
-<p><img src="/images/2026-11-15--The-History-And-Future-Of-eSIM/1.png" alt="1"></p>
-<h1 id="实际使用"><a href="#实际使用" class="headerlink" title="实际使用"></a>实际使用</h1><p>eSIM技术的初衷之一是为了环保和更为便捷地切换不同运营商的SIM卡。对于经常跨国出差的商务人士，每到一个国家，他们都必须在机场购买一张SIM卡以便在没有WiFi时还有基础的通信能力。倘若你在深夜或非营业时间抵达一个陌生的国家，那将遭遇失联的窘境。即便你有幸在商店购买到了SIM卡，你也必须在人来人往的机场兵荒马乱地更换SIM卡，同时还要提防不会有人偷走你的行李。</p>
-<p>而在这时，倘若你的手机支持eSIM功能，或者你已经插好了一张支持eSIM功能的SIM卡，这一流程就会简单很多。你只需要在eSIM App内提前购买好数据套餐，然后通过空中下载技术(OTA)将配置文件下载到你的手机上，抵达后再启用这张eSIM，就有了在本地进行移动通信的能力。</p>
-<p>但是，对于身处国内没有跨境需求的一般人士，这项技术就略显鸡肋了。首先，设备型号和版本必须是国内运营商的数据库中提及的支持的版本，只有受支持的设备，才有安装和使用国内运营商eSIM的资格。其次，设备的EID号段也必须在国内运营商的数据库中。</p>
-<p>也就是说，一个人要在中国境内申请和使用eSIM必须同时满足下列条件：</p>
-<ol>
-<li>他的一证五户没有满；</li>
-<li>他的设备内置的eSIM芯片有国内运营商的CI；</li>
-<li>他的设备的EID号段在国内运营商的数据库中；</li>
-<li>他的设备中的eSIM数量符合要求。</li>
-</ol>
-<p>然而，在满足了上述近乎苛刻的条件之外，申请和使用eSIM并不会给在国内带来多少便利，因为除了给智能手表装上国内eSIM可以不必随身携带手机之外，其他操作和使用体验与实体SIM卡几乎别无二致，毕竟在国内使用手机基本上不会遇到需要频繁更换SIM卡的情况。</p>
-<h1 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h1><p>eSIM技术的另一类重要用途是在物联网设备(IoT)，这一用途在国内似乎更为广泛。对于部分户外终端和智能家居设备，搭载eSIM可以便于设备在购买后一键激活联网，无卡槽设计则降低了设备进水损坏的风险。</p>
-<p>然而，eSIM技术在物联网中的价值远不止「免插卡」，而在于让连接本身变成可远程调度的资源。2026年，这一方向正在获得标准层面的支撑。</p>
-<p>GSMA的eSIM标准经历了三代演进：SGP.02面向M2M，SGP.22面向消费电子，而SGP.32则是首个为物联网大规模部署原生设计的标准，专门针对无用户界面、网络受限的设备。SGP.32引入了两个关键组件——eIM (eUICC物联网管理器)和IPA(物联网配置助手)，使得没有屏幕可点的传感器、表计、车载模组也能通过远程平台完成配置文件的下载、切换与生命周期管理。2026年4月，Telenor IoT已交付全球首批SGP.32 SIM卡，实现「单一SKU全球部署、远程切换运营商、零接触配置」；业界预期商业应用在2026年启动，2027年真正加速。</p>
-<p>标准就绪直接推动了场景扩散。截至2026年第一季度，国内eSIM累计连接数突破2.3亿，其中物联网贡献超过1.8亿，占国内总量的78%。智能表计和车联网是两大主力：全国27个省份已部署超过7200万台eSIM智能水表与燃气表，远程抄表成功率从82%提升至99.7%；前装车联网车型的eSIM渗透率达到68%，比亚迪、理想、蔚来等主流新能源车型已将其作为标配。车载场景的特殊之处在于，eSIM让车主可以自主切换运营商套餐，而不是被车企锁定在一张实体卡对应的单一网络上，这把eSIM从「硬件配置」变成了「服务入口」。</p>
-<h1 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h1><p>再往前看，两个交叉方向正在浮现。其一是AI终端：2026年MWC上，中国联通联合GSMA发布「AI+eSIM」云智终端方案，eSIM被定位为AI设备（AR眼镜、AI录音耳机、AI算力主机）的默认连接基座，因为这些设备同样没有卡槽空间，却需要随时在线。其二是卫星物联网：eSIM的远程配置能力与低功耗卫星连接结合，使海洋浮标、跨境集装箱、极地追踪器等蜂窝网络永远无法覆盖的资产，也能以可调度的方式接入统一的管理平台。当连接不再依赖「到某地买一张卡」，物联网的真正边界才可能被重新划定。</p>
-<p>中国eSIM技术的发展现状，关键已不在于技术本身，而在于一套以安全为优先的监管框架如何塑造了技术的可用形态。eSIM在中国的故事，不能简单解读为「新技术遭遇保守管制」，而更接近一场关于连接控制权的重新分配：运营商在安全框架内重新定义交付方式，终端厂商在卡槽消失后重新设计产品，而标准组织则在消费电子与物联网之间搭起不同的技术轨道。手机端的「无卡化」或许仍会以审慎的节奏推进，但物联网和新型终端侧的eSIM，已经在以自身的逻辑加速铺开。</p>
-<p>监管的核心担忧集中在两个点上：远程写卡规避了实体卡交付环节的「人证合一」核验，可能被用于电信网络诈骗；跨境写卡则涉及数据主权与合规风险。作为回应，2025年重启后的国内eSIM方案被嵌入了几项硬性技术约束。中国联通的白皮书明确了「双向机卡锁定」与「禁用跨境写卡」：eSIM配置文件与手机主板严格绑定，换机需办理「补换卡」而非「拔插即走」；设备识别到在中国大陆境内时，禁止下载境外运营商及港澳台地区的eSIM配置文件。中国移动2026年版白皮书进一步要求每台终端仅允许一颗不可拆卸的eSIM芯片，并具备机卡锁定能力。</p>
-<p>这些限制的直接后果是：eSIM理论上最诱人的「无感切换」和「自由携转」，在国内被有意收窄了。用户仍需线下营业厅办理、人脸识别、二次实名，换机流程甚至比实体卡更繁琐。从产业角度看，这并非技术倒退，而是一个在安全底线与便利性之间刻意选择的中间态。C114的一篇年度盘点将eSIM的处境概括为「不平衡三角」——用户要便捷、监管要安全、技术要牵引万物互联，三者在2026年仍处于反复拉扯之中。真正的破局点可能不在放松管制，而在用技术风控替代流程卡控：通过AI实时身份核验与行为分析，在云端完成比线下更精准的风险拦截，从而逐步把用户从线下流程中解放出来。这将是eSIM在国内从「可用」走向「好用」的关键一跃。</p>
-]]></content>
-      <categories>
-        <category>Science</category>
-      </categories>
-      <tags>
-        <tag>醉仙阁杂谈</tag>
-        <tag>通信技术</tag>
       </tags>
   </entry>
   <entry>
@@ -3192,6 +2884,438 @@ I & = \int_0^\infty \frac{dx}{1+e^x} \int_0^1 \sin (xy) dy = \int_0^1 dy \int_0^
         <tag>醉仙阁杂谈</tag>
         <tag>命理学</tag>
         <tag>中国古代命理学通俗演义</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>为什么我国公文数字和西文使用Times New Roman字体？</title>
+    <url>/2026/09/21/2026-09-21--The-Font-For-Official-Document-Numbers/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>公文全称‌公务文书‌，是各级党政机关和社会组织在公务活动中形成的、具有‌法定效力‌和‌规范体式‌的文书，主要包括决议、决定、命令、公报、公告、通告、意见、通知、通报、报告、请示、批复、议案、函、纪要共15个文种，有关以上这些文体的现行核心依据是2012年施行的《党政机关公文处理工作条例》（下文简称《条例》）。</p>
+<p>公文格式所采用的现行标准是GB/T 9704-2012《党政机关公文格式》（下文简称《格式》），它制定于2012年，与《条例》同年生效，并在2025年被复审认定继续有效。在《格式》中，对公文的纸张、字体、排版、结构等都作出了详细的规定。<span id="more"></span></p>
+<h1 id="按图索骥"><a href="#按图索骥" class="headerlink" title="按图索骥"></a>按图索骥</h1><p>首先来看看标准文件中的有关规定。</p>
+<p>在《条例》中，全文并没有对数字字体作出强制性要求。</p>
+<p>在《标准》中，提到如无特殊说明，公文格式各要素一般用3号仿宋体字。特定情况可以作适当调整。而对于成文日期、发文字号、份号等一定会出现数字的场合，《标准》只规定了使用阿拉伯数字，并没有指定字体。但在页码部分，则规定了一般须采用四号半角宋体阿拉伯数字。</p>
+<p>另一份值得参考的标准文件是GB/T 15835-2011《出版物上数字用法》（下文称《用法》），在该标准的字体部分，规定出版物中的阿拉伯数字一般应使用正体二分字身，即占半个汉字位置。也就是说，出版物中的数字，在文章中应占汉字的1/2距离。此外，《用法》中也并未对具体字体作出规定或说明。</p>
+<p>所以，没有任何一个规定、条例、国标对公文数字和西文字体作出明确规定。</p>
+<h1 id="字体来源"><a href="#字体来源" class="headerlink" title="字体来源"></a>字体来源</h1><p>在Times New Roman这一字体名称中，Times是指英国的《泰晤士报》，New Roman是《泰晤士报》于1931年发行的一款新字体，取代了字型老旧、印刷模糊的Times Old Roman。</p>
+<p>相比之下，这款新字体具有以下几个显著特征</p>
+<ol>
+<li>有衬线：衬线是指在书法中和在凹版印刷术中，一个字母的一划上加的一条小横线或装饰线，表示这一笔划的完结。</li>
+<li>衬线体的另一个特征是竖笔粗、横笔细，视觉上有庄重感，看起来传统、优雅。</li>
+<li>易读性强，字距紧凑，与Times Old Roman相比，相同纸张采用Times New Roman进行印刷时可以容纳更多内容和信息。</li>
+<li>印刷适配性强，Times New Roman在印刷纸上油墨还原度较高，印刷后较清晰。</li>
+</ol>
+<p>基于上述原因，美国白宫于2004年启用Times New Roman作为公文字体，在主要官方文件中使用这一字体。所以，Times New Roman在西方国家中有很强的公文属性。</p>
+<p>下图中给出的是几组常见的中英文字体搭配对比。</p>
+<p><img src="/images/2026-09-21--The-Font-For-Official-Document-Numbers/1.png" alt="1"></p>
+<h1 id="前因后果"><a href="#前因后果" class="headerlink" title="前因后果"></a>前因后果</h1><p>综上所述，我国公文约定俗成地采用Times New Roman作为数字和西文字体的原因是多方面的，具体地说主要有以下几点：</p>
+<ol>
+<li>技术惯性：早期公文铅印排版和办公软件都默认使用Times New Roman作为西文字体，几乎所有办公电脑都默认安装，无需额外采购，很多单位没有修改默认设置，直接采用该字体对数字和西文进行排版。</li>
+<li>国际惯例：美国公文和国际期刊大量采用Times New Roman，这种惯例从学术圈传入中国，许多学生从大学毕业后进入机关工作，便将该习惯带入到公文写作当中，这一习惯经发展成为中国公文的行文惯例。</li>
+<li>示范效应：早期中央和省级公文使用Times New Roman作为阿拉伯数字和西文字体，层层传导，上行下效，形成惯例。</li>
+<li>视觉美观：作为一款经典的衬线字体，字形端正、笔画清晰，与仿宋、黑体等中文字体混排时观感协调、辨识度高，因而被大量公文起草者自发采用。</li>
+</ol>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>虽然没有任何标准或文件对公文格式的数字和西文字体作出强制性规定，理论上讲，法无禁止即可为，在排版时使用其他字体也是可以的；但是在一般场合，使用Times New Roman作为数字和西文字体，仍是不容置疑的最优解，这主要是基于以下两点原因：</p>
+<ol>
+<li>本单位或上级单位发文规范过，很多地方都有文件明确要求，公文必须使用Times New Roman。</li>
+<li>公文格式首先是要稳妥，而非标新立异，在这种情况下，奉行上行下效的原则，采用Times New Roman撰写公文，可以从根本上杜绝出错的概率。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Other</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>排版</tag>
+        <tag>字体</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>「霸王别姬」之历史真相阐微</title>
+    <url>/2026/10/31/2026-10-31--Farewell-My-Concubine/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>「霸王别姬」是中国先秦时期一个著名的历史故事，讲的是秦末楚汉相争末期，西楚霸王项羽被汉军围困垓下，与宠姬虞姬生离死别的故事。这段故事自有记载以来，便被中国人代代相传，成为中国文学史上一段千古传唱的佳话。</p>
+<h1 id="正史记载"><a href="#正史记载" class="headerlink" title="正史记载"></a>正史记载</h1><p>史书中，有关「霸王别姬」的记载最早可见于司马迁所著的《史记·项羽本纪》：</p>
+<p>『项王军壁垓下，兵少食尽，汉军及诸侯兵围之数重。夜闻汉军四面皆楚歌，项王乃大惊曰：「汉皆已得楚乎？是何楚人之多也！」项王则夜起，饮帐中。有美人名虞，常幸从；骏马名骓，常骑之。于是项王乃悲歌忼慨，自为诗曰：「力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！」歌数阕，美人和之。项王泣数行下，左右皆泣，莫能仰视。』<span id="more"></span></p>
+<p>翻译成白话就是：</p>
+<p>『项王的部队在垓下修筑了营垒，这时他兵力少，粮食也没有了。汉军及诸侯兵把他团团包围了好几层。深夜里，听到汉军在四面唱着楚地的歌，项王听了后吃惊地说：「难道汉已经完全取得了楚地？怎么楚国人这么多呢？」项王披衣起来，在帐中饮酒。这时他身边有美人名字叫虞，一直受宠跟在项王身边；有骏马名骓，是项王冲锋陷阵一直骑乘的。这时候，项王不禁慷慨悲歌，自己作吟唱道：「力拔山兮气盖世，时不利兮骓不逝。骓不逝兮可奈何，虞兮虞兮奈若何！」项王唱了几遍，美人虞姬在一旁应和。项王眼泪一道道流下来，左右侍者也都跟着落泪，没有一个人能抬起头来看他。』</p>
+<p>在《史记·项羽本纪》的后续记载中，还交代了项羽后续率领骑兵突围，行至乌江边上，拒绝渡江偏安一隅而自刎的故事，史称「乌江自刎」。</p>
+<p>由《史记·项羽本纪》中的记载可知，最初在正史中并没有交代在项羽死后虞姬的下落，而只是提到了她在垓下帐中与项王和歌的故事。在笔者看来，恰恰是正史的留白，让后世文学和戏曲可以不断填补。正因为没有标准答案，虞姬自刎、和歌、剑舞等情节才能被反复创造，最终成为民族集体记忆。</p>
+<h1 id="后人伪托"><a href="#后人伪托" class="headerlink" title="后人伪托"></a>后人伪托</h1><p>除了《史记·项羽本纪》，另有汉初陆贾所撰的《楚汉春秋》，成书时间更早，但现在一般认为，南宋时此书已佚。相传，《楚汉春秋》中有记载，在项羽吟唱《垓下歌》之后，虞姬和歌：「汉兵已略地，四方楚歌声。大王意气尽，贱妾何聊生！」但与上面的《垓下歌》一作比较便可以发现，这种五言体诗不应产生于秦汉交替之时，而是后人的伪托。这首五言诗的内容也是后世虞美人词、曲、剧的主要创意来源。如此一来，「霸王别姬」之历史真伪性已是十分明了。</p>
+<h1 id="艺术加工"><a href="#艺术加工" class="headerlink" title="艺术加工"></a>艺术加工</h1><p>既然正史没写，为什么后世所有人都觉得虞姬是自刎的？答案其实很简单——文人写的、戏曲演的、老百姓传的。</p>
+<p>从唐朝开始，诗人们开始写虞姬。到了元明时期，杂剧和传奇里开始出现虞姬自刎的桥段。再后来，京剧《霸王别姬》诞生了，梅兰芳所扮演的虞姬拿着剑，眼含热泪，唱完最后一句，决绝地抹脖子——一个一路追随西楚霸王并在最终殉情而死的女子形象便栩栩如生了。</p>
+<p>从此，「虞姬自刎」就成了主流意识中不容置喙的事实——因为舞台上的虞姬，早已不是史书上模糊的「有美人名虞」了，而是所有人心目中的「乱世佳人」和「忠贞爱情」糅合在一起形成的全部想象。</p>
+<p>人们需要一个为爱赴死的女人，于是虞姬就死了。两千年以来，我们一直在给一个史书上一笔带过的女人安排结局。每一个时代都有每一个时代的虞姬——有人要她殉情，有人要她全节，有人要她成就霸王的悲壮。虞姬是可悲的，这不仅是因为她生于乱世，不知所终，更是因为在后人心目中，她从来没有为自己活过，甚至连死法都是别人替她选的。</p>
+<h1 id="结语"><a href="#结语" class="headerlink" title="结语"></a>结语</h1><p>「霸王别姬」之所以能千古传唱，不是因为正史记载多，而恰恰是因为它把历史悲剧、英雄气节、生死爱情和艺术经典揉在了一起，成了一个超越时代的文化符号。它既是一个失败英雄的悲歌，也是一段生死爱情的绝唱，更被戏曲艺术锻造成了一个关于气节、尊严与离别的文化符号。人们传唱的，早已不只是项羽和虞姬，而是所有时代里那些「无可奈何」的告别与不肯低头的选择。</p>
+]]></content>
+      <categories>
+        <category>History</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>中国古代命理学通俗演义(四)：生辰八字实例分析</title>
+    <url>/2026/10/31/2026-10-31--Expedition-To-The-Chinese-Ancient-Numerology-4/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>在本篇中，笔者将以一常规命造为实例，对生辰八字理论之实用作进一步剖析。<span id="more"></span></p>
+<p>1976年3月17日午时生男命。</p>
+<h1 id="查万年历排八字"><a href="#查万年历排八字" class="headerlink" title="查万年历排八字"></a>查万年历排八字</h1><p>乾造：<br>| 四柱 | 干支 |<br>| —- | —- |<br>| 年柱 | 丙（枭）辰【戊土（比）癸水（财）乙木（官）】 |<br>| 月柱 | 辛（伤）卯【乙木（官）】 |<br>| 日柱 | 戊辰【戊土（比）癸水（财）乙木（官）】 |<br>| 时柱 | 戊（比）午【丁火（印）己土（劫）】 |</p>
+<p>十神：<br>| 五阳干 | 五阴干 |<br>| —- | —- |<br>| 七煞甲木 | 正官乙木 |<br>| 枭神丙火 | 正印丁火 |<br>| 比肩戊土 | 劫财己土 |<br>| 食神庚金 | 伤官辛金 |<br>| 偏财壬水 | 正财癸水 |</p>
+<p>六甲空亡：戌亥</p>
+<h1 id="观看命局"><a href="#观看命局" class="headerlink" title="观看命局"></a>观看命局</h1><p>命主戊土，阳土之命，命中比肩较多，主旁支兴旺多兄弟，土略旺，忌神当为火土；用神方面当为金水木，金主食伤，水主财，木主官煞权柄。辰日见辰年，是华盖星，命主做事勤恳认真，却难免时常清高自负，与人合作稍有不适。地理方面不宜前往中部腹地或农村发展，职业忌餐饮、土木。平日亦不宜兴土木，投资不宜广置田产，够用即可。五行当中土主脾胃，土旺身体方面须注意心脑血管与肾脏。</p>
+<p>年柱上透出枭神与比肩，命主身旺不喜，故几无祖荫可受，与祖父缘分薄，祖父身寿亦不佳，但年支为财库，暗指稍有风水地理之荫可为命主谋财，主回乡娶妻或回乡发展事业；祖父母感情还好。</p>
+<p>月柱则为伤官与官星，月干和月支相克，父母感情不佳，对母亲不利，命主与母亲缘分薄，与父亲缘分较深，年少之时受父亲启发得慧识。年、月、日支上见辰卯六害，对母亲有损。</p>
+<p>日柱之上见比肩，辰中戊土藏癸水乙木，癸水乙木即妻女，戊土比肩透出则夫妻二人平日较为独立，各自发展事业，姻缘之深亦不明显。</p>
+<p>时柱之上见比肩正印劫财，皆为命主之忌神，晚年与子女缘分较为平淡，子女平日与妻子之缘分更深。</p>
+<p>戊辰日生人，六甲空亡戌亥，戌为火库，藏印，空亡之相意味命主得母亲帮助不多；亥藏壬水甲木，为偏财，七煞，寓意难得桃花，亦少旁门左路之财可得，其一生事业多为本人勤恳之所得。命主身强，戌之空亡还指命主数此流年不利之时逢凶化吉，虽乏贵人相助，命途也整体平坦。</p>
+<h1 id="排大运"><a href="#排大运" class="headerlink" title="排大运"></a>排大运</h1><p>本造为阳年生男命，大运顺排，于是找到命主出生后的下一个节气，即1976年4月4日清明，可知命主六岁起运，由月柱开始顺排大运如下表所示：</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>月柱</th>
+<th>辛卯</th>
+<th>寄生十二宫</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>6-15</td>
+<td>壬辰</td>
+<td>冠带</td>
+</tr>
+<tr>
+<td>16-25</td>
+<td>癸巳</td>
+<td>临官</td>
+</tr>
+<tr>
+<td>26-35</td>
+<td>甲午</td>
+<td>帝旺</td>
+</tr>
+<tr>
+<td>36-45</td>
+<td>乙未</td>
+<td>衰</td>
+</tr>
+<tr>
+<td>46-55</td>
+<td>丙申</td>
+<td>病</td>
+</tr>
+<tr>
+<td>56-65</td>
+<td>丁酉</td>
+<td>死</td>
+</tr>
+<tr>
+<td>66-75</td>
+<td>戊戌</td>
+<td>墓库</td>
+</tr>
+<tr>
+<td>76-85</td>
+<td>己亥</td>
+<td>胎</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h1 id="批大运"><a href="#批大运" class="headerlink" title="批大运"></a>批大运</h1><p>第一大运，6-15虚岁，壬辰，冠带，命主出类拔萃，做事争强好胜，行至运支见土，此运后五年或稍有不顺；</p>
+<p>第二大运，16-25虚岁，癸巳，临官，能得禄，靠奋斗取得成就。运干癸水，此运能得正财及异性相助，前五年异性缘较好；运支庚金透出，行食神运，才气锋芒展露；</p>
+<p>第三大运，26-35虚岁，甲午，帝旺，事业稳步上升。运干甲木为命主七煞，身强用煞，前五年间能谋得权柄；运支为午，丁火透出为正印，官运在此终结，此运后五年间平平；</p>
+<p>第四大运，36-45虚岁，乙未，衰，一切平平。乙木正官坐未为官库，官上加官，此运十年间命主有些许受制于人，碰壁之相；</p>
+<p>第五大运，46-55虚岁，丙申，病，主做事常遇进退两难境地。运干丙火为枭，主刻苦，但命主身强，印为忌神，故此枭印主刻苦但所得甚微或并非所需，后五年行入运支见庚金食神有所好转，但此乃枭印夺食之相，虽财运好转但不利生养，需注意；</p>
+<p>第六大运，56-65虚岁，丁酉，死，万事不动；</p>
+<p>第七大运，66-75虚岁，戊戌，墓库，不佳。命主土旺，今逢迭土，十二宫又值墓库，此运凶相环生，所幸运支戌落空亡，如行过前五年可有所好转；</p>
+<p>第八大运，76-85虚岁，己亥，胎，孕生之相，平。运干己为劫财，运支亥落空亡，平稳。</p>
+<h1 id="批流年"><a href="#批流年" class="headerlink" title="批流年"></a>批流年</h1><p>1993，虚岁17壬申年，上半年见偏财，交桃花，壬水透出年支庚金，有利；</p>
+<p>1994，虚岁18癸酉年，癸水正财，辰酉六合，主婚缘信息；年支伤官，有考运，高考应中举；</p>
+<p>1995，虚岁19甲戌年，虚岁20己亥年，主要走官煞运，身强用煞，能掌权柄，此期间影响力不错，虚岁20下半年偏财落空亡，主爱慕女性求而不得或求财不得；</p>
+<p>1996，虚岁21丙子年，子藏癸水，年支主下半年，正财初现，读书人之财应非钱财，系夫人；</p>
+<p>1997，虚岁22丁丑年，逢印坐劫，流年不利，有刑伤；</p>
+<p>1998，虚岁23戊寅年，比肩帮身，但并非命主所需；</p>
+<p>1999，虚岁24己卯年，下半年得禄，初得领导赏识；</p>
+<p>2000，虚岁25庚辰年，逢财库，庚金透出辰中正财癸水，此年与妻子之间情感有所进展；</p>
+<p>2001，虚岁26辛巳年，运入帝旺，逢食伤大运，主慧识增长，食伤生财，此年财运不错，但官运暂歇；</p>
+<p>2002，虚岁27壬午年，上半年有偏财，下半年平平；</p>
+<p>2003，虚岁28癸未年，上半年正财透出，未为官库，财生官之相，逢升迁涨薪；</p>
+<p>2004，虚岁29甲申年，偏官坐食神之运，食神使偏官成正官，下半年逢升迁或得千金；</p>
+<p>2005，虚岁30乙酉年，年干正官，上半年逢升迁或得千金；</p>
+<p>2006，虚岁31丙戌年，枭印之运，年支逢比肩，皆是忌神，流年不利，同时大运行入运支午，官运到此为止，但运支戌落空亡，故此相不至于太差，平平；</p>
+<p>2007，虚岁32丁亥年，枭神坐偏官，流年主刻苦，兄弟或朋友间稍有妨碍，平平，下半年运支亥落空亡，本应得偏财但落空；</p>
+<p>2008，虚岁33戊子年，比肩坐正财，上半年平平，下半年稍有财运；</p>
+<p>2009，虚岁34己丑年，劫财坐食伤库，财运平平；</p>
+<p>2010，虚岁35庚寅年，食神坐七煞，平平；</p>
+<p>2011，虚岁36辛卯年，伤官见官，大运行入衰运，此年稍有不利，是命主一生的转折点，此年可能得罪了有权势的人或对子女不利；</p>
+<p>2012，虚岁37壬辰年，运干偏财，运支又逢财库，此年财运佳；</p>
+<p>2013，虚岁38癸巳年，癸水克丙火，妻子财运佳；</p>
+<p>2014，虚岁39甲午年，上半年见偏官，官印相生，上半年可得男丁或解一困境；</p>
+<p>2015，虚岁40乙未年，官星大运，此年开始新的事业或重要人事交际，如日中天，佳；</p>
+<p>2016，虚岁41丙申年，枭印夺食，困顿或有损财运，或二者兼有之，下半年心中多烦恼愁绪；</p>
+<p>2017，虚岁42丁酉年，印制伤官，可能对命主稍有不利，或与父母有关；</p>
+<p>2018，虚岁43戊戌年，节节逢土，流年不利，下半年年支戌空亡，困境有所好转；</p>
+<p>2019，虚岁44己亥年，劫财坐偏财，偏财落空亡，此二相皆主财运有损，稍有不佳；</p>
+<p>2020，虚岁45庚子年， 食神生财，此年财运有所好转，对妻子也稍有利；</p>
+<p>2021，虚岁46辛丑年，大运行入丙申，伤官坐劫财透出伤官，命主可能思维敏捷，有许多新想法，但一时难以抉择；</p>
+<p>2022，虚岁47壬寅年，偏财见偏官，不利财运，应为儿子多花钱；</p>
+<p>2023，虚岁48癸卯年，见正财坐正官，主妻女之相；</p>
+<p>2024，虚岁49甲辰年，逢财库，但年柱为正官，整体财运不明显，仍应为儿子花钱；</p>
+<p>2025，虚岁50乙巳年，正官运，官印相生之年，命主有计谋，但此印乃偏印，大打折扣或难以抉择；</p>
+<p>2026，虚岁51丙午年，枭印相争，不利，多烦恼；</p>
+<p>2027，虚岁52丁未年，印生劫财，财运不佳，对妻子稍有不利；</p>
+<p>2028，虚岁53戊申年，年干逢土，幸得年支透出庚金来泄，有所好转，主衣食丰禄；</p>
+<p>2029，虚岁54己酉年，劫财坐伤官，运干见劫财幸得伤官克泄，财运不至于不佳，下半年有所好转，总体平平；</p>
+<p>2030，虚岁55庚戌年，食神之运，但逢印库，有夺食之相，大打折扣，甚至对财运有损；</p>
+<p>此后十年行入丁酉死运，不动，平平，宜享福，另命带华盖星，晚年稍有烦恼，宜敛气，修心。运干丁为正印，命主戊土过旺，今又逢正印来生，须谨防脾胃火旺，伤及心肾。</p>
+<p>此后十年行入戊戌墓库运，土旺逢土，不吉，露凶相，须注意身体，运支落空亡，后五年有所好转，如安度此运，可延年益寿。虚岁73戊辰年须尤其注意。</p>
+]]></content>
+      <categories>
+        <category>Numerology</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>命理学</tag>
+        <tag>中国古代命理学通俗演义</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>无卡之路——eSIM技术的发展历程与未来展望</title>
+    <url>/2026/11/15/2026-11-15--The-History-And-Future-Of-eSIM/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>eSIM，即嵌入式SIM卡(Embedded SIM)，是一种直接焊接在设备主板上的可编程SIM芯片，由全球移动通信系统协会(GSMA)制定技术标准。与传统可插拔的实体SIM卡不同，eSIM没有独立的卡体和卡槽，而是将SIM功能集成到终端硬件中，通过OTA(空中下载)技术远程下载、安装、激活和管理运营商配置文件，从而实现「无卡开通」和号码配置的远程调度。这一设计不仅节省了设备内部空间、提升了防水防尘能力，也让用户在换机、出国或切换运营商时摆脱了反复插拔实体卡的麻烦。正因如此，eSIM从智能手表等可穿戴设备起步，逐步向手机、平板、电脑及物联网终端延伸，成为连接方式从「一张塑料卡」走向「可编程数据文件」的关键技术节点。回顾其十余年的发展历程，可以清晰看到一条从专利构想、标准统一到产业落地的演进轨迹，也能看到不同市场在安全、监管与便利之间做出的不同选择。<span id="more"></span></p>
+<h1 id="发展历程"><a href="#发展历程" class="headerlink" title="发展历程"></a>发展历程</h1><p>有关eSIM的起源最早可以追溯至十五年前。2011年，苹果公司向美国专利和商标局申请虚拟SIM卡专利，用户无需使用SIM卡即可直接访问运营商无线网络服务，成为eSIM技术起点。2014年，苹果在发布iPad Air 2时首次将eSIM卡概念（又称「Apple SIM」）带入实际产品。2015年，三星发布Gear S2，成为全球第一款支持eSIM技术的智能手表；同年7月，苹果和三星与GSMA等电信行业各方展开谈判，推动生产用于消费者设备的标准嵌入式SIM卡，预计支持该计划的运营商包括AT&amp;T、德国电信、阿联酋电信、和记黄埔、Orange、西班牙电信和沃达丰等。2016年6月，GSMA发布面向消费设备的eSIM规范，统一远程配置、安全加密等核心技术标准，获得全球超过30家运营商、芯片商及智能手机厂家支持，eSIM进入标准化时代。2019年1月底，美国、欧洲、中东和亚太地区多家运营商支持具有eSIM功能的手机。2020年底，全球可商用的eSIM消费类设备类型达110种，包括智能手机（40%）、智能手表、电脑和平板电脑；全球至少有175家运营商在69个国家推出面向智能手机的eSIM商用。2022年4月，谷歌Android 13系统将全力推动eSIM技术发展，或支持一颗芯片原生开通多张eSIM虚拟手机卡；同年，苹果iPhone 14系列在美国地区正式取消实体SIM卡，全面采用eSIM技术；10月，GSMA RSP eSIM技术规范SGP.22 v3.0正式发布，进一步拓展使用场景并完善eSIM卡生命周期管理。2023年中，GSMA发布新的eSIM物联网规范SGP.32。2025年6月，2025 MWC上海eSIM峰会期间传出信号，预计2026年全球eSIM智能手机连接量将达10亿；8月，GSMA预测到2025年底全球将有10亿台eSIM智能手机投入使用；同年，小米在海外市场推出首款eSIM机型小米12T Pro国际版，可在部分欧洲国家使用。</p>
+<p>在中国，eSIM技术的起步则要稍晚一些。2015年7月，中国联通在南京和广州新建物联网专用核心网元，覆盖全国31个省、360个地市、56.5万个基站，并开通10646专用机器号码，为物联网业务发展作准备；中国电信在定调2016年规划时首次将物联网单独提为发展关键词，计划2016年全年销售1000万台以上物联网终端。2017年，中国联通在上海推出支持eSIM的华为Watch 2 Pro试用业务，并在华为Watch 2 Pro和苹果Watch Series 3上支持eSIM，成为首家支持该功能的中国运营商，其中苹果手表实现「一号双终端」。2018年，中国联通获得eSIM一号双终端业务试点批复并扩大试点；中国移动推出支持eSIM的智能手表及跨供应商eSIM物联网方案，中移物联发布首款eSIM芯片；中国电信开始为苹果手表提供有限eSIM服务。2019年，中国移动启用eSIM一号双终端试点，中国联通将eSIM可穿戴设备独立号码业务推广至全国。2020年，中国联通将一号双终端业务扩展至全国，工信部同意中国电信、中国移动、中国联通开展物联网等领域eSIM技术应用服务。2021年，工信部《「十四五」信息通信行业发展规划》提到推动eSIM等新兴技术应用。2022年，工信部表示正研究推进eSIM在平板电脑、便携式计算机及智能手机上的应用。2023年，三大运营商曾以业务维护升级为由暂停受理eSIM一号双终端及独立eSIM卡申请，年底中国电信恢复eSIM业务办理。2025年下半年，eSIM业务重启；中国联通发布5G AI终端白皮书并率先在多地恢复eSIM功能，随后三大运营商陆续获得工信部eSIM手机商用试验批复，中国电信eSIM手机业务在31个省区市上市销售，中国联通为苹果iPhone Air提供eSIM支持，eSIM正式从物联网、智能穿戴延伸至手机端。2025年11月，中国电信恢复Apple Watch一号双终端eSIM业务。2026年，eSIM手机新品加速上市，荣耀首款eSIM手机首销，中国联通上线eSIM查询功能；华为公布手机eSIM使用指南，支持一机四号双待、网络智能切换、全球主流eSIM服务及跨设备通信共享；中国联通发布eSIM尝鲜季升级方案，推动多品牌机型和线下体验；苹果iPhone 18 Pro系列国行版本支持双实体SIM卡+双eSIM。</p>
+<h1 id="技术原理"><a href="#技术原理" class="headerlink" title="技术原理"></a>技术原理</h1><p>eSIM是一个可编程的数据文件，无需插入实体卡，直接嵌入设备芯片或主板，将实体SIM卡功能直接集成到电子产品的硬件中。其核心是通过OTA（空中下载）技术实现运营商配置文件的远程下载、安装、激活、去激活及删除。配置文件包含IMSI、鉴权密钥及运营商网络参数，由GSMA定义的SM-DP+服务器安全管理并下发至设备。</p>
+<p><img src="/images/2026-11-15--The-History-And-Future-Of-eSIM/1.png" alt="1"></p>
+<h1 id="实际使用"><a href="#实际使用" class="headerlink" title="实际使用"></a>实际使用</h1><p>eSIM技术的初衷之一是为了环保和更为便捷地切换不同运营商的SIM卡。对于经常跨国出差的商务人士，每到一个国家，他们都必须在机场购买一张SIM卡以便在没有WiFi时还有基础的通信能力。倘若你在深夜或非营业时间抵达一个陌生的国家，那将遭遇失联的窘境。即便你有幸在商店购买到了SIM卡，你也必须在人来人往的机场兵荒马乱地更换SIM卡，同时还要提防不会有人偷走你的行李。</p>
+<p>而在这时，倘若你的手机支持eSIM功能，或者你已经插好了一张支持eSIM功能的SIM卡，这一流程就会简单很多。你只需要在eSIM App内提前购买好数据套餐，然后通过空中下载技术(OTA)将配置文件下载到你的手机上，抵达后再启用这张eSIM，就有了在本地进行移动通信的能力。</p>
+<p>但是，对于身处国内没有跨境需求的一般人士，这项技术就略显鸡肋了。首先，设备型号和版本必须是国内运营商的数据库中提及的支持的版本，只有受支持的设备，才有安装和使用国内运营商eSIM的资格。其次，设备的EID号段也必须在国内运营商的数据库中。</p>
+<p>也就是说，一个人要在中国境内申请和使用eSIM必须同时满足下列条件：</p>
+<ol>
+<li>他的一证五户没有满；</li>
+<li>他的设备内置的eSIM芯片有国内运营商的CI；</li>
+<li>他的设备的EID号段在国内运营商的数据库中；</li>
+<li>他的设备中的eSIM数量符合要求。</li>
+</ol>
+<p>然而，在满足了上述近乎苛刻的条件之外，申请和使用eSIM并不会给在国内带来多少便利，因为除了给智能手表装上国内eSIM可以不必随身携带手机之外，其他操作和使用体验与实体SIM卡几乎别无二致，毕竟在国内使用手机基本上不会遇到需要频繁更换SIM卡的情况。</p>
+<h1 id="物联网"><a href="#物联网" class="headerlink" title="物联网"></a>物联网</h1><p>eSIM技术的另一类重要用途是在物联网设备(IoT)，这一用途在国内似乎更为广泛。对于部分户外终端和智能家居设备，搭载eSIM可以便于设备在购买后一键激活联网，无卡槽设计则降低了设备进水损坏的风险。</p>
+<p>然而，eSIM技术在物联网中的价值远不止「免插卡」，而在于让连接本身变成可远程调度的资源。2026年，这一方向正在获得标准层面的支撑。</p>
+<p>GSMA的eSIM标准经历了三代演进：SGP.02面向M2M，SGP.22面向消费电子，而SGP.32则是首个为物联网大规模部署原生设计的标准，专门针对无用户界面、网络受限的设备。SGP.32引入了两个关键组件——eIM (eUICC物联网管理器)和IPA(物联网配置助手)，使得没有屏幕可点的传感器、表计、车载模组也能通过远程平台完成配置文件的下载、切换与生命周期管理。2026年4月，Telenor IoT已交付全球首批SGP.32 SIM卡，实现「单一SKU全球部署、远程切换运营商、零接触配置」；业界预期商业应用在2026年启动，2027年真正加速。</p>
+<p>标准就绪直接推动了场景扩散。截至2026年第一季度，国内eSIM累计连接数突破2.3亿，其中物联网贡献超过1.8亿，占国内总量的78%。智能表计和车联网是两大主力：全国27个省份已部署超过7200万台eSIM智能水表与燃气表，远程抄表成功率从82%提升至99.7%；前装车联网车型的eSIM渗透率达到68%，比亚迪、理想、蔚来等主流新能源车型已将其作为标配。车载场景的特殊之处在于，eSIM让车主可以自主切换运营商套餐，而不是被车企锁定在一张实体卡对应的单一网络上，这把eSIM从「硬件配置」变成了「服务入口」。</p>
+<h1 id="未来展望"><a href="#未来展望" class="headerlink" title="未来展望"></a>未来展望</h1><p>再往前看，两个交叉方向正在浮现。其一是AI终端：2026年MWC上，中国联通联合GSMA发布「AI+eSIM」云智终端方案，eSIM被定位为AI设备（AR眼镜、AI录音耳机、AI算力主机）的默认连接基座，因为这些设备同样没有卡槽空间，却需要随时在线。其二是卫星物联网：eSIM的远程配置能力与低功耗卫星连接结合，使海洋浮标、跨境集装箱、极地追踪器等蜂窝网络永远无法覆盖的资产，也能以可调度的方式接入统一的管理平台。当连接不再依赖「到某地买一张卡」，物联网的真正边界才可能被重新划定。</p>
+<p>中国eSIM技术的发展现状，关键已不在于技术本身，而在于一套以安全为优先的监管框架如何塑造了技术的可用形态。eSIM在中国的故事，不能简单解读为「新技术遭遇保守管制」，而更接近一场关于连接控制权的重新分配：运营商在安全框架内重新定义交付方式，终端厂商在卡槽消失后重新设计产品，而标准组织则在消费电子与物联网之间搭起不同的技术轨道。手机端的「无卡化」或许仍会以审慎的节奏推进，但物联网和新型终端侧的eSIM，已经在以自身的逻辑加速铺开。</p>
+<p>监管的核心担忧集中在两个点上：远程写卡规避了实体卡交付环节的「人证合一」核验，可能被用于电信网络诈骗；跨境写卡则涉及数据主权与合规风险。作为回应，2025年重启后的国内eSIM方案被嵌入了几项硬性技术约束。中国联通的白皮书明确了「双向机卡锁定」与「禁用跨境写卡」：eSIM配置文件与手机主板严格绑定，换机需办理「补换卡」而非「拔插即走」；设备识别到在中国大陆境内时，禁止下载境外运营商及港澳台地区的eSIM配置文件。中国移动2026年版白皮书进一步要求每台终端仅允许一颗不可拆卸的eSIM芯片，并具备机卡锁定能力。</p>
+<p>这些限制的直接后果是：eSIM理论上最诱人的「无感切换」和「自由携转」，在国内被有意收窄了。用户仍需线下营业厅办理、人脸识别、二次实名，换机流程甚至比实体卡更繁琐。从产业角度看，这并非技术倒退，而是一个在安全底线与便利性之间刻意选择的中间态。C114的一篇年度盘点将eSIM的处境概括为「不平衡三角」——用户要便捷、监管要安全、技术要牵引万物互联，三者在2026年仍处于反复拉扯之中。真正的破局点可能不在放松管制，而在用技术风控替代流程卡控：通过AI实时身份核验与行为分析，在云端完成比线下更精准的风险拦截，从而逐步把用户从线下流程中解放出来。这将是eSIM在国内从「可用」走向「好用」的关键一跃。</p>
+]]></content>
+      <categories>
+        <category>Science</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>通信技术</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>当增长由算力驱动——Pascual Restrepo的AGI经济学</title>
+    <url>/2026/11/17/2026-11-17--AGI-Economics/</url>
+    <content><![CDATA[<h1 id="引言"><a href="#引言" class="headerlink" title="引言"></a>引言</h1><p>关于通用人工智能(AGI)的讨论，常常滑向两个极端：一边是「奇点降临，人类彻底失业」的恐慌，另一边是「AI只是工具，人类永远不可替代」的安慰。两种说法都太省事，因为它们跳过了真正困难的问题：如果AGI真的能完成所有有经济价值的工作，经济运行的底层逻辑会发生什么变化？工资从哪里来？增长靠什么驱动？劳动收入占GDP的份额会怎样？个人又该如何自处？</p>
+<p>耶鲁大学经济学家<em>Pascual Restrepo</em>在2025年为NBER「变革性AI经济学」会议卷撰写的论文<a href="/files/AGI_v4.pdf"><em>We Won’t be Missed: Work and Growth in the AGI World</em></a>，提供了一套颇有理论深度的分析框架。它并不预测AGI何时到来，而是在两个明确前提下推演长期均衡：第一，AGI使所有有经济价值的工作原则上都能用算力完成；第二，算力有限但会持续无界增长。论文的结论不是「人类没用了」，而是AGI不会简单让工资归零，但会让人类劳动不再是增长的中心；工资被「复制人类工作的算力成本」锚定，劳动收入占GDP的比重趋于零，经济增长由算力扩张驱动，增值部分都流向算力所有者。</p>
+<p>本文将分两部分进行陈述，前半部分系统地解读论文的核心逻辑、主要命题和理论贡献；后半部分讨论如果现实真朝这个方向发展，对个人而言有哪些具体建议。需要强调的是，论文是长期理论推演，不是短期预测；它描述的是「如果前提成立，长期会怎样」，而不是「明天就会怎样」。但正因为它把逻辑推到了尽头，反而能帮我们看清方向。<span id="more"></span></p>
+<h1 id="AGI和算力的概念"><a href="#AGI和算力的概念" class="headerlink" title="AGI和算力的概念"></a>AGI和算力的概念</h1><p>论文首先做了一个重要区分：AGI与算力不是一回事。AGI是「如何把原始算力转化为各类有用工作」的技术；算力$Q_t$是整个经济可用的计算资源总量，由数据中心、芯片、能源等决定。AGI意味着，对于所有有经济价值的工作$\omega$，复制人类完成这项工作所需的算力成本$\alpha_t (\omega)$最终会从无穷大变成有限值。换句话说，AGI让「用算力完成一切工作」在原则上可行，但不等于免费，也不等于划算。</p>
+<p>这个区分是全文的基石。很多讨论把AGI等同于「无限生产力」，但论文强调：AGI只是让人类工作变得可复制，而复制需要消耗稀缺算力。因此，工资不会因为AGI出现就归零，而是会被「复制该工作的算力成本」锚定。这既避免了乌托邦式的「物质极大丰富」简化，也避免了「人类劳动一夜清零」的恐慌。</p>
+<p>论文的两个前提可以概括为：</p>
+<ol>
+<li>AGI前提：对所有工作$\omega$，其算力复制成本最终达到有限终值$\alpha (\omega)$。物理工作可通过机器人完成，社会工作可通过大量算力补偿「人类触感」。</li>
+<li>算力增长前提：算力$Q_t$在每个时点有限，但随时间无界增长。</li>
+</ol>
+<p>在这两个前提下，论文要回答：长期中，工作如何在人力和算力之间分配？产出、工资、劳动份额如何变化？增长由什么驱动？</p>
+<h1 id="瓶颈工作与补充工作"><a href="#瓶颈工作与补充工作" class="headerlink" title="瓶颈工作与补充工作"></a>瓶颈工作与补充工作</h1><p>论文最重要的两个核心概念是瓶颈工作与补充工作。</p>
+<ol>
+<li>瓶颈工作：经济增长必需的工作。如果这类工作不扩张，产出就无法无限增长，或其边际价值会膨胀到极高。例子包括粮食、住房、能源、基础设施维护、科学、决策、物流、国家安全、治安等。</li>
+<li>补充工作：不是增长必需的工作。即使这类工作数量固定，经济仍可无限增长，价格也不会失控。例子包括艺术、文学、酒店服务、设计、客服、司法，甚至学术经济学。</li>
+</ol>
+<p>这个区分看似简单，却决定了整个AGI经济的组织方式。论文的核心命题是：所有瓶颈工作最终都会由AGI承担；部分补充工作可能继续由人类做。这样的假设是基于，如果AGI只做一部分工作、人类做另一部分，随着算力扩张，前者会不断扩张，后者固定不变，经济结构将会走向失衡。要持续增长，所有瓶颈工作必须同比例扩张。因此，让AGI包揽所有瓶颈工作才是长期最优；只有补充工作可以留给人类而不阻碍增长。</p>
+<p>这里有一个反直觉之处：按照Ricardo的比较优势原理(The Principle of Comparative Advantage)，人和AGI似乎应该分工，各自做相对更擅长的事。但论文认为，比较优势逻辑在这里失效，因为AGI的「生产能力」会随算力无限扩张，而人类供给固定。长期中，让人类固守某类瓶颈工作，会成为增长的瓶颈；只有补充工作不阻碍增长，才适合留给人类去做。</p>
+<h1 id="长期生产函数：从「乘法」到「加法」"><a href="#长期生产函数：从「乘法」到「加法」" class="headerlink" title="长期生产函数：从「乘法」到「加法」"></a>长期生产函数：从「乘法」到「加法」</h1><p>论文进一步刻画长期生产函数。它定义某技能的算力等价单位：</p>
+<script type="math/tex; mode=display">CEU (s) = \max_{\omega\in\Omega (s)} \alpha (\omega)</script><p>即复制该技能最复杂任务所需的算力。长期中，技能分两组：一组$\mathcal{A}$的工作被自动化，人类与AI竞争，工资为$A\cdot CEU(s)$；另一组$\mathcal{N}$从事未被自动化的补充工作，工资低于$A\cdot CEU(s)$，否则不如自动化。</p>
+<p>长期总产出收敛为：</p>
+<script type="math/tex; mode=display">Y_t=A(Q_t + \sum_{s\in\mathcal{A}} CEU(s)H(s))+N({H(s)}_{s∈N})</script><p>其中$N$有上限。这个式子背后的经济含义是：产出对算力是线性的，人类技能以「节省多少算力」的方式被核算进去。在AGI之前，算力和劳动可能是乘法关系，互相配合、互相制约；实现AGI之后，生产函数变成加法关系。算力扩张直接带来产出扩张，人类劳动则通过「节省算力」获得价值。</p>
+<p>这也解释了工资的形成：在瓶颈工作中，一个有技能的工人的工作相当于节省了$\alpha (\omega)$单位算力，也就相当于节省了$A \alpha (\omega)$单位产出。因此，工资被锚定在「复制该技能的算力成本」上。AGI没有让劳动变得无价值，而是让劳动的价值变得可计算、可复制、可封顶。</p>
+<h1 id="工资、增长与劳动份额"><a href="#工资、增长与劳动份额" class="headerlink" title="工资、增长与劳动份额"></a>工资、增长与劳动份额</h1><p>论文由此得到几个关键结论：</p>
+<ol>
+<li>产出增长率等于算力增长率。只要算力持续扩张，经济就能持续增长，不需要其他技术进步。</li>
+<li>算力的实际价格收敛到$A$；瓶颈技能工资收敛到$A\cdot CEU(s)$；补充工作工资低于$A\cdot CEU(s)$，被自动化成本封顶。</li>
+<li>劳动收入份额趋于零，算力份额趋于1。因为总算力$Q_t$远大于人类算力等价总量，且不断增长。</li>
+<li>总工资不一定下降，从AGI前过渡到AGI后，劳动者作为一个整体的总工资不低于AGI前。直觉是：可以设想一个「no-AGI zone」复制旧生产方式来保底；竞争均衡不会让重组提高产出，因此总工资不会低于旧世界。不过这个论证依赖算力和人类技能是主要稀缺资源；若土地、能源等其他资源受限，逻辑会弱化。</li>
+</ol>
+<p>这里最容易被误读的是「劳动份额趋零」。它不等于「劳动者集体变穷」。论文明确说，社会总产出会变大，总工资也可能高于AGI前；但劳动在总蛋糕中的比例会越来越小，大部分收入流向算力所有者。真正的问题从「有没有工作」转向「算力归谁所有、收入如何分配」。</p>
+<h1 id="转型路径"><a href="#转型路径" class="headerlink" title="转型路径"></a>转型路径</h1><p>论文区分两种极端转型：</p>
+<ol>
+<li>算力约束型转型：算力相对稀缺，任务只有在积累足够算力后才值得自动化。工资路径连续，某些任务自动化时工资暂时下降，工人逐步转移到更复杂任务；最后最复杂任务自动化后，工资等于$A\cdot CEU(s)$。</li>
+<li>算法约束型转型：算力充足，算法一突破就立即自动化。工资路径不连续，某些群体工资可能突然下降或上升；最后一个任务被自动化时，技能稀缺溢价消失，工资跳降到算力等价水平。</li>
+</ol>
+<p>这两种类型的转型工资变化路径图（节选自原文）均放在本节末尾。</p>
+<p>现实可能是两者混合。这个区分对个人很重要：如果转型是算法约束型，冲击会突然而集中；如果是算力约束型，冲击更平滑但持续。无论哪种，流动性和可迁移能力都很重要。</p>
+<p><img src="/images/2026-11-17--AGI-Economics/1.png" alt="1"><br><img src="/images/2026-11-17--AGI-Economics/2.png" alt="2"></p>
+<h1 id="科学和技术的发展路径"><a href="#科学和技术的发展路径" class="headerlink" title="科学和技术的发展路径"></a>科学和技术的发展路径</h1><p>论文第二部分把AGI用于科学工作。没有AGI科学时，技术进步受人口增长约束，这是半内生增长模型的核心逻辑。有了AGI，所有与科学相关的瓶颈工作将自动化，技术进步率由算力增长率决定。结果是：即使人口收缩，科学也可能持续指数增长；但不会导致无限增长爆炸或奇点，因为增长仍受算力扩张速度约束。这一结论既否定了「AGI必然带来奇点」的夸张描述，亦否定了「人口下降导致发展停滞」的悲观预期。</p>
+<h1 id="如何评价"><a href="#如何评价" class="headerlink" title="如何评价"></a>如何评价</h1><p>这篇论文的贡献在于：</p>
+<ul>
+<li>把AGI与算力明确区分，避免「AGI就等同于无限生产力」的粗暴简化；</li>
+<li>用任务模型给出「所有瓶颈最终自动化」的机制；</li>
+<li>解释为什么工资不归零但劳动份额趋零；</li>
+<li>把科学进步纳入框架，这是对半内生增长模型的发展与延申；</li>
+<li>对「人类工作是否还有价值」给出准确答案：有价值，但价值会作为算力的机会成本被锚定。</li>
+</ul>
+<p>局限也很明显：</p>
+<ul>
+<li>假设所有工作最终都可用算力以有限成本复制，包括物理和社会工作；论文用「足够多算力可补偿人类触感」来辩护，但这是强假设；</li>
+<li>算力增长外生，未内生化投资、能源、芯片约束；</li>
+<li>竞争均衡和边际产品定价假设较强；</li>
+<li>总工资不降的命题依赖没有其他稀缺资源限制；</li>
+<li>政治经济与算力所有权分配未被充分模型化；</li>
+<li>「补充工作」的边界依赖未来偏好，难以实证界定。</li>
+</ul>
+<p>尽管如此，作为长期的推演，这篇论文依然提供了难得的理论分析框架。</p>
+<h1 id="对个人的建议"><a href="#对个人的建议" class="headerlink" title="对个人的建议"></a>对个人的建议</h1><p>倘若现实真的朝着论文里记叙的方向发展，对劳动力市场而言无疑是一个巨大的冲击，许多靠着出卖劳动时间而赚取收入的岗位和以工资为主的分配方式将逐渐消失，产出分配的天平将向算力的所有者、AGI的互补者、高信任/高责任/高物理壁垒环节的参与者倾斜。因此，对于劳动力市场的参与者而言，建议是多方面的：</p>
+<ol>
+<li>财务：把劳动收入转化为生产性资产。论文最尖锐的结论不是「工资归零」，而是劳动收入占GDP的份额趋零，大部分收入流向算力所有者。长期来看，工资在总产出中的比例会越来越小。真正重要的是是否拥有生产性资产：算力基础设施、能源、芯片、数据中心、机器人、相关企业股权、基础设施资产等。对普通人而言，最可行的方法是广泛分散的股权或基金，而不是押注单一公司；如果风险承受力允许，可适度增加对算力、能源、自动化主题的长期配置，但要注意估值和波动。保留应急现金也很重要，因为算法约束型转型可能带来突然的工资跳降。</li>
+<li>职业：瓶颈、算力、责任。工资由CEU锚定，短期策略是提高CEU：做那些复制成本高、能节省算力的事。但长期看，所有瓶颈工作最终都会被自动化，所以更持久的位置是：AGI的构建与运维：AI系统、算力基础设施、数据中心、能源、芯片、机器人、网络安全；AGI的部署与治理：把AI接入组织、审计、验证、合规、风险管理、责任承担；物理世界与许可壁垒：医疗、能源、建筑、制造、物流、国防、治安等，物理复制成本高、监管壁垒高；高信任与高责任角色：需要签字、担责、谈判、关系、决策的岗位。</li>
+<li>补充工作：收入不随GDP增长。艺术、文学、酒店、设计、客服、司法、学术经济学等可能是补充工作，继续由人类完成，但工资被自动化成本封顶，不随经济增长而增长。如果你热爱这些工作，可以继续做，但最好有其它收入来源或资产；不要默认「只要人类有独特品味，收入就会水涨船高」。把补充工作与瓶颈技能、资产所有权、品牌、社区、关系结合，才有可能突破上限。</li>
+<li>技能：提高可迁移性，积累专有资产。论文的假设是「数量有质量」：足够多算力可以补偿人类触感。因此「不可替代」是程度问题，不是绝对。个人应建立T型能力：一个深领域加多个可迁移元技能（判断、沟通、销售、组织、写作、数据分析、AI工具）；持续更新技能，人力资本应该被当作折旧资产；保持跨行业流动能力；积累专有资产：客户、声誉、社区、数据、许可、资产、组织。这些不一定是「技能」，但更难被算力直接复制。</li>
+<li>集体制度：个人无法单独解决分配问题。论文的分配结论是劳动份额趋零、算力份额趋一。个人再努力，也无法独自改变宏观分配。因此应关注和支持算力红利、全民基金、主权财富基金等算力所有权社会化机制；社保、再分配、竞争政策、算力基础设施的公共投资；劳动转岗与再培训体系；防止算力所有权过度集中。在财务上自保，在制度上发声。</li>
+<li>策略：提前布局。论文是长期理论，不是短期预测。现实会有摩擦、监管、能源约束、政治反弹。但方向性含义清楚：短期学会用AI提高产出，靠近算力与瓶颈环节；中期把收入转化为广泛生产性资产，保持流动性；长期如果劳动份额真的趋零，你生活水平并不取决于你拥有不可替代的技能，而是取决于你拥有什么、控制什么、在什么制度下参与算力收益的分配。</li>
+</ol>
+]]></content>
+      <categories>
+        <category>Economics</category>
+      </categories>
+      <tags>
+        <tag>Economics</tag>
+        <tag>AI</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>用《大富翁》的游戏逻辑理解现实世界</title>
+    <url>/2026/11/22/2026-11-22--Monopoly/</url>
+    <content><![CDATA[<h1 id="引子"><a href="#引子" class="headerlink" title="引子"></a>引子</h1><p>假设我们坐在一张棋盘前，手里握着一叠钞票，面前是待售的地皮。游戏规则十分简单：掷骰子，走格子，买地，盖房，向路过的人收租，直到其他玩家全部破产。绝大多数人在童年时代都玩过这样的游戏，并且几乎不假思索地把它归为「消遣」一类——一块印着彩色格子的纸板，几枚迷你酒店，加上一点掷骰子的运气，仅此而已。</p>
+<p>但事实上，这是一款被严重低估的游戏。如果我们把它当作一台被压缩到极小尺度上的经济机器来观察，就会发现其中运行着与现实经济惊人一致的机制：资产的积累、租金的抽取、信贷的扩张、泡沫的膨胀与破裂、财富向少数人的集中，乃至「赢家通吃」的终局。更耐人寻味的是，这款游戏最初被设计出来的目的，恰恰不是为了让人体验发财的快感，而是为了揭露土地垄断的危害。它诞生时的那层批判色彩，在一百多年的流传中被一层层剥去，最终只剩下纯粹的竞争与掠夺。</p>
+<p>这就引出了本文想要讨论的问题：一款棋盘游戏，凭什么能够解释现实世界的经济运行？它究竟抓住了哪些本质，又在哪些地方失真了？当我们把棋盘上的规则逐条映射到现实的经济与资本市场时，那些原本晦涩的概念——债务周期、资本收益率、基尼系数、数字垄断便会因此变得一目了然了。<span id="more"></span></p>
+<h1 id="历史沿革"><a href="#历史沿革" class="headerlink" title="历史沿革"></a>历史沿革</h1><p>要理解这款游戏，必须先讲清楚它的身世，因为这段身世本身就是一个关于资本如何改写规则的绝佳注脚。</p>
+<p>游戏的发明者是美国人伊丽莎白·玛吉(<em>Elizabeth Magie</em>)。早在1903年，她便设计了一款名为《地主的游戏》(<em>The Landlord’s Game</em>)的棋类游戏，并在次年获得了专利。玛吉设计这款游戏的动机并非娱乐，而是控诉——彼时美国正处于土地投机与垄断资本迅速膨胀的年代，她希望通过游戏直观地展示土地私有制如何导致财富向少数人集中。为此，她为游戏设定了两套截然不同的规则。</p>
+<p>其一是「繁荣模式」(Prosperity)：土地归全体玩家共有，任何一方收取的租金都要回馈给所有人；当最贫穷的玩家资产翻倍时，全体玩家共同获胜。其二是「垄断模式」(Monopolist)：土地完全私有，玩家通过收取高额租金令对手破产，最后剩下的唯一赢家即为胜利者。</p>
+<p>显而易见，玛吉真正想推广的是前者。她是一位土地价值税(Land Value Tax)理念的拥护者，认为土地等自然资源所产生的价值应当由社会共享，而非被少数持有者无偿占有。在她看来，「繁荣模式」能够向玩家演示一种合作共赢的社会形态是可能的。</p>
+<p>然而故事的走向却与她的初衷背道而驰。1935年前后，美国正处于经济大萧条的余波之中，一位名叫查尔斯·达洛(<em>Charles Darrow</em>)的失业者接触到了这款游戏。他敏锐地意识到其中的商业价值，于是做了一件在今天看来颇有些刺眼的事情：他删去了「繁荣模式」，只保留了赢家通吃的垄断规则，将游戏改名为《垄断》(<em>Monopoly</em>)，然后卖给了帕克兄弟公司(Parker Brothers)。</p>
+<p>接下来的发展几乎是一出标准的「资本改写历史」的戏码。这款被阉割后的游戏迅速风靡全球，达洛因此成为百万富翁，而真正的设计者玛吉仅仅拿到了500美元的买断费，她的名字被从游戏的历史中抹去。更有甚者，帕克兄弟公司一度召回并销毁了含有双模式的原版游戏，理由竟然是「过于政治化」。</p>
+<p>这段历史读来颇有几分荒诞，但它恰恰揭示了一个反复出现的规律：一种制度或规则被大众接受与否，往往并不取决于它是否更公正，而取决于它是否符合资本扩张的方向。合作共赢的规则被系统性边缘化，而竞争与掠夺的规则被推向了全世界——这既是这款游戏的命运，也是此后一百年现实世界的某种缩影。</p>
+<h1 id="游戏规则"><a href="#游戏规则" class="headerlink" title="游戏规则"></a>游戏规则</h1><p>在把游戏规则映射到现实之前，有必要先把这台「机器」的构造说清楚。</p>
+<p>标准的《大富翁》棋盘由四十个格子组成，其中二十八块为可购买的地产，分布在八个色组内。玩家从起点出发，依次掷骰、行进、落地。落在无主地产上可以选择购买，落在他人地产上则需按规则支付租金；当某一色组的地产被同一玩家全部持有时，可以在其上盖房、盖酒店，租金随之成倍上涨。除了地产之外，棋盘上还有铁路、公用事业、税收格、机会卡与命运卡等要素。玩家手里的现金是有限的，当现金不足以支付租金或税款时，就须抵押地产换取现金；一旦资不抵债，便宣告破产。</p>
+<p>简单地说，这款游戏只做了一件事：让「资产」与「现金」这两种资源在玩家之间不断流动，并通过租金这一机制实现财富的转移。</p>
+<p>值得注意的是，游戏中最精妙的设计并不在于「买地收租」本身，而在于前期与后期之间的策略反转。游戏初期，玩家手握大量现金而地产稀少，此时把现金换成地产是极为划算的；随着游戏推进，棋盘上的地产逐渐被瓜分完毕，玩家停在他人地产上时所需支付的租金越来越高，现金的重要性开始压倒资产——游戏从「房地产为王」转向了「现金为王」。擅长这款游戏的人，其真正的能力就在于把握这两者之间的转换时机。</p>
+<p>此时我们不妨做一个思想实验：假设银行可以提供贷款、接收存款，玩家可以借钱购买地产，也可以把闲置资金存入银行赚取利息，那么游戏会发生怎样的变化？</p>
+<p>答案是，这个游戏几乎在一瞬间就变成了现实经济的精确模型。举债购买酒店的资金会迅速膨胀为现有现金的数倍；而在未来某个时刻，持有这些酒店的债务人将同时面临支付租金与偿还本息的双重压力。银行也会陷入困境——存款人因需要支付租金而集中提现，债务人却越来越难以按时还款。如果没有人出面干预，银行与债务人将同时破产，整个游戏的经济随之萎缩。</p>
+<p>一段时间之后，扩张与萎缩会交替出现，循环往复。而这，正是现实生活中债务周期的雏形。</p>
+<h1 id="棋盘上的经济学"><a href="#棋盘上的经济学" class="headerlink" title="棋盘上的经济学"></a>棋盘上的经济学</h1><p>如果说棋盘上的机制还只是现实的简化投影，那么接下来要讨论的，就是这台机器在真实世界中的完整形态。</p>
+<h2 id="价值循环与资本的自增强"><a href="#价值循环与资本的自增强" class="headerlink" title="价值循环与资本的自增强"></a>价值循环与资本的自增强</h2><p>近现代资本主义的经济活动，本质上是一个以货币流动为基础的价值循环。居民在要素市场上出售劳动力，在产品市场上购买商品与服务；企业在产品市场上出售商品与服务，在要素市场上购买劳动力与其他生产要素。在循环的每一个环节，交易都以价值的增殖为前提——居民购买商品，是因为商品带来的效用高于付出的货币；企业购买生产要素，是因为产出能够带来更多的货币。一旦增殖无法实现，循环便告中断。</p>
+<p>问题在于，这个循环并不对称。资本一旦进入循环，就具有一种自我强化的倾向：拥有资本的人可以用资本获取更多的资本，而没有资本的人只能依靠出售劳动力维持生计。法国经济学家托马斯·皮凯蒂(<em>Thomas Piketty</em>)在《21世纪资本论》中给出了一条冷酷的公式：</p>
+<script type="math/tex; mode=display">r > g</script><p>其中$r$为资本收益率(Rate of Return on Capital)，$g$为经济增长率(Economic Growth Rate)。皮凯蒂指出，在过去三个世纪里，全球资本的年均收益率稳定在4%至5%之间，而经济年均增长率仅为1%至2%。这意味着，当资本收益率长期高于经济增长率时，继承自父辈的财富，其增长速度必然超过劳动收入的增长速度——只要拥有足够的初始资本，即使不做任何事情，财富也会自动膨胀。</p>
+<p>这恰恰是《大富翁》中最令人不安的部分：那些在游戏早期购得地产的玩家，后期几乎不需要再做任何决策，只需坐在原地等待对手踩中自己的地盘。财富向少数人集中，不是某个玩家道德败坏的结果，而是规则本身运行到一定阶段的必然产物。</p>
+<p>有统计显示，中国居民财产基尼系数(Gini Coefficient)从1995年的0.45升至2012年的0.73；另据相关统计，2022年中国居民收入基尼系数为0.474，连续多年超过0.4这一国际警戒线。在美国，据2023年的数据，最富有的1%人群掌握了约32.3%的财富，而底层50%的人口仅拥有约2.6%。这些数字的具体口径或有争议，但趋势是一致的：资本的自增强机制在现实中从未停止运转。</p>
+<h2 id="债务周期：自我强化的上升与下降"><a href="#债务周期：自我强化的上升与下降" class="headerlink" title="债务周期：自我强化的上升与下降"></a>债务周期：自我强化的上升与下降</h2><p>如果说$r&gt;g$解释了财富为何集中，那么债务周期则解释了这种集中为何总是以危机的形式爆发。</p>
+<p>桥水基金创始人达里奥(<em>Ray Dalio</em>)在其关于债务周期(Debt Cycle)的研究中，对这一过程有过极为清晰的刻画。在正常情况下，贷款会引发一个自我强化的上升运动：贷款支撑支出与投资，支出与投资推动收入增加和资产价格上涨，而收入的增加与资产的涨价又进一步提高了借款人的抵押能力和借贷意愿，于是更多的贷款被创造出来。支出和收入由此被推高到超出经济生产力稳步增长所能支撑的水平。</p>
+<p>接近周期的顶峰时，人们普遍预期以贷款维持的繁荣会永远持续下去，资产价格只会上涨不会下跌。这当然是不可能的——收入终将降至贷款成本之下。</p>
+<p>一旦资金和信贷增长被遏制，或者贷款标准有所提高，信贷与支出的增速便会放缓，偿债问题随之加速涌现。此时，若中央银行察觉到信贷增长过快并开始收紧货币政策，债务周期的下滑就会进一步加速。当偿债成本——即还本付息的成本——超过维持支出所需的新增借款时，上升周期便彻底逆转为下降周期：借款人开始抛售资产以偿还债务，资产价格下跌，抵押物贬值，进一步收紧信贷，形成自我强化的恶性循环。</p>
+<p>这一过程在那些严重依赖借债进行固定资产投资、房地产和基础设施建设的经济体中表现得尤为剧烈。设想一座办公大楼的建设：在建设期间，每年可能产生上千万美元的支出，用于雇用工人、购买钢筋和混凝土；大楼竣工之后，这笔年度支出便骤然降为零。债务融资的基建与房地产拉动经济强劲增长，而当建设需求随着项目完工而放缓时，债务的挑战便开始浮现。这类周期在新兴经济体中尤为常见，因为那里存在着大量待填补的建设需求。日本在过去数十年中所经历的经济周期，就是这一机制的典型注脚。</p>
+<p>在泡沫阶段，不计后果的贷款与不切实际的预期共同制造了大量无法偿还的债务。泡沫的一个典型表征是：越来越多的新增借款被用来偿还旧债，而非投入新的生产活动。当借款人无法履行对贷款人的偿债义务时，贷款人也就无法履行对其债权人的义务，风险沿着信贷链条层层传导——从银行扩散到保险公司、非银行信托、经纪自营商，乃至特殊目的公司。决策者必须首先解决贷款人的问题，因为高杠杆的贷款人一旦倒塌，将给整个经济和信誉良好的借款人带来连锁反应。</p>
+<p>这样的债务周期最终会留下两类问题：其一是因借款人无法按期还本付息而产生的实际损失，其形式可以是定期还款金额的下降，也可以是债务价值的减记；其二是贷款及贷款所支撑的支出水平永久性下降——即便债务危机得到解决，过分举债的实体也难以恢复到危机前的支出水平。后者的影响往往更为深远，却也更易被忽视。</p>
+<h1 id="用棋盘逻辑理解现实：一张对照表"><a href="#用棋盘逻辑理解现实：一张对照表" class="headerlink" title="用棋盘逻辑理解现实：一张对照表"></a>用棋盘逻辑理解现实：一张对照表</h1><p>有了前面的铺垫，现在可以把棋盘与现实逐条对应起来。这张对照表或许不够严谨，但它足以充当一副理解复杂经济的眼镜。</p>
+<div class="table-container">
+<table>
+<thead>
+<tr>
+<th>《大富翁》中的要素</th>
+<th>现实世界中的对应物</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>起始现金</td>
+<td>原始资本积累，家庭财富的「起跑线」</td>
+</tr>
+<tr>
+<td>购买地产</td>
+<td>购置房产、土地与固定资产</td>
+</tr>
+<tr>
+<td>盖房盖酒店</td>
+<td>追加投资，提高资产的现金流回报</td>
+</tr>
+<tr>
+<td>收取过路费</td>
+<td>租金、利息、股息，以及数字时代的平台抽成</td>
+</tr>
+<tr>
+<td>银行贷款</td>
+<td>信贷体系，中央银行与商业银行</td>
+</tr>
+<tr>
+<td>抵押与破产</td>
+<td>资产抛售、债务违约与资不抵债</td>
+</tr>
+<tr>
+<td>机会卡与命运卡</td>
+<td>外生冲击：政策变化、技术革命、疫情与战争</td>
+</tr>
+<tr>
+<td>垄断模式的胜利条件</td>
+<td>赢家通吃的财富集中</td>
+</tr>
+<tr>
+<td>被删去的繁荣模式</td>
+<td>税收调节、社会保障与共同富裕机制</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="起跑线与资产的复利"><a href="#起跑线与资产的复利" class="headerlink" title="起跑线与资产的复利"></a>起跑线与资产的复利</h2><p>对照表的第一行就足以说明很多问题。游戏中，所有玩家的起始现金相同，因此胜负似乎只取决于掷骰子的运气。但现实中的「起始现金」从来不均匀——有人继承房产与股权，有人背负教育贷款。皮凯蒂所说的$r&gt;g$，正是这种初始差异被不断放大的机制。</p>
+<p>房产是这一机制在现实中最直观的体现。过去二十年里，一线城市的房价经历了大幅上涨，早期购房者资产随之膨胀，而后入场者不仅需要支付更高的价格，还要以未来的收入承担房贷。这与《大富翁》中「早期占据稀缺资源者坐收过路费，后来者不断失血」的局面如出一辙。</p>
+<h2 id="从土地到数据的棋盘扩张"><a href="#从土地到数据的棋盘扩张" class="headerlink" title="从土地到数据的棋盘扩张"></a>从土地到数据的棋盘扩张</h2><p>如果说传统《大富翁》的棋盘是土地，那么今日的棋盘已经升级为数字平台。超级巨头通过算法控制流量分配，通过数据的私有化构建起新的「数字领地」，而普通用户则在不知不觉中沦为「数字佃农」。</p>
+<p>电商平台借助消费数据实现精准定价，将用户的购买力尽可能充分地榨取；社交媒体则通过所谓的注意力经济，把用户的时间转化为广告收入。这种新型垄断比传统地主更为隐蔽，也更具压迫性：传统地主尚需承担自然灾害、收成波动等真实风险，而数字领主依靠近乎零边际成本的复制，就能实现财富的指数级增长。</p>
+<p>这与《大富翁》的终局何其相似：少数玩家掌握了棋盘上最核心的资产，其余玩家则在一次次「数字过路费」中持续失血。</p>
+<h2 id="银行入场之后：债务周期的完整演绎"><a href="#银行入场之后：债务周期的完整演绎" class="headerlink" title="银行入场之后：债务周期的完整演绎"></a>银行入场之后：债务周期的完整演绎</h2><p>回到那个思想实验——当游戏中引入了银行与信贷，局面会如何恶化？</p>
+<p>现实给出的答案我们已经在上文讨论过：举债购地使得资产价格在上升期被进一步推高，而到了下降期，债务人同时承受租金与本息的双重挤压，银行则因存款人集中提现和借款人违约而陷入流动性危机。经济复苏因此常常呈现「K型」轨迹——向上的分支是持有资产的人群，股市与楼市的繁荣令其财富激增；向下的分支是依靠工资生活的人群，通货膨胀推高了食品与能源价格，而工资增长停滞。</p>
+<p>值得注意的是，这种分化不仅体现在收入上，更深植于机会的不平等。富裕家庭能够通过教育与房产等优势，让后代持续占据优质资源，这与《大富翁》中初始资金充裕的玩家更容易收购优质地块的情形，在逻辑上并无二致。</p>
+<h2 id="垄断的终极形态：规则制定权"><a href="#垄断的终极形态：规则制定权" class="headerlink" title="垄断的终极形态：规则制定权"></a>垄断的终极形态：规则制定权</h2><p>在游戏的语境里，最令玩家绝望的并非对手的地租，而是规则的倾斜。设想某些玩家无需掷骰子便可购买关键地块，甚至享受免税特权，那么这场游戏也就失去了意义。</p>
+<p>现实中，这种情形以「权力寻租」的形式反复出现：通过行政审批、特许经营等手段，部分资本集团得以低价获取稀缺资源，形成非竞争性的壁垒，而民间资本则被排除在外。历史学者指出，20世纪中期西方贫富差距的短暂缓和，并非市场自发调节的结果，而是战争破坏、高额遗产税与反垄断法等外力干预的产物。一旦这些外力消退，财富集中的趋势便迅速反弹。</p>
+<p>这也提醒我们，那些看似「自然」的市场结果，背后往往有制度设计的作用。玛吉当年被删去的「繁荣模式」，正是对这种制度设计的一种提示——只是这一提示在商业化的过程中被彻底抹除了。</p>
+<h1 id="如何评价这个类比"><a href="#如何评价这个类比" class="headerlink" title="如何评价这个类比"></a>如何评价这个类比</h1><p>任何类比都有它的边界，因此有必要在结论之前，对「用《大富翁》理解现实」这一思路做一番客观的评价。</p>
+<h2 id="贡献"><a href="#贡献" class="headerlink" title="贡献"></a>贡献</h2><p>这个类比最可取之处，在于它把几个抽象的机制变得可以直觉把握。</p>
+<ul>
+<li>它揭示了资产与现金之间的动态关系，以及「房地产为王」向「现金为王」的策略反转，这正是债务周期在微观层面的体现；</li>
+<li>它以极简的方式演示了信贷如何放大繁荣与崩溃，使「自我强化的上升与下降」不再是空洞的术语；</li>
+<li>它直观地展示了财富集中的内生性——赢家通吃并非偶然，而是规则运行到一定阶段的必然；</li>
+<li>它通过「繁荣模式被删去」这段历史，提醒我们制度设计并非中性，规则本身可以被修改，也可以被夺回。</li>
+</ul>
+<h2 id="局限"><a href="#局限" class="headerlink" title="局限"></a>局限</h2><p>但类比终究只是类比，它至少在以下几个方面失真。</p>
+<ul>
+<li>游戏中的财富总量近似恒定，一方的所得即另一方的所失；现实经济却可以通过技术进步与生产力提升创造新的价值，并非严格的零和博弈；</li>
+<li>游戏不存在真正的生产活动，租金是纯粹的转移支付；而现实中的资本回报有相当一部分对应着真实的投资与风险承担；</li>
+<li>游戏中所有玩家面对同一套规则且信息透明，现实中的信息不对称、制度差异与权力结构要复杂得多；</li>
+<li>游戏可以破产出局，现实经济中的「大而不倒」却使得失败者往往能够被救助，代价则被转嫁给社会；</li>
+<li>最关键的一点在于，游戏可以重开，现实却无法重置。</li>
+</ul>
+<h1 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h1><p>至此，我们大致可以回答开篇提出的问题了。</p>
+<p>《大富翁》之所以能够解释现实世界，并非因为它是现实的精确模型，而是因为它把现实经济中最本质的几组关系——资产与现金、租金与劳动、信贷与债务、垄断与竞争——以极度简化的方式呈现了出来。当这些关系被压缩到一个棋盘上时，那些在宏观尺度上难以察觉的机制便变得清晰可见：资本的自增强、债务的自我强化、财富向少数人的集中，以及规则被资本改写的全过程。</p>
+<p>但这个类比同时也告诉我们另一件事。玛吉在一百多年前就清楚地知道，同一套棋盘可以有两种玩法：一种是赢家通吃的垄断，一种是人人受益的繁荣。她把两种规则都写进了游戏，却眼看着其中一种被删去，另一种风靡全球。这个过程，与现实中合作共赢的制度安排被系统性边缘化的过程，几乎是同一个故事。</p>
+<p>游戏至少可以重开，现实却无法重置。当财富集中到极限时，社会流动性便会枯竭，穷人不得不为基本生存资源支付高昂的成本——医疗、教育等公共产品一旦过度商品化，低收入群体就会被排除在保障体系之外。这并非危言耸听，而是「繁荣模式」被删去之后，规则自行运转的结果。</p>
+<p>不过，理解规则本身，或许就是改变的起点。玛吉当年推广土地价值税的尝试在其有生之年并未成功，但她留下的那两套规则，至少让我们知道：赢家通吃并不是唯一可能的玩法。棋盘上的规则是人写的，现实世界的规则同样如此。看清这一点，我们才算真正读懂了这款游戏，也读懂了它所映照的那个世界。</p>
+]]></content>
+      <categories>
+        <category>Economics</category>
+      </categories>
+      <tags>
+        <tag>醉仙阁杂谈</tag>
+        <tag>Economics</tag>
+        <tag>游戏与现实</tag>
       </tags>
   </entry>
 </search>
